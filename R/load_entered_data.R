@@ -1,37 +1,47 @@
 load_lakes <- function() {
-  all_files <- list.files('data/by_hand/', full.names = TRUE)
+  all_files <- list.files('data/by_hand', 
+                          full.names = TRUE, 
+                          recursive = TRUE,
+                          pattern = '(shp)|(csv)')
   
   tests <- list()
   
   for(i in 1:length(all_files)) {
     if (stringr::str_detect(all_files[i], 'csv')) {
-      tests[[i]] <- readr::read_csv(all_files[i])
+      input_file <- readr::read_csv(all_files[i]) %>% 
+        filter(!is.na(edited)) %>% 
+        distinct(stid, edited, notes, area, X, Y, lat, long) %>% 
+        as.data.frame()
+      
+      if (any(c('X', 'Y') %in% colnames(input_file))) {
+        input_file <- st_as_sf(input_file, coords = c('X', 'Y'), crs = 4326)
+      } else {
+        input_file <- st_as_sf(input_file, coords = c('long', 'lat'), crs = 4326)
+      }
+
     }
-    if (stringr::str_detect(all_files[i], 'dbf')) {
-      tests[[i]] <- foreign::read.dbf(all_files[i])
-    }
-  }
-  
-  return_core <- function(x) {
-    if("SiteID" %in% colnames(x)) {
-      colnames(x)[which(colnames(x) == "SiteID")] <- 'stid'
-      colnames(x)[which(colnames(x) == "Edited")] <- 'edited'
-      colnames(x)[which(colnames(x) == "Notes")] <- 'notes'
-      colnames(x)[which(colnames(x) == "AREAHA")] <- 'area'
+    if (stringr::str_detect(all_files[i], 'shp')) {
+      input_file <- st_read(all_files[i]) 
+
+      if("SiteID" %in% colnames(input_file)) {
+        colnames(input_file)[which(colnames(input_file) == "SiteID")] <- 'stid'
+        colnames(input_file)[which(colnames(input_file) == "Edited")] <- 'edited'
+        colnames(input_file)[which(colnames(input_file) == "Notes")] <- 'notes'
+        colnames(input_file)[which(colnames(input_file) == "AREAHA")] <- 'area'
+      }
+      
+      input_file <- input_file %>% 
+        filter(!is.na(edited)) %>% 
+        select(stid, edited, notes, area)
     }
     
-    data.frame(stid = x$stid,
-               edited = x$edited,
-               notes = x$notes,
-               area  = x$area,
-               stringsAsFactors = TRUE)
+    input_file$area[input_file$area == 0] <- NA
+    
+    tests[[i]] <- input_file
   }
-  
-  all_tests <- tests %>% 
-    purrr::map(return_core) %>% 
-    dplyr::bind_rows() %>% 
-    dplyr::group_by(stid, notes) %>% 
-    dplyr::distinct()
+
+  all_tests <- do.call(rbind, tests) %>% 
+    unique()
   
   return(all_tests)
 }

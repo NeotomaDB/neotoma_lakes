@@ -27,7 +27,7 @@ library(reshape2)
 
 version <- '1.0'
 
-if (length(list.files('data', pattern = paste0('*version_', version))) > 0) {
+if (!length(list.files('data', pattern = paste0('*version_', version))) > 0) {
   
   dir.create(paste0('data/version_', version))
   
@@ -84,20 +84,21 @@ To do this we have to use `scp`, or secure copy, to move the file over onto the 
 
 #### Direct Matches
 
-Direct matches occur when a Neotoma site lies directly over top of a record in the Canadian or United States NHD.  These records are tagged with the unique identifier for the lake.  Here records with positive matches are indicated in red and those without are indicated in black:
+Direct matches occur when a Neotoma site lies directly over top of a record in the Canadian or United States NHD.  These records are tagged with the unique identifier for the lake. Here records with positive matches are indicated in red and those without are indicated in black:
 
 ```{r, loadLakeData, echo=FALSE, message=FALSE}
 library(leaflet)
 
 ca_lakes <- readr::read_csv('data/ca_lakes.csv')
-us_lakes <- readr::read_csv('data/usa_lakes.csv')
+us_lakes <- readr::read_csv('data/usa_lakes.csv') %>% filter(long < 0)
 
 recorded_lakes <- data.frame(site.name = c(ca_lakes$site.name, us_lakes$site.name),
                              stid      = c(ca_lakes$SiteID, us_lakes$SiteID),
                              lat       = c(ca_lakes$lat, us_lakes$lat),
                              long      = c(ca_lakes$long, us_lakes$long),
                              linked    = c(is.na(ca_lakes$feature_id), 
-                                                  is.na(us_lakes$GNIS_ID))) %>% 
+                                                  is.na(us_lakes$GNIS_ID)),
+                             oarea     = c(ca_lakes$lake_area_ha, us_lakes$AREAHA)) %>% 
   dplyr::filter(long < 0)
 
 recorded_lakes$color   <- 'red'
@@ -118,9 +119,11 @@ leaflet(recorded_lakes)  %>%
 
 ```
 
+Of the `r nrow(ca_lakes)` lakes in Canada, a total of `r sum(!is.na(ca_lakes$lake_area_ha))` were matched directly to lakes within the hydrographic database.  Of the `r nrow(us_lakes)` reported from the United States, there were `r sum(!is.na(us_lakes$AREAHA))` with matches to the hydrographic database.
+
 ### Reanalysis
 
-From here we passed all lakes without direct matches to a workflow in which individuals examined regional maps, the original publications and secondary information (including Alwynne Beaudoin's Lake Files) to determine whether a site had a match with a nearby lake or other depositional environment.
+From here we passed all lakes without direct matches to a workflow in which individuals examined regional maps, the original publications and secondary information (including Alwynne Beaudoin's [Lake Files](http://www.scirpus.ca/lakes/lakes.php)) to determine whether a site had a match with a nearby lake or other depositional environment.
 
 For all sites we examined location and then either edited the site coordinates or left the site in place, recording the decision using a numeric key and a descriptive element:
 
@@ -131,6 +134,8 @@ For all sites we examined location and then either edited the site coordinates o
 | 2     | Site is in the right place, not moved. |
 | 3     | Site not moved, no reasonable match. |
 
+All lakes that have been edited are diplayed here.
+
 ```{r, loadData, message=FALSE, warning=FALSE, results='hide'}
 
 source('R/load_entered_data.R')
@@ -138,98 +143,155 @@ source('R/load_entered_data.R')
 edited_lakes <- load_lakes() %>% 
   dplyr::left_join(recorded_lakes, by = 'stid')
 
-edited_lakes$popup <- paste0(edited_lakes$popup, '<br>', edited_lakes$edited, '<br>',edited_lakes$notes)
+edited_lakes$popup <- paste0(edited_lakes$popup, '<br>(<b>', 
+                             edited_lakes$edited, '</b>) - ', 
+                             edited_lakes$notes, '<br>Original Area: ',
+                             edited_lakes$oarea, '<br>New Area: ',
+                             edited_lakes$area)
 
-pal <- colorNumeric(
+edited_lakes <- edited_lakes %>% filter(!edited == 0 | is.na(lat) | is.na(long))
+
+pal <- colorFactor(
   palette = "viridis",
-  domain = edited_lakes$edited)
+  domain = factor(edited_lakes$edited))
 
 leaflet(edited_lakes) %>% 
   addTiles() %>% 
-  addCircleMarkers(lat = ~lat, lng = ~long , color = ~pal(edited), popup = ~popup)
+  addCircleMarkers(lat = ~lat, 
+                   lng = ~long,
+                   color = ~pal(factor(edited)),
+                   popup = ~popup) %>% 
+  addLegend("bottomright", pal = pal, values = ~factor(edited),
+    title = "Edit Status",
+    opacity = 1)
 
 ```
 
-## Looking at changes:
+This results in a dataset of `r nrow(edited_lakes)`, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations, and `r sum(edited_lakes$area > 0 | !is.na(edited_lakes$oarea), na.rm = TRUE)` lakes have recorded areas.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!unique(recorded_lakes$stid) %in% unique(edited_lakes$stid))` lakes to work through.
+
+```{r, generateMissing, echo = FALSE, warning=FALSE}
+
+new_output <- data.frame(stid = c(us_lakes$SiteID, ca_lakes$SiteID),
+                         name = c(us_lakes$site.name, ca_lakes$site.name),
+                         long = c(us_lakes$long,   ca_lakes$long),
+                          lat = c(us_lakes$lat,    ca_lakes$lat),
+                         area = c(us_lakes$AREAHA, ca_lakes$lake_area_ha)) %>% 
+  dplyr::left_join(control_output, by = 'stid') %>% 
+  filter(!stid %in% edited_lakes$stid) %>%
+  filter(!is.na(lat)) %>%
+  filter(is.na(area)) %>% 
+  st_as_sf(coords = c('long', 'lat'), crs = 4326)
+
+  new_output$area <- ''
+new_output$edited <- ''
+ new_output$notes <- ''
+  new_output$type <- ''
+
+new_output <- new_output %>%
+  select(stid, dsid, name, edited, notes, type, area, avg_int, max_int, controls, geometry)
+  
+leaflet(new_output) %>% 
+  addTiles() %>% 
+  addCircleMarkers(popup = ~name)
+
+sf::write_sf(new_output, paste0('data/version_1.0/dataset_',Sys.Date(),'.shp'), delete_layer = TRUE)
+
+```
+
+## Looking at changes
 
 ### Changes in Location
 
 ```{r, echo = FALSE}
 
-moved <- abs(try_lakes$delta_lat) > 0 | abs(try_lakes$delta_long) > 0
+try_lakes <- edited_lakes %>% filter(!is.na(lat))
+
+new_coords <- data.frame( stid = try_lakes$stid,
+                                 st_coordinates(try_lakes),
+                          area = try_lakes$area,
+                         delta = sqrt((try_lakes$lat - st_coordinates(try_lakes)[,2])^2 + 
+                                        (try_lakes$long - st_coordinates(try_lakes)[,1])^2))
+
+all_lakes <- recorded_lakes %>% 
+  left_join(new_coords, "stid")
+
+all_lakes$long <- ifelse(is.na(all_lakes$X), all_lakes$long, all_lakes$X)
+all_lakes$lat <- ifelse(is.na(all_lakes$Y), all_lakes$lat, all_lakes$Y)
+
+moved <- all_lakes$delta > 0 & !is.na(all_lakes$delta)
 
 pal <- colorNumeric(
   palette = "viridis",
-  domain = try_lakes$delta_lat)
+  domain = all_lakes$delta)
 
-leaflet(try_lakes[moved,]) %>% 
+leaflet(all_lakes[moved,]) %>% 
   addTiles() %>% 
-  addCircleMarkers(color = ~pal(delta_lat),
-                   popup = paste0('<b>', try_lakes$site_nm[moved], '</b><br><b>Old Area:</b> ',
-                                  try_lakes$old_lakes_ha[moved],
-                                  '</b><br><b>New Area:</b> ',
-                                  try_lakes$AREAHA[moved],
+  addCircleMarkers(lat = ~lat,
+                   lng = ~long,
+                   color = ~pal(delta),
+                   popup = paste0('<b>', all_lakes$site.name[moved], '</b><br><b>Lake Area:</b> ',
+                                  all_lakes$area[moved],
+                                  '</b>',
                                   '<br><a href=http://apps.neotomadb.org/explorer/?siteids=',
-                                  try_lakes$SiteID,'>Explorer Link</a>'),
+                                  all_lakes$stid,'>Explorer Link</a>'),
                    radius = 5) %>% 
-    addLegend("bottomright", pal = pal, values = ~delta_lat,
+    addLegend("bottomright", pal = pal, values = ~delta,
     title = "Distance Moved",
     opacity = 1)
 ```
 
-A total of `r sum(try_lakes$delta_lat > 0)` records have changed locations.
+A total of `r sum(all_lakes$delta > 0, na.rm = TRUE)` records have changed locations.  Of these lakes `r sum(all_lakes$delta > 0 & (!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` have both moved coordinates and reported areas.  A total of `r sum((!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` lakes have reported area.
 
 ### Changes in Area:
 
 ```{r, echo = FALSE}
 
-ha_change <- is.na(try_lakes$old_lakes_ha) & !(is.na(try_lakes$AREAHA)|try_lakes$AREAHA == 0)
-km_change <- is.na(try_lakes$old_lakes_km) & !(is.na(try_lakes$AREASQK)|try_lakes$AREASQK == 0)
+area_lakes <- all_lakes %>% 
+  filter(!is.na(area) | !is.na(oarea))
 
-set_lakes <- try_lakes[ha_change | km_change,]
+area_lakes$delta <- ifelse(!is.na(area_lakes$oarea), area_lakes$oarea, 0) -
+  ifelse(!is.na(area_lakes$area), area_lakes$area, area_lakes$oarea)
 
-leaflet(set_lakes) %>%
+pal <- colorNumeric(
+  palette = "viridis",
+  domain = area_lakes$delta)
+
+leaflet(area_lakes) %>%
   addTiles() %>% 
-  addCircleMarkers(popup = paste0('<b>', set_lakes$site_nm, '</b><br><b>Old Area:</b> ',
-                                  set_lakes$old_lakes_ha,
+  addCircleMarkers(popup = paste0('<b>', area_lakes$site.name, '</b><br><b>Old Area:</b> ',
+                                  round(area_lakes$oarea, 0),
                                   '</b><br><b>New Area (ha):</b> ',
-                                  set_lakes$AREAHA,
+                                  round(area_lakes$area, 0),
                                   '<br><a href=http://apps.neotomadb.org/explorer/?siteids=',
-                                  set_lakes$SiteID,'>Explorer Link</a>'))
+                                  area_lakes$stid,'>Explorer Link</a>'),
+                   color = ~pal(delta),
+                   radius = 5) %>% 
+  addLegend("bottomright", pal = pal, values = ~delta,
+    title = "Area Change",
+    opacity = 1)
 ```
 
-A total of `r sum(ha_change | km_change)` records have changed areas.  This is `r sum(ha_change)` and `r sum(km_change)`, there are `r sum(!(ha_change == km_change))` records for which one or the other has not changed.
+A total of `r sum(!area_lakes$delta == 0, na.rm = TRUE)` records (of the `r nrow(area_lakes)` total lakes) have changed areas.  Of these lakes, `r sum(is.na(area_lakes$oarea) & !is.na(area_lakes$area))` have areas where area had not been previously assigned.
 
 ### Editing Categories:
 
 ```{r, echo = FALSE}
 
+edited_lakes <- edited_lakes %>% 
+  filter(!is.na(edited) | !edited == 0)
+
 pal <- colorFactor(
   palette = "viridis",
-  domain = try_lakes$Edited)
+  domain = edited_lakes$edited)
 
-leaflet(try_lakes[!is.na(try_lakes$Edited),]) %>%
+leaflet(edited_lakes) %>%
   addTiles() %>% 
-  addCircleMarkers(fillColor = ~pal(Edited), 
-                   color =  ~pal(Edited),
+  addCircleMarkers(fillColor = ~pal(edited), 
+                   color =  ~pal(edited),
                    radius = 3) %>% 
-  addLegend("bottomright", pal = pal, values = ~Edited,
+  addLegend("bottomright", pal = pal, values = ~edited,
     title = "Edit Class",
     opacity = 1)
-```
-
-## Generate output CSV
-
-Then we write the output. 
-
-```{r, results='hide', message=FALSE}
-
-lakes_w_ds <- readr::read_csv('usa_lakes_wDS.csv') %>%
-  dplyr::select(SiteID, DatasetID) %>% inner_join(try_lakes, by = 'SiteID') %>%
-  distinct
-
-readr::write_csv(lakes_w_ds, paste0("lakeData/data_lakes_", format(Sys.time(), "%Y%m%d")))
-try_lakes <- try_lakes %>% dplyr::select(-old_lakes_km, -old_lakes_ha, -delta_lat, -delta_long)
-write_sf(try_lakes, 'lakeData/usa.shp')
 
 ```
+
