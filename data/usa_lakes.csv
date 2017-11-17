@@ -1,0 +1,945 @@
+SiteID,site.name,long,lat,state,GNIS_NAME,GNIS_ID,AREASQKM,dist_match,data_source,AREAHA
+275,BL-Tombigbee,-88.474444,33.563333,AL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,NA
+321,Cahaba Pond,-86.533333,33.5,AL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,NA
+940,Goshen Springs,-86.134167,31.721111,AL,NA,NA,0.064,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,6.4
+10357,Lake Shelby,-87.66485,30.260064999999997,AL,Shelby Lakes,00153402,2.31,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,231
+10414,Weeks Bay,-87.83389,30.41041,AL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,NA
+10414,Weeks Bay,-87.83389,30.41041,AL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_Shape.zip,NA
+207,Angal Lake,-153.9,67.133333,NA,NA,NA,NA,NA,NA,NA
+513,Crowsnest Lake,-146.483333,68.333333,NA,NA,NA,NA,NA,NA,NA
+790,Etivlik Lake,-156.033333,68.133333,NA,NA,NA,NA,NA,NA,NA
+846,Glacial Lake,-166.266667,64.866667,NA,NA,NA,NA,NA,NA,NA
+975,Harding Lake,-146.9075,64.444444,NA,NA,NA,NA,NA,NA,NA
+992,Headwaters Lake,-155.05,67.933333,NA,NA,NA,NA,NA,NA,NA
+993,Healy Lake,-144.75,64,NA,NA,NA,NA,NA,NA,NA
+1071,Hidden Lake,-144.658333,63.94,NA,NA,NA,NA,NA,NA,NA
+1355,Joe Lake,-157.216667,66.766667,NA,NA,NA,NA,NA,NA,NA
+1357,Johnson River Bog,-144.65,63.711111,NA,NA,NA,NA,NA,NA,NA
+1396,Kaiyak Lake,-161.416667,68.15,NA,NA,NA,NA,NA,NA,NA
+1503,Kollioksak,-156.45,66.966667,NA,NA,NA,NA,NA,NA,NA
+1585,Lily Lake,-135.4,59.2,NA,NA,NA,NA,NA,NA,NA
+1699,Minakokosa Lake,-155.033333,66.916667,NA,NA,NA,NA,NA,NA,NA
+1723,Munday Creek,-141.966667,60.033333,NA,NA,NA,NA,NA,NA,NA
+1748,Niliq Lake,-160.433333,67.866667,NA,NA,NA,NA,NA,NA,NA
+1818,Ped Pond,-142.066667,67.2,NA,NA,NA,NA,NA,NA,NA
+1920,Puyuk Lake,-162.2,63.5,NA,NA,NA,NA,NA,NA,NA
+1955,Ranger Lake,-153.65,67.147222,NA,NA,NA,NA,NA,NA,NA
+1973,Rebel Lake,-149.8,67.416667,NA,NA,NA,NA,NA,NA,NA
+1974,Redondo Lake,-155.033333,67.683333,NA,NA,NA,NA,NA,NA,NA
+1977,Redstone Lake,-152.6,67.25,NA,NA,NA,NA,NA,NA,NA
+2232,Ruppert Lake,-154.233333,67.066667,NA,NA,NA,NA,NA,NA,NA
+2245,Sakana Lake,-147.85,67.433333,NA,NA,NA,NA,NA,NA,NA
+2270,Screaming Yellowlegs Pond,-151.416667,67.583333,NA,NA,NA,NA,NA,NA,NA
+2271,Seagull Lake,-145.216667,68.266667,NA,NA,NA,NA,NA,NA,NA
+2275,Lake Selby,-155.68655,66.86675,NA,NA,NA,NA,NA,NA,NA
+2535,Tangle Lakes,-146.063333,63.029444,NA,NA,NA,NA,NA,NA,NA
+2547,Ten Mile Lake,-145.7,63.066667,NA,NA,NA,NA,NA,NA,NA
+2551,Tiinkdhul Lake,-143.15,66.583333,NA,NA,NA,NA,NA,NA,NA
+2857,Wien Lake,-151.266667,64.333333,NA,NA,NA,NA,NA,NA,NA
+2935,Wonder Lake,-151.083333,63.483333,NA,NA,NA,NA,NA,NA,NA
+2940,Point Woronzof Peat Section,-149.48,61.12,NA,NA,NA,NA,NA,NA,NA
+9976,Deuce Lake,-147.94008,64.86412,NA,NA,NA,NA,NA,NA,NA
+10019,Meade River bluff,-157.34207,70.475005,NA,NA,NA,NA,NA,NA,NA
+10083,Code Lake,-151.85999500000003,67.15791999999999,NA,NA,NA,NA,NA,NA,NA
+10094,Last Chance Lake,-150.745125,67.12406,NA,NA,NA,NA,NA,NA,NA
+10100,Ruppert Lake,-154.24498499999999,67.07084,NA,NA,NA,NA,NA,NA,NA
+10101,Wild Tussock Lake,-151.38361500000002,67.12648,NA,NA,NA,NA,NA,NA,NA
+10102,Xindi Lake,-152.491385,67.111235,NA,NA,NA,NA,NA,NA,NA
+10115,Titaluk River Exposure 1,-155.211533333333,69.7109833333333,NA,NA,NA,NA,NA,NA,NA
+10116,Titaluk River Exposure 2,-155.211533333333,69.7109833333333,NA,NA,NA,NA,NA,NA,NA
+10212,Jan Lake,-143.91772,63.56466,NA,NA,NA,NA,NA,NA,NA
+10214,Paradox Lake,-150.75903,60.622879999999995,NA,NA,NA,NA,NA,NA,NA
+10288,Arrow Lake,-150.516965,60.752055,NA,NA,NA,NA,NA,NA,NA
+10298,Portage Lake,-150.53300000000002,60.716494999999995,NA,NA,NA,NA,NA,NA,NA
+10345,Dune Lake,-149.897625,64.42099999999999,NA,NA,NA,NA,NA,NA,NA
+10346,Onion Portage,-158.14735,67.08225,NA,NA,NA,NA,NA,NA,NA
+10346,Onion Portage,-158.14735,67.08225,NA,NA,NA,NA,NA,NA,NA
+10346,Onion Portage,-158.14735,67.08225,NA,NA,NA,NA,NA,NA,NA
+10385,Nutella Lake,-147.39172,63.052,NA,NA,NA,NA,NA,NA,NA
+10386,Swampbuggy Lake,-147.42066,63.05455,NA,NA,NA,NA,NA,NA,NA
+10393,Rock Lake,-150.2538,60.453649999999996,NA,NA,NA,NA,NA,NA,NA
+10450,Farewell Lake,-153.64882,62.559145,NA,NA,NA,NA,NA,NA,NA
+10453,Grandfather Lake,-158.53995,59.79623,NA,NA,NA,NA,NA,NA,NA
+10455,Ongivinuk Lake,-159.357975,59.56781,NA,NA,NA,NA,NA,NA,NA
+10537,Red Green Lake,-149.68123500000002,68.65421,NA,NA,NA,NA,NA,NA,NA
+10538,Tukuto Lake,-157.0301,68.49879999999999,NA,NA,NA,NA,NA,NA,NA
+10539,Upper Capsule Lake,-149.416925,68.63144444444444,NA,NA,NA,NA,NA,NA,NA
+11571,Idavain Lake,-155.94509499999998,58.77229444444445,NA,NA,NA,NA,NA,NA,NA
+11572,Snipe Lake,-154.303475,60.626009999999994,NA,NA,NA,NA,NA,NA,NA
+11573,Imnavait Creek,-149.358787222222,68.66619,NA,NA,NA,NA,NA,NA,NA
+11574,Oil Lake,-151.1668055555555,70.29222222222225,NA,NA,NA,NA,NA,NA,NA
+11575,Sands of Time Lake,-147.55331,66.029335,NA,NA,NA,NA,NA,NA,NA
+11579,Sithylemenkat Lake,-151.391555,66.12398999999999,NA,NA,NA,NA,NA,NA,NA
+11580,St. Lawrence Section 2,-171.5479166666665,63.6672222222222,NA,NA,NA,NA,NA,NA,NA
+11583,North Killeak Lake,-164.05399999999997,66.36669,NA,NA,NA,NA,NA,NA,NA
+11584,St. Lawrence Island Section 3,-171.5819444444445,63.6738888888889,NA,NA,NA,NA,NA,NA,NA
+11585,Windmill Lake,-148.80525,63.6589,NA,NA,NA,NA,NA,NA,NA
+11586,Blair Lakes,-147.368165,64.36008000000001,NA,NA,NA,NA,NA,NA,NA
+11587,Circle Lake,-151.1592,59.80086,NA,NA,NA,NA,NA,NA,NA
+11588,Clam Gulch,-151.362935,60.223929999999996,NA,NA,NA,NA,NA,NA,NA
+11589,Eightmile Lake,-149.2518,63.888645,NA,NA,NA,NA,NA,NA,NA
+11590,Grizzly Lake,-144.197185,62.71064,NA,NA,NA,NA,NA,NA,NA
+11595,Kalifonsky Beach,-151.262085,60.483445,NA,NA,NA,NA,NA,NA,NA
+11596,Homer Beach,-151.5119,59.6339,NA,NA,NA,NA,NA,NA,NA
+11597,Longmere Lake,-150.90992,60.500895,NA,NA,NA,NA,NA,NA,NA
+11598,Lake Minchumina,-152.23891500000002,63.890855,NA,NA,NA,NA,NA,NA,NA
+11599,Mosquito Pond,-145.54014999999998,63.986445,NA,NA,NA,NA,NA,NA,NA
+11600,Otto Lake,-149.035575,63.84225,NA,NA,NA,NA,NA,NA,NA
+11601,Watana Triangle Pond,-148.24701,62.842885,NA,NA,NA,NA,NA,NA,NA
+11603,Wiener Lake,-148.16984,61.810779999999994,NA,NA,NA,NA,NA,NA,NA
+11604,Zagoskin Lake,-162.10838,63.44847,NA,NA,NA,NA,NA,NA,NA
+11609,Little Swift Lake,-159.76567,60.216475,NA,NA,NA,NA,NA,NA,NA
+11643,McCall Glacier,-143.790030555556,69.2950361111111,NA,NA,NA,NA,NA,NA,NA
+11854,Mitkof Island,-132.93624,56.81157,NA,NA,NA,NA,NA,NA,NA
+12999,Naskak,-171.45400999999998,63.64101166666666,NA,NA,NA,NA,NA,NA,NA
+13000,Aghnaghak,-171.553815,63.656005,NA,NA,NA,NA,NA,NA,NA
+13454,Lake Hill,-170.24827,57.17824,NA,NA,NA,NA,NA,NA,NA
+13516,Swanson Fen,-150.83147,60.787275,NA,NA,NA,NA,NA,NA,NA
+13690,Screaming Lynx Lake,-145.405555,66.068205,NA,NA,NA,NA,NA,NA,NA
+13897,Corser Bog,-145.45452,60.52996,NA,NA,NA,NA,NA,NA,NA
+504,Crane Lake,-112.216667,36.716667,AZ,NA,NA,NA,21.634594453365953,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+982,Hay Lake,-109.425,34,AZ,NA,NA,NA,0.5509492002971966,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+1127,Jacob Lake,-110.833333,34.333333,AZ,NA,NA,NA,293.84496804167384,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+1710,Montezuma Well,-111.75225,34.6492,AZ,NA,NA,0.007,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,0.7000000000000001
+1906,Potato Lake,-111.345278,34.462222,AZ,Potato Lake,00033132,0.04,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,4
+1906,Potato Lake,-111.345278,34.462222,AZ,Potato Lake,00033132,0.04,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,4
+9997,Fracas Lake,-112.23854,36.63069,AZ,Fracas Lake,00004817,0.002,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,0.2
+10000,Bear Lake,-112.147175,36.371125,AZ,Bear Lake,00001129,0.002,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,0.2
+10449,Stoneman Lake,-111.517775,34.778864999999996,AZ,Stoneman Lake,00034872,0.537,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,53.7
+11752,Runway Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11752,Runway Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11752,Runway Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11752,Runway Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11752,Runway Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11753,Monitor,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11753,Monitor,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11753,Monitor,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11754,Columbus,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11754,Columbus,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11754,Columbus,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11754,Columbus,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11756,Multigrade,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11756,Multigrade,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11756,Multigrade,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11756,Multigrade,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11757,Tinhorn Wash,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11757,Tinhorn Wash,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11757,Tinhorn Wash,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11778,East Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11783,Refugia Ruin,-110.885,33.5375,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+11792,Peloncillo Mountains,-109.0941666666665,32.28908333333335,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+14150,Tumacacori,-111.048,31.566499999999998,AZ,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Arizona_Shape.zip,NA
+NA,NA,NA,NA,Arkansas_NoSites,NA,NA,NA,NA,NA,NA
+8,Abalone Rocks Marsh,-119.976667,33.956389,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+226,Balsam Meadow,-119.260278,37.195833,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+231,Barrett Lake,-119.008333,37.595833,CA,NA,NA,NA,587.6241533536988,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+673,Dinkey Meadow,-119.083333,37,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+794,Exchequer Meadow,-119.833333,37,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2258,San Joaquin Marsh,-117.858333,33.658333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2513,Starkweather Pond,-119.0675,37.6625,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2529,Swamp Lake,-119.816667,37.95,CA,NA,NA,NA,113.55510562448205,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2546,Ten Lakes,-119.533333,37.9,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2553,Tioga Pass Pond,-119.258333,37.908333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+2941,Woski Pond,-119.625,37.725,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+9795,Browns Island,-121.86795000000001,38.04217,CA,NA,NA,2.101,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,210.1
+9796,Roe Island,-122.03293500000001,38.0723,CA,NA,NA,1.004,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,100.4
+9945,Siesta Lake,-119.659945,37.8505,CA,Siesta Lake,00233104,0.013,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1.3
+10053,Mumbo Lake,-122.5105394444445,41.190975,CA,Mumbo Lake,00263959,0.021,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,2.1
+10204,Flycatcher Basin,-121.573,41.015,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10208,Las Flores Arroyo,-117.4605,33.291,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10213,Nichols Meadow,-119.57849999999999,37.423500000000004,CA,NA,NA,0.025,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,2.5
+10213,Nichols Meadow,-119.57849999999999,37.423500000000004,CA,NA,NA,0.025,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,2.5
+10243,Hual Cu Cuish Meadow,-116.583,32.967,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10248,Little Green Valley Meadow,-117.05061,34.234584999999996,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10282,Skunk Cabbage Meadow,-116.666,33.774,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10284,Taquitz Meadow,-116.66137499999999,33.771645,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10309,Bluff Lake,-122.55987,41.346515,CA,Bluff Lake,00219544,0.013,141.59330978325923,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1.3
+10325,Bunker Lake,-120.386415,39.05359,CA,Bunker Lake,00257695,0.032,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,3.2
+10349,Grassy Lake,-120.66468499999999,39.700855000000004,CA,NA,NA,0.044,133.5550792125068,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,4.3999999999999995
+10361,Lily Lake,-120.210015,41.976925,CA,Lily Lake,00262462,0.023,308.3047979891115,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,2.3
+10363,Lilypad Lake,-118.99407,36.98229,CA,NA,NA,NA,563.1087286699375,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10368,McMurray Lake,-120.64864,39.4604,CA,McMurray Lake,00263408,0.047,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,4.7
+10369,Mono Lake,-119.0255,38.007949999999994,CA,NA,NA,NA,0.2782255804319861,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10410,Tulare Lake,-119.78,36.052,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10464,Clear Lake,-122.76535,39.019645,CA,Clear Lake,01664234,160.18429253,217.48023652678197,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,16018.429252999998
+10465,Secret Valley Marsh,-120.26505,40.572,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10469,Lower Lake,-123.30498,38.590035,CA,NA,NA,0.002,399.45067768024495,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,0.2
+10473,Little Willow Lake,-121.38993500000001,40.411500000000004,CA,Little Willow Lake,00254928,0.07,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,7.000000000000001
+10476,Cedar Lake,-122.4971,41.20728,CA,Cedar Lake,00220786,0.031,925.4451425997387,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,3.1
+10477,Elkhorn Slough,-121.76415,36.82535,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10478,CA-HUM-558 (Pilot Ridge),-123.6691,40.661699999999996,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10480,Preston Lake,-123.015195,38.850205,CA,Preston Lake,00231042,0.015,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1.5
+10481,Taylor Marsh,-120.05969999999999,38.9375,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10482,Tule Lake,-123.03548,39.489633333333344,CA,Tule Lake,00236601,0.009,297.7887025382089,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,0.8999999999999999
+10483,Grass Lake,-122.16714999999999,41.64960000000001,CA,Grass Lake,00260790,3.425,357.8214070022901,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,342.5
+10501,Los Penasquitos Lagoon,-117.25287,32.931121111111096,CA,Los Penasquitos Marsh,01702486,1.3107466,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,131.07466000000002
+10509,Awl Site midden,-116.633333333333,35.5166666666667,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10509,Awl Site midden,-116.633333333333,35.5166666666667,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10509,Awl Site midden,-116.633333333333,35.5166666666667,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10509,Awl Site midden,-116.633333333333,35.5166666666667,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10510,Nelson Basin midden,-116.733333333333,35.35,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10512,No Name East midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10512,No Name East midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10512,No Name East midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10513,No Name West midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10513,No Name West midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10513,No Name West midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10513,No Name West midden,-116.566666666667,35.4333333333333,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10514,Diamond Valley,-116.9944,33.67965,CA,Diamond Valley Lake,02358949,16.43402348,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1643.402348
+10519,Benicia State Park,-122.1930555555555,38.07347222222225,CA,NA,NA,0.809,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,80.9
+10520,China Camp,-122.49333333333351,38.0075,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+10522,Mountain Lake,-122.470765,37.78826,CA,Mountain Lake,00229186,0.015,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1.5
+11950,Mud Pond,-120.586555,34.787665000000004,CA,NA,NA,0.035,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,3.5000000000000004
+13488,Fish Lake,-123.68312,41.26396,CA,Fish Lake,00260155,0.09918992,94.64282001862998,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,9.918992
+13575,Ogaromtoc Lake,-123.541235,41.486104999999995,CA,Ogaromtoc Lake,00264307,0.015,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,1.5
+13658,Patterson Lake,-120.2205,41.382000000000005,CA,Patterson Lake,00230410,0.085,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,8.5
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+14071,ODP Hole 893A,-120.06134499999999,34.27818,CA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_California_Shape.zip,NA
+246,Beef Pasture,-108.15,37.416667,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+339,Cascade Fen,-107.8,37.483333,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+486,Columbine Ranch Fen,-107.808333,37.6125,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+494,Copley Lake,-107.0825,38.872222,CO,Copley Lake,00186674,0.02868528,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,2.868528
+501,Cottonwood Pass Pond,-106.410278,38.828611,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+699,Dome Creek Meadow,-107.050833,40.024167,CO,NA,NA,0.123,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,12.3
+771,Eldora Fen,-105.58,39.936667,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+1118,Keystone Ironbog,-107.033333,38.865,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+1705,Molas Lake,-107.683611,37.745833,CO,Molas Lake,00187760,0.095,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,9.5
+1706,Molas Pass Bog,-107.6975,37.737778,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+1976,Redrock Lake,-105.541667,40.083333,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2241,Sagehen Marsh,-108.503889,37.473889,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2241,Sagehen Marsh,-108.503889,37.473889,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2241,Sagehen Marsh,-108.503889,37.473889,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2503,Splains Gulch,-107.068889,38.832778,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2504,Splains Lake,-107.077778,38.8325,CO,NA,NA,0.02793283,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,2.7932829999999997
+2785,Twin Lakes,-108.1025,37.469444,CO,NA,NA,NA,490.60923041299964,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2955,Head Lake,-105.5,37.7,CO,NA,NA,NA,20.62779072912501,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+2957,Como Lake,-105.5,37.55,CO,NA,NA,NA,197.6342366621615,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+9878,San Luis Lake,-105.724665,37.67773,CO,San Luis Lake,00192622,3.229,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,322.90000000000003
+10061,Lake Emma,-107.61537,37.902105,CO,Lake Emma,00187388,0.035,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,3.5000000000000004
+10107,Lost Park,-105.53829999999999,39.2949,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+10158,Devlins Park,-105.55687499999999,40.000910000000005,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+10531,Black Mountain Lake,-107.23536,37.846819999999994,CO,Black Mountain Lake,00186992,0.031,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,3.1
+10532,Sky Pond,-105.66917000000001,40.277895,CO,Sky Pond,00177860,0.041,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,4.1000000000000005
+11617,Cumbres Bog,-106.45052,37.021744999999996,CO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,NA
+13486,Hunters Lake,-106.843695,37.611035,CO,Hunter Reservoir,00199939,0.035,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,3.5000000000000004
+13628,Bison Lake,-107.34582499999999,39.765005,CO,Bison Lake,00173837,0.196,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Colorado_Shape.zip,19.6
+558,Mohawk Pond,-73.292685,41.81115,CT,Mohawk Pond,00208983,0.06945223,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Connecticut_Shape.zip,6.945223
+2194,Rogers Lake,-72.29915,41.3525,CT,Rogers Lake,00210284,1.13059598,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Connecticut_Shape.zip,113.05959800000001
+9708,Linsley Pond,-72.784335,41.317115,CT,Linsley Pond,00208490,0.093,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Connecticut_Shape.zip,9.3
+NA,NA,NA,NA,Delaware_NoSites,NA,NA,NA,NA,NA,NA
+229,Barchampe Lake,-83.253889,30.622222,FL,Lake Alcyone,00277732,0.05689423,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,5.689423
+312,Buck Lake,-81.332222,27.234444,FL,NA,NA,0.041,206.6974523105264,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,4.1000000000000005
+324,Camel Lake,-85.016667,30.266667,FL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,NA
+961,"Water Conservation Area 3B, Gumbo Limbo Dry Head",-80.505556,25.773889,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+962,"Water Conservation Area 3B, Gumbo Limbo Far Tail",-80.505556,25.774722,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+963,"Water Conservation Area 3B, Gumbo Limbo Marsh",-80.511111,25.778889,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+964,"Water Conservation Area 3B, Gumbo Limbo Near Tail",-80.561389,25.886944,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+965,"Water Conservation Area 3B, Gumbo Limbo Wet Head",-80.506389,25.773611,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+1555,Lake Hall,-84.249167,30.521944,FL,Lake Hall,00283627,0.72361684,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,72.361684
+1597,Lake Annie,-81.416667,27.2,FL,NA,NA,0.00715102,87.93536202246597,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,0.715102
+1619,Loxahatchee National Wildlife Refuge Site 1 (EPA Site 7),-80.415556,26.481111,FL,The Everglades,00307628,558.09267671,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,55809.267670999994
+1718,Mud Creek Site 1,-80.604722,25.219722,FL,NA,NA,1.682176,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,168.21759999999998
+1719,Mud Lake (US:Florida),-81.866667,29.3,FL,Mud Lake,00306084,1.858,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,185.8
+1760,"Water Conservation Area 3B, Nuthouse Far Tail",-80.556667,25.885556,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+1761,"Water Conservation Area 3B, Nuthouse Head",-80.5125,25.889167,FL,The Everglades,00307628,288.1296982,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,28812.969820000002
+2269,Scott Lake,-81.95,27.966667,FL,Scott Lake,00290763,1.01433645,277.44840195539774,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,101.43364500000001
+2540,Taylor Creek Site 2,-80.643889,25.205556,FL,NA,NA,0.092,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,9.2
+2540,Taylor Creek Site 2,-80.643889,25.205556,FL,NA,NA,0.092,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,9.2
+2542,Taylor Slough Site 15,-80.687222,25.201944,FL,The Everglades,00307628,2395.53713233,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,239553.71323300002
+2543,Taylor Slough Site 7,-80.646389,25.287222,FL,Taylor Slough,00294588,2.204,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,220.4
+2570,Lake Tulane,-81.503395,27.586129999999997,FL,Lake Tulane,00292502,0.356,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,35.6
+2570,Lake Tulane,-81.503395,27.586129999999997,FL,Lake Tulane,00292502,0.356,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,35.6
+2846,"Water Conservation Area 2A, Site 2 (Site F1)",-80.370556,26.359722,FL,The Everglades,00307628,420.49467301,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,42049.467301
+2847,"Water Conservation Area 2A, Site 3 (Site U3)",-80.411389,26.2875,FL,The Everglades,00307628,420.49467301,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,42049.467301
+2848,"Water Conservation Area 3A, Site 4 (CA315 (AAS))",-80.6688,25.974,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+5192,Little Salt Spring,-82.23333333333333,27.075,FL,Little Salt Spring,00285805,0.008,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,0.8
+5192,Little Salt Spring,-82.23333333333333,27.075,FL,Little Salt Spring,00285805,0.008,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,0.8
+5192,Little Salt Spring,-82.23333333333333,27.075,FL,Little Salt Spring,00285805,0.008,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,0.8
+6505,Northeast Shark River Slough,-80.58386,25.74642,FL,The Everglades,00307628,2395.53713233,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,239553.71323300002
+10197,Ridge and Slough (02-05-20-13),-80.7375,26.102,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+10200,Ridge and Slough (02-05-20-14),-80.73599999999999,26.1025,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+10201,Ridge and Slough (02-05-21-2),-80.768,25.8285,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+10202,Ridge and Slough (02-05-21-4),-80.7675,25.829,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+10203,Ridge and Slough (02-05-21-5),-80.7675,25.829,FL,The Everglades,00307628,1365.55123891,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,136555.123891
+10255,Ochlockonee River Estuary,-84.4625,30.0045,FL,NA,NA,0.74007325,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,74.00732500000001
+10304,Big Cypress (core 03-9-16-3),-80.873,25.704500000000003,FL,The Everglades,00307628,2395.53713233,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,239553.71323300002
+10305,Big Cypress (core 03-9-16-6),-80.87,25.695,FL,The Everglades,00307628,2395.53713233,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,239553.71323300002
+10436,SRM-1,-81.1144444444444,25.3527777777778,FL,NA,NA,0.377,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,37.7
+11616,Fakahatchee Strand Preserve State Park,-81.45089999999999,25.9604,FL,NA,NA,351.10353855,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Florida_Shape.zip,35110.353855
+9,Adange,41.333333,43.305556,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+200,Amtkel,41.308333,43.268056,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+831,Gagra,40.266667,43.283333,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+2974,Amtkel 1,41.291667,43.283333,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+2975,Amtkel 2,41.284167,43.291667,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+2976,Amtkel 3,41.291667,43.266667,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+3188,Khodzal,41.911111,42.954167,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+3217,Lagodekhi,46.416111,41.930833,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+3409,Sibista,41.430556,43.233333,GA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Georgia_Shape.zip,NA
+10249,Makika Crater,-156.56882000000002,20.560074999999998,HI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Hawaii_Shape.zip,NA
+10359,Laysan Island Lake,-171.7328,25.768,HI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Hawaii_Shape.zip,NA
+11786,Kealia Pond,-156.475355,20.79429,HI,Kelia Pond,00360959,0.801,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Hawaii_Shape.zip,80.10000000000001
+520,Cub Lake,-111.183333,44.125,ID,NA,NA,NA,0.13838311643533724,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+3585,Middle Butte Cave,-112.61666666666667,43.36666666666667,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+9947,Burnt Knob Lake,-114.9829,45.706945000000005,ID,NA,NA,0.011,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,1.0999999999999999
+9985,Hoodoo Lake,-114.65153,46.320235,ID,Hoodoo Lake,00383302,0.026,252.19043837726028,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,2.6
+10277,Van Wyck,-116.15215,44.51785,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+10279,McCall Fen,-116.0483,44.9253,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+10299,Bear Lake,-111.33339,41.98435,ID,Bear Lake,00377174,283.3145035,530.8220271449462,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,28331.45035
+10500,Grays Lake,-111.43795,43.06619,ID,Grays Lake,00398871,88.12981682,0.21103140889467623,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,8812.981682
+10500,Grays Lake,-111.43795,43.06619,ID,Grays Lake,00398871,88.12981682,0.21103140889467623,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,8812.981682
+11560,Lake Cleveland,-113.64955,42.321290000000005,ID,Lake Cleveland,00397841,0.097,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,9.700000000000001
+11561,Rattlesnake Cave,-112.6283,43.558099999999996,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+13627,Plan B Pond,-111.77765,42.41874,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+13695,Star Meadows,-114.683705,46.51655,ID,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Idaho_Shape.zip,NA
+265,Biggsville [Cessford Quarry],-90.88,40.855556,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+364,Chatsworth Bog,-88.324435,40.675865,IL,NA,NA,0.037,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,3.6999999999999997
+1070,Hickory Ridge Basin,-89.113333,38.947222,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+1631,Macon,-89.058889,39.684167,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+1740,Niantic,-89.156389,39.839167,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+1812,Pittsburg Basin,-89.1875,38.904167,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+1992,Richland Creek,-89.353333,40.875,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+1992,Richland Creek,-89.353333,40.875,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+2283,Seminary School Basin,-89.178611,38.8975,IL,NA,NA,0.007,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,0.7000000000000001
+2822,Volo Bog,-88.18475,42.35154,IL,NA,NA,0.001,0.03585729353221726,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,0.1
+8585,Horseshoe Lake,-90.10374999999999,38.6867,IL,NA,NA,NA,236.46673241605438,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+8585,Horseshoe Lake,-90.10374999999999,38.6867,IL,NA,NA,NA,236.46673241605438,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+8585,Horseshoe Lake,-90.10374999999999,38.6867,IL,NA,NA,NA,236.46673241605438,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+8585,Horseshoe Lake,-90.10374999999999,38.6867,IL,NA,NA,NA,236.46673241605438,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+9588,Brewster Creek,-88.24441,41.98044,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10283,Southern Lake Michigan,-87.345,41.8505,IL,Lake Michigan,01623080,57842.91830007,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,5784291.830007
+10413,Crystal Lake,-88.357005,42.234015,IL,Crystal Lake,00406867,0.931,479.81977712154077,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,93.10000000000001
+10540,Cahokia Mounds (Borrow Pit 5-3),-90.0615,38.65805,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10541,Cahokia Mounds (Borrow Pit 5-1),-90.0615,38.65805,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10541,Cahokia Mounds (Borrow Pit 5-1),-90.0615,38.65805,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10542,Gilmore Lakes,-90.15041,38.420100000000005,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10542,Gilmore Lakes,-90.15041,38.420100000000005,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10542,Gilmore Lakes,-90.15041,38.420100000000005,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10542,Gilmore Lakes,-90.15041,38.420100000000005,IL,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+10543,McDonough Lake,-90.01835,38.70616,IL,McDonough Lake,00413251,0.246,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,24.6
+14044,Grassy Lake,-89.37886499999999,37.426410000000004,IL,NA,NA,NA,242.80532016187325,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Illinois_Shape.zip,NA
+479,Clear Lake,-86.544595,41.638535,IN,Clear Lake,00432624,0.20998048,33.34173353407834,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,20.998048
+1081,Howes Prairie Marsh,-87.072222,41.65,IN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+1100,Hudson Lake,-86.53,41.67,IN,NA,NA,NA,4.503565882236103,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+1902,Portage Marsh,-87.2225,41.576111,IN,NA,NA,0.06730029,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,6.730029
+1902,Portage Marsh,-87.2225,41.576111,IN,NA,NA,0.06730029,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,6.730029
+1934,Pyle Site,-84.883333,40.666667,IN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+1989,Rhule Fen,-85.741667,39.953611,IN,NA,NA,0.03992798,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,3.992798
+2850,Wells Mastodon Site,-86.433333,41.083333,IN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+2954,Pretty Lake,-85.25,41.583056,IN,NA,NA,NA,0.4050626893583219,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+10003,Appleman Lake,-85.212085,41.623285,IN,Appleman Lake,00430227,0.33440001,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,33.440001
+10128,Cowles Bog,-87.0945,41.6355,IN,NA,NA,0.06370326,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,6.3703259999999995
+10129,Pinhook Bog,-86.84671,41.614990000000006,IN,NA,NA,0.38996263,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,38.996263
+10133,Miller Woods Pond 13,-87.277195,41.61413,IN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,NA
+10137,Miller Woods Pond 21,-87.27349,41.61189,IN,NA,NA,0.01290038,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,1.290038
+10138,Miller Woods Pond 32,-87.282385,41.60682,IN,NA,NA,0.01972881,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,1.9728809999999999
+10139,Miller Woods Pond 44,-87.293135,41.604275,IN,NA,NA,0.00876784,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,0.8767840000000001
+10141,Miller Woods Pond 51,-87.285365,41.603004999999996,IN,NA,NA,0.00468825,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,0.468825
+13350,Spicer Lake,-86.52208,41.75738,IN,Spicer Lake,00452805,0.01376742,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Indiana_Shape.zip,1.3767420000000001
+478,Clear Lake,-93.42973,43.12507,IA,Clear Lake,00455462,14.698,297.30406640184844,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,1469.8
+485,Colo Marsh,-93.27,42.02,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+490,Conklin Quarry,-91.563889,41.694444,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+1220,Jewell Site,-93.7,42.26,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+1766,West Okoboji Lake,-95.2,43.333333,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+1833,Pilot Mound Site,-93.9,42.16,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+2951,Zuehl Farm Site,-93.87,43.03,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6477,Roberts Creek AB32,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6478,Roberts Creek AB35LH,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6479,Roberts Creek AB30,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6480,Roberts Creek CCLH-2,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6481,Roberts Creek DPS-8,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6482,Roberts Creek AB21,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6483,Roberts Creek DPS-9,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6484,Roberts Creek DPS-2LH,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6485,Roberts Creek F-45,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6486,Roberts Creek F-45A,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6487,Roberts Creek CCEH-1,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6488,Roberts Creek CCEH-1A,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6489,Roberts Creek CCEH-2(2)B,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6490,Roberts Creek RCBS,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6491,Roberts Creek AB33,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6492,Roberts Creek AB35,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6493,Roberts Creek AB44,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6495,Roberts Creek AB51,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6497,Roberts Creek AB34,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6498,Roberts Creek AB22A,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+6499,Roberts Creek CCLG-1A,-91.500278,42.986111,IA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Iowa_Shape.zip,NA
+213,Arrington Marsh,-95.526667,39.495,KS,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kansas_Shape.zip,NA
+358,Cheyenne Bottoms,-98.666667,38.466667,KS,NA,NA,5.037,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kansas_Shape.zip,503.7
+1725,Muscotah Marsh,-95.513333,39.53,KS,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kansas_Shape.zip,NA
+1725,Muscotah Marsh,-95.513333,39.53,KS,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kansas_Shape.zip,NA
+1125,Jackson Pond,-85.72461999999999,37.43255,KY,NA,NA,0.038,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kentucky_Shape.zip,3.8
+1125,Jackson Pond,-85.72461999999999,37.43255,KY,NA,NA,0.038,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Kentucky_Shape.zip,3.8
+1573,Little Bayou Sara Site 1B,-91.442778,30.925833,LA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,NA
+1574,Little Bayou Sara Site 4J,-91.480833,30.961667,LA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,NA
+1959,Rayburn's Dome,-93.166667,32.466667,LA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,NA
+2574,Tunica Bayou Site 22,-91.519444,30.962778,LA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,NA
+2575,Tunica Bayou Site 23,-91.519444,30.961944,LA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,NA
+9991,Prien Lake,-93.27942,30.192210000000003,LA,Prien Lake,00555727,6.89401642,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,689.401642
+10002,Lake Arthur,-92.7095,30.05034,LA,Lake Arthur,00559623,24.36562376,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,2436.562376
+10002,Lake Arthur,-92.7095,30.05034,LA,Lake Arthur,00559623,24.36562376,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,2436.562376
+10326,Catahoula Lake (core CLR3),-92.13152,31.50844,LA,Catahoula Lake,00553925,66.88284422,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,6688.284422
+10326,Catahoula Lake (core CLR3),-92.13152,31.50844,LA,Catahoula Lake,00553925,66.88284422,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,6688.284422
+10326,Catahoula Lake (core CLR3),-92.13152,31.50844,LA,Catahoula Lake,00553925,66.88284422,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Louisiana_Shape.zip,6688.284422
+234,Basin Pond,-70.05,44.47,ME,NA,NA,NA,87.38598163924931,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+302,Boundary Pond,-70.675,45.566667,ME,NA,NA,NA,45.97496928018409,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+333,Caribou Bog,-68.77344,44.93672,ME,NA,NA,NA,158.0290973178884,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+491,Conroy Lake,-67.883333,46.283333,ME,NA,NA,NA,0.6081384232221576,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+491,Conroy Lake,-67.883333,46.283333,ME,NA,NA,NA,0.6081384232221576,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+941,Gould Pond,-69.316667,44.983333,ME,NA,NA,NA,222.3909690868196,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+1611,Loon Pond,-68.2,45.033333,ME,NA,NA,NA,179.6766870064423,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+1643,Mansell Pond,-68.733333,45.041667,ME,NA,NA,NA,0.06613778985205425,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+1707,Monhegan Island Meadow,-69.3,43.766667,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+1716,Moulton Pond,-68.639167,44.6275,ME,NA,NA,NA,4.7049419008896525,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+1896,Poland Spring Pond,-70.35,44.033333,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+2214,Ross Pond,-69.410278,43.921389,ME,NA,NA,NA,153.61438080581638,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+2308,Sinkhole Pond,-70.35,43.966667,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+2791,Unknown Pond,-70.633333,45.6,ME,NA,NA,NA,134.99650988713242,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+2795,Upper South Branch Pond,-68.9,46.083333,ME,NA,NA,NA,0.3991771207398911,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9866,Big Reed Pond Hollow,-69.05170000000001,46.35065,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9889,Blackwoods Hollow,-68.22364,44.313195,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9890,Buckley Pond Hollow,-69.049415,46.334815,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9891,Isle au Haut North Hollow,-68.6354,44.0651,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9892,Isle au Haut South Hollow,-68.630365,44.031825,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9893,Roque Island Hollow,-67.53069500000001,44.573075,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9894,Schoodic Peninsula Hollow,-68.0726,44.37328,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+9944,South Bog,-67.20294,44.717555000000004,ME,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Maine_Shape.zip,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+254,Berry Pond,-73.316667,42.5,MA,NA,NA,NA,180.94482964018786,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+562,Tom Swamp,-72.2125,42.516667,MA,NA,NA,0.572,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,57.199999999999996
+562,Tom Swamp,-72.2125,42.516667,MA,NA,NA,0.572,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,57.199999999999996
+701,Donut Pond Bog,-70.058333,41.275,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+753,Duck Pond,-70.0005,41.9327,MA,Duck Pond,00616760,0.043,263.95896220606977,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,4.3
+942,Gould's Bog,-72.183333,42.533333,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+955,Greenwater Pond,-73.316667,42.283333,MA,NA,NA,NA,13.027003677046745,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+981,Hawley Bog Pond-1,-72.883333,42.566667,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+1756,No Bottom Pond,-70.208333,41.283333,MA,NA,NA,NA,289.54060587454876,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+1759,North Pond,-73.05,42.65,MA,NA,NA,NA,270.03085440227375,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+2517,Stockbridge Bowl,-73.15,42.333333,MA,NA,NA,NA,12.973676363096454,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+2538,Williams Street Bog,-71.066667,41.9,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+2539,Taupawshas Bog,-70.058333,41.275,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+2554,Titicut Swamp,-71.033333,41.95,MA,Titicut Swamp,00613156,0.708,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,70.8
+2860,Windsor Pond,-72.980005,42.53693,MA,NA,NA,0.189,23.38359684840755,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,18.9
+2862,Winneconnet Pond,-71.116667,41.966667,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+3529,Aino Pond,-71.926667,42.679722,MA,NA,NA,0.018,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,1.7999999999999998
+3530,Dead Frog Pond,-72.508611,42.574444,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+6510,Hemlock Hollow,-72.178,42.5375,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10020,Round Pond,-70.010335,41.970780000000005,MA,Round Pond,00616813,0.023,276.16197373061016,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.3
+10021,Deep Pond,-69.992095,41.739125,MA,Deep Pond,00615921,0.016,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,1.6
+10023,Icehouse Pond,-69.960575,41.797995,MA,Icehouse Pond,00616871,0.019,136.05398117357396,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,1.9
+10025,Eagle Pond,-70.13606,41.6982,MA,Eagle Pond,00615829,0.028,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.8000000000000003
+10026,Jemima Pond,-69.9847,41.82961,MA,Jemima Pond,00616872,0.022,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.1999999999999997
+10028,Sandy Hill Pond,-70.36407,41.689985,MA,Sandy Hill Pond,00615778,0.024,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.4
+10029,Fresh Pond,-70.532835,41.594120000000004,MA,Fresh Pond,00616399,0.054,100.91254200106582,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,5.4
+10076,Makepeace Cedar Swamp,-70.75736,41.936189999999996,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10076,Makepeace Cedar Swamp,-70.75736,41.936189999999996,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10076,Makepeace Cedar Swamp,-70.75736,41.936189999999996,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10172,Black Gum Swamp,-72.18289999999999,42.5375,MA,NA,NA,0.069,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,6.9
+10172,Black Gum Swamp,-72.18289999999999,42.5375,MA,NA,NA,0.069,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,6.9
+10177,Alford Swamp,-73.42,42.2415,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10362,Lily Pond,-72.34693,42.417875,MA,NA,NA,0.023,49.30997367948001,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.3
+10389,Prospect Hill II,-72.18,42.5625,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10390,Prospect Hill VII,-72.18,42.5625,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10400,Slab City,-72.17750000000001,42.507999999999996,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10400,Slab City,-72.17750000000001,42.507999999999996,MA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,NA
+10433,Green Pond,-72.51079999999999,42.56705,MA,Green Pond,00608874,0.06,138.94395037342628,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,6
+10434,Lily Warwick,-72.337185,42.68839,MA,NA,NA,0.008,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,0.8
+10435,Little Mirror Lake,-71.60848,42.524435,MA,Little Mirror Lake,00611131,0.026,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.6
+10437,Otter Pond,-72.53318999999999,42.654849999999996,MA,NA,NA,0.019,76.57682378821251,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,1.9
+10438,Silver Lake,-72.22854,42.600775,MA,Silver Lake,00609713,0.042,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,4.2
+13629,Quag Pond,-71.95695,42.56725,MA,Quag Pond,00610132,0.00423316,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,0.42331599999999997
+13630,Little Bolton,-71.58734999999999,42.422200000000004,MA,Little Pond,00611249,0.071,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,7.1
+13633,Snake Pond,-72.01640499999999,42.55585,MA,NA,NA,0.024,70.09738099160185,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,2.4
+13635,Lake Pleasant,-72.513,42.5604,MA,Lake Pleasant,00608920,0.219,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Massachusetts_Shape.zip,21.9
+205,Andrus Lake,-85.040278,46.7,MI,Andrus Lake,01618009,0.134,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,13.4
+325,Camp 11 Lake,-88.016667,46.666667,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+360,Chippewa Bog,-83.241111,43.123889,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+518,Cub Lake,-84.958333,44.7,MI,NA,NA,NA,373.3823889080655,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+661,Demont Lake,-85,43.48,MI,NA,NA,NA,5.25019417980087,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+821,Frains Lake,-83.63,42.33,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+952,Green Lake,-85.116667,44.883333,MI,NA,NA,NA,58.64071442415964,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+1486,Kitchner Lake,-87.455,45.666667,MI,Kitchners Lake,00629773,0.044,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,4.3999999999999995
+1540,Lake Sixteen,-84.316667,45.6,MI,NA,NA,NA,530.8206677668159,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+1541,Lake 27,-84.783333,45.066667,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+1613,Lost Lake,-87.97207,46.719435000000004,MI,NA,NA,0.021,175.72231888140988,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.1
+1669,McNearny Lake,-84.958333,46.427222,MI,McNearney Lake,01620777,0.495,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,49.5
+1669,McNearny Lake,-84.958333,46.427222,MI,McNearney Lake,01620777,0.495,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,49.5
+1669,McNearny Lake,-84.958333,46.427222,MI,McNearney Lake,01620777,0.495,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,49.5
+2239,Ryerse Lake,-85.179167,46.131944,MI,Ryerse Lake,00636442,0.082,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,8.200000000000001
+2502,Spirit Lake,-86.958333,46.47,MI,Spirit Lake,01621726,0.033,273.119554511188,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,3.3000000000000003
+2814,Vestaburg Bog,-84.883333,43.416667,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+2864,Wintergreen Lake,-85.383333,42.4,MI,NA,NA,NA,0.02956257047758152,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+2934,Wolverine Lake,-85.661111,46.429167,MI,Wolverine Lake,01616715,0.029,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.9000000000000004
+2948,Yellow Dog Pond,-87.95,46.75,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+2956,Canyon Lake,-87.921389,46.833333,MI,Canyon Lake,00622701,0.011,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,1.0999999999999999
+7529,Little Dollar Lake,-85.3082,46.186,MI,NA,NA,NA,0.08106944507424418,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+8559,Irwin Smith Bog,-83.61,45.0265,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+8586,Glimmerglass Lake,-89.32082,46.21517,MI,Glimmerglass Lake,01620029,0.09966123,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,9.966123
+9738,Tower Lake,-86.037795,46.542635000000004,MI,NA,NA,0.023,163.44934384985518,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.3
+9738,Tower Lake,-86.037795,46.542635000000004,MI,NA,NA,0.023,163.44934384985518,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.3
+9738,Tower Lake,-86.037795,46.542635000000004,MI,NA,NA,0.023,163.44934384985518,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.3
+9738,Tower Lake,-86.037795,46.542635000000004,MI,NA,NA,0.023,163.44934384985518,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.3
+9993,Nelson Lake,-85.380295,46.2287,MI,Nelson Lake,00633288,0.121,299.6318583703924,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,12.1
+10034,Mud Lake,-88.3169877777778,47.129415,MI,Mud Lake,00633062,0.702,149.48551721354252,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,70.19999999999999
+10036,Lily Lake,-89.0908,47.911995000000005,MI,Lily Lake,00630402,0.06718505,542.3691577735561,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,6.7185049999999995
+10162,Danaher Bog,-85.78049999999999,46.355000000000004,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10163,East Soldier Lake,-84.857625,46.34668,MI,East Soldier Lake,01619822,0.037,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,3.6999999999999997
+10164,Guard Lake,-84.77968,46.12683,MI,Guard Lake,01620093,0.079,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,7.9
+10165,Lone Pine Bog,-84.95949999999999,46.251000000000005,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10166,Route 458 Bog,-85.63594,42.290485000000004,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10167,Tahquamenon Bog,-85.1245,46.6305,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10168,Trout Lake Bog,-85.0215,46.205,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10239,Cowden Lake,-85.35679999999999,43.35538,MI,Cowden Lake,00623928,0.45,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,45
+10242,Hicks Lake,-85.28332499999999,44.022755000000004,MI,Hicks Lake,00628201,0.646,168.14225100846548,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,64.60000000000001
+10251,Morrison Lake,-85.2115,42.861000000000004,MI,Morrison Lake,00632725,1.345,96.21359820589211,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,134.5
+10316,Buck Lake,-86.35387,46.520515,MI,NA,NA,6.141,257.04803886321446,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,614.1
+10427,Allen Lake,-89.17057,46.224985000000004,MI,NA,NA,NA,572.1449896226845,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+10428,Kerr Lake,-89.2758,46.24378,MI,Kerr Lake,01620418,0.032,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,3.2
+10429,Crooked Lake,-89.29409,46.24525,MI,Crooked Lake,00624110,2.519,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,251.9
+10429,Crooked Lake,-89.29409,46.24525,MI,Crooked Lake,00624110,2.519,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,251.9
+10429,Crooked Lake,-89.29409,46.24525,MI,Crooked Lake,00624110,2.519,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,251.9
+10430,Jay Lake,-89.28155000000001,46.234350000000006,MI,Jay Lake,00629221,0.025,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,2.5
+11610,Lorraine Lake,-86.48299,46.144684999999996,MI,Lorraine Lake,01620624,0.051,243.26576875681093,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,5.1
+11611,Penegor Lake,-88.86036,46.61506,MI,Penegor Lake,00634583,0.04,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,4
+13528,South Rhody peatland,-86.0752,46.565795,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+13582,Minden Bog,-82.86388,43.60373,MI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Michigan_Shape.zip,NA
+29,Lake Allie,-94.55789999999999,44.8036,MN,Lake Allie,00639295,2.038,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,203.79999999999998
+30,Almora Lake,-95.293611,46.206111,MN,Almora Lake,00639302,0.162,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,16.2
+202,Anderson Lake,-92.716667,46.416667,MN,NA,NA,NA,78.32338955605142,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+204,Andree Bog,-93.25,45.725,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+221,Bad Medicine Lake,-95.397205,47.123935,MN,NA,NA,NA,0.1880596035339216,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+238,Black Bass Lake,-93.703889,46.128056,MN,Black Bass Lake,00640203,0.134,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,13.4
+245,Beckman Lake,-93.183333,45.425,MN,NA,NA,NA,0.03685523522008287,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+245,Beckman Lake,-93.183333,45.425,MN,NA,NA,NA,0.03685523522008287,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+266,Big John Pond,-94.970775,47.559174999999996,MN,NA,NA,0.019,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,1.9
+269,Billy's Lake,-94.55155500000001,46.270579999999995,MN,NA,NA,0.027,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.7
+274,Blandin Pond,-93.666667,47.133333,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+276,Blackhoof Site,-92.573333,46.503333,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+290,Bob Lake,-92.614722,46.633611,MN,Bob Lake,00640317,0.308,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,30.8
+291,Bog A Pond,-95.16745499999999,47.17548,MN,NA,NA,0.008,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,0.8
+292,Bog D Pond,-95.16267500000001,47.177499999999995,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+299,Bossuot Lake,-93.73571000000001,44.296475,MN,Bossuot Lake,00640392,0.401,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,40.1
+307,"Brown's Bay, Lake Minnetonka",-93.545105,44.95769,MN,Lake Minnetonka,00647954,55.73,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,5573
+318,Burntside Lake,-91.994722,47.924167,MN,Burntside Lake,00660918,29.18142139,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2918.142139
+327,Campbell Lake,-93.497645,44.70722,MN,Campbell Lake,00640849,0.217,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,21.7
+344,Cedar Bog,-93.197222,45.411111,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+371,Cindy Pond,-94.938965,47.172305,MN,NA,NA,0.012,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,1.2
+502,Cottonwood Lake,-96.01988,45.76101,MN,Cottonwood Lake,00641535,1.001,220.878196640221,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,100.1
+508,Crazy Pond,-95.73495,47.182465,MN,NA,NA,0.032,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,3.2
+530,Dalton Lake,-95.915278,46.173889,MN,NA,NA,NA,219.44759378245746,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+697,Dogfish Lake,-92.183333,48.183333,MN,NA,NA,NA,225.27351343375275,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+755,Dunnigan Lake,-91.641667,47.708333,MN,NA,NA,NA,0.4809101690052276,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+762,East Twin Lake,-93.508333,45.333333,MN,NA,NA,NA,177.87263073259965,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+767,Eggert Lake,-93.619035,44.47012,MN,Eggert Lake,00643199,0.209,143.2809590868861,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,20.9
+795,Faith Pond,-96.09405000000001,47.272455,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+799,Farquar Lake,-93.16449,44.75815,MN,Farquar Lake,00643574,0.253,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,25.3
+801,Fawn Lake,-94.753333,46.218889,MN,Fawn Lake,00643587,0.489,369.58318912711974,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,48.9
+820,Fox Pond,-95.558333,47.165,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+824,French Lake,-94.42074,44.945765,MN,French Lake,00643937,0.178,197.95288946005925,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,17.8
+841,George Lake,-93.87066,44.2329,MN,George Lake,00644078,0.35,357.625686775231,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,35
+841,George Lake,-93.87066,44.2329,MN,George Lake,00644078,0.35,357.625686775231,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,35
+848,Glatsch Lake,-92.62,47.28,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+938,Goldsmith Lake,-92.466667,46.583333,MN,NA,NA,NA,273.16977638082716,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+959,Grice Pond,-95.755515,47.2036,MN,NA,NA,0.091,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,9.1
+999,Hemo Pond,-95.47461,47.133,MN,NA,NA,0.152,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,15.2
+1076,Blocknic Lake [Horse Pond],-95.86866,47.181535,MN,Blocknic Lake,00640263,0.069,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,6.9
+1077,Horseshoe Lake,-93.047778,45.460278,MN,Horseshoe Lake,00645215,0.426,236.60758714702536,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,42.6
+1078,Hostage Lake,-94.133333,46.55,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1101,Hug Lake,-90.933333,47.958333,MN,NA,NA,NA,0.23718607709158043,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1105,Hustler Lake,-92.158333,48.233333,MN,NA,NA,NA,0.1572311650010347,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1119,Irvin Lake,-93.643611,47.135556,MN,Irvin Lake,00656716,0.026,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.6
+1128,Jacobson Lake,-92.716944,46.416944,MN,NA,NA,NA,163.77441967106722,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1128,Jacobson Lake,-92.716944,46.416944,MN,NA,NA,NA,163.77441967106722,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1359,Jones Lake,-93.98147499999999,45.428085,MN,Jones Lake,00645728,0.284,243.4160661953362,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,28.4
+1409,Kegan Lake,-93.11674,44.75836,MN,Kegan Lake,00646062,0.114,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,11.4
+1483,Kirchner Marsh,-93.12254999999999,44.770849999999996,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1483,Kirchner Marsh,-93.12254999999999,44.770849999999996,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1510,Kotiranta Lake,-92.62,46.72,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1514,Kryzewinski Lake,-92.870278,46.353333,MN,NA,NA,0.043,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.3
+1526,Kylen Lake,-91.8,47.35,MN,NA,NA,NA,1.3849038627888222,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1544,Lake Ann,-93.6875,45.425,MN,Lake Ann,00639384,0.585,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,58.5
+1544,Lake Ann,-93.6875,45.425,MN,Lake Ann,00639384,0.585,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,58.5
+1544,Lake Ann,-93.6875,45.425,MN,Lake Ann,00639384,0.585,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,58.5
+1548,Lake Carlson,-93.15975,44.79985,MN,Carlson Lake,00649774,0.04722837,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.722837
+1564,Lamb Lake,-92.107222,48.165278,MN,Lamb Lake,00661684,0.398,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,39.800000000000004
+1582,Lewis Lake,-93.364167,45.749444,MN,Lewis Lake,00646620,0.71,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,71
+1586,Lily Lake (US:Minnesota),-92.825,45.05,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1590,Little Bass Lake,-93.600465,47.286,MN,Little Bass Lake,00657027,0.639,162.51785864128937,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,63.9
+1598,Lake of the Clouds,-91.116667,48,MN,NA,NA,NA,15.429722841536796,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1598,Lake of the Clouds,-91.116667,48,MN,NA,NA,NA,15.429722841536796,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1598,Lake of the Clouds,-91.116667,48,MN,NA,NA,NA,15.429722841536796,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1630,Lake Mabel,-93.61535,44.36044,MN,Lake Mabel,00647348,0.3972415,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,39.72415
+1652,Martin Pond,-94.94396499999999,47.173975,MN,NA,NA,0.001,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,0.1
+1664,McCraney Lake,-95.70266,47.170869999999994,MN,NA,NA,NA,0.07532310896859237,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1701,Lake Minnie,-95.00771499999999,47.244755,MN,Lake Minnie,00647969,0.301,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,30.099999999999998
+1701,Lake Minnie,-95.00771499999999,47.244755,MN,Lake Minnie,00647969,0.301,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,30.099999999999998
+1720,Mud Lake,-93.829815,44.226105000000004,MN,Mud Lake,00648214,0.522,332.15645100557236,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,52.2
+1721,Mud Lake (US:Minnesota:Hubbard),-94.75,46.866667,MN,Nagel Lake,00657565,0.285,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,28.499999999999996
+1724,Murphy Lake,-93.341105,44.711625,MN,Murphy Lake,00648391,0.191,294.146194350797,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,19.1
+1729,Myrtle Lake,-93.3853,47.982605,MN,Myrtle Lake,00648417,0.67,51.386374407886414,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,67
+1735,Nels Lake,-91.9,48.033333,MN,NA,NA,NA,0.34379579545133104,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1736,Nelson Pond,-92.68658500000001,46.40707,MN,NA,NA,0.009,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,0.8999999999999999
+1764,Lake Ogechie,-93.783333,46.133333,MN,Ogechie Lake,00659738,1.589,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,158.9
+1771,Lake Onamia,-93.68,46.068333,MN,NA,NA,NA,0.09036656725506988,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1772,Ondris Pond,-94.408,46.341585,MN,NA,NA,0.008,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,0.8
+1814,Pogonia Bog Pond,-93.6305,45.03503,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1814,Pogonia Bog Pond,-93.6305,45.03503,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1815,Third Lake,-92.010535,48.098755,MN,Third Lake,00662635,0.173,317.7370926980771,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,17.299999999999997
+1815,Third Lake,-92.010535,48.098755,MN,Third Lake,00662635,0.173,317.7370926980771,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,17.299999999999997
+1815,Third Lake,-92.010535,48.098755,MN,Third Lake,00662635,0.173,317.7370926980771,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,17.299999999999997
+1820,Pennington Lake,-93.273056,45.780556,MN,Pennington Lake,00649264,0.515,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,51.5
+1827,Peterson Slough,-95.316667,46.966667,MN,NA,NA,NA,250.35279310758511,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1891,Pleasant Lake,-93.563475,44.605869999999996,MN,Pleasant Lake,00649555,1.117,64.70205848477592,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,111.7
+1901,Portage Lake,-94.113,47.081,MN,Portage Lake,00657913,0.613,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,61.3
+1978,Reichow Pond,-95.77364,47.190745,MN,NA,NA,0.028,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.8000000000000003
+1979,Reidel Lake,-95.284167,46.211944,MN,NA,NA,0.041,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.1000000000000005
+1988,Rholl Lake,-96.166667,47.6,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+1991,Rice Lake,-95.575,46.922222,MN,Rice Lake,00650015,1.053,23.2162707097338,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,105.3
+1991,Rice Lake,-95.575,46.922222,MN,Rice Lake,00650015,1.053,23.2162707097338,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,105.3
+2213,Rossburg Bog,-93.6,46.583333,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2235,Rutz Lake,-93.85897499999999,44.87083,MN,Rutz Lake,00650436,0.219,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,21.9
+2273,Sedivy Lake,-95.833333,47.208889,MN,Sedivy Lake,00651841,0.12,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,12
+2293,Shagawa Lake,-91.866667,47.916667,MN,Shagawa Lake,00662416,9.43419434,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,943.4194339999999
+2301,Silver Lake,-94.20414,44.895835,MN,Silver Lake,00652049,1.793,49.11454298691668,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,179.29999999999998
+2310,Siseebakwet South,-93.683333,47.133333,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2497,Solum Lake,-96.25,46.662222,MN,Solem Lake,00652241,0.279,22.831720568435856,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,27.900000000000002
+2500,South Stanchfield Lake,-93.466667,45.725,MN,NA,NA,NA,8.441647272091576,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2501,Spectacle Lake,-93.408333,45.572222,MN,Spectacle Lake,00652369,0.991,93.9844648332774,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,99.1
+2514,St. Catherines Lake,-93.43352,44.626875,MN,Saint Catherine Lake,00650546,0.476,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,47.599999999999994
+2518,Stone Lake,-93.522222,45.4,MN,Stone Lake,00652663,0.153,222.23948477331018,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,15.299999999999999
+2519,Stone Lake Tamarack Swamp,-93.691667,44.891667,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2519,Stone Lake Tamarack Swamp,-93.691667,44.891667,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2524,Sunfish Lake,-93.1,44.874722,MN,Sunfish Lake,00652819,0.183,166.9998820436342,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,18.3
+2548,Quallen Lake [Terhell Pond],-95.786645,47.19324,MN,Quallen Lake,00649767,0.11,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,11
+2550,Thompson Pond,-96.09332,47.19482,MN,NA,NA,0.032,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,3.2
+2557,Toenjes Lake,-93.98171500000001,45.408950000000004,MN,NA,NA,0.035,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,3.5000000000000004
+2786,Twin Lakes,-93.167778,45.848889,MN,Twin Lakes,00653440,0.099,177.78205384958503,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,9.9
+2792,Upper Graven Lake,-95.306944,46.184444,MN,Graven Lake,00644394,0.07,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,7.000000000000001
+2849,Weber Lake,-91.66,47.471667,MN,Alseth Lake,00659125,0.022,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.1999999999999997
+2849,Weber Lake,-91.66,47.471667,MN,Alseth Lake,00659125,0.022,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.1999999999999997
+2849,Weber Lake,-91.66,47.471667,MN,Alseth Lake,00659125,0.022,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,2.1999999999999997
+2851,Wentzel's Pond,-94.95,46.95,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2855,White Lily Lake,-93.102778,46.086111,MN,White Lily Lake,00654088,0.12,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,12
+2855,White Lily Lake,-93.102778,46.086111,MN,White Lily Lake,00654088,0.12,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,12
+2859,Willow River Pond,-92.78081,46.324304999999995,MN,NA,NA,0.006,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,0.6
+2932,Wolf Creek,-94.116667,46.116667,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+2933,Wolsfeld Lake,-93.57275999999999,45.005015,MN,Wolsfeld Lake,00653747,0.148,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,14.799999999999999
+6506,South Heron Lake,-95.22800000000001,43.7195,MN,South Heron Lake,00658369,10.806,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,1080.6
+6507,Ocheda Lake,-95.59275,43.56928,MN,NA,NA,NA,0.24411009303749961,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+6511,Blomford Lake,-93.1545,45.4935,MN,NA,NA,0.081,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,8.1
+6512,Fawn Lake,-93.0532,45.4072,MN,Fawn Lake,00643582,0.214,461.60652624676135,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,21.4
+6513,Frovold Lake,-95.5625,45.377,MN,Frovold Lake,00643979,0.262,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,26.200000000000003
+6514,Goose Lake,-94.59100000000001,44.989999999999995,MN,NA,NA,NA,89.27726310318508,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+6515,Olson Lake,-93.66005,46.51205,MN,NA,NA,NA,213.72937980957025,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+6521,Round Grove Lake,-94.4935,44.709,MN,NA,NA,NA,0.04554862039295574,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+7531,Last Lake,-95.24005,45.45,MN,NA,NA,0.136,413.9863646338961,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,13.600000000000001
+7532,Cottonwood Lake,-95.68015,44.6173,MN,Cottonwood Lake,00641534,1.484,93.65267982221134,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,148.4
+7532,Cottonwood Lake,-95.68015,44.6173,MN,Cottonwood Lake,00641534,1.484,93.65267982221134,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,148.4
+7533,Monson Lake,-95.27935,45.324,MN,Monson Lake,00648039,0.822,247.89284976343808,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,82.19999999999999
+7534,Deans Lake,-93.44692,44.775279999999995,MN,Deans Lake,00642692,0.687,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,68.7
+7535,Lake Emily,-93.91999999999999,44.30865,MN,Lake Emily,00643341,0.993,3.6048355618817687,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,99.3
+7536,Perch Lake,-95.4687,46.191649999999996,MN,NA,NA,NA,84.52195767154956,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+7537,Chub Lake,-93.218805,44.563500000000005,MN,Chub Lake,00641208,0.90935553,474.66522011895006,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,90.935553
+7538,Lake Rachel,-95.55285,45.80155,MN,Lake Rachel,00649785,1.70165472,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,170.165472
+7539,Ziebell Lake,-95.26345,46.05545,MN,NA,NA,0.097,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,9.700000000000001
+7540,Mud Lake,-95.46090000000001,45.857600000000005,MN,Mud Lake,00648265,0.334,125.85482451902661,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,33.4
+7541,Lybeck Lake,-95.7125,45.6745,MN,Lybeck Lake,00647313,0.307,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,30.7
+7542,Union Lake,-95.34235,45.81725,MN,Union Lake,00653509,0.422,467.17275947242996,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,42.199999999999996
+7543,Albert Lea Lake,-93.28399999999999,43.652550000000005,MN,Albert Lea Lake,00639248,10.755,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,1075.5
+7543,Albert Lea Lake,-93.28399999999999,43.652550000000005,MN,Albert Lea Lake,00639248,10.755,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,1075.5
+7549,Everhart Lake,-93.43875,43.617599999999996,MN,Everhart Lake,00643474,0.167,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,16.7
+8551,Sharkey Lake,-93.4132,44.5924,MN,NA,NA,0.179,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,17.9
+8552,Kimble Pond,-93.84015,44.21895,MN,NA,NA,0.043,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.3
+8561,West Olaf Lake,-96.18674999999999,46.598600000000005,MN,NA,NA,0.581,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,58.099999999999994
+8565,Oak Glen Lake,-93.0815,43.92945,MN,Oak Glen Lake,02051401,0.76290614,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,76.290614
+8566,Camp Lake,-95.39015,45.405950000000004,MN,Camp Lake,00640815,0.857,21.288625581549066,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,85.7
+9688,Bass Lake,-94.87874500000001,45.19932,MN,NA,NA,0.197,164.3754061037664,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,19.7
+9735,Lake Sallie,-95.896225,46.771860000000004,MN,Lake Sallie,00651116,5.085,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,508.5
+9762,Johnson Lake,-95.272065,45.44376,MN,Johnson Lake,00645687,0.251,149.43299285284144,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,25.1
+9824,Lily Lake,-93.63978,44.19291,MN,Lily Lake,00646645,0.449,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,44.9
+9825,Kelly-Dudley Lake,-93.36593500000001,44.354434999999995,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+9826,Martha Lake,-93.73915,45.141805,MN,Lake Martha,00647570,0.399,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,39.900000000000006
+9860,Norwood,-93.926793,44.709298,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+9867,Minnreg,-93.3212,44.693385,MN,NA,NA,0.154,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,15.4
+9869,Amber Lake,-94.473645,43.60715,MN,Amber Lake,00639319,0.735,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,73.5
+9870,Camp Lake,-94.0929,45.16204,MN,Camp Lake,00640814,0.483,111.66323726005984,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,48.3
+9871,Crystal Lake,-93.212125,44.333484999999996,MN,Crystal Lake,00642528,0.138,77.23410754072596,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,13.8
+9872,Fish Lake,-93.665425,44.229535,MN,Fish Lake,00643674,0.298,178.87306693919132,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,29.799999999999997
+9873,Fish Lake,-93.460155,44.65162,MN,Fish Lake,00643675,0.689,130.3466553307643,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,68.89999999999999
+9874,Eagle Lake,-93.93439000000001,44.808755000000005,MN,Eagle Lake,00643016,0.717,162.30503453153116,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,71.7
+9875,"Lake Emily, Northeast Basin",-93.914375,44.313795,MN,Lake Emily,00643341,0.993,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,99.3
+9876,Fuller Lake,-94.075455,45.421695,MN,Fuller Lake,00643988,0.126,71.83449033832,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,12.6
+9953,Lake Mina,-95.47560999999999,45.89346,MN,Lake Mina,00647900,1.646,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,164.6
+9987,Elk Lake,-95.80385,45.8668,MN,Elk Lake,00643260,0.817,152.9738004522733,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,81.69999999999999
+10091,Elk Lake,-95.21787,47.189189999999996,MN,Elk Lake,00643263,1.181,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,118.10000000000001
+10091,Elk Lake,-95.21787,47.189189999999996,MN,Elk Lake,00643263,1.181,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,118.10000000000001
+10091,Elk Lake,-95.21787,47.189189999999996,MN,Elk Lake,00643263,1.181,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,118.10000000000001
+10091,Elk Lake,-95.21787,47.189189999999996,MN,Elk Lake,00643263,1.181,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,118.10000000000001
+10091,Elk Lake,-95.21787,47.189189999999996,MN,Elk Lake,00643263,1.181,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,118.10000000000001
+10121,St. Clair Lake,-95.88068,46.803380000000004,MN,Saint Clair Lake,00650554,0.575,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,57.49999999999999
+10132,Ozawindib Lake,-95.27284,47.228229999999996,MN,NA,NA,NA,0.05069560797663324,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10134,Little Horseshoe Lake,-93.06903,45.590765000000005,MN,Little Horseshoe Lake,00646819,0.192,50.64873041725155,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,19.2
+10135,Cora Lake,-95.32412,46.165285,MN,Cora Lake,00641491,0.307,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,30.7
+10140,Tamarack Lake,-93.63463999999999,44.873850000000004,MN,Tamarack Lake,00653018,0.12,300.35218570971296,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,12
+10142,LaSalle Lake,-95.16525,47.33732,MN,NA,NA,NA,0.24102445479945828,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10144,Saint Olaf Lake,-93.417225,43.90284,MN,Saint Olaf Lake,00650932,0.36,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,36
+10146,Williams Lake,-94.66923,46.95391,MN,Williams Lake,00659016,0.371,180.80480557052746,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,37.1
+10146,Williams Lake,-94.66923,46.95391,MN,Williams Lake,00659016,0.371,180.80480557052746,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,37.1
+10146,Williams Lake,-94.66923,46.95391,MN,Williams Lake,00659016,0.371,180.80480557052746,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,37.1
+10146,Williams Lake,-94.66923,46.95391,MN,Williams Lake,00659016,0.371,180.80480557052746,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,37.1
+10156,Long Lake,-93.55640500000001,44.988845,MN,Long Lake,00647038,1.123,186.6663670818667,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,112.3
+10169,Wolsfeld Woods Marsh,-93.574555,45.003730000000004,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10211,Deep Lake,-95.398395,47.68380500000001,MN,Deep Lake,00642704,0.18,323.0176988329427,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,18
+10219,Shingobee Lake,-94.688245,47.004035,MN,Shingobee Lake,00658240,0.679,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,67.9
+10241,Granite Falls Bison Kill Site,-95.4665,44.787,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10252,Myrtle Lake,-95.28831500000001,47.2291,MN,Myrtle Lake,00648416,0.048,214.64136644947817,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.8
+10446,Bakken Lake,-96.2311,47.69035,MN,Bakken Lake,00639590,0.083,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,8.3
+10447,Chicog Lake,-96.18299999999999,47.669650000000004,MN,NA,NA,0.051,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,5.1
+10448,Qually Pond,-96.20294,47.683165,MN,NA,NA,0.09,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,9
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+10457,Itasca Bison Kill Site,-95.2339,47.19285,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+11606,Steel Lake,-94.68138,46.973155000000006,MN,NA,NA,NA,0.04655685851235499,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+11620,Fox Lake,-94.698115,43.6774,MN,Fox Lake,00643859,3.666,358.90435417354314,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,366.59999999999997
+11855,Little Shingobee Lake,-94.694575,46.994015000000005,MN,NA,NA,0.043,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,4.3
+13287,Madelia,-94.4166666666667,44.0833333333333,MN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Minnesota_Shape.zip,NA
+NA,NA,NA,NA,Mississippi_NoSites,NA,NA,NA,NA,NA,NA
+295,Boney Spring,-93.366944,38.111944,MO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Missouri_Shape.zip,NA
+525,Cupola Pond,-91.1,36.8,MO,NA,NA,NA,0.8919442236163952,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Missouri_Shape.zip,NA
+1768,Old Field,-89.833333,37.116667,MO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Missouri_Shape.zip,NA
+1908,Powers Fort Swale,-90.583333,36.6,MO,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Missouri_Shape.zip,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2530,Swan Lake,-102.499255,41.72106,NE,Swan Lake,00833973,1.517,289.63543165934686,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Nebraska_Shape.zip,151.7
+10253,Nebraska Sand Hills,-101.36500000000001,41.881,NE,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Nebraska_Shape.zip,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+657,Deer Lake Bog,-71.833333,44.033333,NA,NA,NA,NA,NA,NA,NA
+757,Eagle Lake Bog,-71.666667,44.166667,NA,NA,NA,NA,NA,NA,NA
+1481,Kinsman Pond,-71.733333,44.133333,NA,NA,NA,NA,NA,NA,NA
+1607,Lonesome Lake,-71.701111,44.14,NA,NA,NA,NA,NA,NA,NA
+1615,Lost Pond,-71.251389,44.246944,NA,NA,NA,NA,NA,NA,NA
+11804,HF077 Cental Plot,-72.4211,42.82814,NA,NA,NA,NA,NA,NA,NA
+11805,Lost Swamp,-72.4211,42.82814,NA,NA,NA,NA,NA,NA,NA
+11808,HF077 South Plot,-72.4211,42.82814,NA,NA,NA,NA,NA,NA,NA
+819,Forge Pond,-74.399167,40.855833,NA,NA,NA,NA,NA,NA,NA
+953,Green Pond,-74.49534,41.005055,NA,NA,NA,NA,NA,NA,NA
+998,Helmetta Bog,-74.433333,40.383333,NA,NA,NA,NA,NA,NA,NA
+2531,Swartswood Lake,-74.83698000000001,41.072335,NA,NA,NA,NA,NA,NA,NA
+2533,Szabo Pond,-74.483333,40.4,NA,NA,NA,NA,NA,NA,NA
+2936,Woodcliff Lake,-74.03,41.02,NA,NA,NA,NA,NA,NA,NA
+10415,White Lake,-74.91347,40.999669999999995,NA,NA,NA,NA,NA,NA,NA
+13583,Lake Grinnell,-74.63963,41.098185,NA,NA,NA,NA,NA,NA,NA
+655,Dead Man Lake,-108.951667,36.2375,NA,NA,NA,NA,NA,NA,NA
+655,Dead Man Lake,-108.951667,36.2375,NA,NA,NA,NA,NA,NA,NA
+1609,Long Lake,-108.833333,36.005556,NA,NA,NA,NA,NA,NA,NA
+1661,Mayberry Well,-108.3,33.7,NA,NA,NA,NA,NA,NA,NA
+2260,San Agustin Plains,-108.25,33.866667,NA,NA,NA,NA,NA,NA,NA
+2260,San Agustin Plains,-108.25,33.866667,NA,NA,NA,NA,NA,NA,NA
+2260,San Agustin Plains,-108.25,33.866667,NA,NA,NA,NA,NA,NA,NA
+2800,Utricularia Lake,-108.808333,35.968889,NA,NA,NA,NA,NA,NA,NA
+2853,Whiskey Lake,-108.810833,35.981944,NA,NA,NA,NA,NA,NA,NA
+10191,Stewart Bog,-105.722,35.832,NA,NA,NA,NA,NA,NA,NA
+11773,Sentinel Butte,-108.618,31.441,NA,NA,NA,NA,NA,NA,NA
+11774,Coyote Hills,-108.504166666667,32.0027777777778,NA,NA,NA,NA,NA,NA,NA
+13680,Chihuahuenos Bog,-106.5085,36.047,NA,NA,NA,NA,NA,NA,NA
+14147,Paa-ko,-106.312,35.2085,NA,NA,NA,NA,NA,NA,NA
+14147,Paa-ko,-106.312,35.2085,NA,NA,NA,NA,NA,NA,NA
+14147,Paa-ko,-106.312,35.2085,NA,NA,NA,NA,NA,NA,NA
+14147,Paa-ko,-106.312,35.2085,NA,NA,NA,NA,NA,NA,NA
+14147,Paa-ko,-106.312,35.2085,NA,NA,NA,NA,NA,NA,NA
+249,Belmont Bog,-77.916667,42.25,NA,NA,NA,NA,NA,NA,NA
+303,Brandreth Bog,-74.683333,43.916667,NA,NA,NA,NA,NA,NA,NA
+317,Burden Lake,-73.566667,42.604167,NA,NA,NA,NA,NA,NA,NA
+482,Clear Pond,-74.016955,43.748575,NA,NA,NA,NA,NA,NA,NA
+563,West Sand Lake Peat Bog,-73.6,42.633333,NA,NA,NA,NA,NA,NA,NA
+728,Heart Lake,-73.9675,44.180556,NA,NA,NA,NA,NA,NA,NA
+745,Upper Wallface Pond,-74.054167,44.146389,NA,NA,NA,NA,NA,NA,NA
+803,Fernbank Interglacial,-76.62,42.55,NA,NA,NA,NA,NA,NA,NA
+1080,Houghton Bog,-78.670278,42.541667,NA,NA,NA,NA,NA,NA,NA
+1604,Lockport Gulf Section,-78.716667,43.166667,NA,NA,NA,NA,NA,NA,NA
+1741,Nichols Brook Site,-78.478889,42.544722,NA,NA,NA,NA,NA,NA,NA
+1741,Nichols Brook Site,-78.478889,42.544722,NA,NA,NA,NA,NA,NA,NA
+1774,"Lake Ontario, Rochester Basin",-76.9,43.51,NA,NA,NA,NA,NA,NA,NA
+1775,"Lake Ontario, Mississauga Basin",-78.15,43.556667,NA,NA,NA,NA,NA,NA,NA
+1914,Protection Bog,-78.466667,42.622222,NA,NA,NA,NA,NA,NA,NA
+2508,Spruce Pond,-74.1833,41.236869999999996,NA,NA,NA,NA,NA,NA,NA
+2527,Sutherland Pond,-74.037778,41.391389,NA,NA,NA,NA,NA,NA,NA
+2805,Valhalla Hollow,-74.370833,44.308611,NA,NA,NA,NA,NA,NA,NA
+2863,Winter Gulf Site,-78.933889,42.561111,NA,NA,NA,NA,NA,NA,NA
+5803,Hiscock Site,-78,43,NA,NA,NA,NA,NA,NA,NA
+10106,South Dansville Buried Peat,-77.64099999999999,42.49185,NA,NA,NA,NA,NA,NA,NA
+10155,Byron-Bergen Swamp (Site 2),-78.002715,43.09816,NA,NA,NA,NA,NA,NA,NA
+10157,Byron-Bergen Swamp (Site 1),-78.014515,43.09791,NA,NA,NA,NA,NA,NA,NA
+10180,Kernochan Bog,-74.9125,41.619,NA,NA,NA,NA,NA,NA,NA
+10182,State Line Swamp,-73.49549999999999,42.328,NA,NA,NA,NA,NA,NA,NA
+10186,Balsam Lake,-74.60420500000001,42.028785,NA,NA,NA,NA,NA,NA,NA
+10187,Gayhead Vly,-73.9735,42.3485,NA,NA,NA,NA,NA,NA,NA
+10188,Heart's Content Bog,-73.975,42.2405,NA,NA,NA,NA,NA,NA,NA
+10189,Maple Lake,-74.75772,41.93542,NA,NA,NA,NA,NA,NA,NA
+10190,South Lake,-74.045885,42.19727,NA,NA,NA,NA,NA,NA,NA
+10280,Devil's Bathtub,-77.57376,43.02469,NA,NA,NA,NA,NA,NA,NA
+10287,Allenberg Bog,-78.878,42.251999999999995,NA,NA,NA,NA,NA,NA,NA
+10348,Goose Bay Marsh,-75.87042,44.351135,NA,NA,NA,NA,NA,NA,NA
+10422,Divers Lake,-78.39924500000001,43.04099,NA,NA,NA,NA,NA,NA,NA
+10424,Ballston Lake,-73.85325,42.94975,NA,NA,NA,NA,NA,NA,NA
+10515,Binnewater Pond,-74.551335,41.40935,NA,NA,NA,NA,NA,NA,NA
+10516,Hyde Park,-73.90115,41.78575,NA,NA,NA,NA,NA,NA,NA
+10517,Otisville,-74.5244,41.47025,NA,NA,NA,NA,NA,NA,NA
+10518,Pawelski Farm,-74.43065,41.33395,NA,NA,NA,NA,NA,NA,NA
+11607,Piermont Marsh,-73.908375,41.027635000000004,NA,NA,NA,NA,NA,NA,NA
+751,Rockyhock Bay,-76.683333,36.166667,NA,NA,NA,NA,NA,NA,NA
+10103,Fort Bragg (core PAW2),-79.089805,35.173545000000004,NA,NA,NA,NA,NA,NA,NA
+11591,Panthertown Creek Bog,-83.0251069444444,35.1666177777778,NA,NA,NA,NA,NA,NA,NA
+665,"Devils Lake, Main Bay",-98.95059499999999,48.031535000000005,NA,NA,NA,NA,NA,NA,NA
+1222,Spiritwood Lake,-98.5866,47.074695000000006,NA,NA,NA,NA,NA,NA,NA
+1703,Mirror Pool,-97.241389,46.525833,NA,NA,NA,NA,NA,NA,NA
+1711,Moon Lake,-98.15984,46.85592,NA,NA,NA,NA,NA,NA,NA
+1990,Rice Lake,-101.53972,48.009420000000006,NA,NA,NA,NA,NA,NA,NA
+2284,Seminary Site,-96.758333,46.925,NA,NA,NA,NA,NA,NA,NA
+2938,Woodworth Pond,-99.233333,47.15,NA,NA,NA,NA,NA,NA,NA
+9717,"Devils Lake, Creel Bay",-98.92935,48.085899999999995,NA,NA,NA,NA,NA,NA,NA
+10080,Wendel site,-98.28941,46.433115,NA,NA,NA,NA,NA,NA,NA
+10285,Tipi Ring Site (32OL270),-101.34899999999999,47.221000000000004,NA,NA,NA,NA,NA,NA,NA
+13455,Kettle Lake,-103.62398999999999,48.607119999999995,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+804,Ferndale Bog,-95.808333,34.405556,OK,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Oklahoma_Shape.zip,NA
+804,Ferndale Bog,-95.808333,34.405556,OK,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Oklahoma_Shape.zip,NA
+1732,Natural Lake,-95.386111,34.663333,OK,Sardis Lake,01763657,54.28630966,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Oklahoma_Shape.zip,5428.630966
+NA,NA,NA,NA,Oregon_NoSites,NA,NA,NA,NA,NA,NA
+268,Big Pond,-78.55,39.766667,PA,NA,NA,NA,102.32231502693567,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+510,Crider's Pond,-77.55,39.966667,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+775,Ely Lake,-75.833333,41.766667,PA,NA,NA,NA,0.5342184378079949,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+807,First Pond,-75.026667,41.135278,PA,First Pond,01174792,0.295,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,29.5
+844,Giles Lake,-75.093333,41.376111,PA,Lake Giles,01198799,0.47539514,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,47.539514
+1530,Lake Lacawac,-75.292778,41.381944,PA,Lake Lacawac,01199890,0.207,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,20.7
+1610,Longswamp,-75.666667,40.483333,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+1789,Panther Run Pond,-77.416667,40.8,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+2212,Rose Lake,-77.925,41.916667,PA,NA,NA,NA,2.1653296040148597,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+2304,Silver Lake,-74.98612,41.251819999999995,PA,Silver Lake,01193364,0.56,103.93134791879784,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,56.00000000000001
+2507,Spring Lake,-76.35,41.673889,PA,NA,NA,NA,241.76119607747384,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+2536,Tannersville Bog,-75.266667,41.033333,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+2536,Tannersville Bog,-75.266667,41.033333,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+10178,Bear Meadows Bog,-77.7575,40.7315,PA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,NA
+10181,Mount Davis Marsh,-79.2125,39.7785,PA,High Point Lake,01177011,1.12261316,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Pennsylvania_Shape.zip,112.261316
+331,Carbuncle Pond,-71.783333,41.7,NA,NA,NA,NA,NA,NA,NA
+826,Fresh Pond,-71.575,41.158333,NA,NA,NA,NA,NA,NA,NA
+1656,Mashapaug Pond,-71.433333,41.783333,NA,NA,NA,NA,NA,NA,NA
+1797,Pasacaco Pond,-71.45,41.516667,NA,NA,NA,NA,NA,NA,NA
+480,Clear Pond,-78.95336,33.798895,NA,NA,NA,NA,NA,NA,NA
+2839,White Pond,-80.77616,34.16759,NA,NA,NA,NA,NA,NA,NA
+10231,Ocean Drilling Program Site 1059 MIS 5 (Core 5),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10231,Ocean Drilling Program Site 1059 MIS 5 (Core 5),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10231,Ocean Drilling Program Site 1059 MIS 5 (Core 5),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+10232,Ocean Drilling Program Site 1059 MIS 5 (Core 4),-75.53,31.735,NA,NA,NA,NA,NA,NA,NA
+500,Cottonwood Lake,-99.90806,44.835435000000004,NA,NA,NA,NA,NA,NA,NA
+1676,Medicine Lake,-97.35012499999999,44.98419,NA,NA,NA,NA,NA,NA,NA
+1676,Medicine Lake,-97.35012499999999,44.98419,NA,NA,NA,NA,NA,NA,NA
+1813,Pickerel Lake,-97.27683,45.501374999999996,NA,NA,NA,NA,NA,NA,NA
+2211,Rosebud,-100.848611,43.229167,NA,NA,NA,NA,NA,NA,NA
+2211,Rosebud,-100.848611,43.229167,NA,NA,NA,NA,NA,NA,NA
+203,Anderson Pond,-85.50131999999999,36.03015,TN,NA,NA,0.19,191.9657018654295,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,19
+203,Anderson Pond,-85.50131999999999,36.03015,TN,NA,NA,0.19,191.9657018654295,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,19
+272,Black Pond,-84.186667,35.620833,TN,NA,NA,NA,105.5620214013903,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,NA
+1107,Icehouse Bottom [40MR23],-84.191667,35.588333,TN,Tellico Lake,01327191,61.33647955,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,6133.647955
+1757,Nonconnah Creek [TN-1],-89.9166666666667,35.0833333333333,TN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,NA
+2292,Shady Valley Bog,-81.933333,36.525,TN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,NA
+2578,Tuskegee Pond,-84.210556,35.584722,TN,Tellico Lake,01327191,61.33647955,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,6133.647955
+14155,Upper Cumberland Plateau Pond,-84.968925,36.34462,TN,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Tennessee_Shape.zip,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+244,Bechan Cave,-110.866666666667,37.3666666666667,UT,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+244,Bechan Cave,-110.866666666667,37.3666666666667,UT,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+827,Frying Pan Lake,-111.666667,38.616667,UT,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+1905,Posy Lake,-111.7,37.95,UT,NA,NA,NA,1.2645682404471736,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+4607,Natural Bridges National Monument,-110,37.5,UT,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+9814,Alpine Pond,-112.82445999999999,37.63632,UT,NA,NA,NA,0.016983785066916213,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+9814,Alpine Pond,-112.82445999999999,37.63632,UT,NA,NA,NA,0.016983785066916213,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+9830,Lowder Creek Bog,-112.79224500000001,37.67214,UT,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,NA
+10195,Blue Lake Wetlands,-114.031395,40.49996,UT,NA,NA,22.962,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,2296.2
+13683,Purple Lake,-111.57115,38.074380000000005,UT,Purple Lake,01431503,0.05945531,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Utah_Shape.zip,5.945531
+NA,NA,NA,NA,Vermont_NoSites,NA,NA,NA,NA,NA,NA
+309,Browns Pond,-79.616389,38.154722,VA,NA,NA,NA,0.03209649779408039,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Virginia_Shape.zip,NA
+679,Dismal Swamp (91),-76.45,36.583333,VA,NA,NA,467.529369,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Virginia_Shape.zip,46752.9369
+968,Hack Pond,-78.997222,37.984722,VA,NA,NA,0.02,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Virginia_Shape.zip,2
+1907,Potts Mountain Pond,-80.133333,37.6,VA,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Virginia_Shape.zip,NA
+1936,Quarles Pond,-79.072222,37.995833,VA,Lake Quarles,01739656,0.02069963,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Virginia_Shape.zip,2.069963
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+505,Cranberry Glades,-80.283333,38.2,NA,NA,NA,NA,NA,NA,NA
+10179,Cranesville Pine Swamp,-79.5295,39.5355,NA,NA,NA,NA,NA,NA,NA
+196,Hell's Kitchen Lake,-89.702685,46.186930000000004,WI,Hells Kitchen Lake,01579429,0.03,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,3
+197,Lake Mary,-89.9,46.25,WI,NA,NA,NA,434.42108393345995,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+281,Blue Mounds Creek,-89.866667,43.083333,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+306,Brown Lake,-89.483333,45.783333,WI,NA,NA,NA,48.08489331589762,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+326,Camp 12 Lake,-89.375,45.986111,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+531,Dark Lake,-91.475,45.275,WI,NA,NA,NA,0.01705339875296494,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+663,Denton Lake,-89.316667,45.85,WI,NA,NA,NA,26.03705067425066,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+666,Devils Lake,-89.73205,43.4178,WI,Devils Lake,01563937,1.515,314.3456878710421,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,151.5
+680,Disterhaft Farm Bog,-89.166944,43.916944,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+680,Disterhaft Farm Bog,-89.166944,43.916944,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+786,Ernst Brother's Pit,-88.041944,43.233056,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+833,Gass Lake,-87.733333,44.05,WI,NA,NA,NA,0.33252542244130157,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+973,Hansen Marsh,-89.670815,43.439585,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1117,Iola Bog,-89.116944,44.5,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1410,Kellys Hollow,-90.35,45.3,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1410,Kellys Hollow,-90.35,45.3,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1411,Kellners Lake,-87.848056,44.238056,WI,NA,NA,NA,0.08530437238532662,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1593,Little Pine Lake,-91.483333,45.283333,WI,Little Pine Lake,01568358,0.043,200.09908109019202,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,4.3
+1645,Stewart's Dark Lake,-91.45,45.3,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1679,Lake Mendota,-89.416667,43.1,WI,Lake Mendota,01569337,39.612,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,3961.2000000000003
+1679,Lake Mendota,-89.416667,43.1,WI,Lake Mendota,01569337,39.612,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,3961.2000000000003
+1781,Otto Mielke Lake,-89.625,45.933333,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+1944,Radtke Lake,-88.1,43.4,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+2231,Ruby Lake,-91.458333,45.283333,WI,NA,NA,NA,1.1165762881165127,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+2274,Seidel,-87.515556,44.45,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+2274,Seidel,-87.515556,44.45,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+2534,Tamarack Creek,-91.45,44.15,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+2937,Wood Lake,-90.083333,45.333333,WI,NA,NA,NA,157.1683314899492,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+8567,Adeline Lake,-91.166,46.30235,WI,NA,NA,NA,0.024642079468056383,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+8572,Elevenses Lake,-91.4935,46.3815,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+8573,Eska Lake,-90.608,45.19145,WI,Eska Lake,01579217,0.042,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,4.2
+8574,Fallison Lake,-89.62075,45.9915,WI,NA,NA,0.206,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,20.599999999999998
+9768,Hell Hole Lake,-92.21898,45.786564999999996,WI,NA,NA,0.019,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,1.9
+10082,Trout Lake,-89.67671,46.030339999999995,WI,Trout Lake,01575673,15.651,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,1565.1
+10160,Emrick Lake,-89.59428,43.800155000000004,WI,Emrick Lake,01564645,0.131,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,13.100000000000001
+10226,Adventure Lake,-91.939,46.089,WI,NA,NA,NA,0.00220244065342823,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+10229,Benach Lake,-92.256,45.927499999999995,WI,Benach Lake,01561554,0.061,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,6.1
+10233,BlueJ Lake,-91.525,46.405,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+10234,Brozie Lake,-92.10745,45.959334999999996,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+10235,Camp Two Lake,-91.4105,46.50045,WI,Camp Two Lake,01578943,0.095,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,9.5
+10240,Ferry Lake,-92.125,46.013000000000005,WI,Ferry Lake,01564923,0.064,157.10965941745292,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,6.4
+10352,Hemlock Lake,-91.19829,46.3073,WI,NA,NA,0.023,140.85786562132722,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,2.3
+10412,Warner Lake,-92.03985,46.11935,WI,Warner Lake,01576217,0.093,131.3888184056203,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,9.3
+10431,Lake O' Pines,-89.2553,46.140435,WI,Lake O' Pines,01579615,0.04,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,4
+10506,Lima Bog,-88.8432,42.78895,WI,NA,NA,NA,NA,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,NA
+11563,Capitola Lake,-89.55507,45.519575,WI,Capitola Lake,01562710,0.019,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,1.9
+11602,Beaver Lake,-88.15693999999999,44.919595,WI,Beaver Lake,01561463,0.036,289.84361795686146,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,3.5999999999999996
+13348,Lone Star Lake,-92.36500000000001,45.932,WI,Lone Star Lake,01568515,0.085,0,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,8.5
+13349,Lily Lake,-92.273,45.900999999999996,WI,Lily Lake,01568052,0.083,328.7947753141324,http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Wisconsin_Shape.zip,8.3
+NA,NA,NA,NA,Wyoming_NoSites,NA,NA,NA,NA,NA,NA

@@ -24,6 +24,7 @@ The first step was time-consuming.  All pollen cores from Canada and the United 
 library(purrr)
 library(dplyr)
 library(reshape2)
+library(sf)
 
 version <- '1.0'
 
@@ -212,7 +213,7 @@ new_coords <- data.frame( stid = try_lakes$stid,
                          delta = sqrt((try_lakes$lat - st_coordinates(try_lakes)[,2])^2 + 
                                         (try_lakes$long - st_coordinates(try_lakes)[,1])^2))
 
-all_lakes <- recorded_lakes %>% 
+all_lakes <- recorded_lakes %>%
   left_join(new_coords, "stid")
 
 all_lakes$long <- ifelse(is.na(all_lakes$X), all_lakes$long, all_lakes$X)
@@ -238,6 +239,8 @@ leaflet(all_lakes[moved,]) %>%
     addLegend("bottomright", pal = pal, values = ~delta,
     title = "Distance Moved",
     opacity = 1)
+
+all_lakes
 ```
 
 A total of `r sum(all_lakes$delta > 0, na.rm = TRUE)` records have changed locations.  Of these lakes `r sum(all_lakes$delta > 0 & (!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` have both moved coordinates and reported areas.  A total of `r sum((!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` lakes have reported area.
