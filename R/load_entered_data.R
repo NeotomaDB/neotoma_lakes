@@ -10,7 +10,7 @@ load_lakes <- function() {
     if (stringr::str_detect(all_files[i], 'csv')) {
       input_file <- readr::read_csv(all_files[i]) %>% 
         filter(!is.na(edited)) %>% 
-        distinct(stid, edited, notes, area, X, Y, lat, long) %>% 
+        distinct(stid, edited, notes, area, X, Y, lat, long, type) %>% 
         as.data.frame()
       
       if (any(c('X', 'Y') %in% colnames(input_file))) {
@@ -29,10 +29,13 @@ load_lakes <- function() {
         colnames(input_file)[which(colnames(input_file) == "Notes")] <- 'notes'
         colnames(input_file)[which(colnames(input_file) == "AREAHA")] <- 'area'
       }
+      if("DepType" %in% colnames(input_file)) {
+        colnames(input_file)[which(colnames(input_file) == "DepType")] <- 'type'
+      }
       
       input_file <- input_file %>% 
         filter(!is.na(edited)) %>% 
-        select(stid, edited, notes, area)
+        select(stid, edited, notes, area, contains("type", ignore.case = FALSE))
     }
     
     input_file$area[input_file$area == 0] <- NA
@@ -40,8 +43,10 @@ load_lakes <- function() {
     tests[[i]] <- input_file
   }
 
-  all_tests <- do.call(rbind, tests) %>% 
-    unique()
+  all_tests <- tests %>% 
+    plyr::ldply() %>% 
+    arrange(type) %>% 
+    distinct(stid, edited, notes, area, .keep_all = TRUE)
   
   return(all_tests)
 }
