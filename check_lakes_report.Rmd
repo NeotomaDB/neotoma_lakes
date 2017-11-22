@@ -5,6 +5,9 @@ date: "July 16, 2017"
 output: 
   html_document:
     self_contained: true
+    code_folding: hide
+    toc: true
+    toc_float: true
 ---
 
 ## Status of Lake Records in Neotoma
@@ -19,14 +22,15 @@ Bailey Zak and Claire Rubblike have been processing a number of lake sites from 
 
 The first step was time-consuming.  All pollen cores from Canada and the United States were pulled from Neotoma, along with the chronological controls for each record.  The chronological controls were used to help prioritize reconstruction, since the current effort is largely focused on the reconstruction of "high quality" sites.
 
-```{r lakedata, cache=FALSE}
+```{r lakedata, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
 
 library(purrr)
 library(dplyr)
 library(reshape2)
 library(sf)
+library(leaflet)
 
-version <- '1.0'
+version <- '1.1'
 
 if (!length(list.files('data', pattern = paste0('*version_', version))) > 0) {
   
@@ -87,8 +91,7 @@ To do this we have to use `scp`, or secure copy, to move the file over onto the 
 
 Direct matches occur when a Neotoma site lies directly over top of a record in the Canadian or United States NHD.  These records are tagged with the unique identifier for the lake. Here records with positive matches are indicated in red and those without are indicated in black:
 
-```{r, loadLakeData, echo=FALSE, message=FALSE}
-library(leaflet)
+```{r, loadLakeData, echo=FALSE, message=FALSE, results='hide'}
 
 ca_lakes <- readr::read_csv('data/ca_lakes.csv')
 us_lakes <- readr::read_csv('data/usa_lakes.csv')
@@ -103,8 +106,8 @@ recorded_lakes <- data.frame(site.name = c(ca_lakes$site.name, us_lakes$site.nam
 
 recorded_lakes <- recorded_lakes %>% filter(long < 0)
 
-recorded_lakes$color   <- 'red'
-recorded_lakes$color[recorded_lakes$linked] <- 'blue'
+recorded_lakes$color   <- ifelse(recorded_lakes$linked, 'blue', 'red')
+
 recorded_lakes$opactiy <- c(0.6, 0.2)[match(recorded_lakes$color, c('red', 'black'))]
 recorded_lakes$popup   <- paste0('<b>',recorded_lakes$site.name,'</b><hr>',
                                  '<a href=http://apps.neotomadb.org/explorer/?siteids=',
@@ -178,7 +181,7 @@ leaflet(edited_lakes) %>%
 
 This results in a dataset of `r nrow(edited_lakes)`, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations, and `r sum(edited_lakes$area > 0 | !is.na(edited_lakes$oarea), na.rm = TRUE)` lakes have recorded areas.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!unique(recorded_lakes$stid) %in% unique(edited_lakes$stid))` lakes to work through.
 
-```{r, generateMissing, echo = FALSE, warning=FALSE}
+```{r, generateMissing, echo = FALSE, warning=FALSE, results='hide'}
 
 new_output <- data.frame(stid = c(us_lakes$SiteID, ca_lakes$SiteID),
                          name = c(us_lakes$site.name, ca_lakes$site.name),
@@ -214,7 +217,7 @@ sf::write_sf(new_output, paste0('data/version_1.0/dataset_',version,'.shp'), del
 
 ### Changes in Location
 
-```{r, locationChangeCSVOutput, echo = FALSE}
+```{r, locationChangeCSVOutput, echo = FALSE, warning=FALSE}
 
 try_lakes <- edited_lakes
 
@@ -271,7 +274,7 @@ A total of `r sum(all_lakes$delta > 0, na.rm = TRUE)` records have changed locat
 
 ### Changes in Area:
 
-```{r, echo = FALSE}
+```{r, areaChanges, echo = FALSE, warning=FALSE}
 
 area_lakes <- all_lakes %>% 
   filter(!is.na(area) | !is.na(oarea))
@@ -302,7 +305,7 @@ A total of `r sum(!area_lakes$delta == 0, na.rm = TRUE)` records (of the `r nrow
 
 ### Editing Categories:
 
-```{r, echo = FALSE}
+```{r, editCategories, echo = FALSE, warning=FALSE}
 
 edited_lakes <- edited_lakes %>% st_sf(., sf_column_name = "geometry") %>% 
   filter(!is.na(edited) | !edited == 0)
@@ -322,3 +325,4 @@ leaflet(edited_lakes) %>%
 
 ```
 
+These are the editing categories.
