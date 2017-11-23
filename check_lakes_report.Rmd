@@ -32,7 +32,7 @@ library(leaflet)
 
 version <- '1.1'
 
-if (!length(list.files('data', pattern = paste0('*version_', version))) > 0) {
+if (!length(list.files(paste0('data/version_',version))) > 0) {
   
   dir.create(paste0('data/version_', version))
   
@@ -74,9 +74,11 @@ if (!length(list.files('data', pattern = paste0('*version_', version))) > 0) {
   control_output <- chron_table %>% bind_rows()
   
   readr::write_csv(control_output, 
-                   paste0('data/chron_control_status_version_', version, '.csv'))
+                   paste0('data/version_',version,',/chron_control_status_version_', version, '.csv'))
 } else {
-  control_output <- readr::read_csv(paste0('data/chron_control_status_version_', version, '.csv'))
+  control_output <- readr::read_csv(paste0('data/version_',
+                                           version,
+                                           '/chron_control_status_version_', version, '.csv'))
 }
 
 ```
@@ -209,7 +211,7 @@ leaflet(new_output) %>%
   addTiles() %>% 
   addCircleMarkers(popup = ~name)
 
-sf::write_sf(new_output, paste0('data/version_1.0/dataset_',version,'.shp'), delete_layer = TRUE)
+sf::write_sf(new_output, paste0('data/version_',version,'/dataset_',version,'.shp'), delete_layer = TRUE)
 
 ```
 
