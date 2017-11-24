@@ -8,11 +8,12 @@ output:
     code_folding: hide
     toc: true
     toc_float: true
+    css: css/sjg_markdown.css
 ---
 
 ## Status of Lake Records in Neotoma
 
-Neotoma contains records from a number of lakes, some of which have reported areas, many from legacy publications.  In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
+Neotoma contains records from a number of lakes, some of which have reported areas, many from legacy publications. In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
 
 ## Load in the records
 
@@ -32,9 +33,11 @@ library(leaflet)
 
 version <- '1.1'
 
-if (!length(list.files(paste0('data/version_',version))) > 0) {
-  
+if (!paste0('version_', version) %in% list.files('data')) {
   dir.create(paste0('data/version_', version))
+}
+
+if (!paste0('chron_control_status_version_', version, '.csv') %in% list.files(paste0('data/version_',version))) {
   
   all_ds <- neotoma::bind(neotoma::get_dataset(datasettype = 'pollen', 
                                                gpid = 'Canada'),
@@ -74,7 +77,7 @@ if (!length(list.files(paste0('data/version_',version))) > 0) {
   control_output <- chron_table %>% bind_rows()
   
   readr::write_csv(control_output, 
-                   paste0('data/version_',version,',/chron_control_status_version_', version, '.csv'))
+                   paste0('data/version_',version,'/chron_control_status_version_', version, '.csv'))
 } else {
   control_output <- readr::read_csv(paste0('data/version_',
                                            version,
@@ -320,7 +323,7 @@ leaflet(edited_lakes) %>%
   addTiles() %>% 
   addCircleMarkers(fillColor = ~pal(edited), 
                    color =  ~pal(edited),
-                   radius = 3) %>% 
+                   radius = 3) %>%
   addLegend("bottomright", pal = pal, values = ~edited,
     title = "Edit Class",
     opacity = 1)
