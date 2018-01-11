@@ -1,9 +1,9 @@
 ---
 title: "Checking the progress of site analysis"
 author: "Simon Goring"
-date: "July 16, 2017"
 output: 
   html_document:
+    output: index.html
     self_contained: true
     code_folding: hide
     toc: true
@@ -69,7 +69,7 @@ if (!paste0('chron_control_status_version_', version, '.csv') %in% list.files(pa
                                      type_count,
                                      avg_int = avg_interval,
                                      max_int = max_interval) %>% 
-        dcast(dsid + stid + avg_int + max_int + controls ~ control.type, value.var = 'n')
+        dcast(dsid + stid + avg_int + max_int + controls + ~ control.type, value.var = 'n')
         
     }
   }
@@ -86,7 +86,7 @@ if (!paste0('chron_control_status_version_', version, '.csv') %in% list.files(pa
 
 ```
 
-This code block provides a list of all pollen datasets in Neotoma along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `ncol(control_output)` columns.
+This code block provides a list of all pollen datasets in Neotoma along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `r ncol(control_output)` columns.
 
 A secondary process is then run across all lakes in the Canadian [CanVec – Hydro Features](http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056) and the [United States Hydrolography Dataset](https://nhd.usgs.gov/NHD_High_Resolution.html) to obtain "best fit" matches for lakes. The script, which uses the [`sp` package](https://cran.r-project.org/web/packages/sp/index.html) to overlay the points over lake polygons is contained in the files `R/GetLakeAreas_usa.R` and `R/GetLakeAreas_canada.R`.  State-level shapefles are very large for some states, and as such this is a time and resource consuming process.  We run this step on the Pensylvannia State University's Center for Environmental Informatics server.  The result is a `data.frame` with columns that are indexed using the `siteid`.
 
@@ -306,28 +306,5 @@ leaflet(area_lakes) %>%
     opacity = 1)
 ```
 
-A total of `r sum(!area_lakes$delta == 0, na.rm = TRUE)` records (of the `r nrow(area_lakes)` total lakes) have changed areas.  Of these lakes, `r sum(is.na(area_lakes$oarea) & !is.na(area_lakes$area))` have areas where area had not been previously assigned.
+A total of `r sum(!area_lakes$delta == 0, na.rm = TRUE)` records (of the `r nrow(area_lakes)` total lakes) have changed areas.  Of these lakes, `r sum(is.na(area_lakes$oarea) & !is.na(area_lakes$area))` have areas where area had not been previously assigned.  Many of the legacy records are located in the Midwestern United States, and as such, there is a high density of sites that have now successfully been aligned through this process.
 
-### Editing Categories:
-
-```{r, editCategories, echo = FALSE, warning=FALSE}
-
-edited_lakes <- edited_lakes %>% st_sf(., sf_column_name = "geometry") %>% 
-  filter(!is.na(edited) | !edited == 0)
-
-pal <- colorFactor(
-  palette = "viridis",
-  domain = edited_lakes$edited)
-
-leaflet(edited_lakes) %>%
-  addTiles() %>% 
-  addCircleMarkers(fillColor = ~pal(edited), 
-                   color =  ~pal(edited),
-                   radius = 3) %>%
-  addLegend("bottomright", pal = pal, values = ~edited,
-    title = "Edit Class",
-    opacity = 1)
-
-```
-
-These are the editing categories.
