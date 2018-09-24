@@ -37,7 +37,8 @@ if (!paste0('version_', version) %in% list.files('data')) {
   dir.create(paste0('data/version_', version))
 }
 
-if (!paste0('chron_control_status_version_', version, '.csv') %in% list.files(paste0('data/version_',version))) {
+if (!paste0('chron_control_status_version_', version, '.csv') %in% 
+    list.files(paste0('data/version_',version))) {
   
   all_ds <- neotoma::bind(neotoma::get_dataset(datasettype = 'pollen', 
                                                gpid = 'Canada'),
@@ -172,19 +173,19 @@ pal <- colorFactor(
   palette = "viridis",
   domain = factor(edited_lakes$edited))
 
-leaflet(edited_lakes) %>% 
-  addTiles() %>% 
+leaflet(edited_lakes) %>%
+  addTiles() %>%
   addCircleMarkers(lat = ~lat, 
                    lng = ~long,
                    color = ~pal(factor(edited)),
-                   popup = ~popup) %>% 
+                   popup = ~popup) %>%
   addLegend("bottomright", pal = pal, values = ~factor(edited),
     title = "Edit Status",
     opacity = 1)
 
 ```
 
-This results in a dataset of `r nrow(edited_lakes)`, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations, and `r sum(edited_lakes$area > 0 | !is.na(edited_lakes$oarea), na.rm = TRUE)` lakes have recorded areas.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!unique(recorded_lakes$stid) %in% unique(edited_lakes$stid))` lakes to work through.
+This results in a dataset of `r nrow(edited_lakes)`, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations, and `r sum(edited_lakes$area > 0 | !is.na(edited_lakes$oarea), na.rm = TRUE)` lakes have recorded, or edited areas.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!unique(recorded_lakes$stid) %in% unique(edited_lakes$stid))` lakes to work through.
 
 ```{r, generateMissing, echo = FALSE, warning=FALSE, results='hide'}
 
@@ -195,11 +196,11 @@ new_output <- data.frame(stid = c(us_lakes$SiteID, ca_lakes$SiteID),
                          area = c(us_lakes$AREAHA, ca_lakes$lake_area_ha)) %>% 
   dplyr::left_join(control_output, by = 'stid')
 
-new_output <- new_output %>% 
-  filter(!stid %in% edited_lakes$stid) %>% 
-  filter(long < 0 & !is.na(long)) %>% 
-  arrange(controls) %>% 
-  distinct(stid, .keep_all = TRUE) %>% 
+new_output <- new_output %>%
+  filter(!stid %in% edited_lakes$stid) %>%
+  filter(long < 0 & !is.na(long)) %>%
+  arrange(controls) %>%
+  distinct(stid, .keep_all = TRUE) %>%
   st_as_sf(coords = c('long', 'lat'), crs = 4326)
 
   new_output$area <- ''
@@ -230,7 +231,7 @@ new_coords <- data.frame( stid = try_lakes$stid,
                           st_coordinates(try_lakes$geometry),
                           area = try_lakes$area,
                           type = try_lakes$type,
-                         delta = sqrt((try_lakes$lat - st_coordinates(try_lakes$geometry)[,2])^2 + 
+                         delta = sqrt((try_lakes$lat - st_coordinates(try_lakes$geometry)[,2])^2 +
                                         (try_lakes$long - st_coordinates(try_lakes$geometry)[,1])^2))
 
 all_lakes <- recorded_lakes %>%
