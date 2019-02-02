@@ -1,7 +1,7 @@
 stid,dsid,site.name,lat,long,edited,notes,area,type,delta
-1598,1649,Lake of the Clouds,48,-91.116667,1,Confirmed lake: site description; Area: Swain 1973,12,Lacu,0.143
+1598,3482,Lake of the Clouds,48,-91.116667,1,Confirmed lake: site description; Area: Swain 1973,12,Lacu,0.143
 5803,15929,Hiscock Site,43.084999651797965,-78.08115574299458,1,Confirmed site with publication (McAndrews 2003) and changed area,12,Palu,0.118
-2241,3608,Sagehen Marsh,37.50667323060378,-108.5688611303411,1,"Confirmed site with pub (Peterson et al, 1994), changed are",79,Palu,0.073
+2241,3609,Sagehen Marsh,37.50667323060378,-108.5688611303411,1,"Confirmed site with pub (Peterson et al, 1994), changed are",79,Palu,0.073
 534,550,Davis Lake,46.540969056298984,-122.24944489829656,1,Seemed quite far off.  From Barnowsky paper.,3,Lacu,0.051
 1823,16231,Perch Lake,46.033445673581696,-77.37519317990915,1,Moved based on paper & google map search.,31,Lacu,0.035
 324,331,Camel Lake,30.27487791053863,-84.98923875943306,1,"Confirmed site with Google Earth, changed area",35,Lacu,0.029
@@ -39,7 +39,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 826,852,Fresh Pond,41.160208343764815,-71.57873632531813,1,"Confirmed site with Google Earth, changed area",28,Lacu,0.004
 11584,17347,St. Lawrence Island Section 3,63.67350942955655,-171.58641282332368,1,"Confirmed site with pub (Lozhkin et al, 1998), Peat Exposure",87,Palu,0.004
 1759,1817,North Pond,42.65,-73.05,1,"Confirmed Lake, Changed Area",15,NA,0.004
-1544,1584,Lake Ann,45.425,-93.6875,2,"Confirmed lake: descripiton, Keen and Shane 1990",58,Lacu,0.003
+1544,3468,Lake Ann,45.425,-93.6875,2,"Confirmed lake: descripiton, Keen and Shane 1990",58,Lacu,0.003
 11606,17396,Steel Lake,46.97447622523515,-94.68363905902973,1,Confirmed lake: description and Geiss et al 2003,23,Lacu,0.003
 1725,1782,Muscotah Marsh,39.528625084087274,-95.51584052112635,1,"Confirmed site with pub (Gruger 1973), changed area",15,Palu,0.003
 728,3130,Heart Lake,44.180556,-73.9675,1,"Confirmed Lake, Changed Area",21,NA,0.003
@@ -74,8 +74,8 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 1526,1564,Kylen Lake,47.35,-91.8,1,Confirmed lake and area from Birks 1981,4,Lacu,0
 1530,1568,Lake Lacawac,41.381944,-75.292778,2,Confirmed lake: description and Russel et al 1993,21,Lacu,0
 1613,1665,Lost Lake,46.719435000000004,-87.97207,2,Confirmed loc. Changed area: Brubaker 1975,1,Lacu,0
-1679,1735,Lake Mendota,43.1,-89.416667,2,"Confirmed lake, Winkler 1986",3961,Lacu,0
-1701,3492,Lake Minnie,47.244755,-95.00771499999999,2,Confirmed lake: description and Almendinger 1992,30,Lacu,0
+1679,3488,Lake Mendota,43.1,-89.416667,2,"Confirmed lake, Winkler 1986",3961,Lacu,0
+1701,1757,Lake Minnie,47.244755,-95.00771499999999,2,Confirmed lake: description and Almendinger 1992,30,Lacu,0
 1724,1781,Murphy Lake,44.711625,-93.341105,2,Confirmed lake: site description,19,Lacu,0
 1732,1789,Natural Lake,34.663333,-95.386111,3,Could not find publications.,5429,Lacu,0
 1736,1794,Nelson Pond,46.40707,-92.68658500000001,2,Confirmed pond: Jacobson 1979. Assumed correct loc,1,Lacu,0
@@ -83,7 +83,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 1820,1884,Pennington Lake,45.780556,-93.273056,2,"Confirmed lake, site description: kettle lake",52,Lacu,0
 1891,1955,Pleasant Lake,44.605869999999996,-93.563475,2,"Confirmed lake, site description: kettle lake",112,Lacu,0
 1936,2003,Quarles Pond,37.995833,-79.072222,2,Confirmed location: Craig 1969,2,Lacu,0
-1991,3568,Rice Lake,46.922222,-95.575,2,Confirmed lake: McAndrews 1969,105,Lacu,0
+1991,2066,Rice Lake,46.922222,-95.575,2,Confirmed lake: McAndrews 1969,105,Lacu,0
 2231,2309,Ruby Lake,45.283333,-91.458333,1,Site description: lake. Area: Gajewski et al 1985,7,Lacu,0
 2273,2354,Sedivy Lake,47.208889,-95.833333,2,"Confirmed lake, site description: kettle lake",12,Lacu,0
 2301,2383,Silver Lake,44.895835,-94.20414,2,"Confirmed lake, site description: kettle lake",179,Lacu,0
@@ -109,7 +109,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 9953,14839,Lake Mina,45.89346,-95.47560999999999,1,Confirmed lake: St. Jacques et al 2008,165,Lacu,0
 9987,20311,Elk Lake,45.8668,-95.80385,2,Confirmed lake: site description,82,Lacu,0
 10020,14997,Round Pond,41.970780000000005,-70.010335,2,Changed area: Parshall and Foster 2002,2,Lacu,0
-10091,15219,Elk Lake,47.189189999999996,-95.21787,2,"Confirmed lake, site descirption: kettle lake",118,Lacu,0
+10091,15167,Elk Lake,47.189189999999996,-95.21787,2,"Confirmed lake, site descirption: kettle lake",118,Lacu,0
 10140,15266,Tamarack Lake,44.873850000000004,-93.63463999999999,2,"Confirmed lake, site description: kettle lake",12,Lacu,0
 10144,15273,Saint Olaf Lake,43.90284,-93.417225,2,"Confirmed lake, site description",36,Lacu,0
 10146,15278,Williams Lake,46.95391,-94.66923,2,"Confirmed lake, site description: kettle lake",37,Lacu,0
@@ -186,7 +186,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 2548,2638,Quallen Lake [Terhell Pond],47.19324,-95.786645,2,"Confirmed lake, site description: kettle lake",11,Lacu,0
 2786,2881,Twin Lakes,45.848889,-93.167778,2,"Confirmed lake, site description: kettle lake",10,Lacu,0
 2851,2948,Wentzel's Pond,46.95,-94.95,3,Confirmed pond and area: Almendinger 1992. Loc??,4,Lacu,0
-2855,3841,White Lily Lake,46.086111,-93.102778,2,Confirmed lake: site description and Cushing 1967,12,Lacu,0
+2855,2952,White Lily Lake,46.086111,-93.102778,2,Confirmed lake: site description and Cushing 1967,12,Lacu,0
 2859,2956,Willow River Pond,46.324304999999995,-92.78081,2,Assumed correct location in pond (unlabeled),1,Lacu,0
 2864,2961,Wintergreen Lake,42.4,-85.383333,1,Confirmed lake and area: Manny et al 1978,14,Lacu,0
 2933,3031,Wolsfeld Lake,45.005015,-93.57275999999999,2,Confirmed lake: description and Grimm 1983,15,Lacu,0
@@ -197,7 +197,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 6506,10970,South Heron Lake,43.7195,-95.22800000000001,2,"Confirmed lake, site description: kettle lake",1081,Lacu,0
 6511,10973,Blomford Lake,45.4935,-93.1545,2,Assumed correct location in lake (unlabeled),8,Lacu,0
 6513,10975,Frovold Lake,45.377,-95.5625,2,"Confirmed lake, site description: kettle lake",26,Lacu,0
-7532,15255,Cottonwood Lake,44.6173,-95.68015,2,"Confirmed lake, Minnesota DNR Lake ID",148,Lacu,0
+7532,12005,Cottonwood Lake,44.6173,-95.68015,2,"Confirmed lake, Minnesota DNR Lake ID",148,Lacu,0
 7535,12008,Lake Emily,44.30865,-93.91999999999999,2,"Confirmed lake: ""lake data from Minnesota DNR""",99,Lacu,0
 7537,12010,Chub Lake,44.563500000000005,-93.218805,2,"Confirmed lake: ""lake data from Minnesota DNR""",91,Lacu,0
 7538,12011,Lake Rachel,45.80155,-95.55285,2,"Confirmed lake, site description: kettle lake",170,Lacu,0
@@ -256,7 +256,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 827,853,Frying Pan Lake,38.616667,-111.666667,1,"Confirmed site with Google Earth, changed area",3,Lacu,0
 1411,1448,Kellners Lake,44.238056,-87.848056,1,"Confirmed site with Google Earth, changed area",12,Lacu,0
 7529,12001,Little Dollar Lake,46.186,-85.3082,1,"Confirmed lake: site description, changed area",9,Lacu,0
-8585,13095,Horseshoe Lake,38.6867,-90.10375,1,"Confirmed lake, site description: oxbow lake, Confirmed area",1427,Lacu,0
+8585,21792,Horseshoe Lake,38.6867,-90.10375,1,"Confirmed lake, site description: oxbow lake, Confirmed area",1427,Lacu,0
 1355,1390,Joe Lake,66.76666699999998,-157.21666699999997,2,Confirmed site with pub (Anderson 1988),30,Lacu,0
 10083,15157,Code Lake,67.15791999999999,-151.85999500000003,2,"Confirmed site, changed area",65,Lacu,0
 10100,15185,Ruppert Lake,67.07084,-154.24498499999999,1,"Confirmed site, changed area",38,Lacu,0
@@ -312,7 +312,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 208,209,Lac à l'Ange,47.481667,-70.684722,1,Full site name is Petit lac Ã  l'Ange. Nudged site.,6,Lacu,0
 361,371,Chism 1,54.799444,-76.145556,3,"So many small lakes in the area,",2,Lacu,0
 362,373,Chism 2,53.090833,-76.339167,3,Too many local lakes,5,Lacu,0
-507,16124,Crawford Lake,43.5,-79.83,1,Moved from south of Milton,2,Lacu,0
+507,520,Crawford Lake,43.5,-79.83,1,Moved from south of Milton,2,Lacu,0
 512,525,Crowfoot Lake,51.65,-116.416667,1,"In Publication, hopefully distinct from Bow Lake",17,Lacu,0
 533,549,Daumont,54.883333,-69.4,3,It's close but I can't quite get it lined up based on the picture & map.,2,Lacu,0
 658,675,Delorme 1,54.418889,-69.918889,3,Now part of a resevoir.  Impossible to find original site.,1,Lacu,0
@@ -360,7 +360,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 1902,1967,Portage Marsh,41.576111,-87.2225,2,Confirmed loc and area: Singer et al 1996,7,Palu,0
 1989,2063,Rhule Fen,39.953611,-85.741667,2,Confirmed location: Shane and Anderson 1993,4,Palu,0
 2860,2957,Windsor Pond,42.53693,-72.980005,2,"Confirmed pond, site description",19,Palu,0
-10076,15148,Makepeace Cedar Swamp,41.936189999999996,-70.75736,2,Confirmed location and area: Newby et al 2000,21,Palu,0
+10076,15146,Makepeace Cedar Swamp,41.936189999999996,-70.75736,2,Confirmed location and area: Newby et al 2000,21,Palu,0
 10128,15242,Cowles Bog,41.6355,-87.0945,3,Confirmed bog. Minimum info on publications,6,Palu,0
 10195,15368,Blue Lake Wetlands,40.49996,-114.031395,2,Confirmed location and area: Louderback and Rhode,1850,Palu,0
 204,204,Andree Bog,45.725,-93.25,2,Assumed correct location. Area from Cushing 1964,259,Palu,0
@@ -400,7 +400,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 14055,21822,Sunwapta Pass Bog 6,52.21728,-117.19451000000001,1,From Thesis,26,Palu,0
 11854,17945,Mitkof Island,56.81157,-132.93624,2,"Found publication, area is approximate extent of local peat environment.",51,Palu,0
 498,510,Tourbière de Lanoraie COTEAU JAUNE,45.960833,-73.341944,3,"Publication is in French (sjg - found pub, added area based on hydrology)",340,Palu,0
-13910,21406,Petit lac Bouchard,48.93859500000001,-64.59709000000001,2,Map okay,3,NA,0
+13910,21404,Petit lac Bouchard,48.93859500000001,-64.59709000000001,2,Map okay,3,NA,0
 479,490,Clear Lake,41.638535,-86.544595,3,Minimum info on description and pubs. Loc in lake.,21,NA,0
 1107,1140,Icehouse Bottom [40MR23],35.588333,-84.191667,3,Min info on location,6134,NA,0
 1564,1609,Lamb Lake,48.165278,-92.107222,2,Assumed correct location in lake - but min. info,40,NA,0
@@ -427,7 +427,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 7540,12013,Mud Lake,45.857600000000005,-95.46090000000001,3,"Minimum info, but located in the lake",33,NA,0
 7549,12024,Everhart Lake,43.617599999999996,-93.43875,3,"Minimum info, but located in the lake",17,NA,0
 10448,15965,Qually Pond,47.683165,-96.20294,3,Could not confirm lake with description or pubs.,9,NA,0
-10500,16113,Grays Lake,43.06619,-111.43795,2,Confirmed lake basin: Beiswenger 1991,8813,NA,0
+10500,16111,Grays Lake,43.06619,-111.43795,2,Confirmed lake basin: Beiswenger 1991,8813,NA,0
 13528,20397,South Rhody peatland,46.565795,-86.0752,3,Unsure of loc. Confirmed area: Booth et al 2004,4,NA,0
 13695,20883,Star Meadows,46.51655,-114.683705,2,Confirmed loc and area: Herring and Gavin 2015,3,NA,0
 219,221,Axe Lake,45.38,-79.51,1,"Confirmed site with Google Earth, changed area",508,NA,0
@@ -470,9 +470,9 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 337,345,Carter Site,40.216667,-84.680556,1,"Confirmed site with Google Earth, changed area",1,NA,0
 459,19997,Wentworth Lake,48.00985,-124.530695,2,"Confirmed with Google Earth, changed area",52,NA,0
 519,533,Cub Creek Pond,44.49,-110.283611,1,Confirmed site and changed area,123,NA,0
-655,3076,Dead Man Lake,36.2375,-108.951667,2,"Confirmed lake, changed area",57,NA,0
+655,671,Dead Man Lake,36.2375,-108.951667,2,"Confirmed lake, changed area",57,NA,0
 751,3582,Rockyhock Bay,36.166667,-76.683333,2,"Confirmed Location with publication, changed area",24,NA,0
-811,835,Floating Island Lake,44.55,-107.466667,1,"Confirmed site with Google Earth, changed area",3,NA,0
+811,3127,Floating Island Lake,44.55,-107.466667,1,"Confirmed site with Google Earth, changed area",3,NA,0
 818,844,Forest Lake,46.451667,-112.165833,2,"Confirmed lake, changed area",1,NA,0
 937,966,Gold Lake Bog,43.65,-122.041667,1,"Area confirmed in publication, site confirmed on Google Earth",600,NA,0
 953,983,Green Pond,41.005055,-74.49534,2,"Confirmed site, changed area",393,NA,0
@@ -482,7 +482,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 1715,1772,Mosquito Lake Bog,48.769167,-122.117778,2,"Confirmed bog, changed area",19,NA,0
 1797,1859,Pasacaco Pond,41.516667,-71.45,1,"Confirmed lake, Changed area",168,NA,0
 1814,3541,Pogonia Bog Pond,45.03503,-93.6305,1,Unsure if pond or bog,1,NA,0
-2211,3583,Rosebud,43.229167,-100.848611,1,"Confirmed site, changed area",5,NA,0
+2211,2288,Rosebud,43.229167,-100.848611,1,"Confirmed site, changed area",5,NA,0
 2492,2576,Slough Creek Pond,44.933333,-110.35,1,"Confirmed site with Google Earth and Publication, Changed area",12,NA,0
 2503,2587,Splains Gulch,38.832778,-107.068889,2,Confirmed gulch,30,NA,0
 2507,2591,Spring Lake,41.673889,-76.35,1,"Confirmed site with Google Earth, changed area",45,NA,0
@@ -588,12 +588,12 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 1800,1862,Pass Lake,48.56,-88.74,2,Compiled from Hydrological database.,26,NA,0
 1900,1965,Porqui Pond,44.93,-79.78,2,Compiled from Hydrological database.,5,NA,0
 2300,2382,Shouldice Lake,45.15,-81.416667,2,Compiled from Hydrological database.,27,NA,0
-2852,2949,Weslemkoon Lake,45.033333,-77.433333,2,Compiled from Hydrological database.,1859,NA,0
+2852,3839,Weslemkoon Lake,45.033333,-77.433333,2,Compiled from Hydrological database.,1859,NA,0
 2944,3042,Wylde Lake,43.91,-80.4,2,Compiled from Hydrological database.,7,NA,0
 10215,15415,Cootes Paradise Marsh,43.2765,-79.9075,2,Compiled from Hydrological database.,218,NA,0
 10456,15982,Mayflower Lake,45.3898611111111,-79.2165277777778,2,Compiled from Hydrological database.,6,NA,0
 10521,16187,Rice Lake,44.199085,-78.14232,2,Compiled from Hydrological database.,10037,NA,0
-10544,16256,McGinnis Lake,44.607495,-78.039815,2,Compiled from Hydrological database.,5,NA,0
+10544,16257,McGinnis Lake,44.607495,-78.039815,2,Compiled from Hydrological database.,5,NA,0
 10548,16264,Dugas Bay Bog,46.310276992702896,-79.3808362591486,2,Compiled from Hydrological database.,1902,NA,0
 10549,16265,Glenora Bay,44.0463888888889,-77.03916666666666,2,Compiled from Hydrological database.,109053,NA,0
 10552,16271,Preston Lake,43.9869027777778,-79.37944,2,Compiled from Hydrological database.,27,NA,0
@@ -682,7 +682,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 2269,2349,Scott Lake,27.966667,-81.95,2,Compiled from Hydrological database.,101,NA,0
 2542,2632,Taylor Slough Site 15,25.201944,-80.687222,2,Compiled from Hydrological database.,239554,NA,0
 2543,2633,Taylor Slough Site 7,25.287222,-80.646389,2,Compiled from Hydrological database.,220,NA,0
-2570,2663,Lake Tulane,27.586129999999997,-81.503395,2,Compiled from Hydrological database.,36,NA,0
+2570,19620,Lake Tulane,27.586129999999997,-81.503395,2,Compiled from Hydrological database.,36,NA,0
 2846,2943,"Water Conservation Area 2A, Site 2 (Site F1)",26.359722,-80.370556,2,Compiled from Hydrological database.,42049,NA,0
 2847,2944,"Water Conservation Area 2A, Site 3 (Site U3)",26.2875,-80.411389,2,Compiled from Hydrological database.,42049,NA,0
 2848,2945,"Water Conservation Area 3A, Site 4 (CA315 (AAS))",25.974,-80.6688,2,Compiled from Hydrological database.,136555,NA,0
@@ -700,7 +700,7 @@ stid,dsid,site.name,lat,long,edited,notes,area,type,delta
 10003,14957,Appleman Lake,41.623285,-85.212085,2,Compiled from Hydrological database.,33,NA,0
 13350,19937,Spicer Lake,41.75738,-86.52208,2,Compiled from Hydrological database.,1,NA,0
 9991,14928,Prien Lake,30.192210000000003,-93.27942,2,Compiled from Hydrological database.,689,NA,0
-10002,14953,Lake Arthur,30.05034,-92.7095,2,Compiled from Hydrological database.,2437,NA,0
+10002,14955,Lake Arthur,30.05034,-92.7095,2,Compiled from Hydrological database.,2437,NA,0
 10326,15696,Catahoula Lake (core CLR3),31.50844,-92.13152,2,Compiled from Hydrological database.,6688,NA,0
 753,772,Duck Pond,41.9327,-70.0005,2,Compiled from Hydrological database.,4,NA,0
 10021,14999,Deep Pond,41.739125,-69.992095,2,Compiled from Hydrological database.,2,NA,0
