@@ -191,7 +191,7 @@ linked_lakes <- linked_lakes %>%
 
 edited_lakes <- suppressMessages(load_lakes()) %>%
   dplyr::full_join(linked_lakes) %>% 
-  mutate(area = round(area, 0)) %>% 
+  mutate(area = round(area, 1)) %>% 
   filter(!is.na(area) & area > 0) %>% 
   distinct(stid, area, .keep_all = TRUE)
 
