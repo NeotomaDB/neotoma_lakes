@@ -206,7 +206,8 @@ hydro_set <- edited_lakes$notes == "Compiled from Hydrological database."
 for (i in dup_sites) {
   
   set <- edited_lakes$stid == i
-  hydro_set <- edited_lakes$notes == "Compiled from Hydrological database."
+  hydro_set <- edited_lakes$notes == "Compiled from Hydrological database." & 
+    !is.na( edited_lakes$notes)
   
   if(any(hydro_set[set])) {
     drop <- which(set & !hydro_set)

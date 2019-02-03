@@ -10,7 +10,7 @@ load_lakes <- function() {
     if (stringr::str_detect(all_files[i], 'csv')) {
       
       input_file <- readr::read_csv(all_files[i]) %>% 
-        filter(!is.na(edited))
+        filter(!is.na(edited) | !is.na(area))
       
       if (any(c('X', 'Y') %in% colnames(input_file))) {
         
@@ -44,7 +44,7 @@ load_lakes <- function() {
       }
       
       input_file <- input_file %>% 
-        filter(!is.na(edited)) %>% 
+        filter(!is.na(edited) | !is.na(area)) %>% 
         select(stid, edited, notes, area, contains("type", ignore.case = FALSE))
     }
     
