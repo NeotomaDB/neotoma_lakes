@@ -1,7 +1,8 @@
 ---
 title: "Checking the progress of site analysis"
 author: "Simon Goring"
-output: 
+date: "July 16, 2017"
+output:
   html_document:
     output: index.html
     self_contained: true
@@ -23,73 +24,49 @@ Bailey Zak and Claire Rubblike have been processing a number of lake sites from 
 
 The first step was time-consuming.  All pollen cores from Canada and the United States were pulled from Neotoma, along with the chronological controls for each record.  The chronological controls were used to help prioritize reconstruction, since the current effort is largely focused on the reconstruction of "high quality" sites.
 
+The result here is a `data.frame` called `control_output` that contains each site id, dataset id and a sum of all the chron control types used in reconstruction.  This is for every pollen record (regardless of whether it's a lake or not) in Canada and the United States.
+
 ```{r lakedata, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
 
-library(purrr)
-library(dplyr)
-library(reshape2)
-library(sf)
-library(leaflet)
+version <- '1.4'
 
-version <- '1.1'
+source('R/setup.R')
 
-if (!paste0('version_', version) %in% list.files('data')) {
-  dir.create(paste0('data/version_', version))
-}
+all_ds <- neotoma::bind(neotoma::get_dataset(datasettype = 'pollen',
+                                             gpid = 'Canada'),
+                        neotoma::get_dataset(datasettype = 'pollen',
+                                             gpid = 'United States'))
 
-if (!paste0('chron_control_status_version_', version, '.csv') %in% 
-    list.files(paste0('data/version_',version))) {
-  
-  all_ds <- neotoma::bind(neotoma::get_dataset(datasettype = 'pollen', 
-                                               gpid = 'Canada'),
-                          neotoma::get_dataset(datasettype = 'pollen', 
-                                               gpid = 'United States'))
-  
-  controls <- all_ds %>% map(function(x)try(neotoma::get_chroncontrol(x)))
-  
-  chron_table <- list()
-  
-  for(i in 1:length(all_ds)) {
-    if(length(controls[[i]][[1]]) == 1 | 'try-error' %in% class(controls[[i]])) {
-      chron_table[[i]] <- data.frame(dsid = all_ds[[i]]$dataset$dataset.meta$dataset.id,
-                                     stid = all_ds[[i]]$dataset$site.data$site.id)
-    } else {
-      
-      type_count <- controls[[i]][[1]]$chron.control %>% 
-        group_by(control.type) %>% 
-        summarise(n = n())
-      
-      avg_interval <- mean(diff(controls[[i]][[1]]$chron.control$age), na.rm = TRUE)
-      max_interval <-  max(diff(controls[[i]][[1]]$chron.control$age), na.rm = TRUE)
-      
-      chron_table[[i]] <- data.frame(dsid = all_ds[[i]]$dataset$dataset.id,
-                                     stid = all_ds[[i]]$site.data$site.id,
-                                     lat  = all_ds[[i]]$site.data$lat,
-                                     lat  = all_ds[[i]]$site.data$long,
-                                     controls = sum(type_count$n, na.rm=TRUE),
-                                     type_count,
-                                     avg_int = avg_interval,
-                                     max_int = max_interval) %>% 
-        dcast(dsid + stid + avg_int + max_int + controls + ~ control.type, value.var = 'n')
-        
-    }
-  }
-  
-  control_output <- chron_table %>% bind_rows()
-  
-  readr::write_csv(control_output, 
-                   paste0('data/version_',version,'/chron_control_status_version_', version, '.csv'))
-} else {
-  control_output <- readr::read_csv(paste0('data/version_',
-                                           version,
-                                           '/chron_control_status_version_', version, '.csv'))
-}
+sitedataset <- data.frame(stid = sapply(all_ds, function(x) x$site.data$site.id),
+                          dsid = sapply(all_ds, function(x) x$dataset.meta$dataset.id),
+                          lat  = sapply(all_ds, function(x) x$site.data$lat),
+                          long  = sapply(all_ds, function(x) x$site.data$long),
+                          name = sapply(all_ds, function(x) x$site.data$site.name),
+                          stringsAsFactors = FALSE)
+
+control_output <- pull_chron_table(version, all_ds)
 
 ```
 
-This code block provides a list of all pollen datasets in Neotoma along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `r ncol(control_output)` columns.
+This code block provides a list of all pollen datasets in Neotoma (`all_ds`) along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `r ncol(control_output)` columns.  In addition
 
-A secondary process is then run across all lakes in the Canadian [CanVec – Hydro Features](http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056) and the [United States Hydrolography Dataset](https://nhd.usgs.gov/NHD_High_Resolution.html) to obtain "best fit" matches for lakes. The script, which uses the [`sp` package](https://cran.r-project.org/web/packages/sp/index.html) to overlay the points over lake polygons is contained in the files `R/GetLakeAreas_usa.R` and `R/GetLakeAreas_canada.R`.  State-level shapefles are very large for some states, and as such this is a time and resource consuming process.  We run this step on the Pensylvannia State University's Center for Environmental Informatics server.  The result is a `data.frame` with columns that are indexed using the `siteid`.
+We can pull all existing lake data from Neotoma and add it to our estimates using a direct connection to the database.  Currently this requires access to the Neotoma Database, however we've written the script in such a way as to allow a missing file if an individual is running the program locally.
+
+```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
+
+existing_lakes <- neotoma_lakes("connect_remote.json") %>%
+  filter(dsid %in% sapply(all_ds, function(x) x$dataset.meta$dataset.id))
+
+if (nrow(existing_lakes) == 1) {
+  warning("You are not connected to the Database.")
+}
+```
+
+This provides us with `r nrow(existing_lakes)` datasets with lake information in the Neotoma Paleoecology Database.  This is approximately `r round(sum(sitedataset$stid %in% existing_lakes$siteid) / nrow(sitedataset), 1)`% of the pollen datasets we have obtained within North America.
+
+### Geographic Co-Location
+
+A secondary process is then run across all lakes in the Canadian [CanVec – Hydro Features](http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056) and the [United States Hydrolography Dataset](https://nhd.usgs.gov/NHD_High_Resolution.html) to obtain "best fit" matches for lakes. The script, which uses the [`sp` package](https://cran.r-project.org/web/packages/sp/index.html) to overlay the points over lake polygons is contained in the files `R/GetLakeAreas_usa.R` and `R/GetLakeAreas_canada.R`.  State-level shapefles are very large for some states, and as such this is a time and resource consuming process.  We run this step on the Pensylvannia State University's Center for Environmental Informatics server.  The result is a `data.frame` with columns that are indexed using the `stid`.
 
 To do this we have to use `scp`, or secure copy, to move the file over onto the Penn State server and then run the script using `Rscript -e 'GetLakeAreas_usa.R`.  This provides us with the unique identifer of any pollen sites that overlay lakes in the hydrological datasets, and provides matches for any similarly named lakes proximate to a Neotoma lake.
 
@@ -99,45 +76,48 @@ Direct matches occur when a Neotoma site lies directly over top of a record in t
 
 ```{r, loadLakeData, echo=FALSE, message=FALSE, results='hide'}
 
-ca_lakes <- readr::read_csv('data/ca_lakes.csv')
-us_lakes <- readr::read_csv('data/usa_lakes.csv')
+ca_lakes <- readr::read_csv('data/ca_lakes.csv') %>%
+  filter(!is.na(lake_area_ha)) %>% distinct()
 
-recorded_lakes <- data.frame(site.name = c(ca_lakes$site.name, us_lakes$site.name),
+us_lakes <- readr::read_csv('data/usa_lakes.csv') %>%
+  filter(!is.na(AREAHA)) %>% distinct()
+
+assertthat::assert_that(!any(duplicated(us_lakes$SiteID) &
+                               !duplicated(us_lakes$AREAHA)),
+                        msg = "There are US lakes with duplicated site IDs but without
+                               duplicated lake areas.")
+
+assertthat::assert_that(!any(duplicated(ca_lakes$SiteID) &
+                               !duplicated(ca_lakes$lake_area_ha)),
+                        msg = "There are Canadian lakes with duplicated site IDs but without
+                               duplicated lake areas.")
+
+recorded_lakes <- data.frame(sitename = c(ca_lakes$site.name, us_lakes$site.name),
+                             dsid      = c(ca_lakes$DatasetID, rep(NA, nrow(us_lakes))),
                              stid      = c(ca_lakes$SiteID, us_lakes$SiteID),
                              lat       = c(ca_lakes$lat, us_lakes$lat),
                              long      = c(ca_lakes$long, us_lakes$long),
-                             linked    = c(is.na(ca_lakes$feature_id), 
-                                                  is.na(us_lakes$GNIS_ID)),
-                             oarea     = c(ca_lakes$lake_area_ha, us_lakes$AREAHA))
+                             area      = c(ca_lakes$lake_area_ha, us_lakes$AREAHA),
+                             source    = "Geographic matching",
+                             stringsAsFactors = FALSE)
 
-recorded_lakes <- recorded_lakes %>% filter(long < 0)
+area_lakes <- recorded_lakes %>%
+  full_join(existing_lakes) %>%
+  select(-units) %>%
+  clean_matches(keep = "Geographic matching", sitedataset = sitedataset) %>%
+  distinct(stid, .keep_all = TRUE)
+```
 
-recorded_lakes$color   <- ifelse(recorded_lakes$linked, 'blue', 'red')
-
-recorded_lakes$opactiy <- c(0.6, 0.2)[match(recorded_lakes$color, c('red', 'black'))]
-recorded_lakes$popup   <- paste0('<b>',recorded_lakes$site.name,'</b><hr>',
-                                 '<a href=http://apps.neotomadb.org/explorer/?siteids=',
-                                 recorded_lakes$stid,
-                                 '>Explorer Link</a>')
-
-leaflet(recorded_lakes)  %>%
-  addProviderTiles('Stamen.TonerLite') %>%
-  addCircleMarkers(lng = ~long, lat = ~lat, fillColor = ~color, 
-                   fillOpacity = recorded_lakes$opacity,
-                   radius = 3, 
-                   stroke = FALSE,
-                   popup = ~popup) %>% 
-  addLegend("bottomright",
-            colors = c('red', 'blue'),
-            labels = c('Linked', 'Not Linked'),
-    title = "Linked To Hydro Database",
-    opacity = 1)  
+```{r plotLakes, echo=FALSE}
+plot_linked(area_lakes)
 
 ```
 
-Of the `r nrow(ca_lakes)` lakes in Canada, a total of `r sum(!is.na(ca_lakes$lake_area_ha))` were matched directly to lakes within the hydrographic database.  Of the `r nrow(us_lakes)` reported from the United States, there were `r sum(!is.na(us_lakes$AREAHA))` with matches to the hydrographic database.
+A total of `r nrow(ca_lakes)` were matched directly to lakes within the Canadian hydrographic database and `r nrow(us_lakes)` were matched to the US.  For both of these datasets combined `r sum(existing_lakes$stid %in% recorded_lakes$stid)` also had records in Neotoma, resulting in a combined dataset of `r nrow(area_lakes)`.
 
 ### Reanalysis
+
+<img src="images/map_schema.svg" style="float:right;" width="200px">
 
 From here we passed all lakes without direct matches to a workflow in which individuals examined regional maps, the original publications and secondary information (including Alwynne Beaudoin's [Lake Files](http://www.scirpus.ca/lakes/lakes.php)) to determine whether a site had a match with a nearby lake or other depositional environment.
 
@@ -156,156 +136,122 @@ All lakes that have been edited are diplayed here.
 
 source('R/load_entered_data.R')
 
-edited_lakes <- load_lakes() %>% 
-  dplyr::left_join(recorded_lakes, by = 'stid')
+linked_lakes <- area_lakes %>%
+  mutate(edited = 2)
 
-edited_lakes$popup <- paste0(edited_lakes$popup, '<br>(<b>', 
-                             edited_lakes$edited, '</b>) - ', 
-                             edited_lakes$notes, '<br>Original Area: ',
-                             edited_lakes$oarea, '<br>New Area: ',
-                             edited_lakes$area)
+edited_lakes <-  suppressMessages(load_lakes()) %>%
+  mutate(area = round(area, 1)) %>%
+  filter(!is.na(area) & area > 0) %>%
+  dplyr::union_all(linked_lakes) %>%
+  distinct(stid, notes, area, source, .keep_all = TRUE) %>%
+  arrange(stid)
 
-edited_lakes <- edited_lakes %>% 
-  filter(!edited == 0 | is.na(lat) | is.na(long)) %>% 
-  st_sf(sf_column_name = "geometry")
+dup_sites <- edited_lakes$stid[duplicated(edited_lakes$stid)] %>% unique
 
-pal <- colorFactor(
-  palette = "viridis",
-  domain = factor(edited_lakes$edited))
+# There are currently some duplicate sites, these don't vary too much, so
+# we take either the value associated with the hydrological database, or
+# the first of the two entered into the database.
 
-leaflet(edited_lakes) %>%
-  addTiles() %>%
-  addCircleMarkers(lat = ~lat, 
-                   lng = ~long,
-                   color = ~pal(factor(edited)),
-                   popup = ~popup) %>%
-  addLegend("bottomright", pal = pal, values = ~factor(edited),
-    title = "Edit Status",
-    opacity = 1)
+for (i in dup_sites) {
+
+  set <- edited_lakes$stid == i
+  hydro_set <- edited_lakes$source %in% area_lakes$source
+
+  if(any(hydro_set[set])) {
+    drop <- ! ((1:nrow(edited_lakes)) %in% which(set & !hydro_set))
+    edited_lakes <- edited_lakes[drop, ]
+  } else{
+    drop <- ! ((1:nrow(edited_lakes)) %in% which(set)[-1])
+
+    edited_lakes <- edited_lakes[drop, ]
+  }
+
+}
+
+assertthat::assert_that(!any(duplicated(edited_lakes$stid)),
+                        msg = "Some duplicated site IDs are present.")
+
+assertthat::assert_that(all(edited_lakes$stid %in% sitedataset$stid),
+                        msg = "There are site IDs that are not present in the
+                               full North American dataset")
+
+ste_match <- match(sitedataset$stid, edited_lakes$stid)
+est_match <- match(edited_lakes$stid, sitedataset$stid)
+
+assertthat::assert_that(all(edited_lakes$sitename == sitedataset$name[est_match],
+                            na.rm = TRUE),
+                        msg = "All assigned sitenames match as expected")
+
+sitedataset[,c('area', 'source', 'edited', 'notes')] <-
+  edited_lakes[ste_match, c("area", "source", "edited", "notes")]
+
+readr::write_csv(sitedataset,
+                 paste0('data/version_', version, '/full_output_', version, '.csv'))
+
+readr::write_csv(sitedataset %>% filter(!is.na(area)),
+                 paste0('data/version_', version, '/assigned_areas_', version, '.csv'))
 
 ```
 
-This results in a dataset of `r nrow(edited_lakes)`, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations, and `r sum(edited_lakes$area > 0 | !is.na(edited_lakes$oarea), na.rm = TRUE)` lakes have recorded, or edited areas.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!unique(recorded_lakes$stid) %in% unique(edited_lakes$stid))` lakes to work through.
+```{r, editedSites, echo = FALSE, warning=FALSE}
+
+plot_edited(sitedataset)
+
+```
+
+This results in a dataset of `r nrow(edited_lakes)` sites with areas, of which `r sum(edited_lakes$edited %in% c(1,2))` were matched to reported locations.  A total of `r sum(edited_lakes$edited == 1)` lake positions were moved, `r sum(edited_lakes$edited == 3)` could not be properly positioned.  There remain `r sum(!sitedataset$stid %in% edited_lakes$stid)` lakes to work through.
 
 ```{r, generateMissing, echo = FALSE, warning=FALSE, results='hide'}
 
-new_output <- data.frame(stid = c(us_lakes$SiteID, ca_lakes$SiteID),
-                         name = c(us_lakes$site.name, ca_lakes$site.name),
-                         long = c(us_lakes$long,   ca_lakes$long),
-                          lat = c(us_lakes$lat,    ca_lakes$lat),
-                         area = c(us_lakes$AREAHA, ca_lakes$lake_area_ha)) %>% 
-  dplyr::left_join(control_output, by = 'stid')
-
-new_output <- new_output %>%
-  filter(!stid %in% edited_lakes$stid) %>%
-  filter(long < 0 & !is.na(long)) %>%
+new_output <- sitedataset %>%
+  dplyr::left_join(control_output, by = c('stid', 'dsid')) %>%
+  filter(is.na(area) & long < 0) %>%
   arrange(controls) %>%
   distinct(stid, .keep_all = TRUE) %>%
   st_as_sf(coords = c('long', 'lat'), crs = 4326)
 
-  new_output$area <- ''
-new_output$edited <- ''
- new_output$notes <- ''
-  new_output$type <- ''
+new_output[is.na(new_output)] <- ''
 
 new_output <- new_output %>%
-  select(stid, dsid, name, edited, notes, type, area, avg_int, max_int, controls, geometry)
-  
-leaflet(new_output) %>% 
-  addTiles() %>% 
+  select(stid, dsid, name, edited, notes, area, avg_int, max_int, controls, geometry)
+
+leaflet(new_output) %>%
+  addTiles() %>%
   addCircleMarkers(popup = ~name)
 
-sf::write_sf(new_output, paste0('data/version_',version,'/dataset_',version,'.shp'), delete_layer = TRUE)
+sf::write_sf(new_output,
+             paste0('data/version_',version,'/dataset_',version,'.shp'),
+             delete_layer = TRUE)
 
 ```
 
-## Looking at changes
+## Conclusion
 
-### Changes in Location
+This process results in the progressive alignment of lakes with existing lake records, and acts as a check to update lake records in Neotoma.
 
-```{r, locationChangeCSVOutput, echo = FALSE, warning=FALSE}
+You can explore the dataset further by sorting, filtering or clicking on the links to the Neotoma Explorer in the table below:
 
-try_lakes <- edited_lakes
+```{r echo=FALSE}
+sitedataset$area[is.na(sitedataset$area)] <- -999
 
-new_coords <- data.frame( stid = try_lakes$stid,
-                          st_coordinates(try_lakes$geometry),
-                          area = try_lakes$area,
-                          type = try_lakes$type,
-                         delta = sqrt((try_lakes$lat - st_coordinates(try_lakes$geometry)[,2])^2 +
-                                        (try_lakes$long - st_coordinates(try_lakes$geometry)[,1])^2))
+sitedataset <- sitedataset %>%
+  mutate(area = round(area, 1),
+         lat  = round(lat, 3),
+         long = round(long, 3),
+         stid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?siteids=",
+                           stid, "'>",
+                           stid,"</a>"),
+         dsid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?datasetid=",
+                           dsid, "'>",
+                           dsid,"</a>"))
 
-all_lakes <- recorded_lakes %>%
-  left_join(new_coords, "stid")
-
-all_lakes$long <- ifelse(is.na(all_lakes$X), all_lakes$long, all_lakes$X)
-all_lakes$lat  <- ifelse(is.na(all_lakes$Y), all_lakes$lat, all_lakes$Y)
-all_lakes$area <- ifelse(is.na(all_lakes$area), all_lakes$oarea, all_lakes$area)
-
-moved <- all_lakes$delta > 0 & !is.na(all_lakes$delta)
-
-pal <- colorNumeric(
-  palette = "viridis",
-  domain = all_lakes$delta)
-
-leaflet(all_lakes[moved,]) %>% 
-  addTiles() %>% 
-  addCircleMarkers(lat = ~lat,
-                   lng = ~long,
-                   color = ~pal(delta),
-                   popup = paste0('<b>', all_lakes$site.name[moved], '</b><br><b>Lake Area:</b> ',
-                                  all_lakes$area[moved],
-                                  '</b>',
-                                  '<br><a href=http://apps.neotomadb.org/explorer/?siteids=',
-                                  all_lakes$stid,'>Explorer Link</a>'),
-                   radius = 5) %>% 
-    addLegend("bottomright", pal = pal, values = ~delta,
-    title = "Distance Moved",
-    opacity = 1)
-
-out_lakes <- all_lakes %>% 
-  filter(!is.na(area)) %>%
-  arrange(desc(delta)) %>% 
-  distinct(stid, .keep_all = TRUE) %>% 
-  select(stid, site.name, lat, long, area, type)
-
-out_lakes$type[out_lakes$type %in% c('Lac', 'Lacu', 'lAC', 'Lac and Pal')] <- 'Lacu'
-out_lakes$type[out_lakes$type %in% c('Pal', 'Palu')] <- 'Palu'
-
-readr::write_csv(out_lakes,
-                 path = paste0('data/version_', version, '/area_lakes_',version, '.csv'))
-
+DT::datatable(sitedataset, escape = FALSE,
+              rownames = FALSE, filter = "bottom",
+              options = list(scrollX = '600px'))
 ```
 
-A total of `r sum(all_lakes$delta > 0, na.rm = TRUE)` records have changed locations.  Of these lakes `r sum(all_lakes$delta > 0 & (!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` have both moved coordinates and reported areas.  A total of `r sum((!is.na(all_lakes$oarea) | !is.na(all_lakes$area)), na.rm = TRUE)` lakes have reported area.
+If you sort by `area` you will see that for ease of use all sites without assigned areas have the value of -999.  Using the links for sites and dataset IDs it is possible to open the Neotoma Explorer and view these datasets directly.  Please contact us if you have information about these sites.  You can email Simon Goring at <a href="emailto:goring@wisc.edu">goring@wisc.edu</a> if you feel that sites ought to be corrected, or you have amended information.
 
-### Changes in Area:
+Note that many sites along marine margins (e.g., salt marshes) may have an artificailly high area value, since the effective basin is in fact the ocean.
 
-```{r, areaChanges, echo = FALSE, warning=FALSE}
-
-area_lakes <- all_lakes %>% 
-  filter(!is.na(area) | !is.na(oarea))
-
-area_lakes$delta <- ifelse(!is.na(area_lakes$oarea), area_lakes$oarea, 0) -
-  ifelse(!is.na(area_lakes$area), area_lakes$area, area_lakes$oarea)
-
-pal <- colorNumeric(
-  palette = "viridis",
-  domain = area_lakes$delta)
-
-leaflet(area_lakes) %>%
-  addTiles() %>% 
-  addCircleMarkers(popup = paste0('<b>', area_lakes$site.name, '</b><br><b>Old Area:</b> ',
-                                  round(area_lakes$oarea, 0),
-                                  '</b><br><b>New Area (ha):</b> ',
-                                  round(area_lakes$area, 0),
-                                  '<br><a href=http://apps.neotomadb.org/explorer/?siteids=',
-                                  area_lakes$stid,'>Explorer Link</a>'),
-                   color = ~pal(delta),
-                   radius = 5) %>% 
-  addLegend("bottomright", pal = pal, values = ~delta,
-    title = "Area Change",
-    opacity = 1)
-```
-
-A total of `r sum(!area_lakes$delta == 0, na.rm = TRUE)` records (of the `r nrow(area_lakes)` total lakes) have changed areas.  Of these lakes, `r sum(is.na(area_lakes$oarea) & !is.na(area_lakes$area))` have areas where area had not been previously assigned.  Many of the legacy records are located in the Midwestern United States, and as such, there is a high density of sites that have now successfully been aligned through this process.
-
+If you wish to edit some of the missing sites by hand, please check the folder of the latest posted version (e.g., [version 1.4](https://github.com/NeotomaDB/neotoma_lakes/tree/master/data/version_1.4)).  The shapefile posted in that folder can be used to edit the sites by using a basemap that includes lakes (e.g., Google Maps) and tracing the polygon of lakes of interest to estimate area (in hectares).

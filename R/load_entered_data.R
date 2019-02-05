@@ -8,18 +8,28 @@ load_lakes <- function() {
   
   for(i in 1:length(all_files)) {
     if (stringr::str_detect(all_files[i], 'csv')) {
+      
       input_file <- readr::read_csv(all_files[i]) %>% 
-        filter(!is.na(edited)) %>% 
-        distinct(stid, edited, notes, area, X, Y, lat, long, type) %>% 
-        as.data.frame()
+        filter(!is.na(edited) | !is.na(area))
       
       if (any(c('X', 'Y') %in% colnames(input_file))) {
-        input_file <- st_as_sf(input_file, coords = c('X', 'Y'), crs = 4326)
+        
+        input_file <- input_file %>% 
+          distinct(stid, dsid, edited, notes, area, X, Y, type) %>% 
+          as.data.frame() %>% 
+          st_as_sf(coords = c('X', 'Y'), crs = 4326)
+        
       } else {
-        input_file <- st_as_sf(input_file, coords = c('long', 'lat'), crs = 4326)
+        
+        input_file <- input_file %>%
+          distinct(stid, dsid, edited, notes, area, lat, long, type) %>% 
+          as.data.frame() %>% 
+          st_as_sf(coords = c('long', 'lat'), crs = 4326)
+        
       }
 
     }
+
     if (stringr::str_detect(all_files[i], 'shp')) {
       input_file <- st_read(all_files[i]) 
 
@@ -34,11 +44,13 @@ load_lakes <- function() {
       }
       
       input_file <- input_file %>% 
-        filter(!is.na(edited)) %>% 
+        filter(!is.na(edited) | !is.na(area)) %>% 
         select(stid, edited, notes, area, contains("type", ignore.case = FALSE))
     }
     
     input_file$area[input_file$area == 0] <- NA
+    input_file <- input_file %>% filter(!is.na(area))
+    input_file$source <- rep(all_files[i], nrow(input_file))
     
     tests[[i]] <- input_file
   }
@@ -46,7 +58,7 @@ load_lakes <- function() {
   all_tests <- tests %>% 
     plyr::ldply() %>% 
     arrange(type) %>% 
-    distinct(stid, edited, notes, area, .keep_all = TRUE)
+    distinct(stid, dsid, edited, notes, area, source, .keep_all = TRUE)
   
   return(all_tests)
 }
