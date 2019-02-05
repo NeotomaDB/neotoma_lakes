@@ -106,11 +106,11 @@ state_output <- function(x) {
 
 states <- state.abb
 
-runs <- readRDS("runs.RDS")
+runs <- readRDS("data/runs.RDS")
 
 for (i in 1:length(states)) {
   runs[[i]] <- try(state_output(states[i]))
-  saveRDS(runs, paste0("runs", Sys.Date(), ".rds"))
+  saveRDS(runs, paste0("data/runs.rds"))
 
   # Clean temprary files:
   file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
@@ -133,7 +133,7 @@ areas_clean <- areas %>%
 colnames(areas_clean)[1] <- "SiteID"
 areas_clean$AREAHA <- areas_clean$AREASQKM * 100
 
-readr::write_csv(areas_clean, "usa_lakes.csv")
+readr::write_csv(areas_clean, "data/usa_lakes.csv")
 
 read_geom <- function(x) {
 
