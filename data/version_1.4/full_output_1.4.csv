@@ -1,0 +1,1659 @@
+stid,dsid,lat,long,name,area,source,edited,notes
+7,7,47,-80.116667,Three Pines Bog,10748.78268274701,Geographic matching,2,NA
+24,24,53.333333,-60.583333,Alexander Lake,38,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Used paper & Google Maps.
+25,25,52.516667,-57.033333,Alexis Lake,85,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"Moved into lake, but there is no publication."
+27,27,54.583333,-57.366667,Aliuk Pond,9.1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved point based on map & site description in paper.
+206,206,64.65,-128.083333,Andy Lake,45,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Minor nudge
+208,209,47.481667,-70.684722,Lac à l'Ange,5.8,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Full site name is Petit lac Ã  l'Ange. Nudged site.
+217,219,45.543056,-73.311111,Lac des Atocas,0.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Minor move.
+219,221,45.38,-79.51,Axe Lake,508.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+222,224,78.491667,-76.78,Baird Inlet [Rock Basin Lake],NA,NA,NA,NA
+232,235,44.3,-77.916667,Barry Lake,NA,NA,NA,NA
+233,236,47.23,-79.78,Baseball Bog,10.121710709942498,Geographic matching,2,NA
+235,238,46.4,-78.916667,Lac Bastien,19.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with publication (name might have changed since '87), changed area"
+241,244,65.216667,-127.05,Beach Lake,NA,NA,NA,NA
+242,245,47.18,-80.16,Bear Bog,NA,NA,NA,NA
+248,253,65.016667,-127.483333,Bell's Lake,1.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with publication and Google Earth, changed area"
+252,258,54.047222,-76.120278,Bereziuk,3.221614087118031,Geographic matching,2,NA
+257,3471,57.116667,-76.378333,Lake BI2,NA,NA,NA,NA
+261,267,71.75,-124.266667,Banks Island 74MS11,1485901.8102861173,Geographic matching,2,NA
+262,268,72.366667,-119.833333,Banks Island 74MS12,NA,NA,NA,NA
+263,269,73.533333,-120.216667,Banks Island 74MS15,NA,NA,NA,NA
+270,276,48.936111,-55.505556,Bishops Falls,NA,NA,NA,NA
+294,300,42.088056,-82.6375,Bondi Section,NA,NA,NA,NA
+296,302,55.575,-119.433333,Boone Lake,167,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Seems in the right place
+297,303,55.333333,-63.2,Border Beacon,130,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confimred site and area with publication
+300,306,47.457778,-69.452778,Lac Boucané,14.875232285014244,Geographic matching,2,NA
+301,307,55.25,-67.4,Boundary Lake,NA,NA,NA,NA
+304,311,54.355833,-70.357778,Brisay 2,2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Seems very likely, but can't confirm completely."
+305,312,43.22,-81.73,Brophy Ditch,NA,NA,NA,NA
+319,326,46.279167,-70.595833,Lac à la Busque,23,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Minor move.
+322,329,45.961111,-73.868056,Saint-Calixte,2.4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+329,336,61.683333,-130.65,Candelabra Lake,1958.0199397180688,Geographic matching,2,NA
+330,337,47.639722,-71.235833,Tourbière Caribou,NA,NA,NA,NA
+332,339,48.197778,-64.94,Lac Caribou,2.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Small nudge, but no real clear map in the figure."
+334,341,55.666667,-63.25,Caribou Hill,65,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Confirmed area with publication, unable to confirm exact location of lake"
+338,346,46.613889,-72.998611,Lac Castor,0.8,data/by_hand/all_lakes_andria/andrea_areas.csv,3,No Publication but nearby lake named lac Castor
+353,361,45.651389,-60.675,Chase Pond,NA,NA,NA,NA
+361,371,54.799444,-76.145556,Chism 1,1.8,data/by_hand/all_lakes_andria/all_lakes_andria.shp,3,"So many small lakes in the area,"
+362,373,53.090833,-76.339167,Chism 2,4.7,data/by_hand/all_lakes_andria/all_lakes_andria.shp,3,Too many local lakes
+370,381,59.516667,-122.166667,Lac Ciel Blanc,NA,NA,NA,NA
+481,493,50.873611,-107.933333,Clearwater Lake,59.84096264278991,Geographic matching,2,NA
+484,496,53.9,-66.766667,Coghill Lake,NA,NA,NA,NA
+488,500,49.69,-57.71,Comb Lake,NA,NA,NA,NA
+489,501,50.034167,-56.196389,Compass Pond,76,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Dyer 1986), changed area"
+495,507,67.833333,-115.316667,Coppermine Saddleback,NA,NA,NA,NA
+496,508,48.966944,-65.95,Lac Côté,31,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Slight nudge.  No pub, but in park is Lac Charles Cote."
+498,510,45.960833,-73.341944,Tourbière de Lanoraie COTEAU JAUNE,340,data/by_hand/empty_lakes_sjg/empty_lakes_sjg.shp,3,"Publication is in French (sjg - found pub, added area based on hydrology)"
+499,511,52.866667,-118.1,Cottonwood Slough,24,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,In dissertation but checked Jasper Park Maps.
+503,516,44.1,-78.1,Cranberry Lake,481.9,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed lake with Google Earth, changed area"
+506,519,49.183333,-81.266667,Crates Lake,11.404747450843768,Geographic matching,2,NA
+507,520,43.5,-79.83,Crawford Lake,2.4,Neotoma,2,NA
+507,16124,43.5,-79.83,Crawford Lake,2.4,Neotoma,2,NA
+509,522,43.6,-79.6,Creditview Wetland,NA,NA,NA,NA
+511,524,52.116667,-90.083333,Cristal Lake,154.74346107925498,Geographic matching,2,NA
+512,525,51.65,-116.416667,Crowfoot Lake,17,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"In Publication, hopefully distinct from Bow Lake"
+524,538,48.4075,-89.346667,Cummins Pond,NA,NA,NA,NA
+527,17292,55.266667,-105.266667,Cycloid Lake,20,Neotoma,2,NA
+533,549,54.883333,-69.4,Daumont,2,data/by_hand/all_lakes_andria/all_lakes_andria.shp,3,It's close but I can't quite get it lined up based on the picture & map.
+656,672,43.233333,-80.366667,Decoy Lake,3,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Szeicz 1991), changed area"
+658,675,54.418889,-69.918889,Delorme 1,0.6,data/by_hand/all_lakes_andria/all_lakes_andria.shp,3,Now part of a resevoir.  Impossible to find original site.
+659,677,54.423611,-69.929722,Delorme 2,349282.8816634468,Geographic matching,2,NA
+660,678,62.05,-118.7,Lac Demain,NA,NA,NA,NA
+667,685,75.35,-82.5,Devon Island Glacier,25,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+668,686,60.938889,-69.971944,Diana Cordeau,NA,NA,NA,NA
+669,688,60.9875,-69.958333,Diana 375,NA,NA,NA,NA
+670,690,60.978889,-69.991944,Diana 500,NA,NA,NA,NA
+671,691,48.910833,-66.125,Lac du Diable,11.96627555658984,Geographic matching,2,NA
+702,722,46.45,-71.5,Dosquet,NA,NA,NA,NA
+754,773,45.85,-70.35,Lac Dufresne,13.987146758723366,Geographic matching,2,NA
+758,777,53.233333,-58.55,Eagle Lake,NA,NA,NA,NA
+759,778,57.766667,-112.1,Eaglenest Lake,807,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Checked with Google maps
+763,782,46.408333,-62.15,East Baltic Bog,1.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,Confirmed site and area with publication (Anderson)
+766,785,44.37,-80.25,Edward Lake,24.144506202380487,Geographic matching,2,NA
+770,3125,50.69095,-99.65835000000001,E Lake,3.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed Lake, Changed Area"
+782,802,61.244444,-100.951389,"Ennadai Lake, 1972 Site",44079.519119062046,Geographic matching,2,NA
+783,803,61.166667,-100.916667,Ennadai Lake,44079.519119062046,Geographic matching,2,NA
+785,805,41.92,-82.76,Lake Erie,247250.90760656988,Geographic matching,2,NA
+788,808,48.351944,-123.681667,East Sooke Fen,0.1,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed site and area with publication
+789,810,47.609722,-70.615833,Lac à la Fourche,NA,NA,NA,NA
+793,815,52.783333,-117.116667,Excelsior Basin,NA,NA,NA,NA
+797,820,58.866944,-71.716944,Lac Faribault,NA,NA,NA,NA
+798,821,45.282778,-72.982778,Tourbière de Farnham,410,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Unable to confirm site, Confirmed area: Lavoie, Larouche, Richard 1995"
+800,823,45.41,-79.39,Fawn Lake (CA:Ontario),250.1383664523376,Geographic matching,2,NA
+805,829,56.25,-121.42,Fiddler's Pond,5.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with publication, changed area"
+808,832,73.034722,-85.216667,Fish Lake (CA:Nunavut),NA,NA,NA,NA
+810,834,54.742222,-101.681667,Beaverhouse Lake,7.2,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Right place
+814,3149,60.356667,-123.646667,John Klondike Bog,NA,NA,NA,NA
+823,849,49.583333,-93.75,Hayes Lake,NA,NA,NA,NA
+825,851,43.82,-79.1,Frenchmens Bay,NA,NA,NA,NA
+829,856,48.21,-84.93,Furnival Lake,NA,NA,NA,NA
+830,857,46.275833,-73.475833,Saint-Gabriel,NA,NA,NA,NA
+835,862,44.74,-80.86,"Georgian Bay, Lake Huron (1)",345164.9938935952,Geographic matching,2,NA
+836,863,45.17,-81.32,"Georgian Bay, Lake Huron (2)",1190833.0427387673,Geographic matching,2,NA
+837,865,45.995833,-73.992778,Lac Geai,NA,NA,NA,NA
+842,871,45.945833,-74.370833,Lac à St-Germain,1.5145936521435783,Geographic matching,2,NA
+845,874,46.066667,-60.391667,Upper Gillies Lake,9.714344852594976,Geographic matching,2,NA
+849,878,49.448,-99.28965,Jones Lake [Glenboro site],50.90667180771167,Geographic matching,2,NA
+943,973,45.183333,-77.35,Graham Lake,67,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area"
+944,974,53,-98.25,Grand Rapids,371986.7232180091,Geographic matching,2,NA
+945,975,64.716667,-100.466667,Grant Lake,NA,NA,NA,NA
+946,976,52.25,-67.066667,Lac Gras,679.6884601313005,Geographic matching,2,NA
+948,978,55.033333,-62.633333,Gravel Ridge,4763.974724085019,Geographic matching,2,NA
+951,981,49.67,-57.95,Green Point Pond,NA,NA,NA,NA
+956,986,43.64,-79.47,Grenadier Pond,1.9047611615736488,Geographic matching,2,NA
+957,987,50.768889,-55.516667,Grey Islands,54,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Evans 2002), changed area"
+958,989,54.146944,-76.128889,Lac Griault,48728.12485859239,Geographic matching,2,NA
+969,1000,50.320556,-105.883889,Hafichuk Site,NA,NA,NA,NA
+970,1001,60.033333,-129.016667,Hail Lake,1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,3,No good indication of location and several nearby sites
+971,1002,43.236667,-80.413333,Hams Lake,3.8876685973617584,Geographic matching,2,NA
+972,1003,68.383333,-138.383333,Hanging Lake,57,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"No good map, but could line up from pictures in paper."
+976,1007,48.2375,-65.838889,Lac Harriman,47.28473094145157,Geographic matching,2,NA
+977,1008,52.933333,-66.95,Harrie Lake,NA,NA,NA,NA
+979,1010,47.322222,-53.133333,Hawke Hills Kettle,NA,NA,NA,NA
+996,1028,58.2,-63.033333,Hebron Lake,NA,NA,NA,NA
+1000,1033,45.988889,-73.3,Tourbière de Lanoraie HENRI,NA,NA,NA,NA
+1064,3771,56.633333,-63.883333,Snow Lake,152.89548110473393,Geographic matching,2,NA
+1072,1105,44.516667,-76.6,High Lake,2.5,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Size is reported but insufficient detail to locate lake.
+1074,1107,64.633333,-138.4,Honeymoon Pond,0.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved lake based on inset map and pictures.
+1102,1135,43.64,-79.48,Humber Pond 3,NA,NA,NA,NA
+1103,1136,43.64,-79.49,Humber Pond 5,NA,NA,NA,NA
+1104,1137,43.65,-79.5,Humber Pond 7,NA,NA,NA,NA
+1106,1139,48.618611,-58.965,Hynes Brook Salt Marsh,1020608.7250540428,Geographic matching,2,NA
+1109,1142,66.135,-66.083333,Iglutalik Lake,226.7,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site, changed area"
+1113,1147,50.916667,-90.45,Indian Lake,NA,NA,NA,NA
+1115,1149,44.483333,-77.05,Inglesby Lake,48,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Fritz et al, 1987), changed area"
+1123,1157,47.316667,-81.766667,Jack Lake,NA,NA,NA,NA
+1135,1170,50.1883333333333,-114.518333333333,January Cave [EbPp-Vp],NA,NA,NA,NA
+1136,1171,50.22,-80.2,James Bay,NA,NA,NA,NA
+1219,1254,46.932778,-70.932778,Saint-Jean Ile d'Orléans,NA,NA,NA,NA
+1245,17672,43.95,-79.43,Wilcox Lake,55.160058320610666,Geographic matching,2,NA
+1356,1391,48.24,-58.24,Joes Pond,NA,NA,NA,NA
+1358,1393,47.257778,-71.162778,Tourbière du lac Joncas,NA,NA,NA,NA
+1362,1397,45.991944,-73.302778,Tourbière de Lanoraie JOSEPH,NA,NA,NA,NA
+1400,1437,54.027778,-76.643889,Kanaaupscow,48728.12485859239,Geographic matching,2,NA
+1408,1445,64.166667,-127.616667,Keele Lake,9,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Confirmed Lake with publication, changed area"
+1413,1450,47.590278,-52.713889,Kennys Pond,NA,NA,NA,NA
+1414,1451,48.365833,-71.566944,Lac Kénogami,NA,NA,NA,NA
+1415,1452,49.816667,-102.3,Kenosee Lake,824.8312635344154,Geographic matching,2,NA
+1416,3454,44.195833,-79.512778,Marais de Keswick,150,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From paper
+1416,1453,44.195833,-79.512778,Marais de Keswick,150,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From paper
+1416,3453,44.195833,-79.512778,Marais de Keswick,150,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From paper
+1531,1569,46.716667,-70.3,Lac Colin,20.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Lake, Changed Area"
+1532,1570,54.8,-67.5,Lac Hamard,15123.443332487202,Geographic matching,2,NA
+1533,1571,47.2875,-79.116667,Lac Louis,17.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+1534,1572,44.263889,-66.079167,Lac à Magie,0.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+1543,1583,53.2375,-105.725,Lake A,22.476032207641275,Geographic matching,2,NA
+1546,1586,53.8,-106.079167,Lake B,18.056205712466365,Geographic matching,2,NA
+1547,1587,55.009167,-73.516667,Lake BN7,35.59931585775641,Geographic matching,2,NA
+1549,1590,49.683333,-74.583333,Lake CH2,12,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Area given in publication (600x200m), Unable to confirm lake site"
+1550,1591,56.283333,-75.1,Lake EC1,4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,Confirmed site and area with publication (Gajewski 1993)
+1551,1592,56.023333,-74.945,Lake EC2,NA,NA,NA,NA
+1553,1594,55.110833,-75.248889,Lake GB1,5.026457703318999,Geographic matching,2,NA
+1554,1595,56.1,-75.283333,Lake GB2,NA,NA,NA,NA
+1556,1598,57.916667,-75.616667,Lake LB1,NA,NA,NA,NA
+1557,1599,58.583333,-75.25,Lake LR1,NA,NA,NA,NA
+1558,1601,58.578333,-75.245,Lake LR3,NA,NA,NA,NA
+1559,1603,58.141667,-75.15,Lake LT1,0.5,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with publication (Gajewski 1992), changed area"
+1560,1604,73.591389,-98.538889,Lake PWWL,30.161276408931393,Geographic matching,2,NA
+1561,1606,46.828333,-80.698333,Lake QC,2.3960492175765675,Geographic matching,2,NA
+1562,1607,48.4,-81.316667,Lake Six,NA,NA,NA,NA
+1566,1611,51.573333,-55.55,L'Anse aux Meadows Site,2.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with pub. and Google Earth, changed area"
+1569,1615,46,-73.216944,Tourbière de Lanoraie STJEAN,NA,NA,NA,NA
+1571,1617,65.942222,-135.514167,Lateral Pond,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site's in the right place.
+1576,1622,49.471389,-55.473056,Leading Tickles,777137.3564087473,Geographic matching,2,NA
+1579,1626,49.207778,-65.812778,Lac à Léonard,0.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with publication, Changed area"
+1591,1640,45.143555,-66.713325,Little Lake,2.9737411173624015,Geographic matching,2,NA
+1594,1644,44.8,-76.683056,LDDsite5772,14.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+1599,1650,52.45,-56.433333,Lake Hope Simpson,65,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Area given in publication, Unable to confirm lake site"
+1600,1651,44.668195,-63.93664,Little Lake,NA,NA,NA,NA
+1605,1656,54.725278,-112.480833,Lofty Lake,53.93030503074846,Geographic matching,2,NA
+1606,1657,56.716667,-119.716667,Lone Fox Lake,63,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,Confirmed site and area with pub (MacDonald 1987)
+1608,1659,62.633333,-101.233333,Long Lake (CA:Nunavut),NA,NA,NA,NA
+1616,1668,46.605833,-71.775,Sainte-Croix de Lotbinière,NA,NA,NA,NA
+1618,1670,52.94643,-131.764345,Louise Pond,NA,NA,NA,NA
+1629,1684,56.841667,-101.041944,Lynn Lake,NA,NA,NA,NA
+1634,1689,45.975,-59.845833,Main-à-Dieu,NA,NA,NA,NA
+1636,1691,47.597222,-70.976389,Tourbière du lac Malbaie,NA,NA,NA,NA
+1638,1693,52.733333,-117.616667,Maligne Lake,5096.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed lake, changed area"
+1646,1701,43.225,-80.659722,Maplehurst Lake,8.190871286101968,Geographic matching,2,NA
+1647,1703,47.077778,-71.422778,Lac Marcotte,3.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed area with publication, Confirmed site with Google Earth"
+1648,1704,68.266667,-133.466667,M Lake,69.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with publication, Changed area"
+1649,1705,49.308333,-122.547222,Marion Lake,13.9067325313856,Geographic matching,2,NA
+1653,1709,56.783333,-64.833333,Lac Martyne,NA,NA,NA,NA
+1657,1713,46.8,-72.99,Dauphinais,0.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Found based on description & map.  Not publication.
+1658,1714,46.746944,-73.130833,Baie des Onze Iles,NA,NA,NA,NA
+1659,1715,46.726389,-73.030556,Wapizagonke,NA,NA,NA,NA
+1660,1716,46.787778,-72.837778,Sud du Lac du Noyer,0.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with publication, Change area"
+1662,1718,45.302778000000004,-66.070833,Mayflower Lake,6.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+1663,1719,45.05,-80.09,McCarston's Lake,1190833.0427387673,Geographic matching,2,NA
+1665,1721,47,-60.566944,McDougall Pond,NA,NA,NA,NA
+1667,1723,45.363333,-76.554167,McLaughlan Lake,NA,NA,NA,NA
+1668,1724,64.133333,-110.583333,McMaster Lake,9.746378703339504,Geographic matching,2,NA
+1677,1733,65.216667,-126.116667,Lac Mélèze,32,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (MacDonald 1987), changed area"
+1684,1740,46.25,-63.025,Mermaid Bog,NA,NA,NA,NA
+1698,1754,47.496944,-70.375833,Lac Mimi,4.728422635593734,Geographic matching,2,NA
+1709,1765,47.907778,-71.175,Lac Montagnais,NA,NA,NA,NA
+1712,1769,52.266667,-58.05,18 [Moraine Lake],57,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Engstrom et al 1985), changed area"
+1713,1770,51.383333,-94.25,Mordsger Lake,NA,NA,NA,NA
+1726,1783,71.783333,-122.666667,Muskox Lake,NA,NA,NA,NA
+1731,1788,63.016667,-128.8,Natla Bog,NA,NA,NA,NA
+1733,1791,57.65,-71.65,Nedlouc,17002.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area"
+1742,1800,61.583333,-103.483333,Nicol Lake,NA,NA,NA,NA
+1749,1807,46.6,-81.5,Nina Lake,NA,NA,NA,NA
+1762,1820,45.216667,-79.45,Nutt Lake,15.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Moved point, confirmed in publication, area is twice as large as reported"
+1763,1821,53.516667,-60.166667,Northwest River Pond,0.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Some uncertainty, another lake lies nearby & this assumes part of NW River town is new."
+1765,1823,51.359722,-116.35,Lake O'Hara,NA,NA,NA,NA
+1770,1829,48.422222,-89.323889,Oliver Pond,3.732355596073924,Geographic matching,2,NA
+1776,1835,51.343056,-116.3125,Opabin Lake,NA,NA,NA,NA
+1782,1841,47.532778,-68.943889,Lac Ouellet,6.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, changed area"
+1788,1847,43.62,-79.48,Palace Pier Section,NA,NA,NA,NA
+1790,1849,53.05,-57.75,Paradise Lake,NA,NA,NA,NA
+1795,1857,43.18,-81.75,Parkhill Creek,NA,NA,NA,NA
+1796,1858,44.22,-76.7,Parrott's Pond,NA,NA,NA,NA
+1799,1861,50.78,-104,Pasqua Lake,694.3592595490139,Geographic matching,2,NA
+1800,1862,48.56,-88.74,Pass Lake,26.097351262838583,Geographic matching,2,NA
+1802,1864,56.67,-64.68,Lac Patricia,NA,NA,NA,NA
+1806,1868,44.1,-78.34,Paynter Marsh,33,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Yu et al, 1996), changed area"
+1816,1879,43.33,-79.82,Peatsah Section,NA,NA,NA,NA
+1819,1883,49.48,-92,Peggy Lake,NA,NA,NA,NA
+1823,16231,46.03,-77.34,Perch Lake,31,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Moved based on paper & google map search.
+1824,1888,51.651389,-100.898889,Perch Lake,4.604249882967043,Geographic matching,2,NA
+1826,1890,50.55,-66.266667,Lac Petel,NA,NA,NA,NA
+1838,1902,49.49313,-121.432065,Pinecrest Lake,NA,NA,NA,NA
+1840,1904,45.469444,-75.808333,Pink Lake,23,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, Changed area"
+1841,1905,44.82,-79.98,Pitcher Bog,NA,NA,NA,NA
+1842,1906,48.596389,-124.196667,Pixie Lake,5.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Paper reports 5.3ha, measured with google."
+1873,3838,45.691944,-71.428889,Tourbière de Weedon,NA,NA,NA,NA
+1877,3565,46.891944,-71.807778,Saint-Raymond,NA,NA,NA,NA
+1893,1957,47.843889,-69.352778,Lac Pluvieux,11.118672797511046,Geographic matching,2,NA
+1898,1963,42.916667,-81.25,Pond Mills Pond,NA,NA,NA,NA
+1899,1964,48.905556,-123.833333,Porphyry Lake,0.4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,Confirmed site and area with publication (Brown and Hebda 2003)
+1900,1965,44.93,-79.78,Porqui Pond,4.578719237777693,Geographic matching,2,NA
+1903,1968,46.673611,-64.075,Portage Bog,1.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,Confirmed site and area with publication(Anderson)
+1912,1978,46.145833,-71.935833,Princeville,13.3,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site, Changed area"
+1915,1981,47.075,-64.8,Point Escuminac,958527.7361114704,Geographic matching,2,NA
+1937,2004,64.116667,-110.566667,Queens Lake,NA,NA,NA,NA
+1945,2013,58.232778,-72.066944,Rivière-aux-Feuilles 1,NA,NA,NA,NA
+1946,2015,58.216944,-71.95,Rivière-aux-Feuilles 2,3.9443533450096657,Geographic matching,2,NA
+1947,2016,58.232778,-72.066944,Tourbière de la Rivière-aux-Feuilles,NA,NA,NA,NA
+1953,2022,65.233333,-126.416667,Ra Lake,NA,NA,NA,NA
+1954,2023,45.6,-76.1,Ramsay Lake,21.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,Confirmed site with Google Earth. changed area
+1957,2028,49.35,-92.7,Rattle Lake,2,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Bjorck, 1985), changed area"
+1975,2048,45.670833,-71.325,Vallée de l'Albion,NA,NA,NA,NA
+1980,2054,69.116667,-132.166667,Reindeer Lake,3278.2294946510656,Geographic matching,2,NA
+1993,2068,54.305556,-84.558333,R Lake,NA,NA,NA,NA
+2187,2262,51.6,-55.53,L'Anse aux Meadows Road Cut Bog,NA,NA,NA,NA
+2189,2265,48.051944,-65.266944,Lac à Robin,6.265521276398324,Geographic matching,2,NA
+2190,2266,48.26,-58.8,Robinson's Pond,12.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area"
+2191,2267,56.766667,-64.816667,Lac des Roches Moutonnées,NA,NA,NA,NA
+2209,2286,45.963889,-73.330833,Lac Romer,25,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Gave it a nudge, but modern development around the lake may have changed its size."
+2210,2287,44.18,-79.44,Rose Swamp,NA,NA,NA,NA
+2215,2293,43.5,-81,Rostock Mammoth Site,NA,NA,NA,NA
+2219,2297,73.133333,-95.283333,Lake RS29,NA,NA,NA,NA
+2225,2303,72.583333,-95.066667,Lake RS36,NA,NA,NA,NA
+2240,2319,51.4,-66.216667,Lac au Sable,266.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+2253,2332,46.654167,-72.978889,Lac à Sam,52,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+2257,2337,54.4,-57.716667,Sandy Cove Pond,109,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved based on map & text description in paper.
+2261,2341,42.98,-82.32,Sarnia Elk Site Section,NA,NA,NA,NA
+2262,2342,46.057778,-74.466944,Lac Manitou,NA,NA,NA,NA
+2263,2343,46.171944,-74.395833,Lac aux Quenouilles,NA,NA,NA,NA
+2267,2347,46.919444,-55.6125,Lake Site South Burin Peninsula,7.322883521921975,Geographic matching,2,NA
+2268,2348,54.416667,-131.906667,SC1 Pond,814752.9674847841,Geographic matching,2,NA
+2272,2353,44.85,-79.98,Second Lake,70,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Burden et al, 1986), changed area"
+2285,2367,50.140278,-67.131944,LD Lake,NA,NA,NA,NA
+2290,2372,49.84135,-99.5763,Sewell Lake,145.23417626418126,Geographic matching,2,NA
+2291,2373,48.293889,-72.146944,Saint-Francois de Sales,NA,NA,NA,NA
+2294,2376,53.266667,-132.408333,Shangri-La Bog,NA,NA,NA,NA
+2295,2377,45.016667,-64.183333,Shaws Bog,NA,NA,NA,NA
+2296,2378,45.358889,-72.584722,Mont Shefford,1.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Minor nudge.
+2300,2382,45.15,-81.416667,Shouldice Lake,26.797074849372137,Geographic matching,2,NA
+2302,2384,44.563333,-63.642778,Silver Lake,2.8,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2309,2393,49.933333,-91.566667,Sioux Pond,NA,NA,NA,NA
+2392,2476,69.283333,-133.583333,Sleet Lake,NA,NA,NA,NA
+2493,2577,63.033333,-100.75,Slow River,NA,NA,NA,NA
+2496,2580,57.45,-120.666667,Snowshoe Lake,8,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Confrimed area with publication, Not enough info to confirm site of lake"
+2506,2590,55.511389,-119.583333,Spring Lake,NA,NA,NA,NA
+2515,3778,48.5,-72,Lac Saint-Jean,100300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Not sure why this didn't work
+2515,2602,48.5,-72,Lac Saint-Jean,100300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Not sure why this didn't work
+2516,2603,53.95,-58.916667,Saint John Island Pond,220105.74260846895,Geographic matching,2,NA
+2521,2610,47.616667,-52.666667,Sugarloaf Pond,NA,NA,NA,NA
+2522,2611,60.95,-137.957778,Sulphur Lake,144.8072336454527,Geographic matching,2,NA
+2526,2615,49.319689999999994,-122.56212500000001,Surprise Lake,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed Site from publication and Google Earth, Changed Area"
+2532,2622,67.65,-132.016667,Sweet Little Lake,NA,NA,NA,NA
+2549,2639,46.58,-70.62,Petit Lac Terrien,26,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area"
+2555,2646,63.066667,-110.791667,Thompson Landing,NA,NA,NA,NA
+2556,2647,50.815305,-114.59946,Toboggan Lake,0.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"Nudged the lake,"
+2560,2651,44.85,-77.175,Tonawa Lake,7.4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2561,2652,52.733333,-118.366667,Tonquin Creek,NA,NA,NA,NA
+2562,2654,45.545833,-73.316944,Lac à la Tortue,NA,NA,NA,NA
+2569,2661,69.05,-133.45,Tuktoyaktuk 5,1.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with publication, changed area"
+2576,2669,55.016667,-67.5,Tunturi Lake,NA,NA,NA,NA
+2577,2671,49.157778,-65.762778,Lac Turcotte,25.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+2784,2879,50.787099999999995,-116.36186000000001,Twin Lakes (CA:British Columbia),NA,NA,NA,NA
+2787,2882,66.05,-135.655556,Tyrrell Lake,72.17778775824276,Geographic matching,2,NA
+2793,2890,47.308333,-84.258333,Upper Mallot Lake,73.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+2806,2903,44,-79.38,Van Nostrand Lake,NA,NA,NA,NA
+2815,2912,60.782778,-69.832778,Baie du Diana,NA,NA,NA,NA
+2825,2922,48.529167,-124.002222,Walker Lake,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed site and area with publication
+2828,2925,52.783333,-117.083333,Watchtower Basin,NA,NA,NA,NA
+2829,2926,44.78,-79.68,Waubashene Nippissing Transgression Site,NA,NA,NA,NA
+2852,2949,45.033333,-77.433333,Weslemkoon Lake,1858.7677699212718,Geographic matching,2,NA
+2852,3839,45.033333,-77.433333,Weslemkoon Lake,1858.7677699212718,Geographic matching,2,NA
+2854,2951,51.516667,-57.3,Whitney's Gulch,72,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,Confirmed site and area with pub (Lamb 1980)
+2856,2953,48.672222,-124.844444,Whyac Lake,5.5,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with publication (Brown and Hebda 202), changed area"
+2858,2955,52.241667,-117.216667,Wilcox Pass,NA,NA,NA,NA
+2865,2962,59.25,-114.15,Wild Spear Lake,NA,NA,NA,NA
+2939,3037,47.861667,-59.366667,Woody Cove Section,NA,NA,NA,NA
+2943,3041,43.9,-80.4,Wylde Bog,1425,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, changed area"
+2944,3042,43.91,-80.4,Wylde Lake,6.717250841960784,Geographic matching,2,NA
+2947,3046,48.503889,-79.637778,Lac Yelle,6.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2949,3048,56.766667,-119.483333,Yesterday Lake,57.75152564360583,Geographic matching,2,NA
+2952,3051,45.55,-78.64,Found Lake,NA,NA,NA,NA
+2959,3058,45.255556,-67.330556,Basswood Road Lake/Splan Pond,4,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"Just off from site, checked against published lake area"
+2959,3775,45.255556,-67.330556,Basswood Road Lake/Splan Pond,4,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"Just off from site, checked against published lake area"
+6519,10981,45.3855,-63.55975,Little Dyke Lake,5,Neotoma,2,NA
+9753,14426,50.165490000000005,-110.363545,Chappice Lake,200.4879579449757,Geographic matching,2,NA
+9754,14427,51,-113.323611111111,Eagle Lake,824.3676476141978,Geographic matching,2,NA
+9755,14428,52.60273,-111.556055,Bellshill Lake,294.7116576240498,Geographic matching,2,NA
+9756,14429,52.11802,-110.73929000000001,Gooseberry Lake,385.187271084077,Geographic matching,2,NA
+9757,14430,51.68784,-113.55489,Keiver's Lake,109.14712060416753,Geographic matching,2,NA
+9758,14431,51.377375,-112.233625,Little Fish Lake,883.1346914279809,Geographic matching,2,NA
+9759,14432,50.87114,-114.161275,Lloyd Lake [Red Deer Lake],212.5195869075447,Geographic matching,2,NA
+9760,14433,52.723194444444445,-113.0616666666665,Red Deer Lake,2178.439570082591,Geographic matching,2,NA
+9761,14434,50.206685,-111.64238,Twelve Mile Coulee,NA,NA,NA,NA
+9798,14498,50.780545000000004,-115.92976999999999,Dog Lake,15.1,Neotoma,2,NA
+9862,14614,42.342715,-81.84467000000001,Bates Marsh,NA,NA,NA,NA
+9943,14794,51.106595,-127.534035,Two Frog Lake,5.29088568687749,Geographic matching,2,NA
+9990,14925,62.91475444444445,-69.87914,Upper Soper Lake,532767.0304846846,Geographic matching,2,NA
+9992,14930,62.8454677777778,-67.3415277777778,Ogac Lake,138.22694672442876,Geographic matching,2,NA
+9999,14948,66.62245999999999,-61.649249999999995,Dye Lower Water Lake (Dyer Lake),3.14,Neotoma,2,NA
+10017,14991,49.032650000000004,-97.22993,Lake Louise,26.76777070370329,Geographic matching,2,NA
+10074,15138,49.450244999999995,-99.28914499999999,Jones Lake,50.90667180771167,Geographic matching,2,NA
+10075,15140,51.287795,-101.32475,Mallard Pond,7.887285387171204,Geographic matching,2,NA
+10108,15203,43.4665277777778,-79.9491666666667,Crawford Bog,0.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Minor nudge
+10114,15214,51.668615,-121.454395,Big Lake,112.99835576084547,Geographic matching,2,NA
+10123,15232,51.040645,-118.15376499999999,Eagle Lake,0.3,Neotoma,2,NA
+10143,15272,49.46834,-109.67135999999999,Gaff Lake,2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Moved it slightly to the east.  No map or figure.
+10145,15276,50.166624999999996,-127.752025,Cassiope Pond,NA,NA,NA,NA
+10150,15282,63.3901388888889,-64.68069444444444,Winton Bay Lake,328376.72361071367,Geographic matching,2,NA
+10151,15284,51.194379999999995,-127.38188,Tiny Lake,22.588804285044585,Geographic matching,2,NA
+10152,15286,49.76341,-95.19172499999999,West Hawk Lake,1449.3226610735671,Geographic matching,2,NA
+10153,15288,50.183195,-127.69799499999999,Pyrola Lake,1,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Right on lake.
+10159,15300,43.686,-79.366,Don Brickyard Interglacial Section,NA,NA,NA,NA
+10170,15320,67.193,-63.138,Brother-of-Fog Lake,22.61008886404559,Geographic matching,2,NA
+10171,15323,56.24278,-130.055465,Berendon Fen,6,Neotoma,2,NA
+10174,15328,49.290105,-119.58234,Mahoney Lake,18,Neotoma,2,NA
+10176,15333,60.850205,-135.76908500000002,Two Horsemen Pond,1.5,Neotoma,2,NA
+10183,15342,57.59498,-130.095975,Skinny Lake,NA,NA,NA,NA
+10192,15359,56.239975,-130.068815,Spillway Pond,0.5,Neotoma,2,NA
+10196,15369,50.78748,-116.388495,Dunbar Lake [Big Fish Lake],19.174763330608247,Geographic matching,2,NA
+10206,15392,67.18237500000001,-63.24945,Fog Lake,7.46878472027999,Geographic matching,2,NA
+10209,15399,61.564,-137.2285,Long Last Lake,1,Neotoma,2,NA
+10215,15415,43.2765,-79.9075,Cootes Paradise Marsh,218.33817713937364,Geographic matching,2,NA
+10216,15417,57.484395,-130.829355,Rasberry Bog,NA,NA,NA,NA
+10217,15418,49.034,-119.64850000000001,Richter Marsh,30,Neotoma,2,NA
+10218,15420,58.89215,-129.833915,Pyramid Lake,11.317777885722586,Geographic matching,2,NA
+10220,15426,49.322,-119.725,Twin Lake,30,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Moved a bit to get around the lake.
+10225,15752,44.979797,-63.48817,Lantz Site,NA,NA,NA,NA
+10227,15462,50.715050000000005,-57.374385000000004,Bass Pond,6.660490602699717,Geographic matching,2,NA
+10274,15564,50.645250000000004,-114.5435,Chalmer's Bog (PL-78-37),5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"Air photo impossible to discern, but Lake Files show new location."
+10286,15597,51.435,-83.6175,Albany River Bog,2800,Neotoma,2,NA
+10300,15630,51.6175,-82.293,Belec Lake Bog,1200,Neotoma,2,NA
+10303,15635,51.0289,-84.488,Oldman Bog,7390,Neotoma,2,NA
+10307,15642,67.37236200000001,-140.365444,Lower Bluefish Basin,NA,NA,NA,NA
+10308,15643,67.37236200000001,-140.365444,Bluefish Basin,NA,NA,NA,NA
+10319,15667,49.11905,-119.68305,Buckbean Bog,1,Neotoma,2,NA
+10320,15669,52.0878,-123.37049999999999,Bull Canyon (#1),NA,NA,NA,NA
+10321,15671,52.0878,-123.37049999999999,Bull Canyon (#2),NA,NA,NA,NA
+10322,15673,50.6555,-121.46950000000001,Oregon Jack Creek (#1),NA,NA,NA,NA
+10323,15675,50.6555,-121.46950000000001,Oregon Jack Creek,NA,NA,NA,NA
+10333,15700,54.0236,-101.2588,Clearwater Bog,NA,NA,NA,NA
+10334,15702,45.42715,-61.3427,Collins Pond Site (PL-86-56),924760.9848924015,Geographic matching,2,NA
+10340,15713,49.19225,-120.09585,Crater Lake,1.5,Neotoma,2,NA
+10343,15719,66.662,-61.787800000000004,Donard Lake,27,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+10347,15730,52.331985,-67.35709,Fire Lake,104.49103648253217,Geographic matching,2,NA
+10351,15738,49.666560000000004,-109.90446,Harris Lake,32.09670329462069,Geographic matching,2,NA
+10354,15744,44.389700000000005,-64.7,Joggins Section (MS-82-44),NA,NA,NA,NA
+10355,15746,63.66675,-65.1513,Lake Jake,103.35261819852114,Geographic matching,2,NA
+10366,15772,52.0434999871144,-106.3812979479615,Martens Slough (PL-77-20),NA,NA,NA,NA
+10370,15781,51.33,-124.9,Moraine Bog,1,Neotoma,2,NA
+10371,15783,71.86,-124.47,Moraine Lake,41.74391939073253,Geographic matching,2,NA
+10372,15785,72.3515,-120.22,Stewert Point Pond,NA,NA,NA,NA
+10374,15789,73.5139,-120.2765,Caribou Lake (MS-74-15),NA,NA,NA,NA
+10376,15793,46.89451,-67.4,Roulston Lake (MS-78-15),1.9716829714528656,Geographic matching,2,NA
+10377,15794,47.23019,-61.900945,Le Bassin site,1647102.849699323,Geographic matching,2,NA
+10378,15796,45.2235,-64.3751,Blomidon Section MS-89-16,NA,NA,NA,NA
+10388,15819,52.50635,-101.62995000000001,Porcupine Mountain,NA,NA,NA,NA
+10394,15829,63.397585,-64.261165,Robinson Lake,15.890814596113056,Geographic matching,2,NA
+10402,15860,43.9506,-79.41435,Swan Lake,NA,NA,NA,NA
+10407,15870,49.119730000000004,-119.67689999999999,Testalinden Lake,3,Neotoma,2,NA
+10408,15872,54.47601,-130.94489499999997,Top Lake,NA,NA,NA,NA
+10421,15902,51.004365,-127.269325,Woods Lake,0.2,Neotoma,2,NA
+10439,15947,57.71916666666665,-75.8134722222222,Larix laricina Site 4,NA,NA,NA,NA
+10440,15950,57.71916666666665,-75.8134722222222,Larix laricina Site 5,NA,NA,NA,NA
+10441,15952,57.854124999999996,-72.777555,Larix laricina Site 10,NA,NA,NA,NA
+10456,15982,45.3898611111111,-79.2165277777778,Mayflower Lake,5.794745007709168,Geographic matching,2,NA
+10484,16077,57.76347222222225,-95.1888888888889,Bradshaw Lake peat section,20.981536971832103,Geographic matching,2,NA
+10485,16079,44.25819444444445,-66.36777777777775,Brier Island Bog MS-85-22,NA,NA,NA,NA
+10486,16081,45.670215,-62.610974999999996,Chance Harbour Lake,10.833753744682422,Geographic matching,2,NA
+10487,16083,57.56083333333335,-94.26791666666671,Lost Moose Core 128,NA,NA,NA,NA
+10488,16086,47.830254999999994,-66.18226999999999,Island Lake,3,Neotoma,2,NA
+10493,16096,50.85930555555555,-128.3044444444445,Cook Bank,1492546.3997456892,Geographic matching,2,NA
+10494,16099,52.78041666666665,-131.68972222222249,Logan Inlet,1310071.9086952012,Geographic matching,2,NA
+10495,16101,52.5022213921833,-131.37499652096,Juan Perez Sound,1310071.9086952012,Geographic matching,2,NA
+10496,16103,44.9759327777778,-62.09061,Pye Lake,12.523707418295816,Geographic matching,2,NA
+10497,16105,57.20541666666665,-94.185,Silcox Core 52,NA,NA,NA,NA
+10498,16107,57.087083333333354,-94.16944444444445,Thibaudeau,NA,NA,NA,NA
+10499,16109,70.46194444444444,-68.50277777777775,Patricia Bay Lake,62.58410148195348,Geographic matching,2,NA
+10505,16127,43.440830000000005,-79.95551,Twiss Marl Pond,11,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+10521,16189,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA
+10521,16191,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA
+10521,16193,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA
+10521,16187,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA
+10544,16256,44.607495,-78.039815,McGinnis Lake,4.557063771115575,Geographic matching,2,NA
+10544,16257,44.607495,-78.039815,McGinnis Lake,4.557063771115575,Geographic matching,2,NA
+10548,16264,46.310276992702896,-79.3808362591486,Dugas Bay Bog,1902.246411187486,Geographic matching,2,NA
+10549,16265,44.0463888888889,-77.03916666666666,Glenora Bay,109053.08476155059,Geographic matching,2,NA
+10550,16267,43.46458333333335,-79.9154166666667,Kilbride Swamp,NA,NA,NA,NA
+10551,16269,51.8398611111111,-89.61541666666665,Mark Pond,NA,NA,NA,NA
+10552,16271,43.9869027777778,-79.37944,Preston Lake,26.538870515115168,Geographic matching,2,NA
+10553,16273,43.4677777777778,-79.9868055555556,Rife Swamp,NA,NA,NA,NA
+10554,16275,52.531655,-91.3723611111111,Round Pond,11.990503305714528,Geographic matching,2,NA
+10555,16276,44.19,-79.130295,Wagner Lake,40.73881331656699,Geographic matching,2,NA
+10556,16278,44.167066666666656,-78.10249999999999,Webbs Lake,6.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed site and area
+11557,17280,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA
+11557,17283,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA
+11557,17281,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA
+11605,17393,49.992745,-121.49261999999999,Fishblue (Blue) Lake,8.467040328401826,Geographic matching,2,NA
+11608,17400,69.080765,-121.42854,South Lake,70.41403966439913,Geographic matching,2,NA
+11613,17409,46.443560000000005,-81.06824499999999,Kelly Lake,339.1556228740496,Geographic matching,2,NA
+11696,17597,45.91664,-60.69363,Benacadie 4,NA,NA,NA,NA
+11702,17609,46.06677,-61.354865000000004,Hillsboro Site,NA,NA,NA,NA
+11706,17617,45.70486,-62.27347,Lismore Section,NA,NA,NA,NA
+11719,17644,47.27138,-61.71192,Ile d'Entree Site,NA,NA,NA,NA
+11728,17668,45.01266,-63.41798,East Milford Gypsum Quarry,NA,NA,NA,NA
+11736,17689,43.26191,-80.25924166666664,Spirea Wetland,0.3,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed Lake and area
+11747,17711,55.33119,-105.05531500000001,Lake A,1,Neotoma,2,NA
+11748,17713,55.430904999999996,-104.938605,West Naniskak Lake,9.242196632681152,Geographic matching,2,NA
+11749,17715,55.047974999999994,-105.385195,Marl Pond,49.348773104659045,Geographic matching,2,NA
+11925,18108,49.496404999999996,-116.905,NEL03,0.35,Neotoma,2,NA
+11926,18110,43.87196,-64.92879500000001,Path Lake,23.4319275825588,Geographic matching,2,NA
+11928,19323,66.34783999999999,-104.945735,TK-2 Lake,5.3,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed Site with publication and Google Earth, Changed area"
+11934,18127,49.469660000000005,-115.769585,Pyatts Lake,10.072225601551327,Geographic matching,2,NA
+13288,19814,68.829105,-138.74448999999998,Trout Lake,86.14985263876892,Geographic matching,2,NA
+13302,19842,45.719030000000004,-75.4417,Lac Brule,8.310506075149346,Geographic matching,2,NA
+13304,19846,45.777015000000006,-75.13590500000001,Lac Noir,9.212043629299975,Geographic matching,2,NA
+13362,19967,44.735654999999994,-81.00255999999999,Mary Lake,14.096397425340314,Geographic matching,2,NA
+13375,19993,49.49136,-117.645195,Cooley Lake,4.5,Neotoma,2,NA
+13376,19995,53.64545,-121.50548,Gerry Lake,5.1,Neotoma,2,NA
+13477,20281,60.812585,-135.34124500000001,Dragonfly Lake,6,Neotoma,2,NA
+13479,20287,60.516075,-133.209055,Haircut Lake,7.37778815172372,Geographic matching,2,NA
+13480,20289,60.073494999999994,-133.80601000000001,Marcella Lake,2.339197217296623,Geographic matching,2,NA
+13482,20295,60.445535,-133.561605,Salmo Lake,2.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved a bit.  Paper confirms location.  Measure
+13572,20647,69.9,-95.07,Lake JR01,24,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Approximate dimensions reported but site difficult to find.
+13625,20609,52.11139,-119.30096499999999,Eleanor Lake,6.437588368370259,Geographic matching,2,NA
+13641,20643,52.089861111111105,-113.4425,Pine Lake,412.22424085974797,Geographic matching,2,NA
+13643,20649,71.344,-113.78145,Lake KR02 (unofficial name),0.79,Neotoma,2,NA
+13644,20651,61.0195,-138.08800000000002,Upper Fly Lake,10.494511083184886,Geographic matching,2,NA
+13645,20653,69.807,-112.077,Lake MB01,5.409028093763686,Geographic matching,2,NA
+13657,20676,68.59049999999999,-91.888,Lake SL06,NA,NA,NA,NA
+13682,20836,53.935385,-132.10562,Drizzle Bog,2.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Looks fine.
+13899,21319,48.710435000000004,-65.41279,Lac Triangle,1.5,Neotoma,2,NA
+13910,21404,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA
+13910,21406,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA
+13910,21389,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA
+13975,21577,44.973845,-77.28929500000001,Stoll Lake,46.34190096469635,Geographic matching,2,NA
+13980,21600,44.8163888888889,-77.18251,Tawny Pond,2,Neotoma,2,NA
+14031,21770,53.53188,-132.97624,Hippa Lake,3.2,Neotoma,2,NA
+14032,21772,50.607074999999995,-127.26146,Misty Lake,34.222852275339456,Geographic matching,2,NA
+14033,21774,50.57119,-127.07868500000001,Port McNeill Bog,NA,NA,NA,NA
+14039,21788,48.782945,-123.302695,Roe Lake,2.0068510886700524,Geographic matching,2,NA
+14039,26246,48.782945,-123.302695,Roe Lake,2.0068510886700524,Geographic matching,2,NA
+14049,21810,52.214259999999996,-117.16168,Sunwapta Pass Bog 2,4,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From thesis
+14051,21830,53.27892,-84.2054,Lake AT01,53.286691247704425,Geographic matching,2,NA
+14055,21822,52.21728,-117.19451000000001,Sunwapta Pass Bog 6,26,data/by_hand/all_lakes_andria/andrea_areas.csv,1,From Thesis
+14056,21826,52.214259999999996,-117.181465,Sunwapta Pass Bog 1,2,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From thesis.
+14225,22244,47.581244999999996,-52.68972,Quidi Vidi Lake,45,Neotoma,2,NA
+14228,22247,47.57783,-52.733205,Long Pond,9.8,Neotoma,2,NA
+14229,22248,47.551615,-52.739245,Mundy Pond,9.6,Neotoma,2,NA
+14230,22249,47.572595,-52.685024999999996,Georges Pond,5.4,Neotoma,2,NA
+14232,22251,47.31322,-52.848335,Long Pond Witless Bay Line,32,Neotoma,2,NA
+14658,22998,68.356225,-138.85191,Dog Creek,NA,NA,NA,NA
+15828,24354,53.611475,-106.49524,North Flat Lake,12,Neotoma,2,NA
+15871,24425,54.60476,-105.96330499999999,L03,11,Neotoma,2,NA
+15962,24608,42.273975,-81.868955,Rondeau Bay (R34),NA,NA,NA,NA
+16242,25186,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25209,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25207,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25192,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25190,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25147,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25188,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16242,25268,46.647495,-53.600965,St. Shotts,NA,NA,NA,NA
+16329,25337,52.581140000000005,-63.539429999999996,Leaky Lake,NA,NA,NA,NA
+16345,25378,52.293515,-62.117515,Battery Lake,NA,NA,NA,NA
+16350,25388,51.140905000000004,-69.286995,Pine Lake,NA,NA,NA,NA
+16613,26313,48.799565,-123.66048,Quamichan Lake,313,Neotoma,2,NA
+16614,26315,48.458595,-123.513045,Florence Lake,7,Neotoma,2,NA
+16729,26606,49.66332,-93.72020499999999,Lake 239,56,Neotoma,2,NA
+23680,40976,49.7883,-125.1272,Grant's Bog,NA,NA,NA,NA
+8,8,33.956389,-119.976667,Abalone Rocks Marsh,2.7,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved into the marsh proper based on pictures and aerial imagery
+18,3772,29.6,-97.516944,South Soefje Bog,NA,NA,NA,NA
+29,29,44.8036,-94.55789999999999,Lake Allie,203.79999999999998,Geographic matching,2,NA
+30,30,46.206111,-95.293611,Almora Lake,16.2,Geographic matching,2,NA
+196,3131,46.186930000000004,-89.702685,Hell's Kitchen Lake,3,Geographic matching,2,NA
+197,3473,46.25,-89.9,Lake Mary,NA,NA,NA,NA
+202,202,46.416667,-92.716667,Anderson Lake,NA,NA,NA,NA
+203,203,36.03015,-85.50131999999999,Anderson Pond,19,Geographic matching,2,NA
+203,15088,36.03015,-85.50131999999999,Anderson Pond,19,Geographic matching,2,NA
+204,204,45.725,-93.25,Andree Bog,258.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Assumed correct location. Area from Cushing 1964
+205,205,46.7,-85.040278,Andrus Lake,13.4,Geographic matching,2,NA
+207,208,67.133333,-153.9,Angal Lake,NA,NA,NA,NA
+209,210,43.5,-105.45,Antelope Playa,NA,NA,NA,NA
+213,214,39.495,-95.526667,Arrington Marsh,NA,NA,NA,NA
+221,223,47.123935,-95.397205,Bad Medicine Lake,302,Neotoma,2,NA
+226,228,37.195833,-119.260278,Balsam Meadow,NA,NA,NA,NA
+229,232,30.622222,-83.253889,Barchampe Lake,5.689423,Geographic matching,2,NA
+231,234,37.595833,-119.008333,Barrett Lake,NA,NA,NA,NA
+234,237,44.47,-70.05,Basin Pond,NA,NA,NA,NA
+236,239,45.8,-122.491667,Battle Ground Lake,11,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Moved a bit.  Confirmed on map.
+237,240,41.143889,-81.328611,Battaglia Bog,NA,NA,NA,NA
+238,241,46.128056,-93.703889,Black Bass Lake,13.4,Geographic matching,2,NA
+243,246,44.178611,-107.259722,Beaver Lake,NA,NA,NA,NA
+244,247,37.3666666666667,-110.866666666667,Bechan Cave,NA,NA,NA,NA
+244,3060,37.3666666666667,-110.866666666667,Bechan Cave,NA,NA,NA,NA
+245,249,45.425,-93.183333,Beckman Lake,9.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+245,3062,45.425,-93.183333,Beckman Lake,9.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+246,250,37.473105000000004,-108.160375,Beef Pasture,NA,NA,NA,NA
+246,25551,37.473105000000004,-108.160375,Beef Pasture,NA,NA,NA,NA
+249,254,42.25,-77.916667,Belmont Bog,30,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,3,"Confirmed area with pub (Spear et al 1976), could not confirm site"
+254,260,42.5,-73.316667,Berry Pond,3.9,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Confirmed location and area: Whitehead 1979
+265,271,40.855556,-90.88,Biggsville [Cessford Quarry],NA,NA,NA,NA
+266,272,47.559174999999996,-94.970775,Big John Pond,1.9,Geographic matching,2,NA
+268,274,39.766667,-78.55,Big Pond,NA,NA,NA,NA
+269,275,46.270579999999995,-94.55155500000001,Billy's Lake,2.7,Geographic matching,2,NA
+272,278,35.620833,-84.186667,Black Pond,1.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed pond and area: Delcourt et al 1986
+273,279,44.956109999999995,-110.60070999999999,Blacktail Pond,7.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed Lake and Area
+273,20308,44.956109999999995,-110.60070999999999,Blacktail Pond,7.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed Lake and Area
+274,280,47.133333,-93.666667,Blandin Pond,NA,NA,NA,NA
+275,281,33.563333,-88.474444,BL-Tombigbee,NA,NA,NA,NA
+276,282,46.503333,-92.573333,Blackhoof Site,NA,NA,NA,NA
+281,287,43.083333,-89.866667,Blue Mounds Creek,NA,NA,NA,NA
+289,295,34.323611,-84.868056,Bob Black Pond,NA,NA,NA,NA
+290,296,46.633611,-92.614722,Bob Lake,30.8,Geographic matching,2,NA
+291,297,47.17548,-95.16745499999999,Bog A Pond,0.8,Geographic matching,2,NA
+292,298,47.177499999999995,-95.16267500000001,Bog D Pond,NA,NA,NA,NA
+295,3067,38.111944,-93.366944,Boney Spring,NA,NA,NA,NA
+298,304,30.36,-97.126111,Boriack Bog,NA,NA,NA,NA
+299,305,44.296475,-93.73571000000001,Bossuot Lake,40.1,Geographic matching,2,NA
+302,308,45.566667,-70.675,Boundary Pond,NA,NA,NA,NA
+303,309,43.916667,-74.683333,Brandreth Bog,NA,NA,NA,NA
+306,313,45.783333,-89.483333,Brown Lake,37,Neotoma,2,NA
+307,314,44.95769,-93.545105,"Brown's Bay, Lake Minnetonka",5573,Geographic matching,2,NA
+308,315,40.680556,-82.0625,Brown Lake,NA,NA,NA,NA
+309,316,38.154722,-79.616389,Browns Pond,0.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed pond and area: Kneller and Peteet 1993
+311,318,44.298611,-110.260556,Buckbean Fen,47.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed location with publication, changed area"
+312,319,27.234444,-81.332222,Buck Lake,4.1000000000000005,Geographic matching,2,NA
+314,321,40.797222,-82.933333,Bucyrus Bog,NA,NA,NA,NA
+317,324,42.604167,-73.566667,Burden Lake,42,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+318,325,47.924167,-91.994722,Burntside Lake,2918.142139,Geographic matching,2,NA
+321,328,33.5,-86.533333,Cahaba Pond,0.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Moved a bit based on map, area confirmed & based on paper."
+324,331,30.266667,-85.016667,Camel Lake,35,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area"
+325,332,46.666667,-88.016667,Camp 11 Lake,1.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Confirmed lake and area: Brubaker 1975
+326,333,45.986111,-89.375,Camp 12 Lake,35,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Site description: lage. Area: Kingston et al 1990
+327,334,44.70722,-93.497645,Campbell Lake,21.7,Geographic matching,2,NA
+331,338,41.7,-71.783333,Carbuncle Pond,NA,NA,NA,NA
+333,340,44.93672,-68.77344,Caribou Bog,780,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed Bog. Approx area by 3.8x2.0 axes.
+336,343,45.918056,-120.880556,Carp Lake,NA,NA,NA,NA
+337,345,40.216667,-84.680556,Carter Site,0.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+339,347,37.647645,-107.808675,Cascade Fen [Engineer Mountain Bog],NA,NA,NA,NA
+344,352,45.411111,-93.197222,Cedar Bog,3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+358,367,38.466667,-98.666667,Cheyenne Bottoms,503.7,Geographic matching,2,NA
+360,369,43.123889,-83.241111,Chippewa Bog,NA,NA,NA,NA
+364,375,40.675865,-88.324435,Chatsworth Bog,3.6999999999999997,Geographic matching,2,NA
+371,382,47.172305,-94.938965,Cindy Pond,1.2,Geographic matching,2,NA
+459,19997,48.00985,-124.53069500000001,Wentworth Lake,52.1,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed with Google Earth, changed area"
+478,489,43.12507,-93.42973,Clear Lake,1469.8,Geographic matching,2,NA
+479,490,41.638535,-86.544595,Clear Lake,20.998048,Geographic matching,2,NA
+480,492,33.798895,-78.95336,Clear Pond,9,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+482,494,43.748575,-74.016955,Clear Pond,11.6,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Looks fine
+485,497,42.02,-93.27,Colo Marsh,517,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Iowa DNR, changed area"
+486,498,37.60664,-107.81571,Columbine Ranch Fen,NA,NA,NA,NA
+490,502,41.694444,-91.563889,Conklin Quarry,NA,NA,NA,NA
+491,503,46.283333,-67.883333,Conroy Lake,10.1,Neotoma,2,NA
+491,14768,46.283333,-67.883333,Conroy Lake,10.1,Neotoma,2,NA
+494,506,38.872222,-107.0825,Copley Lake,2.868528,Geographic matching,2,NA
+500,513,44.835435000000004,-99.90806,Cottonwood Lake,223,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Seems right, but don't have the original publication."
+501,514,38.82872999999999,-106.41084000000001,Cottonwood Pass Pond,NA,NA,NA,NA
+502,515,45.76101,-96.01988,Cottonwood Lake,100.1,Geographic matching,2,NA
+504,517,36.716667,-112.216667,Crane Lake,NA,NA,NA,NA
+505,518,38.2,-80.283333,Cranberry Glades,NA,NA,NA,NA
+508,521,47.182465,-95.73495,Crazy Pond,3.2,Geographic matching,2,NA
+510,523,39.966667,-77.55,Crider's Pond,NA,NA,NA,NA
+513,527,68.333333,-146.483333,Crowsnest Lake,NA,NA,NA,NA
+518,532,44.7,-84.958333,Cub Lake,46.7,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed with Google Earth, changed area"
+519,533,44.49,-110.283611,Cub Creek Pond,123.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed site and changed area
+520,534,44.125,-111.183333,Cub Lake,NA,NA,NA,NA
+525,539,36.8,-91.1,Cupola Pond,2,Neotoma,2,NA
+528,543,44.65,-110.6,Cygnet Lake Fen,140,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Large fen complex, with lakes inside."
+529,3132,29.583333,-97.608333,Hershop Bog,NA,NA,NA,NA
+530,545,46.173889,-95.915278,Dalton Lake,NA,NA,NA,NA
+531,546,45.275,-91.475,Dark Lake,5.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Site description: lake. Area: Gajewski et al 1985
+534,550,46.591667,-122.25,Davis Lake,3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Seemed quite far off.  From Barnowsky paper.
+558,3493,41.81115,-73.292685,Mohawk Pond,6.945223,Geographic matching,2,NA
+562,3789,42.516667,-72.2125,Tom Swamp,57.199999999999996,Geographic matching,2,NA
+562,3790,42.516667,-72.2125,Tom Swamp,57.199999999999996,Geographic matching,2,NA
+563,3858,42.633333,-73.6,West Sand Lake Peat Bog,NA,NA,NA,NA
+655,671,36.2375,-108.951667,Dead Man Lake,56.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area"
+655,3076,36.2375,-108.951667,Dead Man Lake,56.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area"
+657,673,44.033333,-71.833333,Deer Lake Bog,NA,NA,NA,NA
+661,679,43.48,-85,Demont Lake,NA,NA,NA,NA
+663,681,45.85,-89.316667,Denton Lake,20,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Site descripiton: lake. Area: Kingston et al 1990
+665,683,48.031535000000005,-98.95059499999999,"Devils Lake, Main Bay",44824,Neotoma,2,NA
+666,684,43.4178,-89.73205,Devils Lake,151.5,Geographic matching,2,NA
+673,693,37,-119.083333,Dinkey Meadow,NA,NA,NA,NA
+679,699,36.583333,-76.45,Dismal Swamp (91),46752.9369,Geographic matching,2,NA
+680,700,43.916944,-89.166944,Disterhaft Farm Bog,NA,NA,NA,NA
+680,3081,43.916944,-89.166944,Disterhaft Farm Bog,NA,NA,NA,NA
+681,701,43.933333,-110.233333,Divide Lake,NA,NA,NA,NA
+697,717,48.183333,-92.183333,Dogfish Lake,NA,NA,NA,NA
+699,719,40.024167,-107.050833,Dome Creek Meadow,12.3,Geographic matching,2,NA
+701,721,41.275,-70.058333,Donut Pond Bog,NA,NA,NA,NA
+728,3130,44.18236,-73.96963,Heart Lake,11.2,Neotoma,2,NA
+745,3830,44.148295000000005,-74.05567500000001,Upper Wallface Pond,NA,NA,NA,NA
+751,3582,36.166667,-76.683333,Rockyhock Bay,23.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed Location with publication, changed area"
+753,772,41.9327,-70.0005,Duck Pond,4.3,Geographic matching,2,NA
+755,774,47.708333,-91.641667,Dunnigan Lake,33,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Site description: kettle lake. Area: Kingston 1990
+757,776,44.166667,-71.666667,Eagle Lake Bog,1,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site, changed area"
+762,781,45.333333,-93.508333,East Twin Lake,NA,NA,NA,NA
+767,786,44.47012,-93.619035,Eggert Lake,20.9,Geographic matching,2,NA
+771,790,39.936667,-105.58,Eldora Fen,NA,NA,NA,NA
+774,794,39.354167,-83.01,Lake Ellensmere,NA,NA,NA,NA
+775,795,41.766667,-75.833333,Ely Lake,22.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+776,796,44.066667,-110.3,Emerald Lake,NA,NA,NA,NA
+786,806,43.233056,-88.041944,Ernst Brother's Pit,NA,NA,NA,NA
+790,811,68.133333,-156.033333,Etivlik Lake,NA,NA,NA,NA
+794,816,37,-119.833333,Exchequer Meadow,NA,NA,NA,NA
+795,817,47.272455,-96.09405000000001,Faith Pond,NA,NA,NA,NA
+796,818,43.966667,-110.433333,Fallback Lake,NA,NA,NA,NA
+799,822,44.75815,-93.16449,Farquar Lake,25.3,Geographic matching,2,NA
+801,824,46.218889,-94.753333,Fawn Lake,48.9,Geographic matching,2,NA
+803,826,42.55,-76.62,Fernbank Interglacial,NA,NA,NA,NA
+804,828,34.405556,-95.808333,Ferndale Bog,NA,NA,NA,NA
+804,3126,34.405556,-95.808333,Ferndale Bog,NA,NA,NA,NA
+807,831,41.135278,-75.026667,First Pond,29.5,Geographic matching,2,NA
+811,3127,44.55,-107.466667,Floating Island Lake,3.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+811,835,44.55,-107.466667,Floating Island Lake,3.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+816,841,43.471667,-109.938889,Forest Pond 1,NA,NA,NA,NA
+817,843,43.438889,-109.95,Forest Pond 2,1.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with publication (Lynch 1995), changed area"
+818,844,46.451667,-112.165833,Forest Lake,0.6,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area"
+819,845,40.855833,-74.399167,Forge Pond,NA,NA,NA,NA
+820,846,47.165,-95.558333,Fox Pond,NA,NA,NA,NA
+821,847,42.33,-83.63,Frains Lake,NA,NA,NA,NA
+824,850,44.945765,-94.42074,French Lake,17.8,Geographic matching,2,NA
+826,852,41.158333,-71.575,Fresh Pond,28,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area"
+827,853,38.616667,-111.666667,Frying Pan Lake,2.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+828,855,40.1,-83.533333,Fudger Lake,1.4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed lake with Google Earth, changed area"
+832,859,44.916667,-110.733333,Gardiner's Hole,NA,NA,NA,NA
+833,860,44.05,-87.733333,Gass Lake,NA,NA,NA,NA
+834,861,30.785,-96.721111,Gause Bog,NA,NA,NA,NA
+841,869,44.2329,-93.87066,George Lake,35,Geographic matching,2,NA
+841,15245,44.2329,-93.87066,George Lake,35,Geographic matching,2,NA
+844,873,41.376111,-75.093333,Giles Lake,47.539514,Geographic matching,2,NA
+846,875,64.866667,-166.266667,Glacial Lake,NA,NA,NA,NA
+848,877,47.28,-92.62,Glatsch Lake,NA,NA,NA,NA
+936,965,44.4525,-109.838611,Goff Lake,NA,NA,NA,NA
+937,966,43.65,-122.041667,Gold Lake Bog,600,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Area confirmed in publication, site confirmed on Google Earth"
+938,967,46.583333,-92.466667,Goldsmith Lake,NA,NA,NA,NA
+940,969,31.721111,-86.134167,Goshen Springs,6.4,Geographic matching,2,NA
+941,971,44.983333,-69.316667,Gould Pond,3.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Anderson et al 1992: confirmed lake and area
+942,972,42.533333,-72.183333,Gould's Bog,NA,NA,NA,NA
+952,982,44.883333,-85.116667,Green Lake,NA,NA,NA,NA
+953,983,41.005055,-74.49534,Green Pond,393.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site, changed area"
+955,985,42.283333,-73.316667,Greenwater Pond,NA,NA,NA,NA
+959,990,47.2036,-95.755515,Grice Pond,9.1,Geographic matching,2,NA
+960,991,48.55,-112.716667,Guardipee Lake,89.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+961,992,25.773889,-80.505556,"Water Conservation Area 3B, Gumbo Limbo Dry Head",28812.969820000002,Geographic matching,2,NA
+962,993,25.774722,-80.505556,"Water Conservation Area 3B, Gumbo Limbo Far Tail",28812.969820000002,Geographic matching,2,NA
+963,994,25.778889,-80.511111,"Water Conservation Area 3B, Gumbo Limbo Marsh",28812.969820000002,Geographic matching,2,NA
+964,995,25.886944,-80.561389,"Water Conservation Area 3B, Gumbo Limbo Near Tail",28812.969820000002,Geographic matching,2,NA
+965,996,25.773611,-80.506389,"Water Conservation Area 3B, Gumbo Limbo Wet Head",28812.969820000002,Geographic matching,2,NA
+968,999,37.984722,-78.997222,Hack Pond,2,Geographic matching,2,NA
+973,1004,43.439585,-89.670815,Hansen Marsh,NA,NA,NA,NA
+975,1006,64.444444,-146.9075,Harding Lake,NA,NA,NA,NA
+981,1012,42.566667,-72.883333,Hawley Bog Pond-1,NA,NA,NA,NA
+982,1013,34,-109.425,Hay Lake,2.8,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, Area looks highly variable by season"
+992,1024,67.933333,-155.05,Headwaters Lake,NA,NA,NA,NA
+993,1025,64,-144.75,Healy Lake,NA,NA,NA,NA
+997,1030,43.75,-110.6,Hedrick Pond,NA,NA,NA,NA
+998,1031,40.383333,-74.433333,Helmetta Bog,NA,NA,NA,NA
+999,1032,47.133,-95.47461,Hemo Pond,15.2,Geographic matching,2,NA
+1070,1103,38.947222,-89.113333,Hickory Ridge Basin,NA,NA,NA,NA
+1071,1104,63.94,-144.658333,Hidden Lake,NA,NA,NA,NA
+1076,1109,47.181535,-95.86866,Blocknic Lake [Horse Pond],6.9,Geographic matching,2,NA
+1077,1110,45.460278,-93.047778,Horseshoe Lake,42.6,Geographic matching,2,NA
+1078,1111,46.55,-94.133333,Hostage Lake,4.6,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Descrip: lake, cannot loc. Area: Almendinger 1992"
+1080,1113,42.541667,-78.670278,Houghton Bog,3.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed bog, changed area"
+1081,1114,41.65,-87.072222,Howes Prairie Marsh,75,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed loc and area: Cole and Taylor 1995
+1100,1133,41.67,-86.53,Hudson Lake,NA,NA,NA,NA
+1101,1134,47.958333,-90.933333,Hug Lake,NA,NA,NA,NA
+1105,1138,48.233333,-92.158333,Hustler Lake,109,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Site description. Area: Kingston et al 1990
+1107,1140,35.588333,-84.191667,Icehouse Bottom [40MR23],6133.647955,Geographic matching,2,NA
+1114,1148,44.633333,-122.575,Indian Prairie Fen,NA,NA,NA,NA
+1117,1151,44.5,-89.116944,Iola Bog,NA,NA,NA,NA
+1118,1152,38.865,-107.033333,Keystone Iron Fen,NA,NA,NA,NA
+1119,1153,47.135556,-93.643611,Irvin Lake,2.6,Geographic matching,2,NA
+1125,1160,37.43255,-85.72461999999999,Jackson Pond,3.8,Geographic matching,2,NA
+1125,15081,37.43255,-85.72461999999999,Jackson Pond,3.8,Geographic matching,2,NA
+1127,1162,34.333333,-110.833333,Jacob Lake,NA,NA,NA,NA
+1128,3138,46.416944,-92.716944,Jacobson Lake,NA,NA,NA,NA
+1128,1163,46.416944,-92.716944,Jacobson Lake,NA,NA,NA,NA
+1220,1255,42.26,-93.7,Jewell Site,NA,NA,NA,NA
+1222,3774,47.074695000000006,-98.5866,Spiritwood Lake,198,Neotoma,2,NA
+1355,1390,66.766667,-157.216667,Joe Lake,30,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,Confirmed site with pub (Anderson 1988)
+1357,1392,63.711111,-144.65,Johnson River Bog,NA,NA,NA,NA
+1359,15274,45.428085,-93.98147499999999,Jones Lake,28.4,Geographic matching,2,NA
+1396,1432,68.15,-161.416667,Kaiyak Lake,86,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+1409,1446,44.75836,-93.11674,Kegan Lake,11.4,Geographic matching,2,NA
+1410,3452,45.3,-90.35,Kellys Hollow,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site description: bog. Area: Heide 1984
+1410,1447,45.3,-90.35,Kellys Hollow,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site description: bog. Area: Heide 1984
+1411,1448,44.238056,-87.848056,Kellners Lake,11.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+1481,1518,44.133333,-71.733333,Kinsman Pond,3.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+1483,3455,44.770849999999996,-93.12254999999999,Kirchner Marsh,NA,NA,NA,NA
+1483,1520,44.770849999999996,-93.12254999999999,Kirchner Marsh,NA,NA,NA,NA
+1485,1523,48.233333,-121.616667,Kirk Lake,NA,NA,NA,NA
+1486,1524,45.666667,-87.455,Kitchner Lake,4.3999999999999995,Geographic matching,2,NA
+1503,1541,66.966667,-156.45,Kollioksak,NA,NA,NA,NA
+1510,1548,46.714235,-92.58719500000001,Kotiranta Lake,NA,NA,NA,NA
+1514,1552,46.353333,-92.870278,Kryzewinski Lake,4.3,Geographic matching,2,NA
+1526,1564,47.35,-91.8,Kylen Lake,3.5,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Confirmed lake and area from Birks 1981
+1530,1568,41.381944,-75.292778,Lake Lacawac,20.7,Geographic matching,2,NA
+1535,1574,41.416667,-84.75,Ladd Lake,NA,NA,NA,NA
+1540,1580,45.6,-84.316667,Lake Sixteen,55,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed loc and area: Futyma and Miller 1986
+1541,1581,45.066667,-84.783333,Lake 27,45,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed loc and area: Bernabo 1981
+1544,1584,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA
+1544,3468,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA
+1544,3469,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA
+1548,1588,44.79985,-93.15975,Lake Carlson,4.722837,Geographic matching,2,NA
+1555,1597,30.521944,-84.249167,Lake Hall,72.361684,Geographic matching,2,NA
+1564,1609,48.165278,-92.107222,Lamb Lake,39.800000000000004,Geographic matching,2,NA
+1568,1614,30.641667,-83.195,Langdale Pond,NA,NA,NA,NA
+1573,1619,30.925833,-91.442778,Little Bayou Sara Site 1B,NA,NA,NA,NA
+1574,1620,30.961667,-91.480833,Little Bayou Sara Site 4J,NA,NA,NA,NA
+1582,1629,45.749444,-93.364167,Lewis Lake,71,Geographic matching,2,NA
+1585,1632,59.2,-135.4,Lily Lake,12,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Moved based on map & google.  Area measured is different than in paper (<5ha).
+1586,1633,45.048159999999996,-92.823905,Lily Lake,NA,NA,NA,NA
+1587,1635,43.766667,-110.316667,Lily Lake,NA,NA,NA,NA
+1588,1637,43.766667,-110.316667,Lily Lake Fen,2.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed with site discription, Fen is adjacent to lake, not surrounding it"
+1590,1639,47.286,-93.600465,Little Bass Lake,63.9,Geographic matching,2,NA
+1592,1642,44.166579999999996,-123.583975,Little Lake,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"In a lake.  There is a large adjacent lake, but pub not available."
+1593,1643,45.283333,-91.483333,Little Pine Lake,4.3,Geographic matching,2,NA
+1597,1648,27.2,-81.416667,Lake Annie,0.715102,Geographic matching,2,NA
+1598,3482,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA
+1598,1649,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA
+1598,3483,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA
+1604,1655,43.166667,-78.716667,Lockport Gulf Section,NA,NA,NA,NA
+1607,1658,44.14,-71.701111,Lonesome Lake,17,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+1609,1660,36.005556,-108.833333,Long Lake,NA,NA,NA,NA
+1610,1661,40.483333,-75.666667,Longswamp,NA,NA,NA,NA
+1611,1663,45.033333,-68.2,Loon Pond,NA,NA,NA,NA
+1613,1665,46.719435000000004,-87.97207,Lost Lake,2.1,Geographic matching,2,NA
+1614,1666,47.63516,-110.48434,Lost Lake,NA,NA,NA,NA
+1615,1667,44.246944,-71.251389,Lost Pond,NA,NA,NA,NA
+1617,3484,30.725,-83.258333,Lake Louise,NA,NA,NA,NA
+1617,1669,30.725,-83.258333,Lake Louise,NA,NA,NA,NA
+1619,1671,26.481111,-80.415556,Loxahatchee National Wildlife Refuge Site 1 (EPA Site 7),55809.267670999994,Geographic matching,2,NA
+1630,1685,44.36044,-93.61535,Lake Mabel,39.72415,Geographic matching,2,NA
+1631,1686,39.684167,-89.058889,Macon,NA,NA,NA,NA
+1643,1698,45.041667,-68.733333,Mansell Pond,4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Description: lake. Area: Almquist-Jacobson 1995
+1645,3781,45.3,-91.45,Stewart's Dark Lake,NA,NA,NA,NA
+1651,1707,44.15,-110.233333,Mariposa Lake,11.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+1652,1708,47.173975,-94.94396499999999,Martin Pond,0.1,Geographic matching,2,NA
+1656,1712,41.783333,-71.433333,Mashapaug Pond,NA,NA,NA,NA
+1661,1717,33.7,-108.3,Mayberry Well,NA,NA,NA,NA
+1664,1720,47.170869999999994,-95.70266,McCraney Lake,108,Neotoma,2,NA
+1669,1725,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA
+1669,3485,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA
+1669,3486,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA
+1676,1732,44.98419,-97.35012499999999,Medicine Lake,289.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area"
+1676,3487,44.98419,-97.35012499999999,Medicine Lake,289.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area"
+1679,3488,43.1,-89.416667,Lake Mendota,3961.2000000000003,Geographic matching,2,NA
+1679,1735,43.1,-89.416667,Lake Mendota,3961.2000000000003,Geographic matching,2,NA
+1699,1755,66.916667,-155.033333,Minakokosa Lake,NA,NA,NA,NA
+1701,3492,47.244755,-95.00771499999999,Lake Minnie,30.099999999999998,Geographic matching,2,NA
+1701,1757,47.244755,-95.00771499999999,Lake Minnie,30.099999999999998,Geographic matching,2,NA
+1703,1759,46.525833,-97.241389,Mirror Pool,NA,NA,NA,NA
+1705,1761,37.74759,-107.68273500000001,Molas Lake,9.5,Geographic matching,2,NA
+1706,1762,37.737778,-107.6975,Molas Pass Bog,NA,NA,NA,NA
+1707,1763,43.766667,-69.3,Monhegan Island Meadow,NA,NA,NA,NA
+1710,1766,34.6492,-111.75225,Montezuma Well,0.7000000000000001,Geographic matching,2,NA
+1711,1768,46.85592,-98.15984,Moon Lake,35,Neotoma,2,NA
+1715,1772,48.769167,-122.117778,Mosquito Lake Bog,19,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed bog, changed area"
+1716,1773,44.6275,-68.639167,Moulton Pond,22,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Minimal info on location. Area: Davis et al 1975
+1718,1775,25.219722,-80.604722,Mud Creek Site 1,168.21759999999998,Geographic matching,2,NA
+1719,1776,29.3,-81.866667,Mud Lake (US:Florida),185.8,Geographic matching,2,NA
+1720,1777,44.226105000000004,-93.829815,Mud Lake,52.2,Geographic matching,2,NA
+1721,1778,46.858935,-94.75542,Mud Lake,28.499999999999996,Geographic matching,2,NA
+1723,1780,60.033333,-141.966667,Munday Creek,NA,NA,NA,NA
+1724,1781,44.711625,-93.341105,Murphy Lake,19.1,Geographic matching,2,NA
+1725,1782,39.53,-95.513333,Muscotah Marsh,15,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Gruger 1973), changed area"
+1725,3495,39.53,-95.513333,Muscotah Marsh,15,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Gruger 1973), changed area"
+1729,1786,47.982605,-93.3853,Myrtle Lake,67,Geographic matching,2,NA
+1732,1789,34.663333,-95.386111,Natural Lake,5428.630966,Geographic matching,2,NA
+1735,1793,48.033333,-91.9,Nels Lake,71,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed lake and area: Kingston et al 1990
+1736,1794,46.40707,-92.68658500000001,Nelson Pond,0.8999999999999999,Geographic matching,2,NA
+1738,1796,40.545833,-83.833333,Neville Marsh,NA,NA,NA,NA
+1740,1798,39.839167,-89.156389,Niantic,NA,NA,NA,NA
+1741,1799,42.543575,-78.477987,Nichols Brook Site,NA,NA,NA,NA
+1741,3497,42.543575,-78.477987,Nichols Brook Site,NA,NA,NA,NA
+1748,1806,67.866667,-160.433333,Niliq Lake,NA,NA,NA,NA
+1756,1814,41.283333,-70.208333,No Bottom Pond,2.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area"
+1757,1815,35.0833333333333,-89.9166666666667,Nonconnah Creek [TN-1],47470,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Unsure of location. Creek watershed area: Delcourt
+1759,1817,42.651709999999994,-73.053365,North Pond,7.3,Neotoma,2,NA
+1760,1818,25.885556,-80.556667,"Water Conservation Area 3B, Nuthouse Far Tail",28812.969820000002,Geographic matching,2,NA
+1761,1819,25.889167,-80.5125,"Water Conservation Area 3B, Nuthouse Head",28812.969820000002,Geographic matching,2,NA
+1764,1822,46.133333,-93.783333,Lake Ogechie,158.9,Geographic matching,2,NA
+1766,1824,43.333333,-95.2,West Okoboji Lake,2972.8,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed location, changed area"
+1768,1826,37.116667,-89.833333,Old Field,NA,NA,NA,NA
+1771,1830,46.068333,-93.68,Lake Onamia,NA,NA,NA,NA
+1772,1831,46.341585,-94.408,Ondris Pond,0.8,Geographic matching,2,NA
+1774,1833,43.51,-76.9,"Lake Ontario, Rochester Basin",NA,NA,NA,NA
+1775,1834,43.556667,-78.15,"Lake Ontario, Mississauga Basin",1896000,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,Confirmed lake and area
+1781,1840,45.933333,-89.625,Otto Mielke Lake,11,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Kingston et al: area; seepage lake; unkown loc.
+1789,1848,40.8,-77.416667,Panther Run Pond,NA,NA,NA,NA
+1792,1852,43.468056,-109.959444,Park Pond 1,NA,NA,NA,NA
+1793,1854,43.45,-109.940833,Park Pond 2,NA,NA,NA,NA
+1794,1856,43.459167,-109.92,Park Pond 3,0.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with pub, changed area, (Two points on map, use southernmost  one)"
+1797,1859,41.516667,-71.45,Pasacaco Pond,168.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed lake, Changed area"
+1803,1865,30.366667,-97.116667,Patschke Bog,3.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,3,Confirmed area (www.nativefishlab.net/library/textpdf/18616.pdf)
+1803,3500,30.366667,-97.116667,Patschke Bog,3.3,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,3,Confirmed area (www.nativefishlab.net/library/textpdf/18616.pdf)
+1812,3501,38.904167,-89.1875,Pittsburg Basin,NA,NA,NA,NA
+1813,3542,45.501374999999996,-97.27683,Pickerel Lake,823,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area"
+1814,3558,45.03503,-93.6305,Pogonia Bog Pond,0.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Unsure if pond or bog
+1814,3541,45.03503,-93.6305,Pogonia Bog Pond,0.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Unsure if pond or bog
+1815,3784,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA
+1815,3786,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA
+1815,3788,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA
+1818,1882,67.2,-142.066667,Ped Pond,34,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Edwards et al. 1986), changed area"
+1820,1884,45.780556,-93.273056,Pennington Lake,51.5,Geographic matching,2,NA
+1827,1891,46.966667,-95.316667,Peterson Slough,1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed slough and area: Almendinger 1992
+1833,1897,42.16,-93.9,Pilot Mound Site,NA,NA,NA,NA
+1834,1898,31.045833,-91.479444,Pinckneyville Creek Site 19,NA,NA,NA,NA
+1835,1899,31.048333,-91.481944,Pinckneyville Creek Site 20,NA,NA,NA,NA
+1836,1900,31.047778,-91.482222,Pinckneyville Creek Site 21,NA,NA,NA,NA
+1891,1955,44.605869999999996,-93.563475,Pleasant Lake,111.7,Geographic matching,2,NA
+1896,1961,44.033333,-70.35,Poland Spring Pond,NA,NA,NA,NA
+1901,1966,47.081,-94.113,Portage Lake,61.3,Geographic matching,2,NA
+1902,3559,41.576111,-87.2225,Portage Marsh,6.730029,Geographic matching,2,NA
+1902,1967,41.576111,-87.2225,Portage Marsh,6.730029,Geographic matching,2,NA
+1905,1970,37.95,-111.7,Posy Lake,NA,NA,NA,NA
+1906,3561,34.462222,-111.345278,Potato Lake,4,Geographic matching,2,NA
+1906,3560,34.462222,-111.345278,Potato Lake,4,Geographic matching,2,NA
+1907,1972,37.6,-80.133333,Potts Mountain Pond,NA,NA,NA,NA
+1908,1974,36.6,-90.583333,Powers Fort Swale,1.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed location and area: Royall et al 1991
+1909,1975,38.547778,-76.478611,"Chesapeake Bay, Parker Creek",NA,NA,NA,NA
+1914,1980,42.622222,-78.466667,Protection Bog,NA,NA,NA,NA
+1916,1982,38.026944,-76.22,"Chesapeake Bay, Potomac River",NA,NA,NA,NA
+1917,1983,38.326111,-76.393056,"Chesapeake Bay, Patuxent River (2-G-2)",NA,NA,NA,NA
+1918,1984,38.333333,-76.309722,"Chesapeake Bay, Patuxent River (2-P-5)",NA,NA,NA,NA
+1920,1987,63.5,-162.2,Puyuk Lake,NA,NA,NA,NA
+1934,2001,40.666667,-84.883333,Pyle Site,NA,NA,NA,NA
+1936,2003,37.995833,-79.072222,Quarles Pond,2.069963,Geographic matching,2,NA
+1939,2006,34.326389,-84.865278,Quicksand Pond,NA,NA,NA,NA
+1940,2007,41,-81.966667,Quillin Site,NA,NA,NA,NA
+1944,2011,43.4,-88.1,Radtke Lake,2.4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Found lake in Wisconsin DNR information
+1955,2025,67.147222,-153.65,Ranger Lake,14,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Brubaker et al, 1983), changed area"
+1956,2026,42.728889,-109.193889,Rapid Lake,NA,NA,NA,NA
+1959,2030,32.466667,-93.166667,Rayburn's Dome,NA,NA,NA,NA
+1973,2045,67.416667,-149.8,Rebel Lake,NA,NA,NA,NA
+1974,2047,67.683333,-155.033333,Redondo Lake,NA,NA,NA,NA
+1976,2049,40.083333,-105.541667,Redrock Lake,2.8,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Nudged the point. Based on paper
+1977,2050,67.25,-152.6,Redstone Lake,NA,NA,NA,NA
+1978,2051,47.190745,-95.77364,Reichow Pond,2.8000000000000003,Geographic matching,2,NA
+1979,2053,46.211944,-95.284167,Reidel Lake,4.1000000000000005,Geographic matching,2,NA
+1987,2061,38.886389,-76.394722,"Chesapeake Bay, Rhode River",NA,NA,NA,NA
+1988,2062,47.6,-96.166667,Rholl Lake,NA,NA,NA,NA
+1989,2063,39.953611,-85.741667,Rhule Fen,3.992798,Geographic matching,2,NA
+1990,2065,48.009420000000006,-101.53972,Rice Lake,89,Neotoma,2,NA
+1991,2066,46.922222,-95.575,Rice Lake,105.3,Geographic matching,2,NA
+1991,3568,46.922222,-95.575,Rice Lake,105.3,Geographic matching,2,NA
+1992,2067,40.875,-89.353333,Richland Creek,NA,NA,NA,NA
+1992,3569,40.875,-89.353333,Richland Creek,NA,NA,NA,NA
+2194,2270,41.3525,-72.29915,Rogers Lake,113.05959800000001,Geographic matching,2,NA
+2211,2288,43.229167,-100.848611,Rosebud,5.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area"
+2211,3583,43.229167,-100.848611,Rosebud,5.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area"
+2212,2289,41.916667,-77.925,Rose Lake,NA,NA,NA,NA
+2213,2290,46.583333,-93.6,Rossburg Bog,NA,NA,NA,NA
+2214,2292,43.921389,-69.410278,Ross Pond,NA,NA,NA,NA
+2231,2309,45.283333,-91.458333,Ruby Lake,6.9,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Site description: lake. Area: Gajewski et al 1985
+2232,2311,67.066667,-154.233333,Ruppert Lake,38,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site, changed area"
+2235,2314,44.87083,-93.85897499999999,Rutz Lake,21.9,Geographic matching,2,NA
+2239,2318,46.131944,-85.179167,Ryerse Lake,8.200000000000001,Geographic matching,2,NA
+2241,3609,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are"
+2241,3608,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are"
+2241,2320,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are"
+2245,2324,67.433333,-147.85,Sakana Lake,NA,NA,NA,NA
+2258,2338,33.658333,-117.858333,San Joaquin Marsh,168.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2260,2340,33.866667,-108.25,San Agustin Plains,NA,NA,NA,NA
+2260,3611,33.866667,-108.25,San Agustin Plains,NA,NA,NA,NA
+2260,3612,33.866667,-108.25,San Agustin Plains,NA,NA,NA,NA
+2269,2349,27.966667,-81.95,Scott Lake,101.43364500000001,Geographic matching,2,NA
+2270,2351,67.583333,-151.416667,Screaming Yellowlegs Pond,68,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site and area with pub (Edwards et al, 1985)"
+2271,2352,68.266667,-145.216667,Seagull Lake,NA,NA,NA,NA
+2273,2354,47.208889,-95.833333,Sedivy Lake,12,Geographic matching,2,NA
+2274,3620,44.45,-87.515556,Seidel,9.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2274,2355,44.45,-87.515556,Seidel,9.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2275,2357,66.86675,-155.68655,Lake Selby,NA,NA,NA,NA
+2283,2365,38.8975,-89.178611,Seminary School Basin,0.7000000000000001,Geographic matching,2,NA
+2284,2366,46.925,-96.758333,Seminary Site,NA,NA,NA,NA
+2292,2374,36.525,-81.933333,Shady Valley Bog,NA,NA,NA,NA
+2293,2375,47.916667,-91.866667,Shagawa Lake,943.4194339999999,Geographic matching,2,NA
+2298,2380,31.080833,-81.636944,Sheley Pond,NA,NA,NA,NA
+2299,2381,44.2697,-107.01237,Sherd Lake,NA,NA,NA,NA
+2301,2383,44.895835,-94.20414,Silver Lake,179.29999999999998,Geographic matching,2,NA
+2303,2385,40.354335,-83.81251499999999,Silver Lake,212.5,Neotoma,2,NA
+2303,17717,40.354335,-83.81251499999999,Silver Lake,212.5,Neotoma,2,NA
+2304,2386,41.251819999999995,-74.98612,Silver Lake,56.00000000000001,Geographic matching,2,NA
+2308,2391,43.966667,-70.35,Sinkhole Pond,2.8,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2310,2394,47.133333,-93.683333,Siseebakwet South,NA,NA,NA,NA
+2492,2576,44.933333,-110.35,Slough Creek Pond,11.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth and Publication, Changed area"
+2494,2578,40.205556,-82.445833,Smoot Lake Bog,NA,NA,NA,NA
+2497,2581,46.662222,-96.25,Solum Lake,27.900000000000002,Geographic matching,2,NA
+2500,2584,45.725,-93.466667,South Stanchfield Lake,NA,NA,NA,NA
+2501,2585,45.572222,-93.408333,Spectacle Lake,99.1,Geographic matching,2,NA
+2502,2586,46.47,-86.958333,Spirit Lake,3.3000000000000003,Geographic matching,2,NA
+2503,2587,38.832778,-107.068889,Splains Gulch,30.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed gulch
+2504,2588,38.8325,-107.077778,Splains Lake,2.7932829999999997,Geographic matching,2,NA
+2507,2591,41.673889,-76.35,Spring Lake,44.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+2508,2593,41.236869999999996,-74.1833,Spruce Pond,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Lake, Changed Area"
+2512,2598,39.668056,-82.9375,Stages Pond,4.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,NA
+2513,2599,37.6625,-119.0675,Starkweather Pond,NA,NA,NA,NA
+2514,2600,44.626875,-93.43352,St. Catherines Lake,47.599999999999994,Geographic matching,2,NA
+2517,2604,42.333333,-73.15,Stockbridge Bowl,NA,NA,NA,NA
+2518,2605,45.4,-93.522222,Stone Lake,15.299999999999999,Geographic matching,2,NA
+2519,2607,44.891667,-93.691667,Stone Lake Tamarack Swamp,NA,NA,NA,NA
+2519,3780,44.891667,-93.691667,Stone Lake Tamarack Swamp,NA,NA,NA,NA
+2520,2609,40.216667,-84.689444,Stotzel-Leis Site,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Changed Area (according to area on ArcMap; dried up before 9/24/2014 Google Earth)
+2520,40168,40.216667,-84.689444,Stotzel-Leis Site,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Changed Area (according to area on ArcMap; dried up before 9/24/2014 Google Earth)
+2524,2613,44.874722,-93.1,Sunfish Lake,18.3,Geographic matching,2,NA
+2527,2617,41.391389,-74.037778,Sutherland Pond,83,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+2529,2619,37.95,-119.816667,Swamp Lake,NA,NA,NA,NA
+2530,2620,41.72106,-102.499255,Swan Lake,151.7,Geographic matching,2,NA
+2531,2621,41.072335,-74.83698000000001,Swartswood Lake,162,Neotoma,2,NA
+2533,2623,40.4,-74.483333,Szabo Pond,NA,NA,NA,NA
+2534,2624,44.15,-91.45,Tamarack Creek,NA,NA,NA,NA
+2535,2625,63.029444,-146.063333,Tangle Lakes,NA,NA,NA,NA
+2536,2626,41.038875000000004,-75.263845,Tannersville Bog,300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed bog and area: Cai and Yu 2011
+2536,15866,41.038875000000004,-75.263845,Tannersville Bog,300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed bog and area: Cai and Yu 2011
+2538,2628,41.9,-71.066667,Williams Street Bog,NA,NA,NA,NA
+2539,2629,41.275,-70.058333,Taupawshas Bog,NA,NA,NA,NA
+2540,2630,25.205556,-80.643889,Taylor Creek Site 2,9.2,Geographic matching,2,NA
+2540,3782,25.205556,-80.643889,Taylor Creek Site 2,9.2,Geographic matching,2,NA
+2541,2631,46.100556,-123.906667,Taylor Lake,7.7,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area"
+2542,2632,25.201944,-80.687222,Taylor Slough Site 15,239553.71323300002,Geographic matching,2,NA
+2543,2633,25.287222,-80.646389,Taylor Slough Site 7,220.4,Geographic matching,2,NA
+2544,2634,46.531111,-112.395556,Telegraph Creek,NA,NA,NA,NA
+2546,2636,37.9,-119.533333,Ten Lakes,NA,NA,NA,NA
+2547,2637,63.066667,-145.7,Ten Mile Lake,NA,NA,NA,NA
+2548,2638,47.19324,-95.786645,Quallen Lake [Terhell Pond],11,Geographic matching,2,NA
+2550,2640,47.19482,-96.09332,Thompson Pond,3.2,Geographic matching,2,NA
+2551,2642,66.583333,-143.15,Tiinkdhul Lake,5238,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+2553,2644,37.908333,-119.258333,Tioga Pass Pond,NA,NA,NA,NA
+2554,2645,41.95,-71.033333,Titicut Swamp,70.8,Geographic matching,2,NA
+2557,2648,45.408950000000004,-93.98171500000001,Toenjes Lake,3.5000000000000004,Geographic matching,2,NA
+2570,2663,27.586129999999997,-81.503395,Lake Tulane,35.6,Geographic matching,2,NA
+2570,19620,27.586129999999997,-81.503395,Lake Tulane,35.6,Geographic matching,2,NA
+2574,2667,30.962778,-91.519444,Tunica Bayou Site 22,NA,NA,NA,NA
+2575,2668,30.961944,-91.519444,Tunica Bayou Site 23,NA,NA,NA,NA
+2578,2673,35.584722,-84.210556,Tuskegee Pond,6133.647955,Geographic matching,2,NA
+2785,2880,37.46906,-108.10256,Twin Lakes,0.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Nudged, but there are two adjacent lakes, measured only the round lake."
+2786,2881,45.848889,-93.167778,Twin Lakes,9.9,Geographic matching,2,NA
+2791,2886,45.6,-70.633333,Unknown Pond,NA,NA,NA,NA
+2792,2888,46.184444,-95.306944,Upper Graven Lake,7.000000000000001,Geographic matching,2,NA
+2795,2892,46.083333,-68.9,Upper South Branch Pond,36,data/by_hand/empty_lakes_sjg/empty_lakes_sjg.shp,1,Used as example in README
+2800,2897,35.968889,-108.808333,Utricularia Lake,1.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed lake: Sandstone depression
+2805,2902,44.308611,-74.370833,Valhalla Hollow,NA,NA,NA,NA
+2814,3831,43.416667,-84.883333,Vestaburg Bog,NA,NA,NA,NA
+2822,2919,42.35154,-88.18475,Volo Bog,0.1,Geographic matching,2,NA
+2826,22368,42.164722,-73.059722,Larkum Pond,10,Neotoma,2,NA
+2839,3840,34.16759,-80.77616,White Pond,20,Neotoma,2,NA
+2839,40111,34.16759,-80.77616,White Pond,20,Neotoma,2,NA
+2846,2943,26.359722,-80.370556,"Water Conservation Area 2A, Site 2 (Site F1)",42049.467301,Geographic matching,2,NA
+2847,2944,26.2875,-80.411389,"Water Conservation Area 2A, Site 3 (Site U3)",42049.467301,Geographic matching,2,NA
+2848,2945,25.974,-80.6688,"Water Conservation Area 3A, Site 4 (CA315 (AAS))",136555.123891,Geographic matching,2,NA
+2849,3837,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA
+2849,2946,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA
+2849,3835,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA
+2850,2947,41.083333,-86.433333,Wells Mastodon Site,NA,NA,NA,NA
+2851,2948,46.95,-94.95,Wentzel's Pond,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Confirmed pond and area: Almendinger 1992. Loc??
+2853,2950,35.981944,-108.810833,Whiskey Lake,40.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area"
+2855,3841,46.086111,-93.102778,White Lily Lake,12,Geographic matching,2,NA
+2855,2952,46.086111,-93.102778,White Lily Lake,12,Geographic matching,2,NA
+2857,2954,64.333333,-151.266667,Wien Lake,5945.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Site, Changed Area"
+2859,2956,46.324304999999995,-92.78081,Willow River Pond,0.6,Geographic matching,2,NA
+2860,2957,42.53693,-72.980005,Windsor Pond,18.9,Geographic matching,2,NA
+2862,2959,41.966667,-71.116667,Winneconnet Pond,96.4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Minimum info on site description and publications
+2863,2960,42.561111,-78.933889,Winter Gulf Site,NA,NA,NA,NA
+2864,2961,42.4,-85.383333,Wintergreen Lake,14.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed lake and area: Manny et al 1978
+2932,3029,46.116667,-94.116667,Wolf Creek,NA,NA,NA,NA
+2933,3031,45.005015,-93.57275999999999,Wolsfeld Lake,14.799999999999999,Geographic matching,2,NA
+2934,3032,46.429167,-85.661111,Wolverine Lake,2.9000000000000004,Geographic matching,2,NA
+2935,3033,63.483333,-151.083333,Wonder Lake,NA,NA,NA,NA
+2936,3034,41.02,-74.03,Woodcliff Lake,NA,NA,NA,NA
+2937,3035,45.333333,-90.083333,Wood Lake,25.3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Site description: kettle lake. Area: Heide 1984
+2938,3036,47.15,-99.233333,Woodworth Pond,NA,NA,NA,NA
+2940,3038,61.12,-149.48,Point Woronzof Peat Section,NA,NA,NA,NA
+2941,3039,37.725,-119.625,Woski Pond,NA,NA,NA,NA
+2948,3047,46.75,-87.95,Yellow Dog Pond,1.5,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Cannot find lake. Confirmed area: Brubaker 1975
+2951,3050,43.03,-93.87,Zuehl Farm Site,NA,NA,NA,NA
+2954,3563,41.583056,-85.25,Pretty Lake,74.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed lake and area: Williams 1974
+2955,3054,37.7,-105.5,Head Lake,131,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,0,"Confirmed site with pub. (Shafer 1989), changed area"
+2956,15682,46.833333,-87.921389,Canyon Lake,1.0999999999999999,Geographic matching,2,NA
+2957,3056,37.55,-105.5,Como Lake,3,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, Changed area"
+3529,4557,42.679722,-71.926667,Aino Pond,1.7999999999999998,Geographic matching,2,NA
+3530,4558,42.574444,-72.508611,Dead Frog Pond,NA,NA,NA,NA
+3585,17298,43.36666666666667,-112.61666666666667,Middle Butte Cave,NA,NA,NA,NA
+4607,7829,37.5,-110,Natural Bridges National Monument,NA,NA,NA,NA
+5192,17285,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA
+5192,17286,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA
+5192,17287,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA
+5663,39335,36.873125,-81.76747499999999,Saltville,NA,NA,NA,NA
+5803,15929,43,-78,Hiscock Site,0.8,Neotoma,2,NA
+6477,7834,42.986111,-91.500278,Roberts Creek AB32,NA,NA,NA,NA
+6478,7835,42.986111,-91.500278,Roberts Creek AB35LH,NA,NA,NA,NA
+6479,7836,42.986111,-91.500278,Roberts Creek AB30,NA,NA,NA,NA
+6480,7837,42.986111,-91.500278,Roberts Creek CCLH-2,NA,NA,NA,NA
+6481,7838,42.986111,-91.500278,Roberts Creek DPS-8,NA,NA,NA,NA
+6482,7839,42.986111,-91.500278,Roberts Creek AB21,NA,NA,NA,NA
+6483,7840,42.986111,-91.500278,Roberts Creek DPS-9,NA,NA,NA,NA
+6484,7841,42.986111,-91.500278,Roberts Creek DPS-2LH,NA,NA,NA,NA
+6485,7842,42.986111,-91.500278,Roberts Creek F-45,NA,NA,NA,NA
+6486,7843,42.986111,-91.500278,Roberts Creek F-45A,NA,NA,NA,NA
+6487,7844,42.986111,-91.500278,Roberts Creek CCEH-1,NA,NA,NA,NA
+6488,7845,42.986111,-91.500278,Roberts Creek CCEH-1A,NA,NA,NA,NA
+6489,7846,42.986111,-91.500278,Roberts Creek CCEH-2(2)B,NA,NA,NA,NA
+6490,7847,42.986111,-91.500278,Roberts Creek RCBS,NA,NA,NA,NA
+6491,7848,42.986111,-91.500278,Roberts Creek AB33,NA,NA,NA,NA
+6492,7849,42.986111,-91.500278,Roberts Creek AB35,NA,NA,NA,NA
+6493,7850,42.986111,-91.500278,Roberts Creek AB44,NA,NA,NA,NA
+6495,7852,42.986111,-91.500278,Roberts Creek AB51,NA,NA,NA,NA
+6497,7854,42.986111,-91.500278,Roberts Creek AB34,NA,NA,NA,NA
+6498,7855,42.986111,-91.500278,Roberts Creek AB22A,NA,NA,NA,NA
+6499,7856,42.986111,-91.500278,Roberts Creek CCLG-1A,NA,NA,NA,NA
+6505,10967,25.74642,-80.58386,Northeast Shark River Slough,239553.71323300002,Geographic matching,2,NA
+6506,10970,43.7195,-95.22800000000001,South Heron Lake,1080.6,Geographic matching,2,NA
+6507,10971,43.56928,-95.59275,Ocheda Lake,78.5,data/by_hand/empty_lakes_sjg/empty_lakes_sjg.shp,1,"Site description: kettle lake, Measured the central basin"
+6510,10972,42.5375,-72.178,Hemlock Hollow,NA,NA,NA,NA
+6511,10973,45.4935,-93.1545,Blomford Lake,8.1,Geographic matching,2,NA
+6512,10974,45.4072,-93.0532,Fawn Lake,21.4,Geographic matching,2,NA
+6513,10975,45.377,-95.5625,Frovold Lake,26.200000000000003,Geographic matching,2,NA
+6514,10976,44.989999999999995,-94.59100000000001,Goose Lake,77,Neotoma,2,NA
+6515,10977,46.51205,-93.66005,Olson Lake,6,Neotoma,2,NA
+6521,10983,44.709,-94.4935,Round Grove Lake,124,Neotoma,2,NA
+7529,12001,46.186,-85.3082,Little Dollar Lake,9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed lake: site description, changed area"
+7531,12004,45.45,-95.24005,Last Lake,13.600000000000001,Geographic matching,2,NA
+7532,12005,44.6173,-95.68015,Cottonwood Lake,148.4,Geographic matching,2,NA
+7532,15255,44.6173,-95.68015,Cottonwood Lake,148.4,Geographic matching,2,NA
+7533,12006,45.324,-95.27935,Monson Lake,82.19999999999999,Geographic matching,2,NA
+7534,12007,44.775279999999995,-93.44692,Deans Lake,68.7,Geographic matching,2,NA
+7535,12008,44.30865,-93.91999999999999,Lake Emily,99.3,Geographic matching,2,NA
+7536,12009,46.191649999999996,-95.4687,Perch Lake,NA,NA,NA,NA
+7537,12010,44.563500000000005,-93.218805,Chub Lake,90.935553,Geographic matching,2,NA
+7538,12011,45.80155,-95.55285,Lake Rachel,170.165472,Geographic matching,2,NA
+7539,12012,46.05545,-95.26345,Ziebell Lake,9.700000000000001,Geographic matching,2,NA
+7540,12013,45.857600000000005,-95.46090000000001,Mud Lake,33.4,Geographic matching,2,NA
+7541,12014,45.6745,-95.7125,Lybeck Lake,30.7,Geographic matching,2,NA
+7542,12015,45.81725,-95.34235,Union Lake,42.199999999999996,Geographic matching,2,NA
+7543,15248,43.652550000000005,-93.28399999999999,Albert Lea Lake,1075.5,Geographic matching,2,NA
+7543,12016,43.652550000000005,-93.28399999999999,Albert Lea Lake,1075.5,Geographic matching,2,NA
+7549,12024,43.617599999999996,-93.43875,Everhart Lake,16.7,Geographic matching,2,NA
+8551,13029,44.5924,-93.4132,Sharkey Lake,17.9,Geographic matching,2,NA
+8552,13032,44.21895,-93.84015,Kimble Pond,4.3,Geographic matching,2,NA
+8559,13047,45.0265,-83.61,Irwin Smith Bog,65,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed bog and area: Booth et al 2012
+8561,13051,46.598600000000005,-96.18674999999999,West Olaf Lake,58.099999999999994,Geographic matching,2,NA
+8565,13056,43.92945,-93.0815,Oak Glen Lake,76.290614,Geographic matching,2,NA
+8566,13057,45.405950000000004,-95.39015,Camp Lake,85.7,Geographic matching,2,NA
+8567,13060,46.30235,-91.166,Adeline Lake,1.2,Neotoma,2,NA
+8572,13069,46.3815,-91.4935,Elevenses Lake,2.8,Neotoma,2,NA
+8573,13071,45.19145,-90.608,Eska Lake,4.2,Geographic matching,2,NA
+8574,13073,45.9915,-89.62075,Fallison Lake,20.599999999999998,Geographic matching,2,NA
+8585,13095,38.6867,-90.10374999999999,Horseshoe Lake,860,Neotoma,2,NA
+8585,16251,38.6867,-90.10374999999999,Horseshoe Lake,860,Neotoma,2,NA
+8585,21792,38.6867,-90.10374999999999,Horseshoe Lake,860,Neotoma,2,NA
+8585,16254,38.6867,-90.10374999999999,Horseshoe Lake,860,Neotoma,2,NA
+8586,13097,46.21517,-89.32082,Glimmerglass Lake,9.966123,Geographic matching,2,NA
+9588,14104,41.98044,-88.24441,Brewster Creek,NA,NA,NA,NA
+9688,14270,45.19932,-94.87874500000001,Bass Lake,19.7,Geographic matching,2,NA
+9708,14370,41.317115,-72.784335,Linsley Pond,9.3,Geographic matching,2,NA
+9717,15136,48.085899999999995,-98.92935,"Devils Lake, Creel Bay",44824,Neotoma,2,NA
+9735,14403,46.771860000000004,-95.896225,Lake Sallie,508.5,Geographic matching,2,NA
+9738,14889,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA
+9738,14410,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA
+9738,14443,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA
+9738,17993,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA
+9762,14435,45.44376,-95.272065,Johnson Lake,25.1,Geographic matching,2,NA
+9768,14446,45.786564999999996,-92.21898,Hell Hole Lake,1.9,Geographic matching,2,NA
+9795,14491,38.04217,-121.86795000000001,Browns Island,210.1,Geographic matching,2,NA
+9796,14494,38.0723,-122.03293500000001,Roe Island,100.4,Geographic matching,2,NA
+9814,14547,37.63632,-112.82445999999999,Alpine Pond,0.1,data/by_hand/empty_lakes_sjg/empty_lakes_sjg.shp,1,Confirmed pond: Anderson et al 1999
+9814,14517,37.63632,-112.82445999999999,Alpine Pond,0.1,data/by_hand/empty_lakes_sjg/empty_lakes_sjg.shp,1,Confirmed pond: Anderson et al 1999
+9824,14535,44.19291,-93.63978,Lily Lake,44.9,Geographic matching,2,NA
+9825,14537,44.354434999999995,-93.36593500000001,Kelly-Dudley Lake,50,Neotoma,2,NA
+9826,14539,45.141805,-93.73915,Martha Lake,39.900000000000006,Geographic matching,2,NA
+9830,14549,37.67214,-112.79224500000001,Lowder Creek Bog,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed bog and area: Anderson et al 1999
+9860,19316,44.709298,-93.926793,Norwood,NA,NA,NA,NA
+9866,14624,46.35065,-69.05170000000001,Big Reed Pond Hollow,0.6,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Site desprition: swale. Area: Schauffler 2002
+9867,14626,44.693385,-93.3212,Minnreg,15.4,Geographic matching,2,NA
+9869,14631,43.60715,-94.473645,Amber Lake,73.5,Geographic matching,2,NA
+9870,14633,45.16204,-94.0929,Camp Lake,48.3,Geographic matching,2,NA
+9871,14635,44.333484999999996,-93.212125,Crystal Lake,13.8,Geographic matching,2,NA
+9872,14637,44.229535,-93.665425,Fish Lake,29.799999999999997,Geographic matching,2,NA
+9873,14639,44.65162,-93.460155,Fish Lake,68.89999999999999,Geographic matching,2,NA
+9874,14641,44.808755000000005,-93.93439000000001,Eagle Lake,71.7,Geographic matching,2,NA
+9875,14643,44.313795,-93.914375,"Lake Emily, Northeast Basin",99.3,Geographic matching,2,NA
+9876,14645,45.421695,-94.075455,Fuller Lake,12.6,Geographic matching,2,NA
+9878,14650,37.67773,-105.724665,San Luis Lake,322.90000000000003,Geographic matching,2,NA
+9889,14674,44.313195,-68.22364,Blackwoods Hollow,0.3,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Site description and Schauffler 2002 for area
+9890,14676,46.334815,-69.049415,Buckley Pond Hollow,NA,NA,NA,NA
+9891,14678,44.0651,-68.6354,Isle au Haut North Hollow,NA,NA,NA,NA
+9892,14680,44.031825,-68.630365,Isle au Haut South Hollow,NA,NA,NA,NA
+9893,14682,44.573075,-67.53069500000001,Roque Island Hollow,0.1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Site description and Schauffler 2002 for area
+9894,14684,44.37328,-68.0726,Schoodic Peninsula Hollow,NA,NA,NA,NA
+9942,14792,47.676915,-124.018585,Yahoo Lake,3.7,Neotoma,2,NA
+9944,14797,44.717555000000004,-67.20294,South Bog,1,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,Confirmed bog; assuming correct location
+9945,14799,37.8505,-119.659945,Siesta Lake,1.3,Geographic matching,2,NA
+9947,14803,45.706945000000005,-114.9829,Burnt Knob Lake,1.0999999999999999,Geographic matching,2,NA
+9953,14839,45.89346,-95.47560999999999,Lake Mina,164.6,Geographic matching,2,NA
+9974,14884,45.891725,-114.263205,Baker Lake,2,Neotoma,2,NA
+9976,14891,64.86412,-147.94008,Deuce Lake,3,Neotoma,2,NA
+9980,813,41.196155000000005,-81.334765,East Twin Lake,27,Neotoma,2,NA
+9985,14911,46.320235,-114.65153,Hoodoo Lake,2.6,Geographic matching,2,NA
+9987,20311,45.8668,-95.80385,Elk Lake,81.69999999999999,Geographic matching,2,NA
+9989,14923,45.840554999999995,-113.439865,Pintler Lake,4.2,Neotoma,2,NA
+9991,14928,30.192210000000003,-93.27942,Prien Lake,689.401642,Geographic matching,2,NA
+9993,14933,46.2287,-85.380295,Nelson Lake,12.1,Geographic matching,2,NA
+9994,14935,47.883685,-123.35093,Moose Lake,3.7,Neotoma,2,NA
+9995,14938,47.712915,-123.53259,Martins Lake,0.8,Neotoma,2,NA
+9997,14944,36.63069,-112.23854,Fracas Lake,0.2,Geographic matching,2,NA
+10000,14951,36.371125,-112.147175,Bear Lake,0.2,Geographic matching,2,NA
+10002,14955,30.05034,-92.7095,Lake Arthur,2436.562376,Geographic matching,2,NA
+10002,14953,30.05034,-92.7095,Lake Arthur,2436.562376,Geographic matching,2,NA
+10003,14957,41.623285,-85.212085,Appleman Lake,33.440001,Geographic matching,2,NA
+10019,14995,70.475005,-157.34207,Meade River bluff,NA,NA,NA,NA
+10020,14997,41.970780000000005,-70.010335,Round Pond,2.3,Geographic matching,2,NA
+10021,14999,41.739125,-69.992095,Deep Pond,1.6,Geographic matching,2,NA
+10023,15003,41.797995,-69.960575,Icehouse Pond,1.9,Geographic matching,2,NA
+10025,15007,41.6982,-70.13606,Eagle Pond,2.8000000000000003,Geographic matching,2,NA
+10026,15009,41.82961,-69.9847,Jemima Pond,2.1999999999999997,Geographic matching,2,NA
+10028,15020,41.689985,-70.36407,Sandy Hill Pond,2.4,Geographic matching,2,NA
+10029,15022,41.594120000000004,-70.532835,Fresh Pond,5.4,Geographic matching,2,NA
+10034,15032,47.129415,-88.3169877777778,Mud Lake,70.19999999999999,Geographic matching,2,NA
+10036,15035,47.911995000000005,-89.0908,Lily Lake,6.7185049999999995,Geographic matching,2,NA
+10053,15074,41.190975,-122.5105394444445,Mumbo Lake,2.1,Geographic matching,2,NA
+10061,15106,37.902105,-107.61537,Lake Emma,3.5000000000000004,Geographic matching,2,NA
+10076,15146,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA
+10076,15142,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA
+10076,15148,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA
+10080,15153,46.433115,-98.28941,Wendel site,976,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site and area with publication (Yansa, Dean, Murphy 2007)"
+10082,15155,46.030339999999995,-89.67671,Trout Lake,1565.1,Geographic matching,2,NA
+10083,15157,67.15791999999999,-151.85999500000003,Code Lake,2,Neotoma,2,NA
+10091,15269,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA
+10091,15219,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA
+10091,15168,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA
+10091,15167,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA
+10091,15169,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA
+10094,15175,67.12406,-150.745125,Last Chance Lake,7,Neotoma,2,NA
+10100,15185,67.07084,-154.24498499999999,Ruppert Lake,3,Neotoma,2,NA
+10101,15187,67.12648,-151.38361500000002,Wild Tussock Lake,15,Neotoma,2,NA
+10102,15189,67.111235,-152.491385,Xindi Lake,7,Neotoma,2,NA
+10103,15191,35.173545000000004,-79.089805,Fort Bragg (core PAW2),NA,NA,NA,NA
+10106,15199,42.49185,-77.64099999999999,South Dansville Buried Peat,NA,NA,NA,NA
+10107,15201,39.2949,-105.53829999999999,Lost Park,NA,NA,NA,NA
+10109,15205,38.0302777777778,-76.2144444444444,Chesapeake Bay (MD99-2207),NA,NA,NA,NA
+10110,15207,38.5372222222222,-76.4863888888889,Chesapeake Bay (MD99-2208),NA,NA,NA,NA
+10111,15209,38.8861111111111,-76.3944444444444,Chesapeake Bay (MD99-2209),50000,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Large Marine/brakish basin
+10112,15211,38.0266666666667,-76.2197222222222,Chesapeake Bay (PTMC3-2),NA,NA,NA,NA
+10115,15216,69.7109833333333,-155.211533333333,Titaluk River Exposure 1,NA,NA,NA,NA
+10116,15218,69.7109833333333,-155.211533333333,Titaluk River Exposure 2,NA,NA,NA,NA
+10117,15221,32.043605,-95.505225,Caddo Creek (Core 1),124.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area"
+10118,15223,32.045915,-95.50621,Caddo Creek (Core 3),NA,NA,NA,NA
+10121,15228,46.803380000000004,-95.88068,St. Clair Lake,57.49999999999999,Geographic matching,2,NA
+10128,15242,41.6355,-87.0945,Cowles Bog,6.3703259999999995,Geographic matching,2,NA
+10129,15244,41.614990000000006,-86.84671,Pinhook Bog,38.996263,Geographic matching,2,NA
+10132,15252,47.228229999999996,-95.27284,Ozawindib Lake,61,Neotoma,2,NA
+10133,15253,41.61413,-87.277195,Miller Woods Pond 13,0.18,Neotoma,2,NA
+10134,15254,45.590765000000005,-93.06903,Little Horseshoe Lake,19.2,Geographic matching,2,NA
+10135,15256,46.165285,-95.32412,Cora Lake,30.7,Geographic matching,2,NA
+10137,15261,41.61189,-87.27349,Miller Woods Pond 21,1.290038,Geographic matching,2,NA
+10138,15263,41.60682,-87.282385,Miller Woods Pond 32,1.9728809999999999,Geographic matching,2,NA
+10139,15265,41.604275,-87.293135,Miller Woods Pond 44,0.8767840000000001,Geographic matching,2,NA
+10140,15266,44.873850000000004,-93.63463999999999,Tamarack Lake,12,Geographic matching,2,NA
+10141,15268,41.603004999999996,-87.285365,Miller Woods Pond 51,0.468825,Geographic matching,2,NA
+10142,15270,47.33732,-95.16525,LaSalle Lake,89,Neotoma,2,NA
+10144,15273,43.90284,-93.417225,Saint Olaf Lake,36,Geographic matching,2,NA
+10146,15277,46.95391,-94.66923,Williams Lake,37.1,Geographic matching,2,NA
+10146,15279,46.95391,-94.66923,Williams Lake,37.1,Geographic matching,2,NA
+10146,15281,46.95391,-94.66923,Williams Lake,37.1,Geographic matching,2,NA
+10146,15278,46.95391,-94.66923,Williams Lake,37.1,Geographic matching,2,NA
+10155,15292,43.09816,-78.002715,Byron-Bergen Swamp (Site 2),800,Neotoma,2,NA
+10156,15294,44.988845,-93.55640500000001,Long Lake,112.3,Geographic matching,2,NA
+10157,15296,43.09791,-78.014515,Byron-Bergen Swamp (Site 1),800,Neotoma,2,NA
+10158,15298,40.000910000000005,-105.55687499999999,Devlins Park,41,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Madole 1980), changed area"
+10160,15302,43.800155000000004,-89.59428,Emrick Lake,13.100000000000001,Geographic matching,2,NA
+10162,15307,46.355000000000004,-85.78049999999999,Danaher Bog,NA,NA,NA,NA
+10163,15309,46.34668,-84.857625,East Soldier Lake,3.6999999999999997,Geographic matching,2,NA
+10164,15311,46.12683,-84.77968,Guard Lake,7.9,Geographic matching,2,NA
+10165,15312,46.251000000000005,-84.95949999999999,Lone Pine Bog,NA,NA,NA,NA
+10166,15313,42.290485000000004,-85.63594,Route 458 Bog,10,Neotoma,2,NA
+10167,15314,46.6305,-85.1245,Tahquamenon Bog,NA,NA,NA,NA
+10168,15316,46.205,-85.0215,Trout Lake Bog,NA,NA,NA,NA
+10169,15318,45.003730000000004,-93.574555,Wolsfeld Woods Marsh,NA,NA,NA,NA
+10172,15325,42.5375,-72.18289999999999,Black Gum Swamp,6.9,Geographic matching,2,NA
+10172,15327,42.5375,-72.18289999999999,Black Gum Swamp,6.9,Geographic matching,2,NA
+10177,15334,42.2415,-73.42,Alford Swamp,NA,NA,NA,NA
+10178,15335,40.7315,-77.7575,Bear Meadows Bog,NA,NA,NA,NA
+10179,15336,39.5355,-79.5295,Cranesville Pine Swamp,NA,NA,NA,NA
+10180,15337,41.619,-74.9125,Kernochan Bog,NA,NA,NA,NA
+10181,15338,39.7785,-79.2125,Mount Davis Marsh,112.261316,Geographic matching,2,NA
+10182,15339,42.328,-73.49549999999999,State Line Swamp,NA,NA,NA,NA
+10184,15344,45.886765,-122.51919000000001,Fargher Pond,13.6,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed Site with Google Earth, Changed area"
+10186,15350,42.028785,-74.60420500000001,Balsam Lake,24,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+10187,15351,42.3485,-73.9735,Gayhead Vly,NA,NA,NA,NA
+10188,15352,42.2405,-73.975,Heart's Content Bog,NA,NA,NA,NA
+10189,15353,41.93542,-74.75772,Maple Lake,NA,NA,NA,NA
+10190,15354,42.19727,-74.045885,South Lake,NA,NA,NA,NA
+10191,15356,35.832,-105.722,Stewart Bog,73,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Jimenez-Moreno et al, 2008)"
+10193,15363,30.145,-95.5745,Aronow Bog,NA,NA,NA,NA
+10195,15368,40.49996,-114.031395,Blue Lake Wetlands,2296.2,Geographic matching,2,NA
+10197,15371,26.102,-80.7375,Ridge and Slough (02-05-20-13),136555.123891,Geographic matching,2,NA
+10200,15377,26.1025,-80.73599999999999,Ridge and Slough (02-05-20-14),136555.123891,Geographic matching,2,NA
+10201,15379,25.8285,-80.768,Ridge and Slough (02-05-21-2),136555.123891,Geographic matching,2,NA
+10202,15381,25.829,-80.7675,Ridge and Slough (02-05-21-4),136555.123891,Geographic matching,2,NA
+10203,15383,25.829,-80.7675,Ridge and Slough (02-05-21-5),136555.123891,Geographic matching,2,NA
+10204,15385,41.015,-121.573,Flycatcher Basin,1.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with publication, changed area"
+10208,15396,33.291,-117.4605,Las Flores Arroyo,NA,NA,NA,NA
+10211,15403,47.68380500000001,-95.398395,Deep Lake,18,Geographic matching,2,NA
+10212,15406,63.56466,-143.91772,Jan Lake,15.2,Neotoma,2,NA
+10213,15408,37.423500000000004,-119.57849999999999,Nichols Meadow,2.5,Geographic matching,2,NA
+10213,15410,37.423500000000004,-119.57849999999999,Nichols Meadow,2.5,Geographic matching,2,NA
+10214,15413,60.622879999999995,-150.75903,Paradox Lake,58,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site, changed area"
+10219,15421,47.004035,-94.688245,Shingobee Lake,67.9,Geographic matching,2,NA
+10226,15460,46.089,-91.939,Adventure Lake,5.6,Neotoma,2,NA
+10229,15463,45.927499999999995,-92.256,Benach Lake,6.1,Geographic matching,2,NA
+10231,15468,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 5),NA,NA,NA,NA
+10231,15467,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 5),NA,NA,NA,NA
+10231,15466,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 5),NA,NA,NA,NA
+10232,15475,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15470,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15472,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15473,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15474,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15476,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15471,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10232,15469,31.735,-75.53,Ocean Drilling Program Site 1059 MIS 5 (Core 4),NA,NA,NA,NA
+10233,15477,46.405,-91.525,BlueJ Lake,NA,NA,NA,NA
+10234,15478,45.959334999999996,-92.10745,Brozie Lake,NA,NA,NA,NA
+10235,15479,46.50045,-91.4105,Camp Two Lake,9.5,Geographic matching,2,NA
+10239,15487,43.35538,-85.35679999999999,Cowden Lake,45,Geographic matching,2,NA
+10240,15489,46.013000000000005,-92.125,Ferry Lake,6.4,Geographic matching,2,NA
+10241,15490,44.787,-95.4665,Granite Falls Bison Kill Site,NA,NA,NA,NA
+10242,15492,44.022755000000004,-85.28332499999999,Hicks Lake,64.60000000000001,Geographic matching,2,NA
+10243,15494,32.967,-116.583,Hual Cu Cuish Meadow,87,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,Confirmed site with Google Earth
+10248,15506,34.233935,-117.05141499999999,Little Green Valley Meadow,NA,NA,NA,NA
+10249,15507,20.560074999999998,-156.56882000000002,Makika Crater,NA,NA,NA,NA
+10251,15511,42.861000000000004,-85.2115,Morrison Lake,134.5,Geographic matching,2,NA
+10252,15512,47.2291,-95.28831500000001,Myrtle Lake,4.8,Geographic matching,2,NA
+10253,15513,41.881,-101.36500000000001,Nebraska Sand Hills,NA,NA,NA,NA
+10254,15514,40.85622,-81.48021,Nobles Pond,3.75,Neotoma,2,NA
+10255,15524,30.0045,-84.4625,Ochlockonee River Estuary,74.00732500000001,Geographic matching,2,NA
+10256,15525,39.184,-84.50385,Rack Sand,NA,NA,NA,NA
+10263,15879,42.73708,-118.647285,Fish Lake,6.5,Neotoma,2,NA
+10277,15580,44.51785,-116.15215,Van Wyck,NA,NA,NA,NA
+10279,15586,44.9253,-116.0483,McCall Fen,17.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed fen location: Doerner and Carrara 2001
+10280,15588,43.02469,-77.57376,Devil's Bathtub,0.7,Neotoma,2,NA
+10281,15589,39.3,-84.6095,Richardson Marsh,NA,NA,NA,NA
+10282,15591,33.77433,-116.66602,Skunk Cabbage Meadow,NA,NA,NA,NA
+10283,15592,41.8505,-87.345,Southern Lake Michigan,5784291.830007,Geographic matching,2,NA
+10284,15594,33.76857,-116.66361,Taquitz Meadow,19,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area"
+10285,15595,47.221000000000004,-101.34899999999999,Tipi Ring Site (32OL270),NA,NA,NA,NA
+10287,15598,42.251999999999995,-78.878,Allenberg Bog,158,Neotoma,2,NA
+10288,15600,60.752055,-150.516965,Arrow Lake,10.5,Neotoma,2,NA
+10298,15627,60.716494999999995,-150.53300000000002,Portage Lake,11.6,Neotoma,2,NA
+10299,15628,41.98435,-111.33339,Bear Lake,28331.45035,Geographic matching,2,NA
+10304,15637,25.704500000000003,-80.873,Big Cypress (core 03-9-16-3),239553.71323300002,Geographic matching,2,NA
+10305,15639,25.695,-80.87,Big Cypress (core 03-9-16-6),239553.71323300002,Geographic matching,2,NA
+10306,15641,32.554915,-95.16323,Big Sandy Creek,NA,NA,NA,NA
+10309,15646,41.346515,-122.55987,Bluff Lake,1.3,Geographic matching,2,NA
+10311,15650,43.12034,-109.987135,Dew Lake,NA,NA,NA,NA
+10316,15660,46.520515,-86.35387,Buck Lake,614.1,Geographic matching,2,NA
+10325,15680,39.05359,-120.386415,Bunker Lake,3.2,Geographic matching,2,NA
+10326,15684,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA
+10326,15685,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA
+10326,15696,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA
+10332,21393,42.558499999999995,-118.9265,Catlow Rim,NA,NA,NA,NA
+10332,21396,42.558499999999995,-118.9265,Catlow Rim,NA,NA,NA,NA
+10337,15707,39.4105,-118.604,Hidden Cave,NA,NA,NA,NA
+10341,15715,42.558,-120.775,Dead Horse Lake,15,Neotoma,2,NA
+10345,15724,64.42099999999999,-149.897625,Dune Lake,12,Neotoma,2,NA
+10346,15726,67.08225,-158.14735,Onion Portage,NA,NA,NA,NA
+10346,15725,67.08225,-158.14735,Onion Portage,NA,NA,NA,NA
+10346,15727,67.08225,-158.14735,Onion Portage,NA,NA,NA,NA
+10348,15732,44.351135,-75.87042,Goose Bay Marsh,177,Neotoma,2,NA
+10349,15734,39.700855000000004,-120.66468499999999,Grassy Lake,4.3999999999999995,Geographic matching,2,NA
+10352,15740,46.3073,-91.19829,Hemlock Lake,2.3,Geographic matching,2,NA
+10357,15750,30.260064999999997,-87.66485,Lake Shelby,231,Geographic matching,2,NA
+10359,15757,25.768,-171.7328,Laysan Island Lake,88,Neotoma,2,NA
+10360,15758,40.015,-118.47,Leonard Rockshelter,NA,NA,NA,NA
+10360,15759,40.015,-118.47,Leonard Rockshelter,NA,NA,NA,NA
+10361,15762,41.976925,-120.210015,Lily Lake,2.3,Geographic matching,2,NA
+10362,15764,42.417875,-72.34693,Lily Pond,2.3,Geographic matching,2,NA
+10363,15766,36.98229,-118.99407,Lilypad Lake,2.9,Neotoma,2,NA
+10364,15768,45.824085,-123.5793,Lost Lake,6,Neotoma,2,NA
+10368,15776,39.4604,-120.64864,McMurray Lake,4.7,Geographic matching,2,NA
+10369,15778,38.007949999999994,-119.0255,Mono Lake,15000,Neotoma,2,NA
+10385,15811,63.052,-147.39172,Nutella Lake,2,Neotoma,2,NA
+10386,15814,63.05455,-147.42066,Swampbuggy Lake,14,Neotoma,2,NA
+10389,15820,42.5625,-72.18,Prospect Hill II,NA,NA,NA,NA
+10390,15821,42.5625,-72.18,Prospect Hill VII,NA,NA,NA,NA
+10392,15825,30.391,-88.5855,Pascagoula Marsh,4650,Neotoma,2,NA
+10393,15827,60.453649999999996,-150.2538,Rock Lake,3,Neotoma,2,NA
+10395,15831,32.572,-83.0795,Sandy Run Creek,NA,NA,NA,NA
+10399,15855,47.078,-113.83500000000001,Sheep Mountain Bog,NA,NA,NA,NA
+10400,15857,42.507999999999996,-72.17750000000001,Slab City,NA,NA,NA,NA
+10400,15856,42.507999999999996,-72.17750000000001,Slab City,NA,NA,NA,NA
+10405,15864,28.04246,-97.171305,Swan Lake,NA,NA,NA,NA
+10410,15876,36.052,-119.78,Tulare Lake,220000,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Point in right place, lake dried.  Area is reported maximum."
+10411,15878,44.021950000000004,-121.5425,Tumalo Lake,7,Neotoma,2,NA
+10412,15882,46.11935,-92.03985,Warner Lake,9.3,Geographic matching,2,NA
+10413,15886,42.234015,-88.357005,Crystal Lake,93.10000000000001,Geographic matching,2,NA
+10414,15888,30.41041,-87.83389,Weeks Bay,1500,Neotoma,2,NA
+10414,15889,30.41041,-87.83389,Weeks Bay,1500,Neotoma,2,NA
+10415,15892,40.999669999999995,-74.91347,White Lake,26,Neotoma,2,NA
+10416,15893,46.7273,-118.15832,Wildcat Lake,NA,NA,NA,NA
+10417,15894,42.629125,-118.588595,Wildhorse Lake,NA,NA,NA,NA
+10422,15904,43.04099,-78.39924500000001,Divers Lake,3,Neotoma,2,NA
+10424,15909,42.94975,-73.85325,Ballston Lake,65,Neotoma,2,NA
+10427,15914,46.224985000000004,-89.17057,Allen Lake,13.3,Neotoma,2,NA
+10428,15916,46.24378,-89.2758,Kerr Lake,3.2,Geographic matching,2,NA
+10429,20695,46.24525,-89.29409,Crooked Lake,251.9,Geographic matching,2,NA
+10429,20697,46.24525,-89.29409,Crooked Lake,251.9,Geographic matching,2,NA
+10429,15919,46.24525,-89.29409,Crooked Lake,251.9,Geographic matching,2,NA
+10430,15922,46.234350000000006,-89.28155000000001,Jay Lake,2.5,Geographic matching,2,NA
+10431,15925,46.140435,-89.2553,Lake O' Pines,4,Geographic matching,2,NA
+10433,15931,42.56705,-72.51079999999999,Green Pond,6,Geographic matching,2,NA
+10433,40861,42.56705,-72.51079999999999,Green Pond,6,Geographic matching,2,NA
+10434,15933,42.68839,-72.337185,Lily Warwick,0.8,Geographic matching,2,NA
+10435,15935,42.524435,-71.60848,Little Mirror Lake,2.6,Geographic matching,2,NA
+10436,15939,25.3527777777778,-81.1144444444444,SRM-1,37.7,Geographic matching,2,NA
+10437,15942,42.654849999999996,-72.53318999999999,Otter Pond,1.9,Geographic matching,2,NA
+10438,15944,42.600775,-72.22854,Silver Lake,4.2,Geographic matching,2,NA
+10446,15962,47.69035,-96.2311,Bakken Lake,8.3,Geographic matching,2,NA
+10447,15963,47.669650000000004,-96.18299999999999,Chicog Lake,5.1,Geographic matching,2,NA
+10448,15965,47.683165,-96.20294,Qually Pond,9,Geographic matching,2,NA
+10449,15967,34.778864999999996,-111.517775,Stoneman Lake,53.7,Geographic matching,2,NA
+10450,15970,62.559145,-153.64882,Farewell Lake,400,Neotoma,2,NA
+10453,15976,59.79623,-158.53995,Grandfather Lake,35,Neotoma,2,NA
+10455,15980,59.56781,-159.357975,Ongivinuk Lake,150,Neotoma,2,NA
+10457,15999,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,16002,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15986,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15998,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,16003,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15989,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15992,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15995,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10457,15985,47.19285,-95.2339,Itasca Bison Kill Site,NA,NA,NA,NA
+10461,16009,34.66359,-85.40132,Pigeon Marsh,NA,NA,NA,NA
+10463,16012,40.356300000000005,-82.46925,Torren's Bog,NA,NA,NA,NA
+10464,16014,39.019645,-122.76535,Clear Lake,16018.429252999998,Geographic matching,2,NA
+10465,16016,40.572,-120.26505,Secret Valley Marsh,125.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, changed area"
+10469,16046,38.590035,-123.30498,Lower Lake,0.2,Geographic matching,2,NA
+10473,16054,40.411500000000004,-121.38993500000001,Little Willow Lake,7.000000000000001,Geographic matching,2,NA
+10476,16061,41.20728,-122.4971,Cedar Lake,3.1,Geographic matching,2,NA
+10477,16063,36.82535,-121.76415,Elkhorn Slough,NA,NA,NA,NA
+10478,16065,40.661699999999996,-123.6691,CA-HUM-558 (Pilot Ridge),NA,NA,NA,NA
+10480,16069,38.850205,-123.015195,Preston Lake,1.5,Geographic matching,2,NA
+10481,16071,38.9375,-120.05969999999999,Taylor Marsh,NA,NA,NA,NA
+10482,16073,39.489633333333344,-123.03548,Tule Lake,0.8999999999999999,Geographic matching,2,NA
+10483,16075,41.64960000000001,-122.16714999999999,Grass Lake,342.5,Geographic matching,2,NA
+10500,16111,43.06619,-111.43795,Grays Lake,8812.981682,Geographic matching,2,NA
+10500,16113,43.06619,-111.43795,Grays Lake,8812.981682,Geographic matching,2,NA
+10501,16115,32.931121111111096,-117.25287,Los Penasquitos Lagoon,131.07466000000002,Geographic matching,2,NA
+10506,16129,42.78895,-88.8432,Lima Bog,210,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Site description: bog, estimated area 1.5x1.4"
+10507,16131,41.7847,-115.48365,Mission Cross Bog,8,Neotoma,2,NA
+10507,21844,41.7847,-115.48365,Mission Cross Bog,8,Neotoma,2,NA
+10507,41036,41.7847,-115.48365,Mission Cross Bog,8,Neotoma,2,NA
+10508,16133,41.13395,-115.50489999999999,Ruby Marsh,11222.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Marsh, Changed area"
+10509,16137,35.5166666666667,-116.633333333333,Awl Site midden,NA,NA,NA,NA
+10509,16135,35.5166666666667,-116.633333333333,Awl Site midden,NA,NA,NA,NA
+10509,16139,35.5166666666667,-116.633333333333,Awl Site midden,NA,NA,NA,NA
+10509,16141,35.5166666666667,-116.633333333333,Awl Site midden,NA,NA,NA,NA
+10510,16153,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16149,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16155,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16147,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16151,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16145,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10510,16143,35.35,-116.733333333333,Nelson Basin midden,NA,NA,NA,NA
+10512,16159,35.4333333333333,-116.566666666667,No Name East midden,NA,NA,NA,NA
+10512,16161,35.4333333333333,-116.566666666667,No Name East midden,NA,NA,NA,NA
+10512,16163,35.4333333333333,-116.566666666667,No Name East midden,NA,NA,NA,NA
+10513,16167,35.4333333333333,-116.566666666667,No Name West midden,NA,NA,NA,NA
+10513,16165,35.4333333333333,-116.566666666667,No Name West midden,NA,NA,NA,NA
+10513,16171,35.4333333333333,-116.566666666667,No Name West midden,NA,NA,NA,NA
+10513,16169,35.4333333333333,-116.566666666667,No Name West midden,NA,NA,NA,NA
+10514,16173,33.67965,-116.9944,Diamond Valley,1643.402348,Geographic matching,2,NA
+10515,16175,41.40935,-74.551335,Binnewater Pond,77,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+10516,16177,41.78575,-73.90115,Hyde Park,2.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area"
+10517,16179,41.47025,-74.5244,Otisville,7.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site from pub., changed area"
+10518,16181,41.33395,-74.43065,Pawelski Farm,NA,NA,NA,NA
+10519,16184,38.07347222222225,-122.1930555555555,Benicia State Park,80.9,Geographic matching,2,NA
+10520,16186,38.0075,-122.49333333333351,China Camp,53,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,Confirmed site and area with pub (Malamud-Roam et al. 2004)
+10522,16197,37.78826,-122.470765,Mountain Lake,1.5,Geographic matching,2,NA
+10531,16222,37.846819999999994,-107.23536,Black Mountain Lake,3.1,Geographic matching,2,NA
+10532,16224,40.277895,-105.66917000000001,Sky Pond,4.1000000000000005,Geographic matching,2,NA
+10537,16236,68.65421,-149.68123500000002,Red Green Lake,2,Neotoma,2,NA
+10538,16238,68.49879999999999,-157.0301,Tukuto Lake,300,Neotoma,2,NA
+10539,16241,68.63144444444444,-149.416925,Upper Capsule Lake,36,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Oswald et al, 2003), changed area"
+10540,16242,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-3),5,Neotoma,2,NA
+10541,16244,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-1),12,Neotoma,2,NA
+10541,16243,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-1),12,Neotoma,2,NA
+10542,16247,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA
+10542,16245,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA
+10542,16248,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA
+10542,16246,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA
+10543,16255,38.70616,-90.01835,McDonough Lake,24.6,Geographic matching,2,NA
+11560,17296,42.321290000000005,-113.64955,Lake Cleveland,9.700000000000001,Geographic matching,2,NA
+11561,17300,43.558099999999996,-112.6283,Rattlesnake Cave,NA,NA,NA,NA
+11563,17304,45.519575,-89.55507,Capitola Lake,1.9,Geographic matching,2,NA
+11571,17320,58.77229444444445,-155.94509499999998,Idavain Lake,55,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+11572,17322,60.626009999999994,-154.303475,Snipe Lake,22,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+11573,17324,68.66619,-149.358787222222,Imnavait Creek,210,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,Confirmed site and area with publication (Eisner 1991)
+11574,17326,70.29222222222225,-151.1668055555555,Oil Lake,45,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+11575,17328,66.029335,-147.55331,Sands of Time Lake,240,Neotoma,2,NA
+11579,17338,66.12398999999999,-151.391555,Sithylemenkat Lake,NA,NA,NA,NA
+11580,17340,63.6672222222222,-171.5479166666665,St. Lawrence Section 2,87,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with publication, peat exposure"
+11583,17345,66.36669,-164.05399999999997,North Killeak Lake,NA,NA,NA,NA
+11584,17347,63.6738888888889,-171.5819444444445,St. Lawrence Island Section 3,87,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Lozhkin et al, 1998), Peat Exposure"
+11585,17352,63.6589,-148.80525,Windmill Lake,2,Neotoma,2,NA
+11586,17354,64.36008000000001,-147.368165,Blair Lakes,NA,NA,NA,NA
+11587,17355,59.80086,-151.1592,Circle Lake,NA,NA,NA,NA
+11588,17357,60.223929999999996,-151.362935,Clam Gulch,NA,NA,NA,NA
+11589,17359,63.888645,-149.2518,Eightmile Lake,NA,NA,NA,NA
+11590,17361,62.71064,-144.197185,Grizzly Lake,11,Neotoma,2,NA
+11591,17363,35.1666177777778,-83.0251069444444,Panthertown Creek Bog,NA,NA,NA,NA
+11595,17373,60.483445,-151.262085,Kalifonsky Beach,NA,NA,NA,NA
+11596,17375,59.6339,-151.5119,Homer Beach,NA,NA,NA,NA
+11597,17377,60.500895,-150.90992,Longmere Lake,NA,NA,NA,NA
+11598,17379,63.890855,-152.23891500000002,Lake Minchumina,NA,NA,NA,NA
+11599,17381,63.986445,-145.54014999999998,Mosquito Pond,NA,NA,NA,NA
+11600,17383,63.84225,-149.035575,Otto Lake,NA,NA,NA,NA
+11601,17385,62.842885,-148.24701,Watana Triangle Pond,NA,NA,NA,NA
+11602,17387,44.919595,-88.15693999999999,Beaver Lake,3.5999999999999996,Geographic matching,2,NA
+11603,17389,61.810779999999994,-148.16984,Wiener Lake,NA,NA,NA,NA
+11604,17391,63.44847,-162.10838,Zagoskin Lake,16,Neotoma,2,NA
+11606,17396,46.973155000000006,-94.68138,Steel Lake,23,Neotoma,2,NA
+11607,17398,41.027635000000004,-73.908375,Piermont Marsh,110,Neotoma,2,NA
+11609,17402,60.216475,-159.76567,Little Swift Lake,75,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site and area with pub (Axford et al, 2004)"
+11610,17404,46.144684999999996,-86.48299,Lorraine Lake,5.1,Geographic matching,2,NA
+11611,17406,46.61506,-88.86036,Penegor Lake,4,Geographic matching,2,NA
+11616,17417,25.9604,-81.45089999999999,Fakahatchee Strand Preserve State Park,35110.353855,Geographic matching,2,NA
+11617,17419,37.021744999999996,-106.45052,Cumbres Bog,0.5,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with publication (Johnson et al.), changed area"
+11620,19834,43.6774,-94.698115,Fox Lake,366.59999999999997,Geographic matching,2,NA
+11643,17476,69.2950361111111,-143.790030555556,McCall Glacier,84,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,"Its a glacier, I measured the upper lobe."
+11752,17731,33.5375,-110.885,Runway Ruin,NA,NA,NA,NA
+11752,17821,33.5375,-110.885,Runway Ruin,NA,NA,NA,NA
+11752,17724,33.5375,-110.885,Runway Ruin,NA,NA,NA,NA
+11752,17822,33.5375,-110.885,Runway Ruin,NA,NA,NA,NA
+11752,17823,33.5375,-110.885,Runway Ruin,NA,NA,NA,NA
+11753,17757,33.5375,-110.885,Monitor,NA,NA,NA,NA
+11753,17725,33.5375,-110.885,Monitor,NA,NA,NA,NA
+11753,17756,33.5375,-110.885,Monitor,NA,NA,NA,NA
+11754,17734,33.5375,-110.885,Columbus,NA,NA,NA,NA
+11754,17726,33.5375,-110.885,Columbus,NA,NA,NA,NA
+11754,17741,33.5375,-110.885,Columbus,NA,NA,NA,NA
+11754,17815,33.5375,-110.885,Columbus,NA,NA,NA,NA
+11756,17735,33.5375,-110.885,Multigrade,NA,NA,NA,NA
+11756,17746,33.5375,-110.885,Multigrade,NA,NA,NA,NA
+11756,17747,33.5375,-110.885,Multigrade,NA,NA,NA,NA
+11756,17728,33.5375,-110.885,Multigrade,NA,NA,NA,NA
+11757,17729,33.5375,-110.885,Tinhorn Wash,NA,NA,NA,NA
+11757,17736,33.5375,-110.885,Tinhorn Wash,NA,NA,NA,NA
+11757,17748,33.5375,-110.885,Tinhorn Wash,NA,NA,NA,NA
+11773,17804,31.441,-108.618,Sentinel Butte,NA,NA,NA,NA
+11774,17806,32.0027777777778,-108.504166666667,Coyote Hills,NA,NA,NA,NA
+11778,17816,33.5375,-110.885,East Ruin,NA,NA,NA,NA
+11783,17820,33.5375,-110.885,Refugia Ruin,NA,NA,NA,NA
+11786,17832,20.79429,-156.475355,Kealia Pond,80.10000000000001,Geographic matching,2,NA
+11792,17859,32.28908333333335,-109.0941666666665,Peloncillo Mountains,NA,NA,NA,NA
+11804,17878,42.82814,-72.4211,HF077 Cental Plot,NA,NA,NA,NA
+11805,17880,42.82814,-72.4211,Lost Swamp,NA,NA,NA,NA
+11808,17883,42.82814,-72.4211,HF077 South Plot,NA,NA,NA,NA
+11854,17945,56.81157,-132.93624,Mitkof Island,51,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Found publication, area is approximate extent of local peat environment."
+11855,17947,46.994015000000005,-94.694575,Little Shingobee Lake,4.3,Geographic matching,2,NA
+11924,18106,41.679460000000006,-118.717135,Blue Lakes,9.7,Neotoma,2,NA
+11950,18159,34.787665000000004,-120.586555,Mud Pond,3.5000000000000004,Geographic matching,2,NA
+12999,19264,63.64101166666666,-171.45400999999998,Naskak,87,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with publication, peat exposure"
+13000,19266,63.656005,-171.553815,Aghnaghak,87,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Lozhkin et al, 2011), Peat exposure"
+13042,19358,48.65899,-121.04095000000001,Panther Potholes,0.4,Neotoma,2,NA
+13287,19812,44.0833333333333,-94.4166666666667,Madelia,NA,NA,NA,NA
+13290,19820,48.6051,-122.90145000000001,Killebrew Lake Fen,5.3,Neotoma,2,NA
+13348,19931,45.932,-92.36500000000001,Lone Star Lake,8.5,Geographic matching,2,NA
+13349,19933,45.900999999999996,-92.273,Lily Lake,8.3,Geographic matching,2,NA
+13350,19937,41.75738,-86.52208,Spicer Lake,1.3767420000000001,Geographic matching,2,NA
+13377,20001,47.936655,-122.880815,Crocker Lake,26,Neotoma,2,NA
+13382,20014,47.905425,-122.87486,Cedar Swamp,78,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, changed area (larger than given in publication)"
+13454,20188,57.17824,-170.24827,Lake Hill,16,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area"
+13455,20194,48.607119999999995,-103.62398999999999,Kettle Lake,3,Neotoma,2,NA
+13486,20304,37.611035,-106.843695,Hunters Lake,3.5000000000000004,Geographic matching,2,NA
+13487,20306,45.262474999999995,-110.816305,Dailey Lake,88,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed in paper.
+13488,20316,41.26396,-123.68312,Fish Lake,9.918992,Geographic matching,2,NA
+13516,20372,60.787275,-150.83147,Swanson Fen,0.03,Neotoma,2,NA
+13528,20397,46.565795,-86.0752,South Rhody peatland,4.5,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Unsure of loc. Confirmed area: Booth et al 2004
+13575,20495,41.486104999999995,-123.541235,Ogaromtoc Lake,1.5,Geographic matching,2,NA
+13582,20512,43.60373,-82.86388,Minden Bog,8300,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed bog. Area: Booth and Jackson 2003
+13583,20515,41.098185,-74.63963,Lake Grinnell,20,Neotoma,2,NA
+13627,20613,42.41874,-111.77765,Plan B Pond,2.5,Neotoma,2,NA
+13628,20616,39.765005,-107.34582499999999,Bison Lake,19.6,Geographic matching,2,NA
+13629,20618,42.56725,-71.95695,Quag Pond,0.42331599999999997,Geographic matching,2,NA
+13630,20620,42.422200000000004,-71.58734999999999,Little Bolton,7.1,Geographic matching,2,NA
+13633,20627,42.55585,-72.01640499999999,Snake Pond,2.4,Geographic matching,2,NA
+13635,20631,42.5604,-72.513,Lake Pleasant,21.9,Geographic matching,2,NA
+13658,20678,41.382000000000005,-120.2205,Patterson Lake,8.5,Geographic matching,2,NA
+13671,20758,42.022000000000006,-123.459,Bolan Lake,5.6,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Looks fine
+13680,20833,36.047,-106.5085,Chihuahuenos Bog,2.3,Neotoma,2,NA
+13683,20838,38.074380000000005,-111.57115,Purple Lake,5.945531,Geographic matching,2,NA
+13690,20872,66.068205,-145.405555,Screaming Lynx Lake,3.1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Looks fine
+13695,20883,46.51655,-114.683705,Star Meadows,3.2,Neotoma,2,NA
+13714,20922,41.37778,-106.255405,East Glacier Lake,2.9,Neotoma,2,NA
+13897,21314,60.530125,-145.45421,Corser Bog,31,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (nichols et al , 2014), changed area"
+13906,21365,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21338,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21349,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21353,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21342,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21361,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21334,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21357,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21372,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21379,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13906,21376,43.09,-118.7535,"Graben Dome, Diamond Craters",NA,NA,NA,NA
+13907,21383,43.10736,-118.804355,"Nolf Crater, Diamond Craters",NA,NA,NA,NA
+13920,21415,39.672830000000005,-115.77398,Newark Valley Pond,NA,NA,NA,NA
+13922,21418,39.25318,-117.1655,Kingston Meadow,NA,NA,NA,NA
+13923,21422,42.032084999999995,-123.014855,Upper Squaw Lake,7.2,Neotoma,2,NA
+14044,21800,37.426410000000004,-89.37886499999999,Grassy Lake,141.4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site, changed area (varies seasonally)"
+14071,21942,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21931,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21944,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21907,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21893,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21905,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21940,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14071,21909,34.27818,-120.06134499999999,ODP Hole 893A,NA,NA,NA,NA
+14147,22080,35.2085,-106.312,Paa-ko,NA,NA,NA,NA
+14147,22083,35.2085,-106.312,Paa-ko,NA,NA,NA,NA
+14147,22085,35.2085,-106.312,Paa-ko,NA,NA,NA,NA
+14147,22081,35.2085,-106.312,Paa-ko,NA,NA,NA,NA
+14147,22082,35.2085,-106.312,Paa-ko,NA,NA,NA,NA
+14150,22088,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14150,22090,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14150,22089,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14150,22091,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14150,22093,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14150,22092,31.566499999999998,-111.048,Tumacacori,NA,NA,NA,NA
+14155,22103,36.34462,-84.968925,Upper Cumberland Plateau Pond,NA,NA,NA,NA
+14222,22238,29.987724999999998,-84.447055,Ochlockonee River,NA,NA,NA,NA
+14239,22265,65.60439,-163.19538,Imuruk Lake,8029,Neotoma,2,NA
+14242,22270,65.61756,-163.206365,Imuruk Lake Low Terrace,8029,Neotoma,2,NA
+14243,22271,65.638595,-163.22902499999998,Imuruk Lake Intermediate Silt Terrace,8029,Neotoma,2,NA
+14246,22277,65.64992000000001,-163.181475,Imuruk Lake Intermediate Terrace,8029,Neotoma,2,NA
+14254,22294,67.672355,-165.910035,Kotzebue Sound,8029,Neotoma,2,NA
+14256,22299,63.47766,-170.11376,Flora Lake,32,Neotoma,2,NA
+14287,22369,44.33712,-68.193395,The Bowl,9,Neotoma,2,NA
+14288,22370,44.40811,-68.269315,Lake Wood,8,Neotoma,2,NA
+14290,22374,42.57534,-72.890615,Hawley Bog,2,Neotoma,2,NA
+14291,22376,42.173985,-72.70505,Round Pond,2,Neotoma,2,NA
+14293,22379,63.187032,-147.598854,Upper Susitna River Valley,NA,NA,NA,NA
+14294,22380,61.51572166666665,-144.438675,Chitina,NA,NA,NA,NA
+14295,22381,61.536155,-144.393825,Kotsina Delta,NA,NA,NA,NA
+14296,22382,61.72579,-144.96211499999998,Willow Creek,NA,NA,NA,NA
+14297,22383,62.301095000000004,-145.33951000000002,Gakona Bluff,NA,NA,NA,NA
+14298,22384,61.77697,-144.58831500000002,Dadina River,NA,NA,NA,NA
+14299,22385,62.79238,-143.989565,Ahtell Creek,NA,NA,NA,NA
+14300,22386,62.247885,-146.90094,Tyone Creek,NA,NA,NA,NA
+14301,22387,62.215305,-146.828195,Blue Lake,NA,NA,NA,NA
+14302,22388,62.094120000000004,-146.29652,Trapper's Den,NA,NA,NA,NA
+14306,22394,61.987645,-146.94729,Little Nelchina River,NA,NA,NA,NA
+14307,22395,61.869960000000006,-146.038685,St. Anne Lake,NA,NA,NA,NA
+14308,22397,39.67664,-105.60406,Doolittle Ranch Meadow,16,Neotoma,2,NA
+14310,22400,39.65822,-105.603265,Echo Lake,9.2,Neotoma,2,NA
+14312,22403,39.588775,-105.646185,Mt. Evans,NA,NA,NA,NA
+14314,22407,44.76661,-121.779155,Breitenbush Lake,26.3,Neotoma,2,NA
+14327,22423,33.723124999999996,-112.22548499999999,Rock Springs,NA,NA,NA,NA
+14450,22614,33.90817,-112.142685,Skunk Creek Headwaters,NA,NA,NA,NA
+14453,22621,33.644415,-112.19315499999999,Hohokam Site,NA,NA,NA,NA
+14453,22619,33.644415,-112.19315499999999,Hohokam Site,NA,NA,NA,NA
+14453,22620,33.644415,-112.19315499999999,Hohokam Site,NA,NA,NA,NA
+14632,22948,35.56948,-106.106515,Leonora Curtin,NA,NA,NA,NA
+14640,22969,41.499845,-106.367885,Long Lake,NA,NA,NA,NA
+15901,24475,26.956874444444452,-81.13609,Fort Center,NA,NA,NA,NA
+15989,24665,29.76624,-94.70819499999999,Trinity River bayhead,NA,NA,NA,NA
+16003,24686,29.672530000000002,-94.78268,Trinity River Valley,NA,NA,NA,NA
+16025,24725,27.78852166666665,-97.34436,Corpus Christi Bay,NA,NA,NA,NA
+16313,25306,43.21822,-83.45983,Otter Lake,27.5,Neotoma,2,NA
+16330,25340,33.35003,-79.3447,"Waccamaw River, Turkey Creek Oligohaline Marsh",NA,NA,NA,NA
+16332,25349,33.34001,-79.34166,"Waccamaw River, Turkey Creek, Heavily Salt Impacted Swamp",NA,NA,NA,NA
+16341,25368,33.422823,-79.207996,"Waccamaw River, Butler Island, Moderately Salt Impacted",NA,NA,NA,NA
+16384,25491,24.90197,-80.699085,Lignumvitae Key,NA,NA,NA,NA
+16396,25514,25.267035,-80.90641,East Whitewater Bay,NA,NA,NA,NA
+16448,25605,24.959505,-80.630165,Cotton Key,NA,NA,NA,NA
+16450,25609,25.823515,-80.56772000000001,Water Conservation Area 3B,NA,NA,NA,NA
+16455,25683,25.93942,-80.59845,Levee L67A,NA,NA,NA,NA
+16466,25749,25.613644999999998,-80.74264500000001,Rocky Glades,NA,NA,NA,NA
+16717,26572,40.7075,-74.4645,Great Swamp (Highbush Blueberry),NA,NA,NA,NA
+16718,26574,40.719,-74.42500000000001,Great Swamp (Red Maple Swamp),NA,NA,NA,NA
+16741,26630,39.156414999999996,-120.04142999999999,Lake Tahoe,49500,Neotoma,2,NA
+16766,26673,39.081105,-75.44382999999999,St. Jones River (SJB6),NA,NA,NA,NA
+16767,26675,39.092015,-75.45265,St. Jones River (SJC6),NA,NA,NA,NA
+17914,39749,43.82946,-74.848885,Big Moose Lake,520.5,Neotoma,2,NA
+18833,32258,40.73695,-99.0293,Kearney McKean-2,NA,NA,NA,NA
+22558,39181,41.349465,-70.66915,Black Point Pond,23.5,Neotoma,2,NA
+22562,39190,41.368725,-70.64218,Deep Bottom Cove,301.2,Neotoma,2,NA
+22563,39192,41.375955000000005,-70.66803999999999,Muddy Cove Pond,301.2,Neotoma,2,NA
+22566,39198,39.117104999999995,-75.501695,St. Jones River (RPC2),NA,NA,NA,NA
+22581,39221,41.359610000000004,-70.63147000000001,Long Cove Pond,32,Neotoma,2,NA
+22651,39348,41.358695,-70.612455,Watcha Pond,24.7,Neotoma,2,NA
+22655,39355,41.357865000000004,-70.58413999999999,Jobs Neck Pond,23.9,Neotoma,2,NA
+22750,39474,46.31848,-69.06141,Mathews Pond,7.4,Neotoma,2,NA
+23458,40519,41.37585,-70.56858,Jane's Cove,632.8,Neotoma,2,NA
+23501,40591,41.369905,-70.55215,Mashacket Cove,632.8,Neotoma,2,NA
+23506,40600,41.358875,-70.539395,Slough Cove,632.8,Neotoma,2,NA
+23512,40620,41.428264999999996,-70.60189,Lagoon Pond,236,Neotoma,2,NA
+23515,40625,41.458815,-70.62957,Lake Tashmoo,109.3,Neotoma,2,NA
+23535,40666,41.43051,-70.69572500000001,Cedar Tree Neck Bog,3,Neotoma,2,NA
+23579,40791,42.377775,-73.09478,Benson Pond,2.72,Neotoma,2,NA
+23580,40793,42.620059999999995,-71.086805,Berry Pond,1.52,Neotoma,2,NA
+23581,40795,41.327855,-70.79269500000001,Black Pond,1.35,Neotoma,2,NA
+23582,40797,41.471805,-70.76613499999999,Blaney's Pond,1,Neotoma,2,NA
+23583,40799,42.08019,-71.96105,Blood Pond,8.44,Neotoma,2,NA
+23586,40803,41.564035000000004,-70.63573,Deep-Falmouth Pond,1,Neotoma,2,NA
+23609,40844,41.88215,-71.012,Deep-Taunton Pond,1.77,Neotoma,2,NA
+23614,40854,42.17535,-72.70179999999999,Doe Pond,1.48,Neotoma,2,NA
+23625,40875,42.10864,-73.43719999999999,Guilder Pond,6.3,Neotoma,2,NA
+23647,40914,44.36035,-72.37295,Knob Hill Pond,6.8,Neotoma,2,NA
+23691,40988,42.67595,-72.19284999999999,Little Royalston Pond,4,Neotoma,2,NA
+23693,40992,43.2917,-71.1781,Little Willey Pond,11.6,Neotoma,2,NA
+23698,41001,40.885999999999996,-72.5783,Sears Pond,1.45,Neotoma,2,NA
+23708,41016,41.306,-73.4495,Umpawaug Pond,5.34,Neotoma,2,NA
+23709,41018,41.43305,-70.66463999999999,Uncle Seth's Pond,4.44,Neotoma,2,NA
+23713,41025,42.48245,-70.88225,Ware Pond,1.14,Neotoma,2,NA
+23714,41027,41.8545,-73.25659999999999,West Side Pond,15.6,Neotoma,2,NA
+23715,41030,37.9902611111111,-122.789613888889,Glenmire,NA,NA,NA,NA
+23716,41032,40.8215,-110.38145,Henry's Fork (lower exposure),NA,NA,NA,NA
+23717,41034,40.799499999999995,-110.361,Henry's Fork (upper exposure),NA,NA,NA,NA
+23763,41140,40.881,-106.73395,Gem Lake,NA,NA,NA,NA
+23765,41146,40.545425,-106.682345,Summit Lake,NA,NA,NA,NA
+23770,41159,40.895995,-106.683885,Seven Lakes,NA,NA,NA,NA
+23771,41161,40.781825,-106.678955,Gold Creek Lake,NA,NA,NA,NA
