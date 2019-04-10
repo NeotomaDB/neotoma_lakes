@@ -3,7 +3,7 @@ title: "US Lake sizes in Neotoma"
 author: "Simon Goring"
 ---
 
-This is a rewrite of the original document, that attempts to run the lake size runs within an RMarkdown document for more efficient review and analysis.
+This is a rewrite of the original document, that attempts to match Neotoma sites with their associated lakes within an RMarkdown document for more efficient review and analysis.
 
 ```{r}
 
@@ -17,7 +17,7 @@ library(sf)
 
 ```
 
-For this work we download Neotoma datasets using the R package.  We do this state by state, intersecting the state level data with the National Hydrology database.
+For this work we download Neotoma datasets using the `neotoma` R package.  Datasets are downloaded from Neotoma state by state, so that the Neotoma state level data intersects with the US National Hydrology database.
 
 ```{r}
 
