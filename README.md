@@ -14,7 +14,7 @@ Work underway for Northern Hemisphere reconstructions requires knowledge of lake
   * Simon Goring (code and repository management)
   * Bailey Zak
   * Claire Rubbelke - University of Wisconsin
-  * Andria Dawson - Mt Royal University
+  * Andria Dawson - Mount Royal University
   * Mathias Trachel - University of Wisconsin
   
 ## Project Components
