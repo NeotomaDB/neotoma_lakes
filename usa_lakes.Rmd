@@ -14,6 +14,7 @@ library(purrr)
 library(sp)
 library(datasets)
 library(sf)
+library(leaflet)
 
 ```
 
@@ -81,8 +82,12 @@ statefiles <- list.files("data/lake_match",
 
 areas <- statefiles %>%
   map(function(x) {
-     aa <- readRDS(x)
-     colnames(aa) <- tolower(colnames(aa))
+     aa <- try(readRDS(x))
+     if (!"try-error" %in% class(aa)) {
+       colnames(aa) <- tolower(colnames(aa))
+     } else {
+       aa <- NULL
+     }
      return(aa)
    }) %>%
   bind_rows()
