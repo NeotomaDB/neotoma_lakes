@@ -42,25 +42,31 @@ data_run <- Sys.Date()
 
 for (i in 1:length(states)) {
 
+  cat("Running data for", states[i], "\n")
   statematch <- list.files("data/lake_match",
                            pattern = paste0(states[i], ".rds"))
 
   if (length(statematch) == 0) {
 
     run <- try(us_state_lakes(states[i]))
-    if (!"try-error" %in% class(run)) {
-      saveRDS(run,
-              paste0("data/lake_match/run",
-                     Sys.Date(), "_",
-                     states[i], ".rds"))
+    if ("try-error" %in% class(run)) {
+      run <- data.frame(stid = NA, dsid = NA, state = states[i])
     }
+
+    saveRDS(run,
+            paste0("data/lake_match/run",
+                   Sys.Date(), "_",
+                   states[i], ".rds"))
 
     # Clean temprary files:
     file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
     file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
     gc()
 
+  } else {
+    cat("State has already been run.\n")
   }
+
 }
 
 ```
