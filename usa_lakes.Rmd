@@ -14,6 +14,7 @@ library(purrr)
 library(sp)
 library(datasets)
 library(sf)
+library(leaflet)
 
 ```
 
@@ -33,6 +34,12 @@ The function also looks for any lakes within the state that have the same name a
 
 The script uses the entire set of US state abbreviations.  Because the script takes a significant amount of time, and the downloads are quite large, this script is run through a loop, saving the interim output of the `runs` list using a date-time stamped `rds` file.
 
+Because the script runs on the Penn State CEI servers we use a Linux script to start the script, so it can run in the background:
+
+```bash
+nohup Rscript -e "rmarkdown::render('usa_lakes.Rmd')" > lakerender.out 2>&1 &
+```
+
 ```{r}
 
 # state.abb is a data element in R for US state abbreviations.
@@ -49,6 +56,7 @@ for (i in 1:length(states)) {
   if (length(statematch) == 0) {
 
     run <- try(us_state_lakes(states[i]))
+
     if ("try-error" %in% class(run)) {
       run <- data.frame(stid = NA, dsid = NA, state = states[i])
     }
@@ -79,10 +87,20 @@ statefiles <- list.files("data/lake_match",
                          pattern = ".rds",
                          full.names = TRUE)
 
+runs <- list()
+
+for(i in 1:length(statefiles)) {
+  runs[[i]] <- readRDS(statefiles[i])
+}
+
 areas <- statefiles %>%
   map(function(x) {
-     aa <- readRDS(x)
-     colnames(aa) <- tolower(colnames(aa))
+     aa <- try(readRDS(x))
+     if(!"try-error" %in% class(aa)) {
+       colnames(aa) <- tolower(colnames(aa))
+     } else {
+       aa <- NULL
+     }
      return(aa)
    }) %>%
   bind_rows()
