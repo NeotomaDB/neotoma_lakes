@@ -40,75 +40,108 @@ states <- state.abb
 
 data_run <- Sys.Date()
 
-if (file.exists(paste0("data/interim/runs_", data_run, ".rds"))) {
-  runs <- readRDS(paste0("data/interim/runs_", data_run, ".rds"))
-} else {
-  runs <- list()
-}
-
 for (i in 1:length(states)) {
-  runs[[i]] <- try(state_output(states[i]))
-  saveRDS(runs, paste0("runs", Sys.Date(), ".rds"))
 
-  # Clean temprary files:
-  file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
-  file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
-  gc()
-}
+  statematch <- list.files("data/lake_match",
+                           pattern = paste0(states[i], ".rds"))
 
-for (i in length(runs):1) {
-  # clean out the outputs that errored.
-  if ("try-error" %in% class(runs)) {
-    runs[[i]] <- NULL
+  if (length(statematch) == 0) {
+
+    run <- try(us_state_lakes(states[i]))
+    if (!"try-error" %in% class(run)) {
+      saveRDS(run,
+              paste0("data/lake_match/run",
+                     Sys.Date(), "_",
+                     states[i], ".rds"))
+    }
+
+    # Clean temprary files:
+    file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
+    file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
+    gc()
+
   }
 }
 
-areas <- bind_rows(runs)
+```
+
+Once each state has been checked and the individual output files have been written, the script then reads each file and binds them together:
+
+```{r}
+
+statefiles <- list.files("data/lake_match",
+                         pattern = ".rds",
+                         full.names = TRUE)
+
+areas <- statefiles %>%
+  map(function(x) {
+     aa <- readRDS(x)
+     colnames(aa) <- tolower(colnames(aa))
+     return(aa)
+   }) %>%
+  bind_rows()
 
 areas_clean <- areas %>%
-  dplyr::select(stid, `dsid` = `DatasetID`, site.name,
-                long, lat, state, GNIS_NAME, GNIS_ID, AREASQKM,
-                dist_match, data_source)
+  dplyr::select(stid, dsid, site.name,
+                long, lat, state,
+                gnis_name, gnis_id, areasqkm,
+                dist_match, data_source,
+              geometry)
 
-areas_clean$AREAHA <- areas_clean$AREASQKM * 100
+areas_clean$areaha <- areas_clean$areasqkm * 100
 
-matched <- is.na(areas_clean$GNIS_ID)
-
-readr::write_csv(areas_clean, "data/output/all_usa_pollensites.csv")
-readr::write_csv(areas_clean[matched, ],
-                 "data/output/NHD_usa_pollensites.csv")
-readr::write_csv(areas_clean[!matched,],
-                 "data/output/noNHD_usa_pollensites.csv")
+readr::write_csv(areas_clean, "data/output/usa_pollensites.csv")
 
 ```
 
-From this we have a total of `r nrow(areas_clean)` datasets within Neotoma that can be directly aligned with the National Hydrology Dataset.  We can use these to modify the Neotoma metadata as well.
+## Summary Results
 
-```{r}
-DT::datatable(areas_clean)
+```{r, echo = FALSE}
+areas_clean %>%
+  group_by(state) %>%
+  summarise(sites = n(),
+            matched = sum(!is.na(gnis_id))) %>%
+  DT::datatable()
 ```
 
-## Matched Lakes
+### Matched Lakes
 
-```{r}
+We have a total of `r sum(!is.na(areas_clean$gnis_id))` datasets that can be directly aligned with the National Hydrology Dataset.
 
-areas_clean$info <- paste0("<b>", areas_clean$site.name, "</b><br>",
-                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=", areas_clean$dsid, ">Explorer</a>")
+```{r, echo = FALSE}
 
-map <- leaflet() %>%
+matched <- areas_clean %>%
+  filter(!is.na(gnis_id)) %>%
+  mutate(info = paste0("<b>", site.name, "</b><br>",
+                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=",
+                           dsid, ">Explorer</a>")) %>%
+  select(lat, long, info)
+
+map <- leaflet(matched) %>%
   addProviderTiles("Esri.WorldImagery") %>%
-  addMarkers(lat = areas_clean$lat[matched],
-             lng = areas_clean$long[matched],
+  addMarkers(lat = lat,
+             lng = long,
              clusterOptions = markerClusterOptions(),
-             popup = areas_clean$info[matched])
+             popup = info)
 ```
 
 ## Unmatched Lakes
+
+We have a total of `r sum(is.na(areas_clean$gnis_id))` datasets that could not be aligned with the National Hydrology Dataset.
+
 ```{r}
-map <- leaflet() %>%
+
+unmatched <- areas_clean %>%
+  filter(is.na(gnis_id)) %>%
+  mutate(info = paste0("<b>", site.name, "</b><br>",
+                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=",
+                           dsid, ">Explorer</a>")) %>%
+  select(lat, long, info)
+
+map <- leaflet(unmatched) %>%
   addProviderTiles("Esri.WorldImagery") %>%
-  addMarkers(lat = areas_clean$lat[!matched],
-             lng = areas_clean$long[!matched],
+  addMarkers(lat = lat,
+             lng = long,
              clusterOptions = markerClusterOptions(),
-             popup = areas_clean$info[!matched])
+             popup = info)
 ```
