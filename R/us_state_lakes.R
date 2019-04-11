@@ -62,7 +62,11 @@ us_state_lakes <- function(x,
       return(cbind(data.frame(GNIS_ID = NA, pol)))
     }
 
-    data <- unzip(temp, overwrite = TRUE)
+    data <- try(unzip(temp, overwrite = TRUE))
+
+    if ("try-error" %in% class(data)) {
+      return(cbind(data.frame(gnis_id = NA, state = x, pol)))
+    }
 
     pol_sf <- st_as_sf(pol,
                        coords = c("long", "lat"),
