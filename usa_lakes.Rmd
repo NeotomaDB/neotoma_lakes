@@ -3,23 +3,25 @@ title: "US Lake sizes in Neotoma"
 author: "Simon Goring"
 output:
   html_document:
-    code_folding: null
+    code_folding: show
     keep_md: false
     mathjax: null
     self_contained: true
     number_sections: no
-    highlight: null
+    highlight: pygments
     toc: no
     includes:
       before_body: styles/header.html
       after_body: styles/footer.html
     theme: yeti
     md_extensions: -autolink_bare_uris
+csl: styles/elsevier-harvard.csl
+bibliography: /mnt/sda1/simon/Documents/references/sgoring_refs.bib
 ---
 
 This is a rewrite of the original document, that attempts to match Neotoma sites with their associated lakes within an RMarkdown document for more efficient review and analysis.
 
-```{r loadLibrary, messages = FALSE}
+```{r loadLibrary, message=FALSE, warning=FALSE, results="hide"}
 
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 library(rgdal)
@@ -33,7 +35,7 @@ library(leaflet)
 
 ```
 
-For this work we download Neotoma datasets using the `neotoma` R package.  Datasets are downloaded from Neotoma state by state, so that the Neotoma state level data intersects with the US National Hydrology database.
+For this work we download datasets from the Neotoma Paleoecology Database [@williams2017neotoma] using the `neotoma` R package [@goring2015neotoma].  Datasets for the United States are downloaded from Neotoma state by state, so that the Neotoma state level data intersects with the US National Hydrology Dataset [@usnhd].
 
 The code to align lakes with their associated Neotoma sites can be found in `R/us_state_lakes.R`.
 
@@ -41,7 +43,7 @@ The code to align lakes with their associated Neotoma sites can be found in `R/u
 source('R/us_state_lakes.R')
 ```
 
-`us_state_lakes()` accesses shapefiles from the National Hydrography Dataset for each individual state in the United States.  The function uses the `sf` package to open the shapefiles, perform an intersection between the Neotoma points and the shapefiles, and then returns information about the lakes with which each Neotoma site intersects.
+`us_state_lakes()` accesses shapefiles from the National Hydrography Dataset for each individual state in the United States.  The function uses the `sf` package [@sfpackage] to open the shapefiles, perform an intersection between the Neotoma points and the shapefiles, and then returns information about the lakes with which each Neotoma site intersects.
 
 The function also looks for any lakes within the state that have the same name as the Neotoma site.
 
@@ -121,6 +123,7 @@ areas <- statefiles %>%
   bind_rows()
 
 areas_clean <- areas %>%
+  filter(long < 0 | long > 150) %>% 
   dplyr::select(stid, dsid, site.name,
                 long, lat, state,
                 gnis_name, gnis_id, areasqkm,
@@ -138,9 +141,13 @@ readr::write_csv(areas_clean, "data/output/usa_pollensites.csv")
 ```{r stateTable, echo = FALSE}
 areas_clean %>%
   group_by(state) %>%
+  filter(!stringr::str_detect(state, "NoData")) %>%
   summarise(sites = n(),
             matched = sum(!is.na(gnis_id))) %>%
-  DT::datatable()
+  mutate(proportion = matched / sites) %>%
+  DT::datatable(options = list(dom = 'tpi'),
+                rownames = FALSE,
+                caption = "States with datasets and dataset matches.")
 ```
 
 ### Matched Lakes
@@ -170,7 +177,8 @@ leaflet(matched) %>%
 areas_clean %>%
   filter(!is.na(gnis_id)) %>%
   select(stid, dsid, state, site.name, gnis_name, areaha) %>%
-  DT::datatable()
+  DT::datatable(rownames = FALSE,
+                caption = "Table 2. All Neotoma (pollen) sites with matched lake parameters.")
 ```
 
 ## Unmatched Lakes
@@ -200,5 +208,8 @@ leaflet(unmatched) %>%
 areas_clean %>%
   filter(is.na(gnis_id)) %>%
   select(stid, dsid, state, site.name, gnis_name, areaha) %>%
-  DT::datatable()
+  filter(!stringr::str_detect(state, "NoData")) %>%
+  DT::datatable(rownames = FALSE, caption = "Table 3. All Neotoma (pollen) sites with matched lake parameters.")
 ```
+
+## References
