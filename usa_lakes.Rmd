@@ -123,14 +123,14 @@ areas <- statefiles %>%
   bind_rows()
 
 areas_clean <- areas %>%
-  filter(long < 0 | long > 150) %>% 
+  filter(long < 0 | long > 150) %>%
   dplyr::select(stid, dsid, site.name,
                 long, lat, state,
                 gnis_name, gnis_id, areasqkm,
                 dist_match, data_source,
               geometry)
 
-areas_clean$areaha <- areas_clean$areasqkm * 100
+areas_clean$areaha <- round(areas_clean$areasqkm * 100, 1)
 
 readr::write_csv(areas_clean, "data/output/usa_pollensites.csv")
 
@@ -144,7 +144,7 @@ areas_clean %>%
   filter(!stringr::str_detect(state, "NoData")) %>%
   summarise(sites = n(),
             matched = sum(!is.na(gnis_id))) %>%
-  mutate(proportion = matched / sites) %>%
+  mutate(proportion = round(matched / sites, 2)) %>%
   DT::datatable(options = list(dom = 'tpi'),
                 rownames = FALSE,
                 caption = "States with datasets and dataset matches.")
@@ -165,7 +165,10 @@ matched <- areas_clean %>%
   select(lat, long, info)
 
 leaflet(matched) %>%
-  addProviderTiles("Esri.WorldImagery") %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addProviderTiles(providers$Stamen.TonerLines) %>% 
+  addProviderTiles(providers$Stamen.TonerLabels,
+    options = providerTileOptions(opacity = 0.7)) %>%
   addMarkers(lat = ~lat,
              lng = ~long,
              clusterOptions = markerClusterOptions(),
@@ -196,7 +199,11 @@ unmatched <- areas_clean %>%
   select(lat, long, info)
 
 leaflet(unmatched) %>%
-  addProviderTiles("Esri.WorldImagery") %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addProviderTiles(providers$Stamen.TonerLines,
+    options = providerTileOptions(opacity = 0.9)) %>% 
+  addProviderTiles(providers$Stamen.TonerLabels,
+    options = providerTileOptions(opacity = 0.9)) %>%
   addMarkers(lat = ~lat,
              lng = ~long,
              clusterOptions = markerClusterOptions(),
