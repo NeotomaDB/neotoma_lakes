@@ -4,6 +4,7 @@ author: "Simon Goring"
 date: "July 16, 2017"
 output:
   html_document:
+    output: index.html
     self_contained: true
     code_folding: hide
     toc: true
@@ -53,7 +54,7 @@ We can pull all existing lake data from Neotoma and add it to our estimates usin
 
 ```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
 
-existing_lakes <- neotoma_lakes("connect_remote.json") %>% 
+existing_lakes <- neotoma_lakes("connect_remote.json") %>%
   filter(dsid %in% sapply(all_ds, function(x) x$dataset.meta$dataset.id))
 
 if (nrow(existing_lakes) == 1) {
@@ -75,20 +76,20 @@ Direct matches occur when a Neotoma site lies directly over top of a record in t
 
 ```{r, loadLakeData, echo=FALSE, message=FALSE, results='hide'}
 
-ca_lakes <- readr::read_csv('data/ca_lakes.csv') %>% 
+ca_lakes <- readr::read_csv('data/ca_lakes.csv') %>%
   filter(!is.na(lake_area_ha)) %>% distinct()
 
-us_lakes <- readr::read_csv('data/usa_lakes.csv') %>% 
+us_lakes <- readr::read_csv('data/usa_lakes.csv') %>%
   filter(!is.na(AREAHA)) %>% distinct()
 
-assertthat::assert_that(!any(duplicated(us_lakes$SiteID) & 
+assertthat::assert_that(!any(duplicated(us_lakes$SiteID) &
                                !duplicated(us_lakes$AREAHA)),
-                        msg = "There are US lakes with duplicated site IDs but without 
+                        msg = "There are US lakes with duplicated site IDs but without
                                duplicated lake areas.")
 
-assertthat::assert_that(!any(duplicated(ca_lakes$SiteID) & 
+assertthat::assert_that(!any(duplicated(ca_lakes$SiteID) &
                                !duplicated(ca_lakes$lake_area_ha)),
-                        msg = "There are Canadian lakes with duplicated site IDs but without 
+                        msg = "There are Canadian lakes with duplicated site IDs but without
                                duplicated lake areas.")
 
 recorded_lakes <- data.frame(sitename = c(ca_lakes$site.name, us_lakes$site.name),
@@ -100,10 +101,10 @@ recorded_lakes <- data.frame(sitename = c(ca_lakes$site.name, us_lakes$site.name
                              source    = "Geographic matching",
                              stringsAsFactors = FALSE)
 
-area_lakes <- recorded_lakes %>% 
-  full_join(existing_lakes) %>% 
-  select(-units) %>% 
-  clean_matches(keep = "Geographic matching", sitedataset = sitedataset) %>% 
+area_lakes <- recorded_lakes %>%
+  full_join(existing_lakes) %>%
+  select(-units) %>%
+  clean_matches(keep = "Geographic matching", sitedataset = sitedataset) %>%
   distinct(stid, .keep_all = TRUE)
 ```
 
@@ -112,7 +113,7 @@ plot_linked(area_lakes)
 
 ```
 
-A total of `r nrow(ca_lakes)` were matched directly to lakes within the Canadian hydrographic database and `r nrow(us_lakes)` were matched to the US.  For both of these datasets combined `r sum(existing_lakes$stid %in% recorded_lakes$stid)` also had records in Neotoma, resulting in a combined dataset of `r nrow(area_lakes)`.  
+A total of `r nrow(ca_lakes)` were matched directly to lakes within the Canadian hydrographic database and `r nrow(us_lakes)` were matched to the US.  For both of these datasets combined `r sum(existing_lakes$stid %in% recorded_lakes$stid)` also had records in Neotoma, resulting in a combined dataset of `r nrow(area_lakes)`.
 
 ### Reanalysis
 
@@ -135,33 +136,33 @@ All lakes that have been edited are diplayed here.
 
 source('R/load_entered_data.R')
 
-linked_lakes <- area_lakes %>% 
+linked_lakes <- area_lakes %>%
   mutate(edited = 2)
 
-edited_lakes <-  suppressMessages(load_lakes()) %>% 
-  mutate(area = round(area, 1)) %>% 
-  filter(!is.na(area) & area > 0) %>% 
-  dplyr::union_all(linked_lakes) %>% 
-  distinct(stid, notes, area, source, .keep_all = TRUE) %>% 
+edited_lakes <-  suppressMessages(load_lakes()) %>%
+  mutate(area = round(area, 1)) %>%
+  filter(!is.na(area) & area > 0) %>%
+  dplyr::union_all(linked_lakes) %>%
+  distinct(stid, notes, area, source, .keep_all = TRUE) %>%
   arrange(stid)
 
 dup_sites <- edited_lakes$stid[duplicated(edited_lakes$stid)] %>% unique
 
-# There are currently some duplicate sites, these don't vary too much, so 
-# we take either the value associated with the hydrological database, or 
+# There are currently some duplicate sites, these don't vary too much, so
+# we take either the value associated with the hydrological database, or
 # the first of the two entered into the database.
 
 for (i in dup_sites) {
-  
+
   set <- edited_lakes$stid == i
   hydro_set <- edited_lakes$source %in% area_lakes$source
-  
+
   if(any(hydro_set[set])) {
     drop <- ! ((1:nrow(edited_lakes)) %in% which(set & !hydro_set))
     edited_lakes <- edited_lakes[drop, ]
   } else{
     drop <- ! ((1:nrow(edited_lakes)) %in% which(set)[-1])
-    
+
     edited_lakes <- edited_lakes[drop, ]
   }
 
@@ -171,14 +172,14 @@ assertthat::assert_that(!any(duplicated(edited_lakes$stid)),
                         msg = "Some duplicated site IDs are present.")
 
 assertthat::assert_that(all(edited_lakes$stid %in% sitedataset$stid),
-                        msg = "There are site IDs that are not present in the 
+                        msg = "There are site IDs that are not present in the
                                full North American dataset")
 
 ste_match <- match(sitedataset$stid, edited_lakes$stid)
 est_match <- match(edited_lakes$stid, sitedataset$stid)
 
-assertthat::assert_that(all(edited_lakes$sitename == sitedataset$name[est_match], 
-                            na.rm = TRUE), 
+assertthat::assert_that(all(edited_lakes$sitename == sitedataset$name[est_match],
+                            na.rm = TRUE),
                         msg = "All assigned sitenames match as expected")
 
 sitedataset[,c('area', 'source', 'edited', 'notes')] <-
@@ -187,7 +188,7 @@ sitedataset[,c('area', 'source', 'edited', 'notes')] <-
 readr::write_csv(sitedataset,
                  paste0('data/version_', version, '/full_output_', version, '.csv'))
 
-readr::write_csv(sitedataset %>% filter(!is.na(area)), 
+readr::write_csv(sitedataset %>% filter(!is.na(area)),
                  paste0('data/version_', version, '/assigned_areas_', version, '.csv'))
 
 ```
@@ -203,7 +204,7 @@ This results in a dataset of `r nrow(edited_lakes)` sites with areas, of which `
 ```{r, generateMissing, echo = FALSE, warning=FALSE, results='hide'}
 
 new_output <- sitedataset %>%
-  dplyr::left_join(control_output, by = c('stid', 'dsid')) %>% 
+  dplyr::left_join(control_output, by = c('stid', 'dsid')) %>%
   filter(is.na(area) & long < 0) %>%
   arrange(controls) %>%
   distinct(stid, .keep_all = TRUE) %>%
@@ -218,8 +219,8 @@ leaflet(new_output) %>%
   addTiles() %>%
   addCircleMarkers(popup = ~name)
 
-sf::write_sf(new_output, 
-             paste0('data/version_',version,'/dataset_',version,'.shp'), 
+sf::write_sf(new_output,
+             paste0('data/version_',version,'/dataset_',version,'.shp'),
              delete_layer = TRUE)
 
 ```
@@ -233,18 +234,18 @@ You can explore the dataset further by sorting, filtering or clicking on the lin
 ```{r echo=FALSE}
 sitedataset$area[is.na(sitedataset$area)] <- -999
 
-sitedataset <- sitedataset %>% 
+sitedataset <- sitedataset %>%
   mutate(area = round(area, 1),
          lat  = round(lat, 3),
          long = round(long, 3),
-         stid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?siteids=", 
-                           stid, "'>", 
+         stid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?siteids=",
+                           stid, "'>",
                            stid,"</a>"),
-         dsid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?datasetid=", 
-                           dsid, "'>", 
+         dsid = paste0("<a target=_blank href='https://apps.neotomadb.org/explorer/?datasetid=",
+                           dsid, "'>",
                            dsid,"</a>"))
 
-DT::datatable(sitedataset, escape = FALSE, 
+DT::datatable(sitedataset, escape = FALSE,
               rownames = FALSE, filter = "bottom",
               options = list(scrollX = '600px'))
 ```

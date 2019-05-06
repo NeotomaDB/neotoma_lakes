@@ -1,12 +1,29 @@
 ---
 title: "US Lake sizes in Neotoma"
 author: "Simon Goring"
+output:
+  html_document:
+    code_folding: show
+    keep_md: false
+    mathjax: null
+    self_contained: true
+    number_sections: no
+    highlight: pygments
+    toc: no
+    includes:
+      before_body: styles/header.html
+      after_body: styles/footer.html
+    theme: yeti
+    md_extensions: -autolink_bare_uris
+csl: styles/elsevier-harvard.csl
+bibliography: /mnt/sda1/simon/Documents/references/sgoring_refs.bib
 ---
 
-This is a rewrite of the original document, that attempts to run the lake size runs within an RMarkdown document for more efficient review and analysis.
+This is a rewrite of the original document, that attempts to match Neotoma sites with their associated lakes within an RMarkdown document for more efficient review and analysis.
 
-```{r}
+```{r loadLibrary, message=FALSE, warning=FALSE, results="hide"}
 
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 library(rgdal)
 library(neotoma)
 library(dplyr)
@@ -14,193 +31,192 @@ library(purrr)
 library(sp)
 library(datasets)
 library(sf)
+library(leaflet)
 
 ```
 
-For this work we download Neotoma datasets using the R package.  We do this state by state, intersecting the state level data with the National Hydrology database.
+For this work we download datasets from the Neotoma Paleoecology Database [@williams2017neotoma] using the `neotoma` R package [@goring2015neotoma].  Datasets for the United States are downloaded from Neotoma state by state, so that the Neotoma state level data intersects with the US National Hydrology Dataset [@usnhd].
 
-```{r}
+The code to align lakes with their associated Neotoma sites can be found in `R/us_state_lakes.R`.
 
-state_output <- function(x, lake_table = NULL) {
-
-  state <- datasets::state.name[match(x, state.abb)]
-
-  dset <- neotoma::get_dataset(gpid = state, datasettype = "pollen")
-
-  if (!length(dset) > 0) {
-    # Exit the function if there's no data for that state.
-    return(data.frame(state = paste0(state, "NoData")))
-  }
-
-  pol <- dset %>% neotoma::get_site()
-
-  class(pol) <- "data.frame"
-
-  pol <- pol %>%
-    mutate(dsid = sapply(dset, function(x) { x$dataset.meta$dataset.id })) %>%
-    dplyr::rename(`stid` = `site.id`)
-
-  # Have lakes already been run?
-  data_instate <- !is.na(match(pol$stid, lake_table$stid))
-
-  if (any(data_instate)) {
-
-    matches <- match(pol$site.id, lake_table$stid)
-
-    pol$long <- lake_ds$long[matches]
-    pol$lat  <- lake_ds$lat[matches]
-
-  }
-
-  # There are a couple states where we get an abnormally large return.
-
-  if (length(dset) < 2774 & length(dset) > 0) {
-    temp <- tempfile()
-
-    state <- gsub(" ", "_", state)
-
-    base_uri <- paste0("http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts",
-                       "/Hydrography/NHD/State/HighResolution/Shape/NHD_H_", state, "_Shape.zip")
-
-    test_dl <- try(download.file(base_uri, temp))
-
-    if ("try-error" %in% class(test_dl)) {
-      return(cbind(data.frame(GNIS_ID = NA, pol)))
-    }
-
-    data <- unzip(temp, overwrite = TRUE)
-
-    pol_sf <- st_as_sf(pol,
-                       coords = c("long", "lat"),
-                       crs = 4326)
-
-    state_data <- st_read(data[grep("NHDWaterbody.shp", data)]) %>%
-      st_transform(crs = 4326)
-
-    get_polydata <- function(x) {
-      if (length(x) == 0) {
-        return(data.frame(GNIS_ID = NA))
-      } else {
-        new_text <- st_as_text(state_data$geometry[x], EWKT = TRUE)
-
-        output <- state_data[x,] %>%
-          as.data.frame %>%
-          select(-geometry)
-
-        output$geometry <- new_text
-        return(output)
-      }
-    }
-
-    get_output <- st_within(pol_sf, state_data) %>%
-      map(get_polydata) %>%
-      bind_rows
-
-    get_output_pol <- cbind(get_output, pol)
-
-    get_output_pol$state <- x
-    get_output_pol$data_source <- base_uri
-
-    nameMatch <- match(pol$site.name, state_data$GNIS_NAME)
-
-    if (any(!is.na(nameMatch))) {
-
-      get_output_pol$match_area <- get_output_pol$dist_match <- NA
-
-      gdmatch <- !is.na(nameMatch)
-
-      get_output_pol$dist_match[gdmatch] <- diag(st_distance(x = st_transform(pol_sf[gdmatch,],
-                                                                                        crs = 2163),
-                                                                       y = st_transform(state_data[na.omit(nameMatch),],
-                                                                                        crs = 2163))) / 1000
-
-      get_output_pol$match_area[gdmatch] <- state_data$AREASQKM[na.omit(nameMatch)]
-
-    }
-
-    return(get_output_pol)
-  } else {
-    return (data.frame(GNIS_ID = NA))
-  }
-}
-
+```{r sourceState}
+source('R/us_state_lakes.R')
 ```
 
-Given this function, run the code:
+`us_state_lakes()` accesses shapefiles from the National Hydrography Dataset for each individual state in the United States.  The function uses the `sf` package [@sfpackage] to open the shapefiles, perform an intersection between the Neotoma points and the shapefiles, and then returns information about the lakes with which each Neotoma site intersects.
 
-```{r}
+The function also looks for any lakes within the state that have the same name as the Neotoma site.
+
+### Executing the Function
+
+The script uses the entire set of US state abbreviations.  Because the script takes a significant amount of time, and the downloads are quite large, this script is run through a loop, saving the interim output of the `runs` list using a date-time stamped `rds` file.
+
+Because the script runs on the Penn State CEI servers we use a Linux script to start the script, so it can run in the background:
+
+```bash
+nohup Rscript -e "rmarkdown::render('usa_lakes.Rmd')" > lakerender.out 2>&1 &
+```
+
+```{r runStates, results = "hide"}
 
 # state.abb is a data element in R for US state abbreviations.
 states <- state.abb
 
 data_run <- Sys.Date()
 
-if (file.exists(paste0("data/interim/runs_", data_run, ".rds"))) {
-  runs <- readRDS(paste0("data/interim/runs_", data_run, ".rds"))
-}
-
 for (i in 1:length(states)) {
-  runs[[i]] <- try(state_output(states[i]))
-  saveRDS(runs, paste0("runs", Sys.Date(), ".rds"))
 
-  # Clean temprary files:
-  file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
-  file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
-  gc()
-}
+  cat("Running data for", states[i], "\n")
+  statematch <- list.files("data/lake_match",
+                           pattern = paste0(states[i], ".rds"))
 
-for (i in length(runs):1) {
-  if ("try-error" %in% class(runs)) {
-    runs[[i]] <- NULL
+  if (length(statematch) == 0) {
+
+    run <- try(us_state_lakes(states[i]))
+
+    if ("try-error" %in% class(run)) {
+      run <- data.frame(stid = NA, dsid = NA, state = states[i])
+    }
+
+    saveRDS(run,
+            paste0("data/lake_match/run",
+                   Sys.Date(), "_",
+                   states[i], ".rds"))
+
+    # Clean temprary files:
+    file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
+    file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
+    gc()
+
+  } else {
+    cat("State has already been run.\n")
   }
+
 }
 
-areas <- bind_rows(runs)
+```
+
+Once each state has been checked and the individual output files have been written, the script then reads each file and binds them together:
+
+```{r loadResults, results="hide"}
+
+statefiles <- list.files("data/lake_match",
+                         pattern = ".rds",
+                         full.names = TRUE)
+
+runs <- list()
+
+for(i in 1:length(statefiles)) {
+  runs[[i]] <- readRDS(statefiles[i])
+}
+
+areas <- statefiles %>%
+  map(function(x) {
+     aa <- try(readRDS(x))
+     if (!"try-error" %in% class(aa)) {
+       colnames(aa) <- tolower(colnames(aa))
+     } else {
+       aa <- NULL
+     }
+     return(aa)
+   }) %>%
+  bind_rows()
 
 areas_clean <- areas %>%
-  dplyr::select(stid, `dsid` = `DatasetID`, site.name,
-                long, lat, state, GNIS_NAME, GNIS_ID, AREASQKM,
-                dist_match, data_source)
+  filter(long < 0 | long > 150) %>%
+  dplyr::select(stid, dsid, site.name,
+                long, lat, state,
+                gnis_name, gnis_id, areasqkm,
+                dist_match, data_source,
+              geometry)
 
-areas_clean$AREAHA <- areas_clean$AREASQKM * 100
+areas_clean$areaha <- round(areas_clean$areasqkm * 100, 1)
 
-matched <- is.na(areas_clean$GNIS_ID)
-
-readr::write_csv(areas_clean, "data/output/all_usa_pollensites.csv")
-readr::write_csv(areas_clean[matched, ],
-                 "data/output/NHD_usa_pollensites.csv")
-readr::write_csv(areas_clean[!matched,],
-                 "data/output/noNHD_usa_pollensites.csv")
+readr::write_csv(areas_clean, "data/output/usa_pollensites.csv")
 
 ```
 
-From this we have a total of `r nrow(areas_clean)` datasets within Neotoma that can be directly aligned with the National Hydrology Dataset.  We can use these to modify the Neotoma metadata as well.
+## Summary Results
 
-```{r}
-DT::datatable(areas_clean)
+```{r stateTable, echo = FALSE}
+areas_clean %>%
+  group_by(state) %>%
+  filter(!stringr::str_detect(state, "NoData")) %>%
+  summarise(sites = n(),
+            matched = sum(!is.na(gnis_id))) %>%
+  mutate(proportion = round(matched / sites, 2)) %>%
+  DT::datatable(options = list(dom = 'tpi'),
+                rownames = FALSE,
+                caption = "States with datasets and dataset matches.")
 ```
 
-## Matched Lakes
+### Matched Lakes
 
-```{r}
+We have a total of `r sum(!is.na(areas_clean$gnis_id))` datasets that can be directly aligned with the National Hydrology Dataset.
 
-areas_clean$info <- paste0("<b>", areas_clean$site.name, "</b><br>",
-                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=", areas_clean$dsid, ">Explorer</a>")
+```{r matchMap, echo = FALSE}
 
-map <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addMarkers(lat = areas_clean$lat[matched],
-             lng = areas_clean$long[matched],
+matched <- areas_clean %>%
+  filter(!is.na(gnis_id)) %>%
+  mutate(info = paste0("<b>", site.name, "</b><br>State:<strong>",
+                       state, "<br>",
+                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=",
+                           dsid, ">Explorer</a>")) %>%
+  select(lat, long, info)
+
+leaflet(matched) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addProviderTiles(providers$Stamen.TonerLines) %>% 
+  addProviderTiles(providers$Stamen.TonerLabels,
+    options = providerTileOptions(opacity = 0.7)) %>%
+  addMarkers(lat = ~lat,
+             lng = ~long,
              clusterOptions = markerClusterOptions(),
-             popup = areas_clean$info[matched])
+             popup = ~info)
+```
+
+```{r matchedTable, echo=FALSE}
+
+areas_clean %>%
+  filter(!is.na(gnis_id)) %>%
+  select(stid, dsid, state, site.name, gnis_name, areaha) %>%
+  DT::datatable(rownames = FALSE,
+                caption = "Table 2. All Neotoma (pollen) sites with matched lake parameters.")
 ```
 
 ## Unmatched Lakes
-```{r}
-map <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addMarkers(lat = areas_clean$lat[!matched],
-             lng = areas_clean$long[!matched],
+
+We have a total of `r sum(is.na(areas_clean$gnis_id))` datasets that could not be aligned with the National Hydrology Dataset.
+
+```{r unmatchMap, echo=FALSE}
+
+unmatched <- areas_clean %>%
+  filter(is.na(gnis_id)) %>%
+  mutate(info = paste0("<b>", site.name, "</b><br>State:<strong>",
+                       state, "<br>",
+                           "Link: <a href=apps.neotomadb.org/explorer/?dsid=",
+                           dsid, ">Explorer</a>")) %>%
+  select(lat, long, info)
+
+leaflet(unmatched) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addProviderTiles(providers$Stamen.TonerLines,
+    options = providerTileOptions(opacity = 0.9)) %>% 
+  addProviderTiles(providers$Stamen.TonerLabels,
+    options = providerTileOptions(opacity = 0.9)) %>%
+  addMarkers(lat = ~lat,
+             lng = ~long,
              clusterOptions = markerClusterOptions(),
-             popup = areas_clean$info[!matched])
+             popup = ~info)
 ```
+
+```{r unmatchedTable, echo=FALSE}
+
+areas_clean %>%
+  filter(is.na(gnis_id)) %>%
+  select(stid, dsid, state, site.name, gnis_name, areaha) %>%
+  filter(!stringr::str_detect(state, "NoData")) %>%
+  DT::datatable(rownames = FALSE, caption = "Table 3. All Neotoma (pollen) sites with matched lake parameters.")
+```
+
+## References
