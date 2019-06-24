@@ -44,8 +44,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 499,511,52.866667,-118.1,Cottonwood Slough,24,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,In dissertation but checked Jasper Park Maps.,NA,NA,NA
 503,516,44.1,-78.1,Cranberry Lake,481.9,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed lake with Google Earth, changed area",1861.4285714285713,3612,8
 506,519,49.183333,-81.266667,Crates Lake,11.404747450843768,Geographic matching,2,NA,1760,3820,6
-507,16124,43.468275,-79.94872,Crawford Lake,2.4,Neotoma,2,NA,2428.5,6080,5
 507,520,43.468275,-79.94872,Crawford Lake,2.4,Neotoma,2,NA,878.5,1738,3
+507,16124,43.468275,-79.94872,Crawford Lake,2.4,Neotoma,2,NA,2428.5,6080,5
 509,522,43.6,-79.6,Creditview Wetland,234,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Google Earth",1355,1400,3
 511,524,52.116667,-90.083333,Cristal Lake,154.74346107925498,Geographic matching,2,NA,3360,6370,3
 512,525,51.65,-116.416667,Crowfoot Lake,17,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,"In Publication, hopefully distinct from Bow Lake",1029.909090909091,2215,12
@@ -246,8 +246,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 2493,2577,63.033333,-100.75,Slow River,158,data/by_hand/claire_data/dataset_1.5.shp,2,"Meadow, confirmed with Kay, 1979",3805,3805,2
 2496,2580,57.45,-120.666667,Snowshoe Lake,8,data/by_hand/all_lakes_andria/andrea_areas.csv,3,"Confrimed area with publication, Not enough info to confirm site of lake",2086.6,3523,6
 2506,2590,55.511389,-119.583333,Spring Lake,243,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",2807,5100,5
-2515,3778,48.5,-72,Lac Saint-Jean,100300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Not sure why this didn't work,NA,NA,NA
 2515,2602,48.5,-72,Lac Saint-Jean,100300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Not sure why this didn't work,NA,NA,NA
+2515,3778,48.5,-72,Lac Saint-Jean,100300,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Not sure why this didn't work,NA,NA,NA
 2516,2603,53.95,-58.916667,Saint John Island Pond,220105.74260846895,Geographic matching,2,NA,3260,5450,3
 2521,2610,47.616667,-52.666667,Sugarloaf Pond,256,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",2324.25,5885,5
 2522,2611,60.95,-137.957778,Sulphur Lake,144.8072336454527,Geographic matching,2,NA,2013,4940,6
@@ -352,17 +352,17 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10488,16086,47.830254999999994,-66.18226999999999,Island Lake,3,Neotoma,2,NA,3316,5968,4
 10493,16096,51,-128.4,Cook Bank,1492546.3997456892,Geographic matching,2,NA,236.66666666666666,545,4
 10494,16099,52.78041666666665,-131.68972222222249,Logan Inlet,1310071.9086952012,Geographic matching,2,NA,526.6666666666666,1150,4
-10495,16101,52.47283,-131.45207,Juan Perez Sound,1310071.9086952012,Geographic matching,2,NA,NA,NA,NA
+10495,16101,52.47283,-131.45207,Juan Perez Sound,1310071.9086952012,Geographic matching,2,NA,50,50,2
 10496,16103,44.9759327777778,-62.09061,Pye Lake,12.523707418295816,Geographic matching,2,NA,1530,2120,9
 10499,16109,70.46194444444444,-68.50277777777775,Patricia Bay Lake,62.58410148195348,Geographic matching,2,NA,1445,2130,4
 10505,16127,43.440830000000005,-79.95551,Twiss Marl Pond,11,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",1279.375,7945,9
+10521,16187,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA,NA,NA,NA
 10521,16193,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA,2742.6666666666665,3913,4
 10521,16191,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA,10062,10062,2
-10521,16187,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA,NA,NA,NA
 10521,16189,44.199085,-78.14232,Rice Lake,10036.870691920829,Geographic matching,2,NA,1317.3333333333333,1675,4
 10544,16257,44.607495,-78.039815,McGinnis Lake,4.557063771115575,Geographic matching,2,NA,756,2400,5
 10544,16256,44.607495,-78.039815,McGinnis Lake,4.557063771115575,Geographic matching,2,NA,1887.25,2700,5
-10548,16264,46.3016988888889,-79.38262,Dugas Bay Bog,1902.246411187486,Geographic matching,2,NA,-999,-999,3
+10548,16264,46.3016988888889,-79.38262,Dugas Bay Bog,1902.246411187486,Geographic matching,2,NA,2112.5,3057,3
 10549,16265,44.0463888888889,-77.03916666666666,Glenora Bay,109053.08476155059,Geographic matching,2,NA,167.41176470588235,265,18
 10550,16267,43.46458333333335,-79.9154166666667,Kilbride Swamp,69,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Turton and McAndrews 2001",7601,7601,2
 10551,16269,51.8398611111111,-89.61541666666665,Mark Pond,192,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Neotoma and Google",3560,4370,3
@@ -371,9 +371,9 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10554,16275,52.531655,-91.3723611111111,Round Pond,11.990503305714528,Geographic matching,2,NA,3975,4135,3
 10555,16276,44.19,-79.130295,Wagner Lake,40.73881331656699,Geographic matching,2,NA,NA,NA,NA
 10556,16278,44.167066666666656,-78.10249999999999,Webbs Lake,6.2,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Confirmed site and area,3873.5,4913,3
+11557,17283,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA,1910,7900,6
 11557,17280,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA,3183.3333333333335,7450,4
 11557,17281,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA,1458.3333333333333,3700,7
-11557,17283,44.55680555555555,-78.22479722222221,Lovesick Lake,23094.009584208306,Geographic matching,2,NA,1910,7900,6
 11605,17393,49.992745,-121.49261999999999,Fishblue (Blue) Lake,8.467040328401826,Geographic matching,2,NA,3388.6666666666665,5192,4
 11608,17400,69.080765,-121.42854,South Lake,70.41403966439913,Geographic matching,2,NA,3043,4294,5
 11613,17409,46.443560000000005,-81.06824499999999,Kelly Lake,339.1556228740496,Geographic matching,2,NA,14.666666666666666,23,4
@@ -405,15 +405,15 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 13657,20676,68.59049999999999,-91.888,Lake SL06,229,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed site with Peros and Gajewski 2008",-339.2,700,6
 13682,20836,53.935385,-132.10562,Drizzle Bog,2.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Looks fine.,3.7642499999999997,990,41
 13899,21319,48.710435000000004,-65.41279,Lac Triangle,1.5,Neotoma,2,NA,-391.75,2870,9
-13910,21404,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA,-999,-999,3
-13910,21389,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA,-1678.6666666666667,1060,9
 13910,21406,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA,-999,-999,3
-13975,21577,44.973845,-77.28929500000001,Stoll Lake,46.34190096469635,Geographic matching,2,NA,0.5833333333333334,17,15
-13980,21600,44.8163888888889,-77.18251,Tawny Pond,2,Neotoma,2,NA,-2.8,13,18
-14031,21770,53.5316666666667,-132.973333333333,Hippa Lake,3.2,Neotoma,2,NA,2226.6,4893,6
-14032,21772,50.60705,-127.26283,Misty Lake,34.222852275339456,Geographic matching,2,NA,2022.1666666666667,3220,7
-14033,21774,50.5725,-127.0722,Port McNeill Bog,109,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, Confirmed in Lacourse and Davies, 2015",1326,2110,8
-14039,21788,48.7827,-123.30328,Roe Lake,2.0068510886700524,Geographic matching,2,NA,421,3088,22
+13910,21389,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA,-1678.6666666666667,1060,9
+13910,21404,48.93859500000001,-64.59709000000001,Petit lac Bouchard,2,Neotoma,2,NA,-999,-999,3
+13975,21577,44.973845,-77.28929500000001,Stoll Lake,46.34190096469635,Geographic matching,2,NA,-15.387857142857143,170,15
+13980,21600,44.8163888888889,-77.18251,Tawny Pond,2,Neotoma,2,NA,7.095882352941174,571,18
+14031,21770,53.5316666666667,-132.973333333333,Hippa Lake,3.2,Neotoma,2,NA,-978.6,2760,6
+14032,21772,50.60705,-127.26283,Misty Lake,34.222852275339456,Geographic matching,2,NA,-299,3220,7
+14033,21774,50.5725,-127.0722,Port McNeill Bog,109,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, Confirmed in Lacourse and Davies, 2015",-114.57142857142857,2110,8
+14039,21788,48.7827,-123.30328,Roe Lake,2.0068510886700524,Geographic matching,2,NA,-0.047619047619047616,3088,22
 14039,26246,48.7827,-123.30328,Roe Lake,2.0068510886700524,Geographic matching,2,NA,10.666666666666666,27,13
 14049,21810,52.214259999999996,-117.16168,Sunwapta Pass Bog 2,4,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,From thesis,NA,NA,NA
 14051,21830,53.27892,-84.2054,Lake AT01,53.286691247704425,Geographic matching,2,NA,275.6818181818182,4100,23
@@ -429,21 +429,21 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 15962,24608,42.273975,-81.868955,Rondeau Bay (R34),203,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",-999,-999,2
 16242,25186,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",2539,3890,3
 16242,25209,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",3308,3308,2
-16242,25192,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",3538,3538,2
-16242,25190,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",-999,-999,2
-16242,25268,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",1919,2418,3
-16242,25207,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",-999,-999,2
 16242,25188,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",1759,2128,3
+16242,25190,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",-999,-999,2
 16242,25147,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",-999,-999,2
+16242,25192,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",3538,3538,2
+16242,25207,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",-999,-999,2
+16242,25268,46.647495,-53.600965,St. Shotts,79,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Irwin 1994",1919,2418,3
 16329,25337,52.581140000000005,-63.539429999999996,Leaky Lake,213,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with King, 1986",-999,-999,2
 16345,25378,52.293515,-62.117515,Battery Lake,217,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with King 1986",-999,-999,2
 16613,26313,48.799565,-123.66048,Quamichan Lake,313,Neotoma,2,NA,-0.058823529411764705,40,18
 16614,26315,48.458595,-123.513045,Florence Lake,7,Neotoma,2,NA,4,4,13
 16729,26606,49.66332,-93.72020499999999,Lake 239,56,Neotoma,2,NA,-805.6666666666666,1295,9
 23680,40976,49.7887,-125.1271,Grant's Bog,296,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, Confirmed in Lacourse, et al. 2018",1558.5714285714287,2250,8
-23932,41585,58.455925,-124.467245,BC2,222,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",NA,NA,NA
-23940,41606,58.497,-124.652,Sunset Lake,139,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",NA,NA,NA
-23942,41612,58.578500000000005,-124.5495,Dead Spruce Lake,235,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",NA,NA,NA
+23932,41585,58.455925,-124.467245,BC2,222,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",-10678,-10678,5
+23940,41606,58.497,-124.652,Sunset Lake,139,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",-594.5,2270,5
+23942,41612,58.578500000000005,-124.5495,Dead Spruce Lake,235,data/by_hand/claire_data/dataset_1.5.shp,3,"Location in pub is not right, gives area",4299,5350,3
 8,8,33.956389,-119.976667,Abalone Rocks Marsh,2.7,data/by_hand/all_lakes_andria/all_lakes_andria.shp,1,Moved into the marsh proper based on pictures and aerial imagery,423.3333333333333,1380,13
 29,29,44.8036,-94.55789999999999,Lake Allie,203.79999999999998,Geographic matching,2,NA,-999,-999,2
 30,30,46.206111,-95.293611,Almora Lake,16.2,Geographic matching,2,NA,1440,2600,6
@@ -465,8 +465,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 237,240,41.143889,-81.328611,Battaglia Bog,64,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, Confirmed site with Shane 1975",2755,3580,3
 238,241,46.128056,-93.703889,Black Bass Lake,13.4,Geographic matching,2,NA,-999,-999,2
 243,246,44.178611,-107.259722,Beaver Lake,69,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Bender, et al. 1977",9913,9913,2
-245,249,45.425,-93.183333,Beckman Lake,9.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area",-999,-999,2
 245,3062,45.425,-93.183333,Beckman Lake,9.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area",124,124,2
+245,249,45.425,-93.183333,Beckman Lake,9.5,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area",-999,-999,2
 246,250,37.473105000000004,-108.160375,Beef Pasture,297,data/by_hand/claire_data/dataset_1.5.shp,2,"Meadow, confirmed with Petersen 1994",556.6666666666666,1140,10
 246,25551,37.473105000000004,-108.160375,Beef Pasture,297,data/by_hand/claire_data/dataset_1.5.shp,2,"Meadow, confirmed with Petersen 1994",137.8125,328,17
 249,254,42.25,-77.916667,Belmont Bog,30,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,3,"Confirmed area with pub (Spear et al 1976), could not confirm site",1795,5385,8
@@ -541,8 +541,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 558,3493,41.81115,-73.292685,Mohawk Pond,6.945223,Geographic matching,2,NA,1107.142857142857,2620,15
 562,3789,42.516667,-72.2125,Tom Swamp,57.199999999999996,Geographic matching,2,NA,1166.6666666666667,1500,4
 562,3790,42.516667,-72.2125,Tom Swamp,57.199999999999996,Geographic matching,2,NA,1578.75,4650,9
-655,3076,36.2375,-108.951667,Dead Man Lake,56.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area",4200,5300,3
 655,671,36.2375,-108.951667,Dead Man Lake,56.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area",4200,5300,3
+655,3076,36.2375,-108.951667,Dead Man Lake,56.8,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area",4200,5300,3
 657,673,44.033333,-71.833333,Deer Lake Bog,39,data/by_hand/claire_data/dataset_1.5.shp,2,"Bog, Confirmed area (Spear,1981), cannot confirm location",1625,2340,9
 661,679,43.48,-85,Demont Lake,67,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed with Google Earth",1901.6666666666667,3715,7
 663,681,45.85,-89.316667,Denton Lake,20,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Site descripiton: lake. Area: Kingston et al 1990,8.166666666666666,25,13
@@ -580,7 +580,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 819,845,40.855833,-74.399167,Forge Pond,254,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",242,242,2
 820,846,47.165,-95.558333,Fox Pond,253,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with McAndrews 1969",870,1655,3
 821,847,42.33,-83.63,Frains Lake,279,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed location with Google Earth",1570,3380,9
-824,850,44.945765,-94.42074,French Lake,17.8,Geographic matching,2,NA,871.25,1805,5
+824,850,44.945765,-94.42074,French Lake,17.8,Geographic matching,2,NA,866.25,1805,5
 826,852,41.158333,-71.575,Fresh Pond,28,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with Google Earth, changed area",2073,3300,7
 827,853,38.616667,-111.666667,Frying Pan Lake,2.7,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area",1636,2670,6
 828,855,40.1,-83.533333,Fudger Lake,1.4,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed lake with Google Earth, changed area",2506.6666666666665,5000,7
@@ -629,8 +629,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1117,1151,44.5,-89.116944,Iola Bog,151,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Schweger 1969",9850,9850,2
 1118,1152,38.865,-107.033333,Keystone Iron Fen,34,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, Confirmed with Fall 1997",1658,3195,6
 1119,1153,47.135556,-93.643611,Irvin Lake,2.6,Geographic matching,2,NA,1718.857142857143,3160,8
-1125,15081,37.43255,-85.72461999999999,Jackson Pond,3.8,Geographic matching,2,NA,2335.4545454545455,8210,12
 1125,1160,37.43255,-85.72461999999999,Jackson Pond,3.8,Geographic matching,2,NA,3393.8333333333335,9100,7
+1125,15081,37.43255,-85.72461999999999,Jackson Pond,3.8,Geographic matching,2,NA,2335.4545454545455,8210,12
 1127,1162,34.333333,-110.833333,Jacob Lake,285,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",4923.333333333333,11460,4
 1128,3138,46.416944,-92.716944,Jacobson Lake,38,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Wright and Watts 1969",2403.3333333333335,3839,4
 1128,1163,46.416944,-92.716944,Jacobson Lake,38,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Wright and Watts 1969",1790,3180,3
@@ -639,12 +639,12 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1359,15274,45.428085,-93.98147499999999,Jones Lake,28.4,Geographic matching,2,NA,-999,-999,2
 1396,1432,68.15,-161.416667,Kaiyak Lake,86,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",6166.666666666667,15310,7
 1409,1446,44.75836,-93.11674,Kegan Lake,11.4,Geographic matching,2,NA,111,111,2
-1410,3452,45.3,-90.35,Kellys Hollow,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site description: bog. Area: Heide 1984,3343,3660,4
 1410,1447,45.3,-90.35,Kellys Hollow,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site description: bog. Area: Heide 1984,2005.8,3320,6
+1410,3452,45.3,-90.35,Kellys Hollow,0.4,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Site description: bog. Area: Heide 1984,3343,3660,4
 1411,1448,44.238056,-87.848056,Kellners Lake,11.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site with Google Earth, changed area",3499,5770,5
 1481,1518,44.133333,-71.733333,Kinsman Pond,3.6,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area",2625,4595,5
-1483,3455,44.770849999999996,-93.12254999999999,Kirchner Marsh,301,data/by_hand/claire_data/dataset_1.5.shp,1,"Marsh, confirmed with Wright, et al. 1963",11942,11942,2
 1483,1520,44.770849999999996,-93.12254999999999,Kirchner Marsh,301,data/by_hand/claire_data/dataset_1.5.shp,1,"Marsh, confirmed with Wright, et al. 1963",2525,3790,6
+1483,3455,44.770849999999996,-93.12254999999999,Kirchner Marsh,301,data/by_hand/claire_data/dataset_1.5.shp,1,"Marsh, confirmed with Wright, et al. 1963",11942,11942,2
 1485,1523,48.233333,-121.616667,Kirk Lake,52,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed site with Google Earth",1916.6666666666667,6730,7
 1486,1524,45.666667,-87.455,Kitchner Lake,4.3999999999999995,Geographic matching,2,NA,2375,4260,5
 1503,1541,66.966667,-156.45,Kollioksak,199,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",3535,4790,5
@@ -655,8 +655,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1535,1574,41.416667,-84.75,Ladd Lake,152,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed site with Google Earth",2339.3333333333335,4390,7
 1540,1580,45.6,-84.316667,Lake Sixteen,55,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed loc and area: Futyma and Miller 1986,2138,3060,6
 1541,1581,45.066667,-84.783333,Lake 27,45,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed loc and area: Bernabo 1981,1090,2635,4
-1544,1584,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA,115,115,2
 1544,3468,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA,3343.3333333333335,4420,4
+1544,1584,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA,115,115,2
 1544,3469,45.42363,-93.690695,Lake Ann,58.5,Geographic matching,2,NA,10530,10530,2
 1548,1588,44.79985,-93.15975,Lake Carlson,4.722837,Geographic matching,2,NA,2629.25,4745,5
 1555,1597,30.521944,-84.249167,Lake Hall,72.361684,Geographic matching,2,NA,NA,NA,NA
@@ -671,8 +671,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1592,1642,44.166579999999996,-123.583975,Little Lake,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"In a lake.  There is a large adjacent lake, but pub not available.",3025,8210,13
 1593,1643,45.283333,-91.483333,Little Pine Lake,4.3,Geographic matching,2,NA,21.25,40,33
 1597,1648,27.20731,-81.350875,Lake Annie,0.715102,Geographic matching,2,NA,6328.571428571428,20290,8
-1598,3482,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA,307.77777777777777,910,28
 1598,1649,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA,268.75,500,9
+1598,3482,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA,307.77777777777777,910,28
 1598,3483,48.142555,-91.11254,Lake of the Clouds,11.6,Neotoma,2,NA,NA,NA,NA
 1607,1658,44.14,-71.701111,Lonesome Lake,17,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",1755.8333333333333,4815,7
 1609,1660,36.005556,-108.833333,Long Lake,269,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",6166.666666666667,11500,4
@@ -681,8 +681,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1613,1665,46.719435000000004,-87.97207,Lost Lake,2.1,Geographic matching,2,NA,1900,3100,6
 1614,1666,47.63516,-110.48434,Lost Lake,289,data/by_hand/claire_data/dataset_1.5.shp,2,"Fluvial origin, confirmed with Barnosky, 1989",2317.5,5495,5
 1615,1667,44.246944,-71.251389,Lost Pond,56,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed site with Google Earth",2145,3720,7
-1617,3484,30.725,-83.258333,Lake Louise,226,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Watts 1971",2836.6666666666665,6540,4
 1617,1669,30.725,-83.258333,Lake Louise,226,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Watts 1971",136387,136387,2
+1617,3484,30.725,-83.258333,Lake Louise,226,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Watts 1971",2836.6666666666665,6540,4
 1619,1671,26.481111,-80.415556,Loxahatchee National Wildlife Refuge Site 1 (EPA Site 7),55809.267670999994,Geographic matching,2,NA,327,630,6
 1630,1685,44.36044,-93.61535,Lake Mabel,39.72415,Geographic matching,2,NA,85,85,2
 1643,1698,45.041667,-68.733333,Mansell Pond,4,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Description: lake. Area: Almquist-Jacobson 1995,836.8181818181819,1665,12
@@ -691,16 +691,16 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1652,1708,47.173975,-94.94396499999999,Martin Pond,0.1,Geographic matching,2,NA,72,72,2
 1656,1712,41.783333,-71.433333,Mashapaug Pond,180,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",1920,3570,3
 1664,1720,47.170869999999994,-95.70266,McCraney Lake,108,Neotoma,2,NA,85,85,2
-1669,1725,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA,12.222222222222221,20,10
 1669,3486,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA,16.428571428571427,29,8
+1669,1725,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA,12.222222222222221,20,10
 1669,3485,46.427222,-84.958333,McNearney Lake,49.5,Geographic matching,2,NA,12.222222222222221,20,10
 1676,1732,44.98419,-97.35012499999999,Medicine Lake,289.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area",1398,2800,6
 1676,3487,44.98419,-97.35012499999999,Medicine Lake,289.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area",2188,3700,6
 1679,3488,43.1,-89.416667,Lake Mendota,3961.2000000000003,Geographic matching,2,NA,2198,3740,6
 1679,1735,43.1,-89.416667,Lake Mendota,3961.2000000000003,Geographic matching,2,NA,1,4360,7
 1699,1755,66.916667,-155.033333,Minakokosa Lake,201,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed site with Google Earth",3200,5420,6
-1701,1757,47.244755,-95.00771499999999,Lake Minnie,30.099999999999998,Geographic matching,2,NA,1700,3330,3
 1701,3492,47.244755,-95.00771499999999,Lake Minnie,30.099999999999998,Geographic matching,2,NA,2500,4740,5
+1701,1757,47.244755,-95.00771499999999,Lake Minnie,30.099999999999998,Geographic matching,2,NA,1700,3330,3
 1703,1759,46.525833,-97.241389,Mirror Pool,49,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",400,400,2
 1705,1761,37.74759,-107.68273500000001,Molas Lake,9.5,Geographic matching,2,NA,7730.5,13371,3
 1706,1762,37.737778,-107.6975,Molas Pass Bog,15,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Maher, 1961",4450.5,4951,3
@@ -714,8 +714,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1720,1777,44.226105000000004,-93.829815,Mud Lake,52.2,Geographic matching,2,NA,105,105,2
 1721,1778,46.858935,-94.75542,Mud Lake,28.499999999999996,Geographic matching,2,NA,966.6666666666666,2160,4
 1724,1781,44.711625,-93.341105,Murphy Lake,19.1,Geographic matching,2,NA,111,111,2
-1725,1782,39.53,-95.513333,Muscotah Marsh,15,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Gruger 1973), changed area",3840,11700,7
 1725,3495,39.53,-95.513333,Muscotah Marsh,15,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Gruger 1973), changed area",1410,1410,2
+1725,1782,39.53,-95.513333,Muscotah Marsh,15,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Gruger 1973), changed area",3840,11700,7
 1729,1786,47.982605,-93.3853,Myrtle Lake,67,Geographic matching,2,NA,1853.3333333333333,3010,7
 1732,1789,34.663333,-95.386111,Natural Lake,5428.630966,Geographic matching,2,NA,829,1420,4
 1735,1793,48.033333,-91.9,Nels Lake,71,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Confirmed lake and area: Kingston et al 1990,7.071428571428571,12,15
@@ -745,9 +745,9 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1813,3542,45.501374999999996,-97.27683,Pickerel Lake,823,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,2,"Confirmed site with Google Earth, changed area",2667.5,4380,5
 1814,3541,45.03503,-93.6305,Pogonia Bog Pond,0.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Unsure if pond or bog,124,124,2
 1814,3558,45.03503,-93.6305,Pogonia Bog Pond,0.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,Unsure if pond or bog,1602,4080,8
-1815,3786,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA,1300,1300,2
 1815,3788,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA,1475,1550,3
 1815,3784,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA,3116.6666666666665,3500,4
+1815,3786,48.098755,-92.010535,Third Lake,17.299999999999997,Geographic matching,2,NA,1300,1300,2
 1818,1882,67.2,-142.066667,Ped Pond,34,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Edwards et al. 1986), changed area",2088.3333333333335,3140,7
 1820,1884,45.780556,-93.273056,Pennington Lake,51.5,Geographic matching,2,NA,85,85,2
 1827,1891,46.966667,-95.316667,Peterson Slough,1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed slough and area: Almendinger 1992,1520,2900,3
@@ -781,8 +781,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 1988,2062,47.6,-96.166667,Rholl Lake,216,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed with Google Earth",93,93,2
 1989,2063,39.953611,-85.741667,Rhule Fen,3.992798,Geographic matching,2,NA,1682.5,2200,5
 1990,2065,48.009420000000006,-101.53972,Rice Lake,89,Neotoma,2,NA,842.7272727272727,2060,12
-1991,2066,46.922222,-95.575,Rice Lake,105.3,Geographic matching,2,NA,1338.6666666666667,2070,4
 1991,3568,46.922222,-95.575,Rice Lake,105.3,Geographic matching,2,NA,974,1860,3
+1991,2066,46.922222,-95.575,Rice Lake,105.3,Geographic matching,2,NA,1338.6666666666667,2070,4
 2194,2270,41.3525,-72.29915,Rogers Lake,113.05959800000001,Geographic matching,2,NA,455.1515151515151,1440,34
 2211,2288,43.00035,-101.09078,Rosebud,5.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area",315,580,3
 2211,3583,43.00035,-101.09078,Rosebud,5.1,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area",50,50,2
@@ -791,13 +791,13 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 2232,2311,67.066667,-154.233333,Ruppert Lake,38,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site, changed area",1653.75,2420,9
 2235,2314,44.87083,-93.85897499999999,Rutz Lake,21.9,Geographic matching,2,NA,1501.875,2950,9
 2239,2318,46.131944,-85.179167,Ryerse Lake,8.200000000000001,Geographic matching,2,NA,1618,2470,6
-2241,3609,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are",190,190,2
 2241,2320,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are",41.333333333333336,115,7
 2241,3608,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are",-999,-999,1
+2241,3609,37.473889,-108.503889,Sagehen Marsh,79,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Peterson et al, 1994), changed are",190,190,2
 2258,2338,33.658333,-117.858333,San Joaquin Marsh,168.2,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site with Google Earth, changed area",872.7142857142857,2700,8
 2260,2340,33.866667,-108.25,San Agustin Plains,200,data/by_hand/claire_data/dataset_1.5.shp,1,"Terrestrial, Confirmed with Google Earth",3260,3260,2
-2260,3611,33.866667,-108.25,San Agustin Plains,200,data/by_hand/claire_data/dataset_1.5.shp,1,"Terrestrial, Confirmed with Google Earth",5767.5,11445,5
 2260,3612,33.866667,-108.25,San Agustin Plains,200,data/by_hand/claire_data/dataset_1.5.shp,1,"Terrestrial, Confirmed with Google Earth",8735,8735,2
+2260,3611,33.866667,-108.25,San Agustin Plains,200,data/by_hand/claire_data/dataset_1.5.shp,1,"Terrestrial, Confirmed with Google Earth",5767.5,11445,5
 2269,2349,27.965415,-81.94163,Scott Lake,101.43364500000001,Geographic matching,2,NA,4378,4378,2
 2270,2351,67.583333,-151.416667,Screaming Yellowlegs Pond,68,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site and area with pub (Edwards et al, 1985)",1605.625,2790,9
 2271,2352,68.266667,-145.216667,Seagull Lake,208,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed with Google Earth",3375,4270,5
@@ -876,12 +876,12 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 2847,2944,26.2875,-80.411389,"Water Conservation Area 2A, Site 3 (Site U3)",42049.467301,Geographic matching,2,NA,355.8333333333333,770,7
 2848,2945,25.974,-80.6688,"Water Conservation Area 3A, Site 4 (CA315 (AAS))",136555.123891,Geographic matching,2,NA,503,1270,6
 2849,3835,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA,NA,NA,NA
-2849,3837,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA,2141.4285714285716,7240,8
 2849,2946,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA,NA,NA,NA
+2849,3837,47.471667,-91.66,Weber Lake,2.1999999999999997,Geographic matching,2,NA,2141.4285714285716,7240,8
 2851,2948,46.95,-94.95,Wentzel's Pond,3.5,data/by_hand/all_lakes_andria/andrea_areas.csv,3,Confirmed pond and area: Almendinger 1992. Loc??,818.3333333333334,2060,4
 2853,2950,35.981944,-108.810833,Whiskey Lake,40.9,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed lake, changed area",6166.666666666667,11500,4
-2855,3841,46.086111,-93.102778,White Lily Lake,12,Geographic matching,2,NA,1450,1900,3
 2855,2952,46.086111,-93.102778,White Lily Lake,12,Geographic matching,2,NA,85,85,2
+2855,3841,46.086111,-93.102778,White Lily Lake,12,Geographic matching,2,NA,1450,1900,3
 2857,2954,64.333333,-151.266667,Wien Lake,5945.2,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Site, Changed Area",1518.75,3390,9
 2859,2956,46.324304999999995,-92.78081,Willow River Pond,0.6,Geographic matching,2,NA,2730,2730,2
 2860,2957,42.53693,-72.980005,Windsor Pond,18.9,Geographic matching,2,NA,150,150,2
@@ -903,8 +903,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 3529,4557,42.679722,-71.926667,Aino Pond,1.7999999999999998,Geographic matching,2,NA,299.6,533,6
 3530,4558,42.574444,-72.508611,Dead Frog Pond,4,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, Confirmed with Fuller, 1998",317.42857142857144,1972,8
 5192,17286,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA,NA,NA,NA
-5192,17287,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA,NA,NA,NA
 5192,17285,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA,710.5833333333334,2540,13
+5192,17287,27.075,-82.23333333333333,Little Salt Spring,0.8,Geographic matching,2,NA,NA,NA,NA
 5803,15929,43,-78,Hiscock Site,0.8,Neotoma,2,NA,344.875,6905,33
 6505,10967,25.74642,-80.58386,Northeast Shark River Slough,239553.71323300002,Geographic matching,2,NA,518.625,1335,9
 6506,10970,43.7195,-95.22800000000001,South Heron Lake,1080.6,Geographic matching,2,NA,-999,-999,2
@@ -943,9 +943,9 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 8572,13069,46.3815,-91.4935,Elevenses Lake,2.8,Neotoma,2,NA,-50.25,655,10
 8573,13071,45.19145,-90.608,Eska Lake,4.2,Geographic matching,2,NA,-149.25,1340,6
 8574,13073,45.9915,-89.62075,Fallison Lake,20.599999999999998,Geographic matching,2,NA,-75.4,3710,7
-8585,21792,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,-30,580,11
-8585,16254,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,507.5,1480,5
 8585,13095,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,NA,NA,NA
+8585,16254,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,507.5,1480,5
+8585,21792,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,-30,580,11
 8585,16251,38.70179794,-90.09502746,Horseshoe Lake,860,Neotoma,2,NA,507.5,1480,5
 8586,13097,46.21517,-89.32082,Glimmerglass Lake,9.966123,Geographic matching,2,NA,1640,3155,7
 9588,14104,41.98044,-88.24441,Brewster Creek,174,data/by_hand/claire_data/dataset_1.5.shp,2,"Wetland, confirmed with Curry et al, 2007",246.57894736842104,1255,20
@@ -954,9 +954,9 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 9717,15136,48.085899999999995,-98.92935,"Devils Lake, Creel Bay",44824,Neotoma,2,NA,379.14285714285717,3725,29
 9735,14403,46.771860000000004,-95.896225,Lake Sallie,508.5,Geographic matching,2,NA,-999,-999,2
 9738,14889,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA,1398,1398,3
+9738,17993,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA,-340.3333333333333,807,4
 9738,14410,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA,550.4,1162,12
 9738,14443,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA,-999,-999,2
-9738,17993,46.542635000000004,-86.037795,Tower Lake,2.3,Geographic matching,2,NA,-340.3333333333333,807,4
 9762,14435,45.44376,-95.272065,Johnson Lake,25.1,Geographic matching,2,NA,-999,-999,2
 9768,14446,45.786564999999996,-92.21898,Hell Hole Lake,1.9,Geographic matching,2,NA,-111.4,1100,7
 9795,14491,38.04217,-121.86795000000001,Browns Island,210.1,Geographic matching,2,NA,297.125,570,9
@@ -1016,16 +1016,16 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10036,15035,47.911995000000005,-89.0908,Lily Lake,6.7185049999999995,Geographic matching,2,NA,1456,2435,7
 10053,15074,41.190975,-122.5105394444445,Mumbo Lake,2.1,Geographic matching,2,NA,2030.8333333333333,3518,7
 10061,15106,37.902105,-107.61537,Lake Emma,3.5000000000000004,Geographic matching,2,NA,1260,1955,4
-10076,15148,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA,5656.5,11020,3
-10076,15142,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA,1167.3,4610,11
 10076,15146,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA,-3391.5,4950,3
+10076,15142,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA,1167.3,4610,11
+10076,15148,41.936189999999996,-70.75736,Makepeace Cedar Swamp,21,Neotoma,2,NA,5656.5,11020,3
 10080,15153,46.433115,-98.28941,Wendel site,976,data/by_hand/Simon_Lakes_2/Simon_Lakes_2.shp,1,"Confirmed site and area with publication (Yansa, Dean, Murphy 2007)",862.5,1820,5
 10082,15155,46.030339999999995,-89.67671,Trout Lake,1565.1,Geographic matching,2,NA,NA,NA,NA
 10083,15157,67.15791999999999,-151.85999500000003,Code Lake,2,Neotoma,2,NA,943.7142857142857,1680,8
 10091,15269,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,9.909090909090908,20,12
-10091,15219,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,-999,-999,2
 10091,15167,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,-999,-999,2
 10091,15169,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,-999,-999,2
+10091,15219,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,-999,-999,2
 10091,15168,47.189189999999996,-95.21787,Elk Lake,118.10000000000001,Geographic matching,2,NA,-999,-999,2
 10094,15175,67.12406,-150.745125,Last Chance Lake,7,Neotoma,2,NA,541.25,720,5
 10100,15185,67.07084,-154.24498499999999,Ruppert Lake,3,Neotoma,2,NA,642.4705882352941,1510,18
@@ -1058,7 +1058,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10155,15292,43.09816,-78.002715,Byron-Bergen Swamp (Site 2),800,Neotoma,2,NA,1795.3333333333333,3490,7
 10156,15294,44.988845,-93.55640500000001,Long Lake,112.3,Geographic matching,2,NA,-240.33333333333334,1342,5
 10157,15296,43.09791,-78.014515,Byron-Bergen Swamp (Site 1),800,Neotoma,2,NA,2816,3152,3
-10158,15298,40.00076,-105.56156,Devlins Park,41,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Madole 1980), changed area",3738,15258,7
+10158,15298,40.00076,-105.56156,Devlins Park,41,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,1,"Confirmed site with pub (Madole 1980), changed area",-723.3333333333334,4580,7
 10160,15302,43.800155000000004,-89.59428,Emrick Lake,13.100000000000001,Geographic matching,2,NA,2090,2640,7
 10162,15307,46.355000000000004,-85.78049999999999,Danaher Bog,314,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Futyma 1982",NA,NA,NA
 10163,15309,46.34668,-84.857625,East Soldier Lake,3.6999999999999997,Geographic matching,2,NA,2053.5,3300,5
@@ -1067,8 +1067,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10166,15313,42.290485000000004,-85.63594,Route 458 Bog,10,Neotoma,2,NA,NA,NA,NA
 10167,15314,46.6305,-85.1245,Tahquamenon Bog,210,data/by_hand/claire_data/dataset_1.5.shp,2,"Bog, confirmed with Futyma 1982",NA,NA,NA
 10169,15318,45.003730000000004,-93.574555,Wolsfeld Woods Marsh,24,data/by_hand/claire_data/dataset_1.5.shp,1,"Marsh, confirmed with Grimm, 1981",-810,-810,3
-10172,15327,42.5375,-72.18289999999999,Black Gum Swamp,6.9,Geographic matching,2,NA,6122,9634,3
 10172,15325,42.5375,-72.18289999999999,Black Gum Swamp,6.9,Geographic matching,2,NA,1303.111111111111,3150,10
+10172,15327,42.5375,-72.18289999999999,Black Gum Swamp,6.9,Geographic matching,2,NA,6122,9634,3
 10177,15334,42.2415,-73.42,Alford Swamp,189,data/by_hand/claire_data/dataset_1.5.shp,1,"Swamp, confirmed with Stingelin, 1965",NA,NA,NA
 10178,15335,40.7315,-77.7575,Bear Meadows Bog,247,data/by_hand/claire_data/dataset_1.5.shp,2,"Bog, confirmed with Stingelin, 1965",NA,NA,NA
 10179,15336,39.5355,-79.5295,Cranesville Pine Swamp,177,data/by_hand/claire_data/dataset_1.5.shp,1,"Swamp, confirmed with Google Earth",NA,NA,NA
@@ -1079,8 +1079,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10186,15350,42.028785,-74.60420500000001,Balsam Lake,24,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",-96.85714285714286,4200,8
 10187,15351,42.3485,-73.9735,Gayhead Vly,248,data/by_hand/claire_data/dataset_1.5.shp,2,"Bog, confirmed with Ibe 1982",NA,NA,NA
 10188,15352,42.2405,-73.975,Heart's Content Bog,310,data/by_hand/claire_data/dataset_1.5.shp,2,"Bog, confirmed with Ibe, 1982",NA,NA,NA
-10189,15353,41.93542,-74.75772,Maple Lake,257,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Ibe 1982",NA,NA,NA
-10190,15354,42.19727,-74.045885,South Lake,154,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
+10189,15353,41.93542,-74.75772,Maple Lake,257,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Ibe 1982",-999,-999,1
+10190,15354,42.19727,-74.045885,South Lake,154,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",-999,-999,1
 10191,15356,35.832,-105.722,Stewart Bog,73,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (Jimenez-Moreno et al, 2008)",1014.0833333333334,2945,13
 10193,15363,30.145,-95.5745,Aronow Bog,135,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed with Beck et al. 2001",NA,NA,NA
 10195,15368,40.49996,-114.031395,Blue Lake Wetlands,2296.2,Geographic matching,2,NA,1312.5,7030,13
@@ -1130,8 +1130,8 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10316,15660,46.520515,-86.35387,Buck Lake,614.1,Geographic matching,2,NA,1338.8333333333333,2860,7
 10325,15680,39.05359,-120.386415,Bunker Lake,3.2,Geographic matching,2,NA,2805.5,5662,5
 10326,15696,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA,906,2504,5
-10326,15684,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA,3844,3844,2
 10326,15685,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA,NA,NA,NA
+10326,15684,31.50844,-92.13152,Catahoula Lake (core CLR3),6688.284422,Geographic matching,2,NA,3844,3844,2
 10341,15715,42.558,-120.775,Dead Horse Lake,15,Neotoma,2,NA,1994,6784,7
 10345,15724,64.42099999999999,-149.897625,Dune Lake,12,Neotoma,2,NA,614.0625,6045,17
 10348,15732,44.351135,-75.87042,Goose Bay Marsh,177,Neotoma,2,NA,870.2,1820,11
@@ -1204,7 +1204,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10507,21844,41.7847,-115.48365,Mission Cross Bog,8,Neotoma,2,NA,498.375,970,9
 10507,41036,41.7847,-115.48365,Mission Cross Bog,8,Neotoma,2,NA,-344.1666666666667,1980,7
 10508,16133,41.13395,-115.50489999999999,Ruby Marsh,11222.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed Marsh, Changed area",2323,6020,11
-10514,16173,33.67965,-116.9944,Diamond Valley,1643.402348,Geographic matching,2,NA,-13749.333333333334,290,4
+10514,16173,33.67965,-116.9944,Diamond Valley,1643.402348,Geographic matching,2,NA,290,290,2
 10515,16175,41.40935,-74.551335,Binnewater Pond,77,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",3272.8571428571427,9660,8
 10516,16177,41.78575,-73.90115,Hyde Park,2.6,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site, changed area",6660,12524,3
 10517,16179,41.47025,-74.5244,Otisville,7.9,data/by_hand/all_lakes_andria/andrea_areas.csv,1,"Confirmed site from pub., changed area",3585,11680,5
@@ -1219,9 +1219,9 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 10540,16242,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-3),5,Neotoma,2,NA,NA,NA,NA
 10541,16244,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-1),12,Neotoma,2,NA,NA,NA,NA
 10541,16243,38.65805,-90.0615,Cahokia Mounds (Borrow Pit 5-1),12,Neotoma,2,NA,NA,NA,NA
-10542,16246,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA,NA,NA,NA
 10542,16247,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA,NA,NA,NA
 10542,16245,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA,NA,NA,NA
+10542,16246,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA,NA,NA,NA
 10542,16248,38.420100000000005,-90.15041,Gilmore Lakes,20,Neotoma,2,NA,NA,NA,NA
 10543,16255,38.70616,-90.01835,McDonough Lake,24.6,Geographic matching,2,NA,NA,NA,NA
 11560,17296,42.321290000000005,-113.64955,Lake Cleveland,9.700000000000001,Geographic matching,2,NA,2545.8,3529,6
@@ -1274,7 +1274,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 13382,20014,47.905425,-122.87486,Cedar Swamp,78,data/by_hand/all_lakes_andria/andrea_areas.csv,2,"Confirmed site with Google Earth, changed area (larger than given in publication)",1897,5272,7
 13454,20188,57.17824,-170.24827,Lake Hill,16,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with Google Earth, changed area",1861.5,5237,7
 13455,20194,48.607119999999995,-103.62398999999999,Kettle Lake,3,Neotoma,2,NA,240.7608695652174,1395,47
-13486,20304,37.611035,-106.843695,Hunters Lake,3.5000000000000004,Geographic matching,2,NA,-3.8,3740,11
+13486,20304,37.611035,-106.843695,Hunters Lake,3.5000000000000004,Geographic matching,2,NA,1202.1,3740,11
 13487,20306,45.262474999999995,-110.816305,Dailey Lake,88,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Confirmed in paper.,957.3333333333334,4300,16
 13488,20316,41.26396,-123.68312,Fish Lake,9.918992,Geographic matching,2,NA,109.63636363636364,1485,34
 13516,20372,60.787275,-150.83147,Swanson Fen,0.03,Neotoma,2,NA,-21.666666666666668,3700,10
@@ -1290,23 +1290,23 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 13635,20631,42.5604,-72.513,Lake Pleasant,21.9,Geographic matching,2,NA,82.625,500,17
 13658,20678,41.382000000000005,-120.2205,Patterson Lake,8.5,Geographic matching,2,NA,-2.625,2270,17
 13671,20758,42.022000000000006,-123.459,Bolan Lake,5.6,data/by_hand/all_lakes_andria/andrea_areas.csv,2,Looks fine,320,7676,24
-13680,20833,36.047665,-106.510525,Chihuahueños Bog,2.3,Neotoma,2,NA,-116.11111111111111,3840,10
+13680,20833,36.047665,-106.510525,Chihuahueños Bog,2.3,Neotoma,2,NA,15.555555555555555,3840,10
 13683,20838,38.074380000000005,-111.57115,Purple Lake,5.945531,Geographic matching,2,NA,-128.8125,3000,17
 13690,20872,66.068205,-145.405555,Screaming Lynx Lake,3.1,data/by_hand/all_lakes_andria/all_lakes_andria.shp,2,Looks fine,-7.713128381606351e-16,1465,39
 13695,20883,46.51655,-114.683705,Star Meadows,3.2,Neotoma,2,NA,9466.153846153846,17630,14
 13714,20922,41.37778,-106.255405,East Glacier Lake,2.9,Neotoma,2,NA,-76,4770,7
 13897,21314,60.530125,-145.45421,Corser Bog,31,data/by_hand/dataset_2017-11-15/dataset_2017-11-15.shp,2,"Confirmed site with pub (nichols et al , 2014), changed area",-46.07142857142857,1760,15
-13906,21357,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
-13906,21353,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21372,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21379,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",NA,NA,NA
+13906,21357,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21338,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
-13906,21365,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
+13906,21353,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21349,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
-13906,21342,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
-13906,21361,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21334,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13906,21376,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
+13906,21365,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
+13906,21342,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
+13906,21361,43.09,-118.7535,"Graben Dome, Diamond Craters",96,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with Google Earth",-999,-999,1
 13907,21383,43.10736,-118.804355,"Nolf Crater, Diamond Craters",23,data/by_hand/claire_data/dataset_1.5.shp,2,"Volcanic, confirmed with USGS",-999,-999,1
 13920,21415,39.672830000000005,-115.77398,Newark Valley Pond,78,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, Confirmed site with Mensing, et al. 2008",-964.2,2970,7
 13922,21418,39.25318,-117.1655,Kingston Meadow,84,data/by_hand/claire_data/dataset_1.5.shp,2,"Meadow, confirmed with Mensing, et al. 2008",646.4444444444445,1630,10
@@ -1327,7 +1327,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 14301,22387,62.215305,-146.828195,Blue Lake,163,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
 14307,22395,61.869960000000006,-146.038685,St. Anne Lake,313,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
 14308,22397,39.67664,-105.60406,Doolittle Ranch Meadow,16,Neotoma,2,NA,1680.5,2631,3
-14310,22400,39.65822,-105.603265,Echo Lake,9.2,Neotoma,2,NA,-999,-999,5
+14310,22400,39.65822,-105.603265,Echo Lake,9.2,Neotoma,2,NA,-1132,8680,5
 14314,22407,44.76661,-121.779155,Breitenbush Lake,26.3,Neotoma,2,NA,-999,-999,7
 14632,22948,35.56948,-106.106515,Leonora Curtin,7,data/by_hand/claire_data/dataset_1.5.shp,1,"Bog, confirmed site and area with santafebotanicalgarden.org",298.3333333333333,355,6
 14640,22969,41.499845,-106.367885,Long Lake,97,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",1045.7,2950,11
@@ -1362,7 +1362,7 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 23579,40791,42.377775,-73.09478,Benson Pond,2.72,Neotoma,2,NA,1071.1666666666667,3320,13
 23580,40793,42.620059999999995,-71.086805,Berry Pond,1.52,Neotoma,2,NA,1228.1,3590,11
 23581,40795,41.327855,-70.79269500000001,Black Pond,1.35,Neotoma,2,NA,743.3333333333334,2250,13
-23582,40797,41.472,-70.76567,Blaney's Pond,1,Neotoma,2,NA,1181.7,2300,14
+23582,40797,41.472,-70.76567,Blaney's Pond,1,Neotoma,2,NA,97.23076923076923,2300,14
 23583,40799,42.08019,-71.96105,Blood Pond,8.44,Neotoma,2,NA,930.7333333333333,1830,16
 23586,40803,41.564035000000004,-70.63573,Deep-Falmouth Pond,1,Neotoma,2,NA,805.5625,2760,17
 23609,40844,41.88215,-71.012,Deep-Taunton Pond,1.77,Neotoma,2,NA,747.9444444444445,3600,19
@@ -1378,11 +1378,11 @@ stid,dsid,lat,long,name,area,source,edited,notes,avg_int,max_int,controls
 23714,41027,41.8545,-73.25659999999999,West Side Pond,15.6,Neotoma,2,NA,1101.1666666666667,3300,13
 23715,41030,37.9902611111111,-122.789613888889,Glenmire,19,data/by_hand/claire_data/dataset_1.5.shp,1,"Fen, confirmed with Anderson, et al. 2013",606.4444444444445,2640,10
 23763,41140,40.881,-106.73403,Gem Lake,128,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",425.5,657,5
-23765,41146,40.545455000000004,-106.68236,Summit Lake,75,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",421.1111111111111,915,10
-23771,41161,40.781835,-106.67896,Gold Creek Lake,193,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23772,41163,40.504665,-106.60754,Hidden Lake,231,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23775,41171,40.77162,-106.82759,Hinman Lake,223,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23778,41183,60.258489999999995,-149.90846,Goat Lake,219,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23926,41537,33.660655000000006,-117.3534,Lake Elsinore,100,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23930,41580,38.08806,-105.63166000000001,Hermit Lake,230,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
-23943,41614,39.151624999999996,-106.40628000000001,Emerald Lake,73,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",NA,NA,NA
+23765,41146,40.545455000000004,-106.68236,Summit Lake,75,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",379,915,11
+23771,41161,40.781835,-106.67896,Gold Creek Lake,193,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",236.88888888888889,2415,10
+23772,41163,40.504665,-106.60754,Hidden Lake,231,data/by_hand/claire_data/dataset_1.5.shp,1,"Lacustrine, confirmed with Google Earth",-353.3333333333333,1810,4
+23775,41171,40.77162,-106.82759,Hinman Lake,223,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",-4.828571428571427,953.5,8
+23778,41183,60.258489999999995,-149.90846,Goat Lake,219,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",439.3529411764706,2735,18
+23926,41537,33.660655000000006,-117.3534,Lake Elsinore,100,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",617.0689655172414,7440,30
+23930,41580,38.08806,-105.63166000000001,Hermit Lake,230,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",198.6315789473684,2245,20
+23943,41614,39.151624999999996,-106.40628000000001,Emerald Lake,73,data/by_hand/claire_data/dataset_1.5.shp,2,"Lacustrine, confirmed with Google Earth",982.7,2448,11
