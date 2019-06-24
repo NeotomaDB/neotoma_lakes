@@ -12,9 +12,40 @@ output:
     css: css/sjg_markdown.css
 ---
 
+```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
+
+version <- '1.6'
+
+source('R/setup.R')
+
+all_ds <- neotoma::bind(neotoma::get_dataset(datasettype = 'pollen',
+                                             gpid = 'Canada'),
+                        neotoma::get_dataset(datasettype = 'pollen',
+                                             gpid = 'United States'),
+                        neotoma::get_dataset(datasettype = 'pollen',
+                                             gpid = 'Mexico'))
+
+sitedataset <- data.frame(stid = sapply(all_ds, function(x) x$site.data$site.id),
+                          dsid = sapply(all_ds, function(x) x$dataset.meta$dataset.id),
+                          lat  = sapply(all_ds, function(x) x$site.data$lat),
+                          long  = sapply(all_ds, function(x) x$site.data$long),
+                          name = sapply(all_ds, function(x) x$site.data$site.name),
+                          stringsAsFactors = FALSE)
+
+control_output <- pull_chron_table(version, all_ds)
+
+existing_lakes <- neotoma_lakes("connect_remote.json") %>%
+  filter(dsid %in% sapply(all_ds, function(x) x$dataset.meta$dataset.id))
+
+if (nrow(existing_lakes) == 1) {
+  warning("You are not connected to the Database.")
+}
+```
+
+
 ## Status of Lake Records in Neotoma
 
-Neotoma contains records from a number of lakes, some of which have reported areas, many from legacy publications. In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
+Neotoma contains records from a large number of lakes, and other depositional environments.  Lake area is a critical element in understanding pollen source area [].  Although some lakes in the Neotoma Database have recorded lake areas, a number of sites do not. Many of lakes with missing lake area parameters are reported from legacy publications. In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
 
 ## Load in the records
 
@@ -99,6 +130,7 @@ recorded_lakes <- data.frame(sitename = c(ca_lakes$site.name, us_lakes$site.name
                              long      = c(ca_lakes$long, us_lakes$long),
                              area      = c(ca_lakes$lake_area_ha, us_lakes$AREAHA),
                              source    = "Geographic matching",
+                             notes     = "NA"
                              stringsAsFactors = FALSE)
 
 area_lakes <- recorded_lakes %>%
@@ -259,3 +291,5 @@ If you sort by `area` you will see that for ease of use all sites without assign
 Note that many sites along marine margins (e.g., salt marshes) may have an artificailly high area value, since the effective basin is in fact the ocean.
 
 If you wish to edit some of the missing sites by hand, please check the folder of the latest posted version (e.g., [version 1.4](https://github.com/NeotomaDB/neotoma_lakes/tree/master/data/version_1.4)).  The shapefile posted in that folder can be used to edit the sites by using a basemap that includes lakes (e.g., Google Maps) and tracing the polygon of lakes of interest to estimate area (in hectares).
+
+# References
