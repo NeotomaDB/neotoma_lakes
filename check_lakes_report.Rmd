@@ -28,7 +28,7 @@ The result here is a `data.frame` called `control_output` that contains each sit
 
 ```{r lakedata, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
 
-version <- '1.4'
+version <- '1.6'
 
 source('R/setup.R')
 
@@ -185,6 +185,10 @@ assertthat::assert_that(all(edited_lakes$sitename == sitedataset$name[est_match]
 sitedataset[,c('area', 'source', 'edited', 'notes')] <-
   edited_lakes[ste_match, c("area", "source", "edited", "notes")]
 
+sitedataset <- sitedataset %>%
+  left_join(control_output %>%
+    select(avg_int, max_int, controls, dsid, stid))
+
 readr::write_csv(sitedataset,
                  paste0('data/version_', version, '/full_output_', version, '.csv'))
 
@@ -204,7 +208,7 @@ This results in a dataset of `r nrow(edited_lakes)` sites with areas, of which `
 ```{r, generateMissing, echo = FALSE, warning=FALSE, results='hide'}
 
 new_output <- sitedataset %>%
-  dplyr::left_join(control_output, by = c('stid', 'dsid')) %>%
+  dplyr::left_join(control_output) %>%
   filter(is.na(area) & long < 0) %>%
   arrange(controls) %>%
   distinct(stid, .keep_all = TRUE) %>%

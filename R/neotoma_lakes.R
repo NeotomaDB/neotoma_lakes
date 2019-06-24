@@ -1,3 +1,7 @@
+#' @title Obtain all lakes from Neotoma
+#' @description Uses a direct SQL call to find all lakes in Neotoma with existing site information.
+#' @param x The connection string for the database.
+
 neotoma_lakes <- function(x) {
   
   if(!file.exists(x)) {
@@ -11,7 +15,7 @@ neotoma_lakes <- function(x) {
     return(out)
   }
   
-  con_string <- jsonlite::fromJSON("connect_remote.json")
+  con_string <- jsonlite::fromJSON(x)
   
   con <- RPostgreSQL::dbConnect(RPostgreSQL::PostgreSQL(),
                    host = con_string$host,
