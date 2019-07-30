@@ -180,11 +180,10 @@ source('R/load_entered_data.R')
 linked_lakes <- area_lakes %>%
   mutate(edited = 2)
 
-edited_lakes <-  suppressMessages(load_lakes()) %>%
-  mutate(area = round(area, 1)) %>%
-  filter(!is.na(area) & area > 0) %>%
+edited_lakes <- suppressMessages(load_lakes()) %>%
+  filter(!is.na(edited)) %>%
   dplyr::union_all(linked_lakes) %>%
-  distinct(stid, notes, area, source, .keep_all = TRUE) %>%
+  distinct(stid, notes, area, .keep_all = TRUE) %>%
   arrange(stid)
 
 dup_sites <- edited_lakes$stid[duplicated(edited_lakes$stid)] %>% unique
@@ -209,12 +208,15 @@ for (i in dup_sites) {
 
 }
 
+edited_lakes <- edited_lakes  %>%
+  mutate(area = signif(area, 3))
+
 assertthat::assert_that(!any(duplicated(edited_lakes$stid)),
                         msg = "Some duplicated site IDs are present.")
 
-assertthat::assert_that(all(edited_lakes$stid %in% sitedataset$stid),
-                        msg = "There are site IDs that are not present in the
-                               full North American dataset")
+#assertthat::assert_that(all(edited_lakes$stid %in% sitedataset$stid),
+#                        msg = "There are site IDs that are not present in the
+#                               full North American dataset")
 
 ste_match <- match(sitedataset$stid, edited_lakes$stid)
 est_match <- match(edited_lakes$stid, sitedataset$stid)
@@ -300,5 +302,24 @@ If you sort by `area` you will see that for ease of use all sites without assign
 Note that many sites along marine margins (e.g., salt marshes) may have an artificailly high area value, since the effective basin is in fact the ocean.
 
 If you wish to edit some of the missing sites by hand, please check the folder of the latest posted version (e.g., [version 1.4](https://github.com/NeotomaDB/neotoma_lakes/tree/master/data/version_1.4)).  The shapefile posted in that folder can be used to edit the sites by using a basemap that includes lakes (e.g., Google Maps) and tracing the polygon of lakes of interest to estimate area (in hectares).
+
+## Version Updates
+
+```{r}
+vers <- list.files('data', pattern='^version_')
+
+summ_tab <- data.frame(filename = rep(NA, length(vers)),
+                       areas    = rep(NA, length(vers)))
+
+for (i in 1:length(vers)) {
+
+  num <- stringr::str_match(vers[i], '\\d\\.\\d')
+  filename <- paste0('data/', vers[i], '/area_lakes_', num, '.csv')
+  table <- readr::read_csv(filename)
+  summ_tab$filename[i] <- filename
+  summ_tab$areas[i] <- table  %>% filter(!is.na(area)) %>% nrow()
+}
+
+```
 
 # References
