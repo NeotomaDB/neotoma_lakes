@@ -12,7 +12,7 @@ output:
     css: css/sjg_markdown.css
 ---
 
-```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
+```{r runSetup, cache=FALSE, message = FALSE, warning=FALSE, results='hide', echo = FALSE}
 
 version <- '1.6'
 
@@ -45,7 +45,7 @@ if (nrow(existing_lakes) == 1) {
 
 ## Status of Lake Records in Neotoma
 
-Neotoma contains records from a large number of lakes, and other depositional environments.  Lake area is a critical element in understanding pollen source area [].  Although some lakes in the Neotoma Database have recorded lake areas, a number of sites do not. Many of lakes with missing lake area parameters are reported from legacy publications. In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
+Neotoma contains records from a large number of lakes and other depositional environments.  Coverage for Canada, the United States and Mexico is good, with `r nrow(sitedataset)` datasets, representing `r length(unique(sitedataset$stid))` unique sites.  Lake area is critical for understanding pollen source area [@dawson2016quantifying].  Within this domain, a number of lakes in the Neotoma Database have recorded lake areas (*n = `r nrow(existing_lakes)`*), a number of sites do not have associated lake areas.  Many of lakes with missing lake area parameters are reported from legacy publications, meaning primary information is not directly available from principal investigators. In addition to missing areas, examination of site coordinates indicates that a large number of records have rounded coordinate values (due to conversion from DMS coordinates) which may not intersect with the waterbodies from which sedimentary or water chemistry records were obtained.
 
 ## Load in the records
 
@@ -53,11 +53,11 @@ Bailey Zak and Claire Rubblike have been processing a number of lake sites from 
 
 ### Set up
 
-The first step was time-consuming.  All pollen cores from Canada and the United States were pulled from Neotoma, along with the chronological controls for each record.  The chronological controls were used to help prioritize reconstruction, since the current effort is largely focused on the reconstruction of "high quality" sites.
+The first step was time-consuming.  All pollen cores from Canada, Mexico and the United States were pulled from Neotoma, along with the chronological controls for each record.  The chronological controls are used to help prioritize reconstruction, since the current effort is largely focused on the reconstruction of "high quality" sites.
 
-The result here is a `data.frame` called `control_output` that contains each site id, dataset id and a sum of all the chron control types used in reconstruction.  This is for every pollen record (regardless of whether it's a lake or not) in Canada and the United States.
+The result here is a `data.frame` called `control_output` that contains each site id, dataset id and a sum of all the chron control types used in reconstruction.  This is for every pollen record (regardless of whether it's a lake or not).  In principle, this could be run at this stage, and the code is provided here, however in practice, we use these numbers earlier in the report and so the code is actually evaluated earlier in the RMarkdown report.
 
-```{r lakedata, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
+```{r lakedata, cache=FALSE, message = FALSE, warning=FALSE, results='hide', eval=FALSE }
 
 version <- '1.6'
 
@@ -79,11 +79,11 @@ control_output <- pull_chron_table(version, all_ds)
 
 ```
 
-This code block provides a list of all pollen datasets in Neotoma (`all_ds`) along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `r ncol(control_output)` columns.  In addition
+This code block provides a list of all pollen datasets in Neotoma (`all_ds`) along with the chronological controls used to develop their chronologies.  It results in a data frame containing `r nrow(control_output)` rows and `r ncol(control_output)` columns.
 
 We can pull all existing lake data from Neotoma and add it to our estimates using a direct connection to the database.  Currently this requires access to the Neotoma Database, however we've written the script in such a way as to allow a missing file if an individual is running the program locally.
 
-```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide'}
+```{r getQuery, cache=FALSE, message = FALSE, warning=FALSE, results='hide', eval=FALSE}
 
 existing_lakes <- neotoma_lakes("connect_remote.json") %>%
   filter(dsid %in% sapply(all_ds, function(x) x$dataset.meta$dataset.id))
@@ -93,17 +93,26 @@ if (nrow(existing_lakes) == 1) {
 }
 ```
 
-This provides us with `r nrow(existing_lakes)` datasets with lake information in the Neotoma Paleoecology Database.  This is approximately `r round(sum(sitedataset$stid %in% existing_lakes$siteid) / nrow(sitedataset), 1)`% of the pollen datasets we have obtained within North America.
+This provides us with `r nrow(existing_lakes)` datasets with lake information in the Neotoma Paleoecology Database.  This is approximately `r round(sum(sitedataset$stid %in% existing_lakes$stid) / nrow(sitedataset), 1)`% of the pollen datasets we have obtained within North America.
+
+```{r, echo=FALSE, cache=FALSE, message = FALSE, warning=FALSE, fig.caption= "All pollen site locations in North America from lacustrine environments." }
+
+sitedataset %>%
+  distinct(stid, .keep_all = TRUE) %>%
+  leaflet() %>%
+  addTiles() %>%
+  addMarkers()
+```
 
 ### Geographic Co-Location
 
-A secondary process is then run across all lakes in the Canadian [CanVec – Hydro Features](http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056) and the [United States Hydrolography Dataset](https://nhd.usgs.gov/NHD_High_Resolution.html) to obtain "best fit" matches for lakes. The script, which uses the [`sp` package](https://cran.r-project.org/web/packages/sp/index.html) to overlay the points over lake polygons is contained in the files `R/GetLakeAreas_usa.R` and `R/GetLakeAreas_canada.R`.  State-level shapefles are very large for some states, and as such this is a time and resource consuming process.  We run this step on the Pensylvannia State University's Center for Environmental Informatics server.  The result is a `data.frame` with columns that are indexed using the `stid`.
+For lakes without reported areas we can access external data resources.  Lakes are checked against data in the Canadian [CanVec – Hydro Features](http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056) and the [United States Hydrolography Dataset](https://nhd.usgs.gov/NHD_High_Resolution.html) to obtain "best fit" matches for lakes. The script, which uses the [`sp` package](https://cran.r-project.org/web/packages/sp/index.html) to overlay the points over lake polygons is contained in the files [`R/GetLakeAreas_usa.R`](https://github.com/NeotomaDB/neotoma_lakes/blob/master/R/GetLakeAreas_usa.R) and [`R/GetLakeAreas_canada.R`](https://github.com/NeotomaDB/neotoma_lakes/blob/master/R/GetLakeAreas_usa.R).  State-level shapefles are very large for some states, and as such this is a time and resource consuming process.  We run this step on the Pensylvannia State University's Center for Environmental Informatics server.  The result is a `data.frame` with columns that are indexed using the `stid`.
 
-To do this we have to use `scp`, or secure copy, to move the file over onto the Penn State server and then run the script using `Rscript -e 'GetLakeAreas_usa.R`.  This provides us with the unique identifer of any pollen sites that overlay lakes in the hydrological datasets, and provides matches for any similarly named lakes proximate to a Neotoma lake.
+Given the network intensity of the operation we run the scripts on the CEI servers and then use `scp`, or secure copy, to move the files back to the end-users computer.  This script is not run as part of the current RMarkdown document.  The scripts provide us with the unique identifer of any pollen sites that overlay lakes in the hydrological datasets, and provides matches for any similarly named lakes proximate to a Neotoma lake.
 
 #### Direct Matches
 
-Direct matches occur when a Neotoma site lies directly over top of a record in the Canadian or United States NHD.  These records are tagged with the unique identifier for the lake. Here records with positive matches are indicated in red and those without are indicated in black:
+Direct matches between the hydrological database and Neotoma occur when a Neotoma site lies directly over top of a record in the Canadian or United States NHD.  These records are tagged with the unique identifier for the lake. Here records with positive matches are indicated in red and those without are indicated in black:
 
 ```{r, loadLakeData, echo=FALSE, message=FALSE, results='hide'}
 
@@ -130,7 +139,7 @@ recorded_lakes <- data.frame(sitename = c(ca_lakes$site.name, us_lakes$site.name
                              long      = c(ca_lakes$long, us_lakes$long),
                              area      = c(ca_lakes$lake_area_ha, us_lakes$AREAHA),
                              source    = "Geographic matching",
-                             notes     = "NA"
+                             notes     = "From hydro database.",
                              stringsAsFactors = FALSE)
 
 area_lakes <- recorded_lakes %>%
@@ -145,7 +154,7 @@ plot_linked(area_lakes)
 
 ```
 
-A total of `r nrow(ca_lakes)` were matched directly to lakes within the Canadian hydrographic database and `r nrow(us_lakes)` were matched to the US.  For both of these datasets combined `r sum(existing_lakes$stid %in% recorded_lakes$stid)` also had records in Neotoma, resulting in a combined dataset of `r nrow(area_lakes)`.
+A total of **`r nrow(ca_lakes)`** were matched directly to lakes within the Canadian hydrographic database and **`r nrow(us_lakes)`** were matched to the US.  For both of these datasets combined, `r sum(existing_lakes$stid %in% recorded_lakes$stid)` also had records in Neotoma, resulting in a combined dataset of `r nrow(area_lakes)`.
 
 ### Reanalysis
 
