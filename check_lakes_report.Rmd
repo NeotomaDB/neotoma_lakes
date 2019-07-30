@@ -305,7 +305,10 @@ If you wish to edit some of the missing sites by hand, please check the folder o
 
 ## Version Updates
 
-```{r}
+```{r, eval = FALSE}
+
+# This is not implemented yet.
+
 vers <- list.files('data', pattern='^version_')
 
 summ_tab <- data.frame(filename = rep(NA, length(vers)),
