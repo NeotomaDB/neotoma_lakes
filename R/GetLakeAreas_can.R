@@ -16,15 +16,18 @@ state_output <- function(x) {
                       stringsAsFactors = FALSE)
 
   temp <- tempfile()
+  tempdir <- tempdir()
 
   base_uri <- paste0("ftp://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/canvec/shp/Hydro/canvec_250K_",
                      x, "_Hydro_shp.zip")
 
   download.file(base_uri, temp)
 
-  data <- unzip(temp, overwrite = TRUE)
+  data <- unzip(zipfile = temp, exdir = tempdir, overwrite = TRUE)
 
-  state_data <- readOGR(data[grep("waterbody.*shp$", data)])
+  outputfile <-  data[grep("waterbody.*shp$", data)]
+
+  state_data <- readOGR(outputfile)
 
   pol <- get_dataset(gpid = provs$prov[match(x, provs$abbr)],
                      datasettype = "pollen") %>% get_site

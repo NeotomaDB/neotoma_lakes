@@ -37,6 +37,7 @@ state_output <- function(x, inputtable) {
 
   if (length(dset) < 2774 & length(dset) > 0) {
     temp <- tempfile()
+    tempdir <- tempdir()
 
     state <- gsub(" ", "_", state)
 
@@ -49,13 +50,13 @@ state_output <- function(x, inputtable) {
       return(cbind(data.frame(GNIS_ID = NA, pol)))
     }
 
-    data <- unzip(temp, overwrite = TRUE)
+    data <- unzip(zipfile = temp, exdir = tempdir, overwrite = TRUE)
 
     pol_sf <- st_as_sf(pol,
                        coords = c("long", "lat"),
                        crs = 4326)
 
-    state_data <- st_read(data[grep("^NHDWaterbody.shp$", data)]) %>%
+    state_data <- st_read(data[grep("NHDWaterbody.shp$", data)]) %>%
       st_transform(crs = 4326)
 
     get_polydata <- function(x) {
