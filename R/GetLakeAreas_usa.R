@@ -8,9 +8,9 @@ library(sp)
 library(datasets)
 library(sf)
 
-# lake_ds <- readr::read_csv("data/usa_lakes_wDS.csv")
+input <- readr::read_csv('data/version_1.6/full_output_1.6.csv')
 
-state_output <- function(x) {
+state_output <- function(x, inputtable) {
 
   state <- datasets::state.name[match(x, state.abb)]
 
@@ -25,12 +25,13 @@ state_output <- function(x) {
   class(pol) <- "data.frame"
   pol$DatasetID <- sapply(dset, function(x)x$dataset.meta$dataset.id)
 
-  if (any(!is.na(match(pol$site.id, lake_ds$SiteID)))) {
+  if (any(!is.na(match(pol$site.id, inputtable$SiteID)))) {
+    # Pulls coordinates from prior matching, so we can get the geoJSON
+    # coordinates of the dataset.
+    matches <- match(pol$site.id, inputtable$stid)
 
-    matches <- match(pol$site.id, lake_ds$SiteID)
-
-    pol$long <- lake_ds$long[matches]
-    pol$lat  <- lake_ds$lat[matches]
+    pol$long <- inputtable$long[matches]
+    pol$lat  <- inputtable$lat[matches]
 
   }
 
@@ -39,9 +40,10 @@ state_output <- function(x) {
 
     state <- gsub(" ", "_", state)
 
-    base_uri <- paste0("http://prd-tnm.s3-website-us-west-2.amazonaws.com/StagedProducts",
-                       "/Hydrography/NHD/State/HighResolution/Shape/NHD_H_", state, "_Shape.zip")
+    base_uri <- paste0("https://prd-tnm.s3.amazonaws.com/StagedProducts",
+                       "/Hydrography/NHD/State/HighResolution/Shape/NHD_H_", state, "_State_Shape.zip")
 
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_State_Shape.zip
     test_dl <- try(download.file(base_uri, temp))
 
     if ("try-error" %in% class(test_dl)) {
@@ -106,10 +108,14 @@ state_output <- function(x) {
 
 states <- state.abb
 
-runs <- readRDS("data/runs.RDS")
+if ('runs.RDS' %in% list.files('data')) {
+  runs <- readRDS("data/runs.RDS")
+} else {
+  runs <- list()
+}
 
 for (i in 1:length(states)) {
-  runs[[i]] <- try(state_output(states[i]))
+  runs[[i]] <- try(state_output(states[i], input))
   saveRDS(runs, paste0("data/runs.rds"))
 
   # Clean temprary files:
