@@ -43,7 +43,6 @@ state_output <- function(x, inputtable) {
     base_uri <- paste0("https://prd-tnm.s3.amazonaws.com/StagedProducts",
                        "/Hydrography/NHD/State/HighResolution/Shape/NHD_H_", state, "_State_Shape.zip")
 
-https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolution/Shape/NHD_H_Alabama_State_Shape.zip
     test_dl <- try(download.file(base_uri, temp))
 
     if ("try-error" %in% class(test_dl)) {
@@ -56,7 +55,7 @@ https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/HighResolu
                        coords = c("long", "lat"),
                        crs = 4326)
 
-    state_data <- st_read(data[grep("NHDWaterbody.shp", data)]) %>%
+    state_data <- st_read(data[grep("^NHDWaterbody.shp$", data)]) %>%
       st_transform(crs = 4326)
 
     get_polydata <- function(x) {
