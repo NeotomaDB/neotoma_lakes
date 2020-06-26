@@ -51,6 +51,14 @@ For this work two files (`R/GetLakeAreas_usa.R` and `R/GetLakeAreas_canada.R`) a
 | dist_match  | num           |
 | data_source | char          |
 
+Both the Canadian and USA data can be run using the bash command:
+
+```bash
+make runlakes
+```
+
+This will sequentially download USA and Canadian lake shapefiles, and then begin to match lake sites in Neotoma to the actual lake polygons in the hydrographic databases.
+
 ### Manual Adjustment
 
 Manual adjustment involved working with `csv` and shapefiles in a workflow that evolved through time.  Intermediate results were saved in a folder called `data/by_hand`.  Within this folder there are a number of estimates for site locations and lake areas, in some cases these values overlap with two individuals having edited the same site.
