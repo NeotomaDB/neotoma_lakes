@@ -74,7 +74,7 @@ state_output <- function(x, inputtable) {
     }
 
     get_output <- st_within(pol_sf, state_data) %>%
-      map(get_polydata) %>%
+      purrr::map(get_polydata) %>%
       bind_rows
 
     get_output_pol <- cbind(get_output, pol)
