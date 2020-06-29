@@ -25,13 +25,14 @@ state_output <- function(x, inputtable) {
   class(pol) <- "data.frame"
   pol$DatasetID <- sapply(dset, function(x)x$dataset.meta$dataset.id)
 
-  if (any(!is.na(match(pol$site.id, inputtable$SiteID)))) {
+  if (any(!is.na(match(pol$site.id, inputtable$stid)))) {
     # Pulls coordinates from prior matching, so we can get the geoJSON
     # coordinates of the dataset.
     matches <- match(pol$site.id, inputtable$stid)
+    match_omit <- matches %>% na.omit()
 
-    pol$long <- inputtable$long[matches]
-    pol$lat  <- inputtable$lat[matches]
+    pol$long[!is.na(matches)] <- inputtable$long[match_omit]
+    pol$lat[!is.na(matches)]  <- inputtable$lat[match_omit]
 
   }
 
@@ -50,7 +51,7 @@ state_output <- function(x, inputtable) {
       return(cbind(data.frame(GNIS_ID = NA, pol)))
     }
 
-    data <- unzip(zipfile = temp, exdir = tempdir, overwrite = TRUE)
+    data <- unzip(zipfile = temp, overwrite = TRUE)
 
     pol_sf <- st_as_sf(pol,
                        coords = c("long", "lat"),
@@ -100,6 +101,8 @@ state_output <- function(x, inputtable) {
 
     }
 
+    unlink('Shape', recursive = TRUE)
+    unlink(tempdir, recursive = TRUE)
     return(get_output_pol)
   } else {
     return (data.frame(GNIS_ID = NA))
@@ -108,8 +111,8 @@ state_output <- function(x, inputtable) {
 
 states <- state.abb
 
-if ('runs.RDS' %in% list.files('data')) {
-  runs <- readRDS("data/runs.RDS")
+if ('runs.rds' %in% list.files('data')) {
+  runs <- readRDS("data/runs.rds")
 } else {
   runs <- list()
 }
@@ -118,9 +121,8 @@ for (i in 1:length(states)) {
   runs[[i]] <- try(state_output(states[i], input))
   saveRDS(runs, paste0("data/runs.rds"))
 
-  # Clean temprary files:
-  file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
-  file.remove(list.files("Shape", full.names = TRUE, recursive = TRUE))
+  # Clean temporary files:
+  # file.remove(list.files(tempdir(), full.names = TRUE, recursive = TRUE))
   gc()
 }
 
@@ -130,7 +132,7 @@ for (i in length(runs):1) {
   }
 }
 
-areas <- bind_rows(runs)
+areas <- runs %>% bind_rows()
 
 areas_clean <- areas %>%
   dplyr::select(site.id, DatasetID, site.name, long, lat, state, GNIS_NAME, GNIS_ID, AREASQKM,
