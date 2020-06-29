@@ -9,8 +9,13 @@ library(datasets)
 library(sf)
 
 input <- readr::read_csv('data/version_1.6/full_output_1.6.csv')
+tempdir <- '/media/sdb/123'
+
+dir.create(path)
+
 
 state_output <- function(x, inputtable) {
+  temp <- tempfile(tmpdir = path)
 
   state <- datasets::state.name[match(x, state.abb)]
 
@@ -37,8 +42,6 @@ state_output <- function(x, inputtable) {
   }
 
   if (length(dset) < 2774 & length(dset) > 0) {
-    temp <- tempfile()
-    tempdir <- tempdir()
 
     state <- gsub(" ", "_", state)
 
@@ -102,7 +105,9 @@ state_output <- function(x, inputtable) {
     }
 
     unlink('Shape', recursive = TRUE)
-    unlink(tempdir, recursive = TRUE)
+    temp_files <- list.files(tempdir, full.names = TRUE)
+    sapply(temp_files, file.remove)
+    cat(list.files(tempdir)
     return(get_output_pol)
   } else {
     return (data.frame(GNIS_ID = NA))
