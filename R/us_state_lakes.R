@@ -14,8 +14,10 @@ us_state_lakes <- function(x, laketable = NULL, datasettype = "pollen") {
 
   gpcontent <- httr::content(gpid)$data$result[[1]]$geopoliticalid
 
-  dset <- httr::GET("http://localhost:3005/v2.0/data/sites", query = list(gpid = gpcontent)) %>%
-    httr::content() %>% pluck("data")
+  dset <- httr::GET("https://api.neotomadb.org/v2.0/data/sites",
+                    query = list(gpid = gpcontent)) %>%
+    httr::content() %>%
+    pluck("data")
 
   for (i in length(dset):1) {
     x <- dset[[i]]
