@@ -33,7 +33,7 @@ us_state_lakes <- function(x, laketable = NULL, datasettype = "pollen") {
     if (!any(isPollen == "pollen")) {
       dset[[i]] <- NULL
     } else {
-      dset[[i]]$datasetid <- dsid
+      dset[[i]]$datasetid <- dsid[which(isPollen == "pollen")]
     }
   }
 
