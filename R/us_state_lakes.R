@@ -73,6 +73,7 @@ us_state_lakes <- function(x, laketable = NULL, datasettype = "pollen") {
     return(cbind(data.frame(gnis_id = NA, state = x, pol)))
   }
 
+  # CRS:4326 is standard lat/long
   pol_sf <- geojsonsf::geojson_sf(pol$geography) %>% st_transform(crs = 4326)
 
   state_data <- st_read(data[grep("NHDWaterbody.shp$", data)]) %>% st_transform(crs = 4326)
