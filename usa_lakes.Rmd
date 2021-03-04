@@ -32,7 +32,7 @@ library(sp)
 library(datasets)
 library(sf)
 library(leaflet)
-
+library(geojsonsf)
 ```
 
 For this work we download datasets from the Neotoma Paleoecology Database [@williams2017neotoma] using the `neotoma` R package [@goring2015neotoma].  Datasets for the United States are downloaded from Neotoma state by state, so that the Neotoma state level data intersects with the US National Hydrology Dataset [@usnhd].
