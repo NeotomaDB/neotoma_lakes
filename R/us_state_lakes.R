@@ -20,13 +20,13 @@ us_state_lakes <- function(x, laketable = NULL, datasettype = "pollen") {
     pluck("data")
 
   for (i in length(dset):1) {
-    x <- dset[[i]]
-    isPollen <- x$collectionunits %>% map(function(y) {
+    tester <- dset[[i]]
+    isPollen <- tester$collectionunits %>% map(function(y) {
       y$datasets %>% map(function(z) {
         z$datasettype
       })
     }) %>% unlist()
-    dsid <- x$collectionunits %>% map(function(y) {
+    dsid <- tester$collectionunits %>% map(function(y) {
       y$datasets %>% map(function(z) {
         z$datasetid
       })

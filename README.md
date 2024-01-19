@@ -1,11 +1,11 @@
-# Revisitng Neotoma Lakes
+# Revisiting Neotoma Lakes
 
 A number of data records within Neotoma have been obtained from publications and legacy records from COHMAP and other sources.  Older records were often transformed from Degree-Minute-Second records to decimal degrees.  In this case there are two issues:
 
   * There is the appearance of greater accuracy/precision for the record's spatial location
   * The location of the sample site is not centered within the depositional basin from which the sample was obtained.
 
-In particular, pollen based reconstruction methods (for climate or vegetation) often require knowledge of the size of the depositional basin.  For example, REVEALS (ref) requires knowledge of lake size when reconstructing vegetation.
+In particular, pollen based reconstruction methods (for climate or vegetation) often require knowledge of the size of the depositional basin.  For example, REVEALS (Sugita, 2007) requires knowledge of lake size when reconstructing vegetation.
 
 Work underway for Northern Hemisphere reconstructions requires knowledge of lake sizes to be able to accurately estimate vegetation for the band from 40oN - 80oN, covering most of North America.  This repository contains code and summary output for a hybrid process that combines numerical analysis and GIS with itterative hand editing by individuals to align lacustrine and palustrine pollen datasets within North America with their depositional basins.
 

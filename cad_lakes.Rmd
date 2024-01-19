@@ -40,10 +40,10 @@ For this work we download datasets from the Neotoma Paleoecology Database [@will
 The code to align lakes with their associated Neotoma sites can be found in `R/us_state_lakes.R`.
 
 ```{r sourceState}
-source('R/us_state_lakes.R')
+source('R/cad_prov_lakes.R')
 ```
 
-`us_state_lakes()` accesses shapefiles from the National Hydrography Dataset for each individual state in the United States.  The function uses the `sf` package [@sfpackage] to open the shapefiles, perform an intersection between the Neotoma points and the shapefiles, and then returns information about the lakes with which each Neotoma site intersects.
+`cad_prov_lakes()` accesses shapefiles from the National Hydrography Dataset for each individual state in the United States.  The function uses the `sf` package [@sfpackage] to open the shapefiles, perform an intersection between the Neotoma points and the shapefiles, and then returns information about the lakes with which each Neotoma site intersects.
 
 The function also looks for any lakes within the state that have the same name as the Neotoma site.
 
@@ -54,7 +54,7 @@ The script uses the entire set of US state abbreviations.  Because the script ta
 Because the script runs on the Penn State CEI servers we use a Linux script to start the script, so it can run in the background:
 
 ```bash
-nohup Rscript -e "rmarkdown::render('usa_lakes.Rmd')" > lakerender.out 2>&1 &
+nohup Rscript -e "rmarkdown::render('cad_lakes.Rmd')" > lakerender.out 2>&1 &
 ```
 
 ```{r runStates, results = "hide"}

@@ -123,11 +123,8 @@ areas <- statefiles %>%
   bind_rows()
 
 areas_clean <- areas %>%
-  filter(long < 0 | long > 150) %>%
-  dplyr::select(stid, dsid, site.name,
-                long, lat, state,
-                gnis_name, gnis_id, areasqkm,
-                dist_match, data_source,
+  dplyr::select(siteid, datasetid, sitename, geography, state,
+                gnis_name, gnis_id, areasqkm, data_source,
               geometry)
 
 areas_clean$areaha <- round(areas_clean$areasqkm * 100, 1)
@@ -166,7 +163,7 @@ matched <- areas_clean %>%
 
 leaflet(matched) %>%
   addProviderTiles(providers$Esri.WorldImagery) %>%
-  addProviderTiles(providers$Stamen.TonerLines) %>% 
+  addProviderTiles(providers$Stamen.TonerLines) %>%
   addProviderTiles(providers$Stamen.TonerLabels,
     options = providerTileOptions(opacity = 0.7)) %>%
   addMarkers(lat = ~lat,
@@ -201,7 +198,7 @@ unmatched <- areas_clean %>%
 leaflet(unmatched) %>%
   addProviderTiles(providers$Esri.WorldImagery) %>%
   addProviderTiles(providers$Stamen.TonerLines,
-    options = providerTileOptions(opacity = 0.9)) %>% 
+    options = providerTileOptions(opacity = 0.9)) %>%
   addProviderTiles(providers$Stamen.TonerLabels,
     options = providerTileOptions(opacity = 0.9)) %>%
   addMarkers(lat = ~lat,
