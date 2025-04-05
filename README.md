@@ -1,3 +1,10 @@
+<!-- badges: start -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-orange.svg)](https://www.tidyverse.org/lifecycle/#stable)
+
+<!-- badges: end -->
+
+
 # Revisiting Neotoma Lakes
 
 A number of data records within Neotoma have been obtained from publications and legacy records from COHMAP and other sources.  Older records were often transformed from Degree-Minute-Second records to decimal degrees.  In this case there are two issues:
